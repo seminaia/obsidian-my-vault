@@ -5,10 +5,14 @@
   "accessTokenUrl": "",
   "autoPush": true,
   "operations": {
-    "Untitled 1.canvas": "create",
-    "Untitled 2.canvas": "create",
-    "Excalidraw": "create",
-    "Excalidraw/Drawing 2026-10-25 18.05.10.excalidraw.md": "create"
+    "Personal Access Token.md": "create",
+    "Untitled.canvas": "delete",
+    "Untitled 2.canvas": "delete",
+    "Untitled 1.canvas": "delete",
+    "202610251759.md": "delete",
+    "2026-10-25.md": "delete",
+    "Excalidraw/Drawing 2026-10-25 18.05.10.excalidraw.md": "delete",
+    "Excalidraw": "delete"
   },
   "driveIdToPath": {
     "1fAf8wLznz7elbBIly-1vTh65_IKDYOUW": "copilot/skills/copilot-youtube-transcript/youtube-transcript.sh",
@@ -132,9 +136,13 @@
     "1PgPxluzjdNh5rwWvwEjEUb0E_gutg4P1": ".obsidian/plugins/obsidian-zotero-desktop-connector/main.js",
     "1sYH3xan7DlVbOU9w37LebhWLKrURVa_l": ".obsidian/plugins/obsidian-tasks-plugin/main.js",
     "1RH8iCJOuZI2SE2nZCVwWjh4f8MP_vitN": ".obsidian/plugins/obsidian-zotero-desktop-connector/manifest.json",
-    "1vj7IEWlumv-1VAJbpbZwNSclm89CWIOS": ".obsidian/plugins/obsidian-zotero-desktop-connector/styles.css"
+    "1vj7IEWlumv-1VAJbpbZwNSclm89CWIOS": ".obsidian/plugins/obsidian-zotero-desktop-connector/styles.css",
+    "1dGkvc94Ph8L5tCVdL1_GPalfhMEKjmM_": "Excalidraw",
+    "1WkU_pDfJLJjZeKui6V27AQVUJmuK664C": "Untitled 2.canvas",
+    "1QYgp_BdJkr4wtowMngweNwipsh5HBPEF": "Untitled 1.canvas",
+    "1ayrb-8nA4k7MZIop7_TI2dSQEKAi3fZV": "Excalidraw/Drawing 2026-10-25 18.05.10.excalidraw.md"
   },
   "rootFolderId": "1JRxRVqhtkNvv7QKCcu0khFPOLnbIETSd",
-  "lastSyncedAt": 1792965737322,
-  "changesToken": "83017"
+  "lastSyncedAt": 1792965976292,
+  "changesToken": "83043"
 }
