@@ -40,14 +40,13 @@
             "id": "2ea66ab6d4eaba73",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "TaskNotes/Start Here.md",
-                "mode": "source",
-                "source": false
+                "file": "TaskNotes/Views/calendar-default.base",
+                "viewName": "Calendar"
               },
-              "icon": "lucide-file",
-              "title": "Start Here"
+              "icon": "tasknotes-simple",
+              "title": "calendar-default"
             }
           }
         ],
@@ -213,16 +212,6 @@
             }
           },
           {
-            "id": "261bf20b0dc39e39",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          },
-          {
             "id": "ca1dc73bd01c68e2",
             "type": "leaf",
             "state": {
@@ -253,11 +242,11 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
-    "width": 214.734375
+    "width": 370.6171875
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -292,14 +281,14 @@
   },
   "active": "8e2baec133b4b13d",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-10-25 18.44.25.excalidraw.md",
+    "TaskNotes/Views/kanban-default.base",
+    "TaskNotes/Views/calendar-default.base",
+    "TaskNotes/Views/agenda-default.base",
     "TaskNotes/Start Here.md",
+    "Excalidraw/Drawing 2026-10-25 18.44.25.excalidraw.md",
     "TaskNotes/Views/relationships.base",
     "TaskNotes/Views/pomodoro-stats.base",
-    "TaskNotes/Views/agenda-default.base",
-    "TaskNotes/Views/calendar-default.base",
     "TaskNotes/Views/tasks-default.base",
-    "TaskNotes/Views/kanban-default.base",
     "TaskNotes/Views/mini-calendar-default.base",
     "TaskNotes/Views",
     "TaskNotes",
@@ -330,7 +319,6 @@
     "copilot/skills/obsidian-bases/SKILL.md",
     "copilot/skills/obsidian-bases/references/EXAMPLES.md",
     "copilot/skills/obsidian-bases/references/FUNCTIONS_REFERENCE.md",
-    "copilot/skills/obsidian-markdown/SKILL.md",
-    "copilot/skills/obsidian-markdown/references/PROPERTIES.md"
+    "copilot/skills/obsidian-markdown/SKILL.md"
   ]
 }
