@@ -3,7 +3,7 @@ epoch: 1792963954831
 mode: agent
 backendId: opencode
 sessionId: "ses_e8b05d0a4ffeAgyOgrpSTaDn5Q"
-usage: '{"usedTokens":14714,"contextWindow":1048576,"updatedAt":1792964364298}'
+usage: '{"usedTokens":14714,"updatedAt":1792964364298}'
 tags:
   - copilot-conversation
 ---
@@ -88,3 +88,9 @@ On your real machine, make sure Obsidian Git is configured to use branch `main` 
 
 If you can paste the exact error text, I can pinpoint the cause.
 [Timestamp: 2026/10/25 17:39:22]
+
+**user**: push rejected because it was not simple fast forward use force:true to override
+[Timestamp: 2026/10/25 17:40:29]
+
+**ai**: 
+[Timestamp: 2026/10/25 17:40:29]
