@@ -92,5 +92,7 @@ If you can paste the exact error text, I can pinpoint the cause.
 **user**: push rejected because it was not simple fast forward use force:true to override
 [Timestamp: 2026/10/25 17:40:29]
 
-**ai**: 
+**ai**: Your branch has **diverged**: 12 local sync commits vs. 1 new remote commit (`d89ebd5 Create a basic CI workflow for GitHub Actions`). That's why the push is rejected — it's not a fast-forward.
+
+The fix is to integrate the remote commit, not force-push over it (you'd lose the CI workflow). Let me rebase your local commits on top of the remote:
 [Timestamp: 2026/10/25 17:40:29]
