@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "95b041b35973985b",
+        "id": "9bac251f00110aa9",
         "type": "tabs",
         "children": [
           {
-            "id": "98076032492cd6ee",
+            "id": "c4e418ff631d685d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "copilot/skills/copilot-fetch-x/SKILL.md",
+                "file": "Sources/A review on in-situ methanation based on CO2H2O Co-electrolysis in solid oxide electrolytic cells addressing the thermo-kinetic mismatch.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SKILL"
+              "title": "A review on in-situ methanation based on CO2H2O Co-electrolysis in solid oxide electrolytic cells addressing the thermo-kinetic mismatch"
             }
           }
         ]
@@ -230,11 +230,17 @@
       "google-drive-sync:Push to Google Drive": false
     }
   },
-  "active": "98076032492cd6ee",
+  "active": "c4e418ff631d685d",
   "lastOpenFiles": [
+    "Sources/Fuel-assisted steam and carbon dioxide co-electrolysis in molten carbonate cells First attempts.md",
+    "Sources/H2O co-electrolysis using single and stack solid oxide electrolysis cell (SOEC) 1.md",
+    "Sources/A review on in-situ methanation based on CO2H2O Co-electrolysis in solid oxide electrolytic cells addressing the thermo-kinetic mismatch.md",
+    "Sources/Production of synthetic gas by the co-electrolysis of H2O and CO2 in the molten carbonate electrolyzer.md",
+    "Sources/CO2-negative fuel production using low-CO2 electricity Syngas from a combination of methane pyrolysis and dry reforming with techno-economic analysis.md",
+    "Sources/H2O co-electrolysis using single and stack solid oxide electrolysis cell (SOEC).md",
+    "copilot/skills/copilot-fetch-x/SKILL.md",
     "Sources/Untitled.md",
     "Untitled.md",
-    "copilot/skills/copilot-fetch-x/SKILL.md",
     "Sources",
     "Untitled.base",
     "Personal Access Token.md",
@@ -265,12 +271,6 @@
     "copilot/skills/obsidian-markdown/references/PROPERTIES.md",
     "copilot/skills/obsidian-markdown/references/EMBEDS.md",
     "copilot/skills/obsidian-markdown/references/CALLOUTS.md",
-    "copilot/skills/copilot-youtube-transcript/SKILL.md",
-    "2026-W44.md",
-    "Sources/Production of synthetic gas by the co-electrolysis of H2O and CO2 in the molten carbonate electrolyzer.md",
-    "Excalidraw/Drawing 2026-10-25 16.48.49.excalidraw.md",
-    "Sources/Autothermal methane pyrolysis Scalable heat integration for hydrogen and graphite production.md",
-    "Sources/CO2-negative fuel production using low-CO2 electricity Syngas from a combination of methane pyrolysis and dry reforming with techno-economic analysis.md",
-    "Sources/Fuel-assisted steam and carbon dioxide co-electrolysis in molten carbonate cells First attempts.md"
+    "copilot/skills/copilot-youtube-transcript/SKILL.md"
   ]
 }

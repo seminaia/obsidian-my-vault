@@ -4,9 +4,7 @@
   "clientSecret": "",
   "accessTokenUrl": "",
   "autoPush": true,
-  "operations": {
-    "Sources": "create"
-  },
+  "operations": {},
   "driveIdToPath": {
     "1fAf8wLznz7elbBIly-1vTh65_IKDYOUW": "copilot/skills/copilot-youtube-transcript/youtube-transcript.sh",
     "1HwaQeQYpHCIY5QY6p1sg6CHhCKqzuDYT": "copilot/skills/copilot-youtube-transcript/youtube-transcript.ps1",
@@ -128,9 +126,23 @@
     "1RH8iCJOuZI2SE2nZCVwWjh4f8MP_vitN": ".obsidian/plugins/obsidian-zotero-desktop-connector/manifest.json",
     "1vj7IEWlumv-1VAJbpbZwNSclm89CWIOS": ".obsidian/plugins/obsidian-zotero-desktop-connector/styles.css",
     "1dfQ-6sZC3oTXhD6CSpiGTQZidNXDeD-Y": "Personal Access Token.md",
-    "1_WIHBAvAjHdV3kNjjMnT7OluOH_gyvMx": ".obsidian/plugins/obsidian-git/data.json"
+    "1_WIHBAvAjHdV3kNjjMnT7OluOH_gyvMx": ".obsidian/plugins/obsidian-git/data.json",
+    "1zZ7JYAm98Sp5g5Y0Yja5oCnX3AxJBmDR": "Sources",
+    "147PlbZTyOv_4BL_VsWZvPpBWFbwWVfr1": ".obsidian/switcher.json",
+    "1nzQuQFG7aGTs7zM-FLOHKqpwo5QVTk7F": ".obsidian/plugins/image-converter/data.json",
+    "1_fP5jdA6zkRKJU3uHfeL8ijyoUNKu8jY": ".obsidian/plugins/latex-math/data.json",
+    "1mO9MeDd6TMPthvo1NEoFyJNuAIMRzOth": ".obsidian/plugins/obsidian-latex-suite/data.json",
+    "1QFSg-OMBbT-LJFHIHwTxMB9vU8GmXldY": ".obsidian/plugins/numerals/data.json",
+    "1an2r-Omc7ywj_fsuMzsUj-gyIs1iid7U": ".obsidian/plugins/obsidian-kanban/data.json",
+    "1m-YcxyZq3EQz9uvbI6W81JHeSvzNE7Kr": ".obsidian/plugins/obsidian-zotero-desktop-connector/data.json",
+    "1NOzYn3ej40mVJIzIcGTgxsxjl3muJmme": ".obsidian/plugins/obsidian-tasks-plugin/data.json",
+    "1erEKCU_wPPL6bOaZSDnmlcIhdJp69TkQ": "Sources/H2O co-electrolysis using single and stack solid oxide electrolysis cell (SOEC).md",
+    "1RpjyhbSn4nLr_llHPsPcWM7syA5yjor0": "Sources/CO2-negative fuel production using low-CO2 electricity Syngas from a combination of methane pyrolysis and dry reforming with techno-economic analysis.md",
+    "1j66TEIyh6DH3Yhzhr8UHrN5-f1Yjp-PT": "Sources/A review on in-situ methanation based on CO2H2O Co-electrolysis in solid oxide electrolytic cells addressing the thermo-kinetic mismatch.md",
+    "1XJxiTPi2YghDsSQ7485iF_VC1T2e-3vG": "Sources/Fuel-assisted steam and carbon dioxide co-electrolysis in molten carbonate cells First attempts.md",
+    "1TV3exqd4y6-VtOWV-KRORXIarUR48KuJ": "Sources/Production of synthetic gas by the co-electrolysis of H2O and CO2 in the molten carbonate electrolyzer.md"
   },
   "rootFolderId": "1JRxRVqhtkNvv7QKCcu0khFPOLnbIETSd",
-  "lastSyncedAt": 1792967113237,
-  "changesToken": "83066"
+  "lastSyncedAt": 1792967448138,
+  "changesToken": "83099"
 }
