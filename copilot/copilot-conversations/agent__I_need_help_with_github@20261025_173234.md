@@ -100,3 +100,9 @@ You no longer need `force:true`. On your machine, just run Push (or let Obsidian
 
 There are still a few uncommitted changes (`.makemd/*`, `workspace.json`, the conversation note) — Obsidian Git will auto-commit those on its next sync cycle before pushing.
 [Timestamp: 2026/10/25 17:40:29]
+
+**user**: it keeps trying to sinc to Vault.git in the remote repository when it doesnt exist
+[Timestamp: 2026/10/25 17:42:58]
+
+**ai**: 
+[Timestamp: 2026/10/25 17:42:58]
