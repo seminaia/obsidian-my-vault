@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "copilot/copilot-conversations/agent__I_need_help_with_github@20261025_173234.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "agent__I_need_help_with_github@20261025_173234"
             }
           }
         ]
@@ -217,7 +217,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "README.md"
+                "file": "copilot/copilot-conversations/agent__I_need_help_with_github@20261025_173234.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
@@ -286,8 +286,9 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "b12027b3b50e94c3",
+  "active": "a66dd19bc025a551",
   "lastOpenFiles": [
+    "README.md",
     "copilot/copilot-conversations/agent__I_need_help_with_github@20261025_173234.md",
     "TaskNotes/Views/Untitled.canvas",
     "copilot/copilot-conversations",
@@ -312,7 +313,6 @@
     "copilot/skills/obsidian-markdown/references/CALLOUTS.md",
     "copilot/skills/copilot-fetch-x/SKILL.md",
     "copilot/skills/copilot-youtube-transcript/SKILL.md",
-    "README.md",
     "2026-W44.md",
     "Sources/Production of synthetic gas by the co-electrolysis of H2O and CO2 in the molten carbonate electrolyzer.md",
     "Excalidraw/Drawing 2026-10-25 16.48.49.excalidraw.md",
