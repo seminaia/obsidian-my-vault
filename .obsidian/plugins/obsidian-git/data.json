@@ -37,15 +37,15 @@
   "submoduleRecurseCheckout": false,
   "gitDir": "",
   "showFileMenu": true,
-  "authorInHistoryView": "hide",
-  "dateInHistoryView": false,
+  "authorInHistoryView": "initials",
+  "dateInHistoryView": true,
   "diffStyle": "split",
   "diffTimeout": 50,
   "autoStageOnEmptyIndex": true,
   "hunks": {
     "showSigns": false,
     "hunkCommands": false,
-    "statusBar": "disabled"
+    "statusBar": "colored"
   },
   "lineAuthor": {
     "show": false,

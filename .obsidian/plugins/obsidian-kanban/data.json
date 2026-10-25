@@ -1,3 +1,8 @@
 {
-  "show-checkboxes": true
+  "show-checkboxes": true,
+  "move-dates": true,
+  "show-relative-date": true,
+  "link-date-to-daily-note": true,
+  "archive-with-date": true,
+  "append-archive-date": true
 }
