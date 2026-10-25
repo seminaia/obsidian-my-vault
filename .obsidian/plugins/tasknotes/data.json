@@ -473,7 +473,7 @@
   "enabledMicrosoftCalendars": [],
   "microsoftCalendarSyncTokens": {},
   "googleCalendarExport": {
-    "enabled": false,
+    "enabled": true,
     "targetCalendarId": "",
     "syncOnTaskCreate": true,
     "syncOnTaskUpdate": true,
