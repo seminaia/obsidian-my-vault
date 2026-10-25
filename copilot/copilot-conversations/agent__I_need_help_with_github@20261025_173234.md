@@ -104,5 +104,5 @@ There are still a few uncommitted changes (`.makemd/*`, `workspace.json`, the co
 **user**: it keeps trying to sinc to Vault.git in the remote repository when it doesnt exist
 [Timestamp: 2026/10/25 17:42:58]
 
-**ai**: 
+**ai**: The problem is clear: your branch tracks the nonexistent `Vault` remote (`github.com/seminaia/Vault.git`), while the real repo is `origin` (`obsidian-my-vault.git`) — and `origin` is actually working (your HEAD matches `origin/main`). Let's drop the bogus remote and retarget tracking:
 [Timestamp: 2026/10/25 17:42:58]
