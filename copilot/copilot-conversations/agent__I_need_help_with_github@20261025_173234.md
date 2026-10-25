@@ -108,3 +108,21 @@ There are still a few uncommitted changes (`.makemd/*`, `workspace.json`, the co
 
 So Obsidian Git should now push/pull against the correct repository. If the plugin has its own "remote" setting hard-coded to `Vault`, open its settings and set the remote name to `origin` (or blank for default) — but with no plugin data file present it will default to `origin`, which is what we want.
 [Timestamp: 2026/10/25 17:42:58]
+
+**user**: (base) soki@HP-EliteBook-840-G6:~/Vault$ git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+	modified:   My Vault (modified content)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	WPI EMRG/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[Timestamp: 2026/10/25 17:45:52]
+
+**ai**: 
+[Timestamp: 2026/10/25 17:45:52]
