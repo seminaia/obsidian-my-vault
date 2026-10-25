@@ -11,10 +11,14 @@
             "id": "f061530a3b25f50b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "copilot/skills/json-canvas/references/EXAMPLES.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "EXAMPLES"
             }
           }
         ]
@@ -172,7 +176,9 @@
             "type": "leaf",
             "state": {
               "type": "footnotes",
-              "state": {},
+              "state": {
+                "file": "copilot/skills/json-canvas/references/EXAMPLES.md"
+              },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
             }
@@ -227,8 +233,10 @@
   },
   "active": "f061530a3b25f50b",
   "lastOpenFiles": [
-    "202610251759.md",
+    "Untitled 2.canvas",
+    "Untitled 1.canvas",
     "2026-10-25.md",
+    "202610251759.md",
     "Untitled.base",
     "Untitled.canvas",
     "copilot/copilot-conversations/agent__I_need_help_with_github@20261025_173234.md",
@@ -263,7 +271,6 @@
     "Sources/Fuel-assisted steam and carbon dioxide co-electrolysis in molten carbonate cells First attempts.md",
     "Sources/A review on in-situ methanation based on CO2H2O Co-electrolysis in solid oxide electrolytic cells addressing the thermo-kinetic mismatch.md",
     "Sources/H2O co-electrolysis using single and stack solid oxide electrolysis cell (SOEC).md",
-    "file:/home/soki/Downloads/Production of synthetic gas by the co-electrolysis of H2O and CO2 in the molten carbonate electrolyzer.md",
-    "https:/github.com/seminaia/Vault/README.md"
+    "file:/home/soki/Downloads/Production of synthetic gas by the co-electrolysis of H2O and CO2 in the molten carbonate electrolyzer.md"
   ]
 }
