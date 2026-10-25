@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sources/Production of synthetic gas by the co-electrolysis of H2O and CO2 in the molten carbonate electrolyzer.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,41 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Production of synthetic gas by the co-electrolysis of H2O and CO2 in the molten carbonate electrolyzer"
-            }
-          },
-          {
-            "id": "f63494f74fe1cc9b",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "1071ca83ab491fee",
-            "type": "leaf",
-            "state": {
-              "type": "tasknotes-pomodoro-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "tasknotes-pomodoro-view"
-            }
-          },
-          {
-            "id": "2e6ee6d082aca84c",
-            "type": "leaf",
-            "state": {
-              "type": "tasknotes-pomodoro-stats-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "tasknotes-pomodoro-stats-view"
+              "title": "README"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -248,7 +217,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "TaskNotes/Views/Untitled.canvas"
+                "file": "README.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
@@ -317,9 +286,10 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "bc7e0e933689abad",
+  "active": "b12027b3b50e94c3",
   "lastOpenFiles": [
     "copilot/copilot-conversations/agent__I_need_help_with_github@20261025_173234.md",
+    "TaskNotes/Views/Untitled.canvas",
     "copilot/copilot-conversations",
     "copilot/skills/obsidian-cli/SKILL.md",
     "copilot/skills/obsidian-cli/LICENSE",
@@ -343,7 +313,6 @@
     "copilot/skills/copilot-fetch-x/SKILL.md",
     "copilot/skills/copilot-youtube-transcript/SKILL.md",
     "README.md",
-    "TaskNotes/Views/Untitled.canvas",
     "2026-W44.md",
     "Sources/Production of synthetic gas by the co-electrolysis of H2O and CO2 in the molten carbonate electrolyzer.md",
     "Excalidraw/Drawing 2026-10-25 16.48.49.excalidraw.md",
