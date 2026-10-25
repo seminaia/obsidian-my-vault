@@ -4,16 +4,7 @@
   "clientSecret": "",
   "accessTokenUrl": "",
   "autoPush": true,
-  "operations": {
-    "Personal Access Token.md": "create",
-    "Untitled.canvas": "delete",
-    "Untitled 2.canvas": "delete",
-    "Untitled 1.canvas": "delete",
-    "202610251759.md": "delete",
-    "2026-10-25.md": "delete",
-    "Excalidraw/Drawing 2026-10-25 18.05.10.excalidraw.md": "delete",
-    "Excalidraw": "delete"
-  },
+  "operations": {},
   "driveIdToPath": {
     "1fAf8wLznz7elbBIly-1vTh65_IKDYOUW": "copilot/skills/copilot-youtube-transcript/youtube-transcript.sh",
     "1HwaQeQYpHCIY5QY6p1sg6CHhCKqzuDYT": "copilot/skills/copilot-youtube-transcript/youtube-transcript.ps1",
@@ -55,9 +46,6 @@
     "1xsANXemgLAi8mjZQWT9774JalpPdv_x1": "copilot/copilot-conversations/agent__I_need_help_with_github@20261025_173234.md",
     "13AfIWZot_fuUzlzlc3LKKzb6_T_3V1OV": ".obsidian",
     "1iFGsq9mHxeRUFcIA5tYkOSCarhovrNbx": "Untitled.base",
-    "1F8dmgA3f_kDgV9w620XE0NeR8SdH9kEj": "Untitled.canvas",
-    "1GC2A9OQCeJa8MKlzThMx_Y3gM0FYkGGq": "202610251759.md",
-    "1AcDViCDGnBJSgi6vVxDNg_Kfive4pLFO": "2026-10-25.md",
     "1RqnmSXrXkuK3-IW6-DN4DIcDMeyjn8IA": ".obsidian/plugins/advanced-canvas",
     "1FarCA_HTkvcz9jOiYjDPPcsiXXG5bvdL": ".obsidian/plugins/copilot",
     "1UO_ClwtHRXJg-FqAVZr2MtyriP_79Uyg": ".obsidian/plugins/calendar",
@@ -137,12 +125,10 @@
     "1sYH3xan7DlVbOU9w37LebhWLKrURVa_l": ".obsidian/plugins/obsidian-tasks-plugin/main.js",
     "1RH8iCJOuZI2SE2nZCVwWjh4f8MP_vitN": ".obsidian/plugins/obsidian-zotero-desktop-connector/manifest.json",
     "1vj7IEWlumv-1VAJbpbZwNSclm89CWIOS": ".obsidian/plugins/obsidian-zotero-desktop-connector/styles.css",
-    "1dGkvc94Ph8L5tCVdL1_GPalfhMEKjmM_": "Excalidraw",
-    "1WkU_pDfJLJjZeKui6V27AQVUJmuK664C": "Untitled 2.canvas",
-    "1QYgp_BdJkr4wtowMngweNwipsh5HBPEF": "Untitled 1.canvas",
-    "1ayrb-8nA4k7MZIop7_TI2dSQEKAi3fZV": "Excalidraw/Drawing 2026-10-25 18.05.10.excalidraw.md"
+    "1dfQ-6sZC3oTXhD6CSpiGTQZidNXDeD-Y": "Personal Access Token.md",
+    "1_WIHBAvAjHdV3kNjjMnT7OluOH_gyvMx": ".obsidian/plugins/obsidian-git/data.json"
   },
   "rootFolderId": "1JRxRVqhtkNvv7QKCcu0khFPOLnbIETSd",
-  "lastSyncedAt": 1792965976292,
-  "changesToken": "83043"
+  "lastSyncedAt": 1792966222767,
+  "changesToken": "83062"
 }
