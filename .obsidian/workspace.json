@@ -177,7 +177,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "copilot/skills/json-canvas/references/EXAMPLES.md"
+                "file": "Excalidraw/Drawing 2026-10-25 18.05.10.excalidraw.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
@@ -231,8 +231,11 @@
       "google-drive-sync:Push to Google Drive": false
     }
   },
-  "active": "f061530a3b25f50b",
+  "active": "ca1dc73bd01c68e2",
   "lastOpenFiles": [
+    "copilot/skills/json-canvas/references/EXAMPLES.md",
+    "Excalidraw/Drawing 2026-10-25 18.05.10.excalidraw.md",
+    "Excalidraw",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
     "2026-10-25.md",
@@ -248,7 +251,6 @@
     "copilot/skills/obsidian-cli",
     "copilot/skills/json-canvas/SKILL.md",
     "copilot/skills/json-canvas/LICENSE",
-    "copilot/skills/json-canvas/references/EXAMPLES.md",
     "copilot/skills/json-canvas/references",
     "copilot/skills/json-canvas",
     "copilot/skills/obsidian-bases/SKILL.md",
@@ -256,7 +258,6 @@
     "copilot/skills/obsidian-bases/references/EXAMPLES.md",
     "copilot/skills/obsidian-bases/references/FUNCTIONS_REFERENCE.md",
     "copilot/skills/obsidian-bases/references",
-    "copilot/skills/obsidian-bases",
     "copilot/skills/obsidian-markdown/SKILL.md",
     "copilot/skills/obsidian-markdown/references/PROPERTIES.md",
     "copilot/skills/obsidian-markdown/references/EMBEDS.md",

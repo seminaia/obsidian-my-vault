@@ -6,7 +6,9 @@
   "autoPush": true,
   "operations": {
     "Untitled 1.canvas": "create",
-    "Untitled 2.canvas": "create"
+    "Untitled 2.canvas": "create",
+    "Excalidraw": "create",
+    "Excalidraw/Drawing 2026-10-25 18.05.10.excalidraw.md": "create"
   },
   "driveIdToPath": {
     "1fAf8wLznz7elbBIly-1vTh65_IKDYOUW": "copilot/skills/copilot-youtube-transcript/youtube-transcript.sh",
