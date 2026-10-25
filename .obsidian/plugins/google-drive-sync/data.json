@@ -4,9 +4,7 @@
   "clientSecret": "",
   "accessTokenUrl": "",
   "autoPush": true,
-  "operations": {
-    "Untitled.canvas": "modify"
-  },
+  "operations": {},
   "driveIdToPath": {
     "1fAf8wLznz7elbBIly-1vTh65_IKDYOUW": "copilot/skills/copilot-youtube-transcript/youtube-transcript.sh",
     "1HwaQeQYpHCIY5QY6p1sg6CHhCKqzuDYT": "copilot/skills/copilot-youtube-transcript/youtube-transcript.ps1",
@@ -144,9 +142,22 @@
     "1XJxiTPi2YghDsSQ7485iF_VC1T2e-3vG": "Sources/Fuel-assisted steam and carbon dioxide co-electrolysis in molten carbonate cells First attempts.md",
     "1TV3exqd4y6-VtOWV-KRORXIarUR48KuJ": "Sources/Production of synthetic gas by the co-electrolysis of H2O and CO2 in the molten carbonate electrolyzer.md",
     "1mYz2fq-lALmATFh0mI8HxkPr2QPQjoP_": "Tatsumi Ishihara.md",
-    "1C_98gmu3wh6Wf11ecdetdGOlZEyj8n4u": "Untitled.canvas"
+    "1C_98gmu3wh6Wf11ecdetdGOlZEyj8n4u": "Untitled.canvas",
+    "1Rh8gu5WZ9W7qTNPAf138yb5G1S4R3HSA": "Excalidraw",
+    "1eBDiXhHsLDlX8W7mCUacIVQcHYDBVEoz": "Excalidraw/Drawing 2026-10-25 18.44.25.excalidraw.md",
+    "1F1wmwIuL9oGFvYjhDkt6w62w5rCodbrl": ".obsidian/plugins/tasknotes",
+    "1ijxMuJ6M3s2CzvtF8tu4jveegwRo1JJ0": ".obsidian/plugins/table-editor-obsidian",
+    "1fU8TtCthTk4s7RfClzsTTVlGlgomvBB5": ".obsidian/plugins/table-editor-obsidian/main.js",
+    "14jQnPI2x0kg_WZs58A-Q0uSBkOazPliv": ".obsidian/plugins/table-editor-obsidian/manifest.json",
+    "14qTu88SehM7s0FJei4VcJ3bIU46DGg1c": ".obsidian/plugins/copilot/data.json",
+    "1FFQkD6m4nNE23htcfkuczFVtoyHkbcwK": ".obsidian/plugins/obsidian-advanced-slides/data.json",
+    "1-lwerLpXWex8XP4_BvNxqGCQ_XfuU-QF": ".obsidian/plugins/table-editor-obsidian/data.json",
+    "1w9dBap8HrnRJBG0u7IIC4UcPA7xFjLLl": ".obsidian/plugins/tasknotes/manifest.json",
+    "1WoEoSFblUcJVK-OBSGXwZJ-pXibVBgHY": ".obsidian/plugins/table-editor-obsidian/styles.css",
+    "1u--ySbinXA9z1NPNM9asLvZZ9jLeWgHN": ".obsidian/plugins/tasknotes/main.js",
+    "1UYqzh7GCS35Q3CtrRcNpjBLi7KB1n1Fj": ".obsidian/plugins/tasknotes/styles.css"
   },
   "rootFolderId": "1JRxRVqhtkNvv7QKCcu0khFPOLnbIETSd",
-  "lastSyncedAt": 1792968045976,
-  "changesToken": "83114"
+  "lastSyncedAt": 1792968338659,
+  "changesToken": "83127"
 }
