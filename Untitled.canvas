@@ -1,9 +1,16 @@
 {
 	"nodes":[
-		{"id":"e22615d1ad16de9a","x":-65,"y":-160,"width":250,"height":113,"type":"text","text":"H2O and CO2 co-electrolysis and subsequent methane pyrolysis"},
-		{"id":"8ad0c8c2302186d1","x":-65,"y":0,"width":250,"height":200,"type":"text","text":"Description: combining CO2 and water in a cell to be electrolyzed to produce CH4 and O2. Put the methane through another "}
+		{"id":"d11634fac77a820d","type":"group","ratio":1.7777777777777777,"x":-520,"y":-540,"width":1200,"height":675,"label":"Start Slide"},
+		{"id":"0b087730cf9148f8","type":"group","ratio":1.7777777777777777,"x":-420,"y":240,"width":1200,"height":675,"label":"New Slide"},
+		{"id":"e22615d1ad16de9a","type":"text","text":"H2O and CO2 co-electrolysis and subsequent methane pyrolysis","x":-45,"y":-540,"width":250,"height":113},
+		{"id":"8ad0c8c2302186d1","type":"text","text":"Description: combining CO2 and water in a cell to be electrolyzed to produce CH4 and O2. Put the methane through another cell to create graphite and hydrogen. That is 3 value added products plus any CO that is produced to make syngas","x":-180,"y":-280,"width":520,"height":140}
 	],
 	"edges":[
 		{"id":"005998155f2d285b","fromNode":"e22615d1ad16de9a","fromSide":"bottom","toNode":"8ad0c8c2302186d1","toSide":"top"}
-	]
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{},
+		"startNode":"d11634fac77a820d"
+	}
 }

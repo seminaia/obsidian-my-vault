@@ -15,13 +15,29 @@
               "state": {
                 "file": "Untitled.canvas",
                 "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
+                  "x": 130,
+                  "y": 187.5,
+                  "zoom": -1.0702884436536808
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "Untitled"
+            }
+          }
+        ]
+      },
+      {
+        "id": "314290d4d8dadf61",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ead40939bbf21c13",
+            "type": "leaf",
+            "state": {
+              "type": "reveal-preview-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Slide Preview"
             }
           }
         ]
@@ -210,7 +226,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 578.05078125
+    "width": 214.734375
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -230,16 +246,17 @@
       "obsidian-kanban:Create new board": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
       "3d-graph:3D Graph": false,
-      "google-drive-sync:Push to Google Drive": false
+      "google-drive-sync:Push to Google Drive": false,
+      "copilot:Open Copilot Agent Chat": false
     }
   },
   "active": "b08021d6d65ccda1",
   "lastOpenFiles": [
+    "Untitled.base",
+    "Tatsumi Ishihara.md",
     "Untitled.canvas",
     "Untitled 1.base",
-    "Tatsumi Ishihara.md",
     "Sources/CO2-negative fuel production using low-CO2 electricity Syngas from a combination of methane pyrolysis and dry reforming with techno-economic analysis.md",
-    "Untitled.base",
     "README.md",
     "Sources/A review on in-situ methanation based on CO2H2O Co-electrolysis in solid oxide electrolytic cells addressing the thermo-kinetic mismatch.md",
     "Sources/Fuel-assisted steam and carbon dioxide co-electrolysis in molten carbonate cells First attempts.md",
