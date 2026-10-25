@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "copilot/copilot-conversations/agent__I_need_help_with_github@20261025_173234.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "agent__I_need_help_with_github@20261025_173234"
+              "title": "README"
             }
           }
         ]
@@ -217,7 +217,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "copilot/copilot-conversations/agent__I_need_help_with_github@20261025_173234.md"
+                "file": "README.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
@@ -286,10 +286,10 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "a66dd19bc025a551",
+  "active": "d0c5ee2f4d1d0599",
   "lastOpenFiles": [
-    "README.md",
     "copilot/copilot-conversations/agent__I_need_help_with_github@20261025_173234.md",
+    "README.md",
     "TaskNotes/Views/Untitled.canvas",
     "copilot/copilot-conversations",
     "copilot/skills/obsidian-cli/SKILL.md",
