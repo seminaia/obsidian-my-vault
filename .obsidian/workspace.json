@@ -4,21 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "9bac251f00110aa9",
+        "id": "7cccaa1ea6bd41e9",
         "type": "tabs",
         "children": [
           {
-            "id": "c4e418ff631d685d",
+            "id": "b08021d6d65ccda1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Sources/A review on in-situ methanation based on CO2H2O Co-electrolysis in solid oxide electrolytic cells addressing the thermo-kinetic mismatch.md",
-                "mode": "source",
-                "source": false
+                "file": "Untitled.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "A review on in-situ methanation based on CO2H2O Co-electrolysis in solid oxide electrolytic cells addressing the thermo-kinetic mismatch"
+              "icon": "lucide-layout-dashboard",
+              "title": "Untitled"
             }
           }
         ]
@@ -230,19 +233,23 @@
       "google-drive-sync:Push to Google Drive": false
     }
   },
-  "active": "c4e418ff631d685d",
+  "active": "b08021d6d65ccda1",
   "lastOpenFiles": [
+    "Untitled.canvas",
+    "Untitled 1.base",
+    "Tatsumi Ishihara.md",
+    "Sources/CO2-negative fuel production using low-CO2 electricity Syngas from a combination of methane pyrolysis and dry reforming with techno-economic analysis.md",
+    "Untitled.base",
+    "README.md",
+    "Sources/A review on in-situ methanation based on CO2H2O Co-electrolysis in solid oxide electrolytic cells addressing the thermo-kinetic mismatch.md",
     "Sources/Fuel-assisted steam and carbon dioxide co-electrolysis in molten carbonate cells First attempts.md",
     "Sources/H2O co-electrolysis using single and stack solid oxide electrolysis cell (SOEC) 1.md",
-    "Sources/A review on in-situ methanation based on CO2H2O Co-electrolysis in solid oxide electrolytic cells addressing the thermo-kinetic mismatch.md",
     "Sources/Production of synthetic gas by the co-electrolysis of H2O and CO2 in the molten carbonate electrolyzer.md",
-    "Sources/CO2-negative fuel production using low-CO2 electricity Syngas from a combination of methane pyrolysis and dry reforming with techno-economic analysis.md",
     "Sources/H2O co-electrolysis using single and stack solid oxide electrolysis cell (SOEC).md",
     "copilot/skills/copilot-fetch-x/SKILL.md",
     "Sources/Untitled.md",
     "Untitled.md",
     "Sources",
-    "Untitled.base",
     "Personal Access Token.md",
     "2026-10-25.md",
     "202610251759.md",
@@ -251,9 +258,7 @@
     "Excalidraw",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
-    "Untitled.canvas",
     "copilot/copilot-conversations/agent__I_need_help_with_github@20261025_173234.md",
-    "README.md",
     "TaskNotes/Views/Untitled.canvas",
     "copilot/copilot-conversations",
     "copilot/skills/obsidian-cli/SKILL.md",
@@ -264,13 +269,10 @@
     "copilot/skills/json-canvas/references",
     "copilot/skills/json-canvas",
     "copilot/skills/obsidian-bases/SKILL.md",
-    "copilot/skills/obsidian-bases/LICENSE",
     "copilot/skills/obsidian-bases/references/EXAMPLES.md",
     "copilot/skills/obsidian-bases/references/FUNCTIONS_REFERENCE.md",
     "copilot/skills/obsidian-markdown/SKILL.md",
     "copilot/skills/obsidian-markdown/references/PROPERTIES.md",
-    "copilot/skills/obsidian-markdown/references/EMBEDS.md",
-    "copilot/skills/obsidian-markdown/references/CALLOUTS.md",
-    "copilot/skills/copilot-youtube-transcript/SKILL.md"
+    "copilot/skills/obsidian-markdown/references/EMBEDS.md"
   ]
 }

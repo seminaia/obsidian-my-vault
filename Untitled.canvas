@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"e22615d1ad16de9a","x":-65,"y":-160,"width":250,"height":113,"type":"text","text":"H2O and CO2 co-electrolysis and subsequent methane pyrolysis"},
+		{"id":"8ad0c8c2302186d1","x":-65,"y":0,"width":250,"height":200,"type":"text","text":"Description: combining CO2 and water in a cell to be electrolyzed to produce CH4 and O2. Put the methane through another "}
+	],
+	"edges":[
+		{"id":"005998155f2d285b","fromNode":"e22615d1ad16de9a","fromSide":"bottom","toNode":"8ad0c8c2302186d1","toSide":"top"}
+	]
+}
