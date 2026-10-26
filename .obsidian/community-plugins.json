@@ -1,6 +1,5 @@
 [
   "obsidian-excalidraw-plugin",
-  "obsidian-tasks-plugin",
   "obsidian-git",
   "obsidian-kanban",
   "obsidian-advanced-slides",
@@ -17,12 +16,10 @@
   "advanced-canvas",
   "copilot",
   "table-editor-obsidian",
-  "tasknotes",
   "obsidian-reminder-plugin",
   "obsidian-charts",
   "obsidian-citation-plugin",
-  "calendar",
   "notebook-navigator",
   "obsidian-day-planner",
-  "obsidian-full-calendar"
+  "obsidian-mind-map"
 ]

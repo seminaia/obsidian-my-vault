@@ -4,48 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "0c5905052fd5a170",
+        "id": "65c3cf84bc3d9c63",
         "type": "tabs",
         "children": [
           {
-            "id": "8809ab1dceb18b90",
+            "id": "f1bc5c58951b22ad",
             "type": "leaf",
             "state": {
               "type": "bases",
               "state": {
-                "file": "TaskNotes/Views/mini-calendar-default.base",
-                "viewName": "Due"
+                "file": "TaskNotes/Views/calendar-default.base",
+                "viewName": "Calendar"
               },
-              "icon": "tasknotes-simple",
-              "title": "mini-calendar-default"
+              "icon": "lucide-layout-list",
+              "title": "calendar-default"
             }
           },
           {
-            "id": "a1343bc421f572e1",
+            "id": "eaf5ba1f3ac8b4db",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "2026-10-26.md",
-                "mode": "source",
-                "source": false
+                "file": "Untitled.base",
+                "viewName": "View"
               },
-              "icon": "lucide-file",
-              "title": "2026-10-26"
-            }
-          },
-          {
-            "id": "b883c17d0d30559e",
-            "type": "leaf",
-            "state": {
-              "type": "full-calendar-view",
-              "state": {},
-              "icon": "calendar-glyph",
-              "title": "Calendar"
+              "icon": "lucide-table",
+              "title": "Untitled"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -196,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "Untitled.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -236,16 +225,6 @@
             }
           },
           {
-            "id": "5c28cdbd5f9981ef",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          },
-          {
             "id": "6e3b8be7352f0c1a",
             "type": "leaf",
             "state": {
@@ -266,11 +245,11 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 656.1796875
+    "width": 590.40625
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -309,7 +288,11 @@
   },
   "active": "0a79c97a3782f78b",
   "lastOpenFiles": [
+    "Untitled 1.canvas",
+    "Untitled 2.canvas",
     "2026-10-26.md",
+    "Untitled 2.base",
+    "Untitled 1.base",
     "TaskNotes/Views/calendar-default.base",
     "TaskNotes/Views/mini-calendar-default.base",
     "TaskNotes/Views/kanban-default.base",
@@ -318,8 +301,6 @@
     "TaskNotes/Views/tasks-default.base",
     "TaskNotes/Start Here.md",
     "Events",
-    "Untitled 1.canvas",
-    "Untitled 1.base",
     "Untitled.base",
     "Tatsumi Ishihara.md",
     "README.md",
@@ -328,7 +309,6 @@
     "copilot/copilot-conversations/agent__help_me_figure_out_why_it_is_saying_fatal_refusing@20261026_150443.md",
     "copilot/copilot-conversations/agent__I_need_help_with_github@20261025_173234.md",
     "copilot/copilot-conversations",
-    "TaskNotes/Views/relationships.base",
     "Sources/Production of synthetic gas by the co-electrolysis of H2O and CO2 in the molten carbonate electrolyzer.md",
     "Sources/H2O co-electrolysis using single and stack solid oxide electrolysis cell (SOEC).md",
     "Sources/Fuel-assisted steam and carbon dioxide co-electrolysis in molten carbonate cells First attempts.md",

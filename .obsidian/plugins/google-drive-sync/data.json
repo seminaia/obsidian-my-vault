@@ -4,7 +4,10 @@
   "clientSecret": "",
   "accessTokenUrl": "",
   "autoPush": true,
-  "operations": {},
+  "operations": {
+    "2026-10-26.md": "delete",
+    "Untitled 1.canvas": "delete"
+  },
   "driveIdToPath": {
     "1fAf8wLznz7elbBIly-1vTh65_IKDYOUW": "copilot/skills/copilot-youtube-transcript/youtube-transcript.sh",
     "1HwaQeQYpHCIY5QY6p1sg6CHhCKqzuDYT": "copilot/skills/copilot-youtube-transcript/youtube-transcript.ps1",
@@ -217,6 +220,6 @@
     "1u9C500JUI3k-OWW7aPjMfpYV1wT4C9Sv": "2026-10-26.md"
   },
   "rootFolderId": "1JQp4bupb5GUAcW-j67ipbeVP1NdLFx5k",
-  "lastSyncedAt": 1793043549472,
+  "lastSyncedAt": 1793043810262,
   "changesToken": "83777"
 }
