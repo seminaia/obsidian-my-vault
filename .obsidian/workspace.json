@@ -264,7 +264,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -282,14 +282,6 @@
       "google-drive-sync:Push to Google Drive": false,
       "3d-graph:3D Graph": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "tasknotes:Open mini calendar view": false,
-      "tasknotes:Open calendar view": false,
-      "tasknotes:Open tasks view": false,
-      "tasknotes:Open agenda view": false,
-      "tasknotes:Open Kanban board": false,
-      "tasknotes:Open Pomodoro timer": false,
-      "tasknotes:Open Pomodoro statistics": false,
-      "tasknotes:Create new task": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -305,8 +297,9 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "ec4f92564000ecee",
+  "active": "0a79c97a3782f78b",
   "lastOpenFiles": [
+    "copilot/copilot-conversations/agent__pluginobsidian-git371_obsidian-git_Committed_7_files_pluginobsidian-git371@20261026_155544.md",
     "Untitled.base",
     "Untitled 1.canvas",
     "Untitled 2.canvas",
