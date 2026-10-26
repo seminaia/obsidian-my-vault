@@ -281,6 +281,11 @@
   },
   "active": "8e2baec133b4b13d",
   "lastOpenFiles": [
+    "copilot/copilot-conversations/agent__pluginobsidian-git371_obsidian-git_Committed_7_files_pluginobsidian-git371@20261026_155544.md",
+    "copilot/copilot-conversations/agent__help_me_figure_out_why_it_is_saying_fatal_refusing@20261026_150443.md",
+    "Scripts/reapply-full-calendar-patch.sh",
+    "Scripts",
+    "Full Calendar plugin patch.md",
     "TaskNotes/Views/kanban-default.base",
     "TaskNotes/Views/calendar-default.base",
     "TaskNotes/Views/agenda-default.base",
@@ -291,9 +296,7 @@
     "TaskNotes/Views/tasks-default.base",
     "TaskNotes/Views/mini-calendar-default.base",
     "TaskNotes/Views",
-    "TaskNotes",
     "Untitled.canvas",
-    "Excalidraw",
     "Tatsumi Ishihara.md",
     "Sources/CO2-negative fuel production using low-CO2 electricity Syngas from a combination of methane pyrolysis and dry reforming with techno-economic analysis.md",
     "README.md",
@@ -317,8 +320,6 @@
     "copilot/skills/obsidian-cli/SKILL.md",
     "copilot/skills/json-canvas/SKILL.md",
     "copilot/skills/obsidian-bases/SKILL.md",
-    "copilot/skills/obsidian-bases/references/EXAMPLES.md",
-    "copilot/skills/obsidian-bases/references/FUNCTIONS_REFERENCE.md",
-    "copilot/skills/obsidian-markdown/SKILL.md"
+    "copilot/skills/obsidian-bases/references/EXAMPLES.md"
   ]
 }
