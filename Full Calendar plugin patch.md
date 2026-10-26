@@ -61,14 +61,13 @@ Zero `Revalidation failed` errors means both calendars loaded.
 
 ## On another device
 
-The patched `main.js` lives inside `.obsidian/`, so it only reaches the other
-device if plugin files are synced. `obsidian-git` here commits automatically but
-**does not push** (`autoPushInterval` is `0`), and the local branch was 13
-commits ahead of `obsidian-my-vault/main` when this was written — so a push from
-Obsidian Git is required for the other device to pull the fix.
+The patched `main.js` lives inside `.obsidian/`, so it reaches the other device
+through the vault repo. It was pushed to `obsidian-my-vault/main` on 2026-10-26
+(commit `2f129f7`) — pull there, then reload the plugin and run
+*Full Calendar: Revalidate*.
 
-If the patch does not arrive with the sync, run this from the vault root on the
-other device, then reload the plugin and revalidate:
+If plugin files are not synced on that device, run this from the vault root,
+then reload the plugin and revalidate:
 
 ```bash
 ./Scripts/reapply-full-calendar-patch.sh          # patch
