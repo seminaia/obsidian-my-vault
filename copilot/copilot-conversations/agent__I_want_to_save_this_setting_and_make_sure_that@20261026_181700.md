@@ -6,6 +6,7 @@ sessionId: "ses_e85bb93dfffeRe44o9TPNE2m2y"
 tags:
   - copilot-conversation
 usage: '{"usedTokens":6999,"contextWindow":1048576,"updatedAt":1793053248594}'
+lastAccessedAt: 1793053605428
 ---
 
 **user**: I want to save this setting and make sure that it is saved the same way in github and that they are consistent so I can build thee same thing anywhere

@@ -1,5 +1,5 @@
 {
-  "refreshToken": "1//05tdjwT8PblLwCgYIARAAGAUSNwF-L9IrmKYlBqpUfcydy8hgmlwy8aX8yx8GdddQOT5nG3Vmxns36brnAwcInTV28FVijdUfsLs",
+  "refreshToken": "",
   "clientId": "",
   "clientSecret": "",
   "accessTokenUrl": "",
@@ -10,7 +10,8 @@
     "Scripts/set-github-credentials.sh": "create",
     "Full Calendar plugin patch.md": "modify",
     "copilot/copilot-conversations/agent__I_want_to_save_this_setting_and_make_sure_that@20261026_181700.md": "create",
-    "copilot/copilot-conversations/agent__Why_is_sync_failing@20261026_182122.md": "create"
+    "copilot/copilot-conversations/agent__Why_is_sync_failing@20261026_182122.md": "create",
+    "copilot/copilot-conversations/agent__help_me_figure_out_why_it_is_saying_fatal_refusing@20261026_150443.md": "modify"
   },
   "driveIdToPath": {
     "1fAf8wLznz7elbBIly-1vTh65_IKDYOUW": "copilot/skills/copilot-youtube-transcript/youtube-transcript.sh",
@@ -218,5 +219,5 @@
   },
   "rootFolderId": "1JQp4bupb5GUAcW-j67ipbeVP1NdLFx5k",
   "lastSyncedAt": 1793045684823,
-  "changesToken": "83887"
+  "changesToken": "84038"
 }
