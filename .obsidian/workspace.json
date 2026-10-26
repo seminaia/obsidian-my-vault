@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "5324373015726ba8",
+    "id": "6068aeb39666da33",
     "type": "split",
     "children": [
       {
-        "id": "7cccaa1ea6bd41e9",
+        "id": "6cc373521b150fa6",
         "type": "tabs",
         "children": [
           {
-            "id": "b08021d6d65ccda1",
+            "id": "66af110f8f028598",
             "type": "leaf",
             "state": {
               "type": "canvas",
@@ -16,55 +16,29 @@
                 "file": "Untitled.canvas",
                 "viewState": {
                   "x": 130,
-                  "y": 187.5,
-                  "zoom": -1.0702884436536808
+                  "y": -188.88679245283024,
+                  "zoom": -0.2538789771025529
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "Untitled"
             }
-          },
-          {
-            "id": "f274eb681a51e9a3",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-10-25 18.44.25.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-10-25 18.44.25.excalidraw"
-            }
-          },
-          {
-            "id": "2ea66ab6d4eaba73",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "TaskNotes/Views/calendar-default.base",
-                "viewName": "Calendar"
-              },
-              "icon": "tasknotes-simple",
-              "title": "calendar-default"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "a5138fdfa0fa6680",
+    "id": "dc0b54f0cabfdd58",
     "type": "split",
     "children": [
       {
-        "id": "cd1277fa1dc826e0",
+        "id": "0ea75e117030dcfa",
         "type": "tabs",
         "children": [
           {
-            "id": "69628483a91272c5",
+            "id": "e53f5b98d877e16f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -79,7 +53,7 @@
             }
           },
           {
-            "id": "234aa6ada91942cb",
+            "id": "5d4dabd05d29af0a",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -96,7 +70,7 @@
             }
           },
           {
-            "id": "05053ecedba27704",
+            "id": "4adca50080054314",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -115,20 +89,20 @@
     "width": 300
   },
   "right": {
-    "id": "f9aaa57571473056",
+    "id": "5ea2bded6f2b390f",
     "type": "split",
     "children": [
       {
-        "id": "fb0a9769f30b10a0",
+        "id": "6863661aa29734ce",
         "type": "tabs",
         "children": [
           {
-            "id": "9c4ca60d80575974",
+            "id": "6da6f965f7ba272e",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sources/Production of synthetic gas by the co-electrolysis of H2O and CO2 in the molten carbonate electrolyzer.md",
+                "file": "Untitled.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,12 +116,12 @@
             }
           },
           {
-            "id": "85baa95be0fd759c",
+            "id": "27ff66fdf5e63393",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sources/Production of synthetic gas by the co-electrolysis of H2O and CO2 in the molten carbonate electrolyzer.md",
+                "file": "Untitled.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -156,7 +130,7 @@
             }
           },
           {
-            "id": "ce5d3c9dcacddac4",
+            "id": "e7f3bee7184339bd",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -171,7 +145,7 @@
             }
           },
           {
-            "id": "5f07bc230a0f20da",
+            "id": "32af155f7d1cb584",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -185,12 +159,12 @@
             }
           },
           {
-            "id": "f7c5d56e1fc385bf",
+            "id": "5c2f428543cb9a4a",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "202610251759.md",
+                "file": "Untitled.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -200,19 +174,7 @@
             }
           },
           {
-            "id": "f45e2a032ff4a575",
-            "type": "leaf",
-            "state": {
-              "type": "footnotes",
-              "state": {
-                "file": "copilot/skills/copilot-fetch-x/SKILL.md"
-              },
-              "icon": "lucide-file-signature",
-              "title": "Footnotes"
-            }
-          },
-          {
-            "id": "ca1dc73bd01c68e2",
+            "id": "c72a8501bc6ebc71",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -222,17 +184,7 @@
             }
           },
           {
-            "id": "95002bdac846c28f",
-            "type": "leaf",
-            "state": {
-              "type": "reminder-list",
-              "state": {},
-              "icon": "clock",
-              "title": "Reminders"
-            }
-          },
-          {
-            "id": "8e2baec133b4b13d",
+            "id": "8db3bae88df61789",
             "type": "leaf",
             "state": {
               "type": "copilot-agent-chat-view",
@@ -240,34 +192,36 @@
               "icon": "copilot-agent",
               "title": "Copilot Agent Chat"
             }
+          },
+          {
+            "id": "3b7d8e5305ed8791",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {},
+              "icon": "clock",
+              "title": "Reminders"
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 370.6171875
+    "width": 656.1796875,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "audio-recorder:Start/stop recording": false,
-      "random-note:Open random note": false,
       "zk-prefixer:Create new unique note": false,
+      "random-note:Open random note": false,
+      "audio-recorder:Start/stop recording": false,
       "workspaces:Manage workspace layouts": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false,
       "obsidian-kanban:Create new board": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
-      "3d-graph:3D Graph": false,
       "google-drive-sync:Push to Google Drive": false,
-      "copilot:Open Copilot Agent Chat": false,
+      "3d-graph:3D Graph": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "tasknotes:Open mini calendar view": false,
       "tasknotes:Open calendar view": false,
@@ -276,49 +230,55 @@
       "tasknotes:Open Kanban board": false,
       "tasknotes:Open Pomodoro timer": false,
       "tasknotes:Open Pomodoro statistics": false,
-      "tasknotes:Create new task": false
+      "tasknotes:Create new task": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false,
+      "copilot:Open Copilot Agent Chat": false
     }
   },
-  "active": "8e2baec133b4b13d",
+  "active": "66af110f8f028598",
   "lastOpenFiles": [
+    "Untitled.base",
+    "Tatsumi Ishihara.md",
+    "README.md",
+    "Personal Access Token.md",
+    "Welcome.md",
+    "copilot/copilot-conversations/agent__help_me_figure_out_why_it_is_saying_fatal_refusing@20261026_150443.md",
+    "copilot/copilot-conversations/agent__I_need_help_with_github@20261025_173234.md",
+    "copilot/copilot-conversations",
+    "Untitled.canvas",
+    "TaskNotes/Views/tasks-default.base",
+    "TaskNotes/Views/relationships.base",
+    "TaskNotes/Views/pomodoro-stats.base",
+    "TaskNotes/Views/mini-calendar-default.base",
     "TaskNotes/Views/kanban-default.base",
     "TaskNotes/Views/calendar-default.base",
     "TaskNotes/Views/agenda-default.base",
-    "TaskNotes/Start Here.md",
-    "Excalidraw/Drawing 2026-10-25 18.44.25.excalidraw.md",
-    "TaskNotes/Views/relationships.base",
-    "TaskNotes/Views/pomodoro-stats.base",
-    "TaskNotes/Views/tasks-default.base",
-    "TaskNotes/Views/mini-calendar-default.base",
     "TaskNotes/Views",
-    "TaskNotes",
-    "Untitled.canvas",
-    "Excalidraw",
-    "Tatsumi Ishihara.md",
-    "Sources/CO2-negative fuel production using low-CO2 electricity Syngas from a combination of methane pyrolysis and dry reforming with techno-economic analysis.md",
-    "README.md",
-    "Sources/A review on in-situ methanation based on CO2H2O Co-electrolysis in solid oxide electrolytic cells addressing the thermo-kinetic mismatch.md",
-    "Sources/Fuel-assisted steam and carbon dioxide co-electrolysis in molten carbonate cells First attempts.md",
-    "Sources/H2O co-electrolysis using single and stack solid oxide electrolysis cell (SOEC) 1.md",
+    "TaskNotes/Start Here.md",
     "Sources/Production of synthetic gas by the co-electrolysis of H2O and CO2 in the molten carbonate electrolyzer.md",
     "Sources/H2O co-electrolysis using single and stack solid oxide electrolysis cell (SOEC).md",
-    "copilot/skills/copilot-fetch-x/SKILL.md",
-    "Sources/Untitled.md",
-    "Untitled.md",
-    "Personal Access Token.md",
-    "2026-10-25.md",
-    "202610251759.md",
-    "Excalidraw/Drawing 2026-10-25 18.05.10.excalidraw.md",
-    "copilot/skills/json-canvas/references/EXAMPLES.md",
-    "Untitled 2.canvas",
-    "Untitled 1.canvas",
-    "copilot/copilot-conversations/agent__I_need_help_with_github@20261025_173234.md",
-    "TaskNotes/Views/Untitled.canvas",
+    "Sources/Fuel-assisted steam and carbon dioxide co-electrolysis in molten carbonate cells First attempts.md",
+    "Sources/CO2-negative fuel production using low-CO2 electricity Syngas from a combination of methane pyrolysis and dry reforming with techno-economic analysis.md",
+    "Sources/A review on in-situ methanation based on CO2H2O Co-electrolysis in solid oxide electrolytic cells addressing the thermo-kinetic mismatch.md",
+    "Excalidraw/Drawing 2026-10-25 18.44.25.excalidraw.md",
     "copilot/skills/obsidian-cli/SKILL.md",
     "copilot/skills/json-canvas/SKILL.md",
+    "copilot/skills/json-canvas/references/EXAMPLES.md",
     "copilot/skills/obsidian-bases/SKILL.md",
     "copilot/skills/obsidian-bases/references/EXAMPLES.md",
     "copilot/skills/obsidian-bases/references/FUNCTIONS_REFERENCE.md",
-    "copilot/skills/obsidian-markdown/SKILL.md"
+    "copilot/skills/obsidian-markdown/SKILL.md",
+    "copilot/skills/obsidian-markdown/references/PROPERTIES.md",
+    "copilot/skills/obsidian-markdown/references/EMBEDS.md",
+    "copilot/skills/obsidian-markdown/references/CALLOUTS.md",
+    "copilot/skills/copilot-fetch-x/SKILL.md",
+    "copilot/skills/copilot-youtube-transcript/SKILL.md"
   ]
 }

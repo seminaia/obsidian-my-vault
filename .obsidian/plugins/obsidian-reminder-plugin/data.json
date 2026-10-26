@@ -1,5 +1,5 @@
 {
-  "scanned": false,
+  "scanned": true,
   "seededTaskStatuses": "[ ] -> [x] TODO\n[x] -> [ ] DONE\n[/] -> [x] IN_PROGRESS\n[-] -> [ ] CANCELLED",
   "reminders": {},
   "debug": false,
