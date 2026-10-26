@@ -115,9 +115,32 @@
               "icon": "lucide-file",
               "title": "Day Planner Release 0.35.1"
             }
+          },
+          {
+            "id": "927446e1e7a3cd0e",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "TaskNotes/Views/mini-calendar-default.base",
+                "viewName": "Due"
+              },
+              "icon": "tasknotes-simple",
+              "title": "mini-calendar-default"
+            }
+          },
+          {
+            "id": "01911d4a649aea6b",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-view",
+              "state": {},
+              "icon": "calendar-glyph",
+              "title": "Calendar"
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -376,15 +399,19 @@
       "copilot:Open Copilot Agent Chat": false,
       "notebook-navigator:Notebook Navigator": false,
       "obsidian-day-planner:Open Timeline": false,
-      "obsidian-day-planner:Open Multi-Day View": false
+      "obsidian-day-planner:Open Multi-Day View": false,
+      "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "6bd370469c8f9da6",
+  "active": "01911d4a649aea6b",
   "lastOpenFiles": [
-    "Untitled 1.canvas",
     "TaskNotes/Views/kanban-default.base",
-    "TaskNotes/Views/agenda-default.base",
     "TaskNotes/Views/calendar-default.base",
+    "TaskNotes/Views/agenda-default.base",
+    "TaskNotes/Views/tasks-default.base",
+    "TaskNotes/Start Here.md",
+    "Events",
+    "Untitled 1.canvas",
     "TaskNotes/Views/mini-calendar-default.base",
     "Untitled 1.base",
     "Untitled.canvas",
@@ -396,10 +423,7 @@
     "copilot/copilot-conversations/agent__help_me_figure_out_why_it_is_saying_fatal_refusing@20261026_150443.md",
     "copilot/copilot-conversations/agent__I_need_help_with_github@20261025_173234.md",
     "copilot/copilot-conversations",
-    "TaskNotes/Views/tasks-default.base",
     "TaskNotes/Views/relationships.base",
-    "TaskNotes/Views/pomodoro-stats.base",
-    "TaskNotes/Start Here.md",
     "Sources/Production of synthetic gas by the co-electrolysis of H2O and CO2 in the molten carbonate electrolyzer.md",
     "Sources/H2O co-electrolysis using single and stack solid oxide electrolysis cell (SOEC).md",
     "Sources/Fuel-assisted steam and carbon dioxide co-electrolysis in molten carbonate cells First attempts.md",
