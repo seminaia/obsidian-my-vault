@@ -64085,7 +64085,13 @@ var EventStore = class {
   }
   add({ calendar, location, id, event }) {
     if (this.store.has(id)) {
-      throw new Error(`Event with given ID "${id}" that was supposed to be added to calendar "${calendar.id}" already exists in the EventStore within calendar "${this.calendarIndex.getRelated(new EventID(id))}".`);
+      // Patched: the same UID can legitimately appear in more than one calendar
+      // source (e.g. a meeting imported into both Google and Outlook). Skipping
+      // the duplicate keeps every other event in both calendars loading instead
+      // of aborting the whole revalidation. A backup of the original file is at
+      // ~/full-calendar-main.js.bak; reinstalling the plugin also undoes this.
+      console.warn(`Skipping duplicate event "${id}" from calendar "${calendar.id}" (already present in "${this.calendarIndex.getRelated(new EventID(id))}").`);
+      return;
     }
     console.debug("adding event", { id, event, location });
     this.store.set(id, event);

@@ -5,7 +5,7 @@ backendId: opencode
 sessionId: "ses_e864006caffeR5nRPvdyjL33kn"
 tags:
   - copilot-conversation
-usage: '{"usedTokens":8925,"updatedAt":1793044890544}'
+usage: '{"usedTokens":43793,"contextWindow":200000,"updatedAt":1793045140654}'
 lastAccessedAt: 1793044652016
 ---
 
@@ -72,5 +72,17 @@ Want me to list the titles and dates of those 3 shared events?
 **user**: I just want it fixed
 [Timestamp: 2026/10/26 16:02:07]
 
-**ai**: 
+**ai**: Found the actual blocker. In this plugin, every calendar's events go into one global store keyed by `UID`, and `EventStore.add()` **throws** on duplicates — which aborts that calendar's whole revalidation (that's why the whole thing fails, not just one event):Fixed and verified live in Obsidian.
+
+**What was actually wrong:** it wasn't your setup. `obsidian-full-calendar` puts every calendar's events into one global store keyed by the ICS `UID`, and `EventStore.add()` throws if the ID already exists. That exception aborts the *entire* calendar's revalidation — so one shared meeting (you still had 3 UIDs present in both feeds) made a whole calendar fail to load. Deduping couldn't fix it permanently because Google↔Outlook imports keep re-creating shared UIDs.
+
+**What I changed:** patched `.obsidian/plugins/obsidian-full-calendar/main.js` (~line 64087) so a duplicate UID is skipped with a `console.warn` instead of throwing. First calendar wins for that event; every other event in both calendars still loads.
+
+**Verified:**
+- Both sources active (orange Outlook, blue Google) — visible in the week view
+- 582 events loaded (386 Google + 199 Outlook − 3 shared)
+- Revalidation command ran with **no errors**
+- Original file backed up at `/home/soki-sem/full-calendar-main.js.bak`
+
+Caveat: updating/reinstalling the plugin will overwrite `main.js` and the bug returns (upstream 0.10.7 is archived and unmaintained). If you update, tell me and I'll re-apply the patch.
 [Timestamp: 2026/10/26 16:02:07]
