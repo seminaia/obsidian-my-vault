@@ -4,11 +4,7 @@
   "clientSecret": "",
   "accessTokenUrl": "",
   "autoPush": true,
-  "operations": {
-    "Events": "create",
-    "TaskNotes/Views/tasks-default.base": "modify",
-    "TaskNotes/Start Here.md": "modify"
-  },
+  "operations": {},
   "driveIdToPath": {
     "1fAf8wLznz7elbBIly-1vTh65_IKDYOUW": "copilot/skills/copilot-youtube-transcript/youtube-transcript.sh",
     "1HwaQeQYpHCIY5QY6p1sg6CHhCKqzuDYT": "copilot/skills/copilot-youtube-transcript/youtube-transcript.ps1",
@@ -201,9 +197,25 @@
     "18SfJjim0UjCkFjFzbMTQCfSQwGWYxXCV": ".obsidian/plugins/tasknotes/data.json",
     "1AeJOadN9DxwRUYH2J_JOs_oLM138z-6E": ".obsidian/plugins/fast-note-sync/data.json",
     "16RYQmgrRblHcrLlnQlJn40YA_M_EVHne": "copilot/copilot-conversations/agent__help_me_figure_out_why_it_is_saying_fatal_refusing@20261026_150443.md",
-    "1M_HNgdr3rEuhnT4XBh9tt2fP-JzW-eDe": "Untitled 1.canvas"
+    "1M_HNgdr3rEuhnT4XBh9tt2fP-JzW-eDe": "Untitled 1.canvas",
+    "1Ub0HnJ9i7wyOZJTVHo_0Z1MLrDroGi-8": "Events",
+    "1bmUFTFoWuCKuJLKx2lmO7x93Tl53WynT": ".obsidian/plugins/obsidian-day-planner",
+    "1nQDlTo78ce8WRHEmhzSufW4LijyZiNC8": ".obsidian/plugins/obsidian-full-calendar",
+    "190gCNY5PkxqDE_aVKQwot01_lmBVjgSn": ".obsidian/plugins/notebook-navigator",
+    "1-1dn8dAwoF920GAv2ZN43GHVwwbJEEL3": ".obsidian/plugins/notebook-navigator/manifest.json",
+    "1WxwlYfjM9pHgHlRXBh9nnv6KcFAugjYR": ".obsidian/plugins/notebook-navigator/data.json",
+    "1AvD5yPRxkMRmOZa23UjDhBuHE7_xNLx-": ".obsidian/plugins/obsidian-day-planner/styles.css",
+    "1V_wC6laO2Zx5NodVe6oXNj7IgIpxUeOl": ".obsidian/plugins/obsidian-day-planner/data.json",
+    "1hTVizj5V9FTopfm3lFYug3G9oUBm0cVd": ".obsidian/plugins/notebook-navigator/styles.css",
+    "1DVJ6Uue5xjF6Mvo4bA5HpRGKamiv6BRy": ".obsidian/plugins/obsidian-day-planner/main.js",
+    "1EfWzua5juoP3LZdJ7v6dvZmwQHOHO_bC": ".obsidian/plugins/obsidian-day-planner/manifest.json",
+    "1fvf3LFQ-2FOZTqshfMVTm9mLanyl2AWG": ".obsidian/plugins/notebook-navigator/main.js",
+    "1dqerj-IpNTHO0LpARCHoERql0bajw7zV": ".obsidian/plugins/obsidian-full-calendar/data.json",
+    "1raolFPhxZphwaw0UxRzvGEB3XoRNRuVv": ".obsidian/plugins/obsidian-full-calendar/main.js",
+    "1wg5pxkE1jpuOTMH8hWwtTTWogQ5wOndN": ".obsidian/plugins/obsidian-full-calendar/styles.css",
+    "1gMQrZXV8j7FBhZtYhQS1YPW553C2Flxg": ".obsidian/plugins/obsidian-full-calendar/manifest.json"
   },
   "rootFolderId": "1JQp4bupb5GUAcW-j67ipbeVP1NdLFx5k",
-  "lastSyncedAt": 1793041901150,
-  "changesToken": "83703"
+  "lastSyncedAt": 1793042294980,
+  "changesToken": "83724"
 }
