@@ -11,76 +11,6 @@
             "id": "f1bc5c58951b22ad",
             "type": "leaf",
             "state": {
-              "type": "bases",
-              "state": {
-                "file": "TaskNotes/Views/calendar-default.base",
-                "viewName": "Calendar"
-              },
-              "icon": "lucide-layout-list",
-              "title": "calendar-default"
-            }
-          },
-          {
-            "id": "eaf5ba1f3ac8b4db",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "Untitled.base",
-                "viewName": "View"
-              },
-              "icon": "lucide-table",
-              "title": "Untitled"
-            }
-          },
-          {
-            "id": "f14467e72d91a422",
-            "type": "leaf",
-            "state": {
-              "type": "planner-weekly",
-              "state": {},
-              "icon": "table-2",
-              "title": "Oct, 26–Oct, 28"
-            }
-          },
-          {
-            "id": "f9a1299ab50a88bc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Personal Access Token.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Personal Access Token"
-            }
-          },
-          {
-            "id": "913c77e759a4f189",
-            "type": "leaf",
-            "state": {
-              "type": "planner-weekly",
-              "state": {},
-              "icon": "table-2",
-              "title": "Oct, 26–Oct, 28"
-            }
-          },
-          {
-            "id": "c81451ef0619af82",
-            "type": "leaf",
-            "state": {
-              "type": "planner-weekly",
-              "state": {},
-              "icon": "table-2",
-              "title": "Oct, 26–Oct, 28"
-            }
-          },
-          {
-            "id": "67b3ab84ab05344a",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
                 "file": "2026-10-26.md",
@@ -89,34 +19,9 @@
               },
               "icon": "lucide-file",
               "title": "2026-10-26"
-            }
-          },
-          {
-            "id": "6fe9d37fba1b3bcd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026-10-26.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-10-26"
-            }
-          },
-          {
-            "id": "783f0d1d14445e2e",
-            "type": "leaf",
-            "state": {
-              "type": "planner-weekly",
-              "state": {},
-              "icon": "table-2",
-              "title": "Oct, 26–Oct, 28"
             }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "vertical"
@@ -343,9 +248,19 @@
               "icon": "lucide-ghost",
               "title": "full-calendar-agent-view"
             }
+          },
+          {
+            "id": "7722ef65bb6beb3c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       }
     ],
     "direction": "horizontal",
@@ -379,7 +294,7 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "3978328ae5e5d1e6",
+  "active": "7722ef65bb6beb3c",
   "lastOpenFiles": [
     "2026-10-26.md",
     "Personal Access Token.md",
