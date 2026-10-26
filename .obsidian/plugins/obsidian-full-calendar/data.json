@@ -5,14 +5,19 @@
       "name": "Home",
       "url": "https://caldav.icloud.com",
       "homeUrl": "https://caldav.icloud.com/11507279933/calendars/home/",
-      "color": "#029AE4",
+      "color": "#be02e3",
       "username": "seminaia401@icloud.com",
       "password": "yjqv-ikzv-xvxi-hgpa"
     },
     {
       "type": "ical",
-      "color": "hsl(258, 88%, 66%)",
+      "color": "#0041c2",
       "url": "https://calendar.google.com/calendar/ical/seminaia401%40gmail.com/public/basic.ics"
+    },
+    {
+      "type": "ical",
+      "color": "#ff7b00",
+      "url": "https://outlook.office365.com/owa/calendar/228c818532f344acb20622dccbccdcf3@wpi.edu/1c57b7eed9a74a7ab4e870860957981d11167500164446565170/calendar.ics"
     }
   ],
   "defaultCalendar": 0,
