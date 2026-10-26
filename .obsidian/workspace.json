@@ -232,6 +232,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Personal Access Token.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -291,7 +292,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -323,7 +324,7 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "f350c86f9c535042",
+  "active": "c72a8501bc6ebc71",
   "lastOpenFiles": [
     "Scripts/set-github-credentials.sh",
     "Full Calendar plugin patch.md",
