@@ -264,7 +264,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -296,7 +296,7 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "c72a8501bc6ebc71",
+  "active": "8db3bae88df61789",
   "lastOpenFiles": [
     "copilot/copilot-conversations/agent__Why_is_sync_failing@20261026_182122.md",
     "copilot/copilot-conversations/agent__I_want_to_save_this_setting_and_make_sure_that@20261026_181700.md",

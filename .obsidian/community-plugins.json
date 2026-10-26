@@ -21,5 +21,7 @@
   "obsidian-day-planner",
   "obsidian-mind-map",
   "obsidian-full-calendar",
-  "docxer"
+  "docxer",
+  "vscode-editor",
+  "obsidian-tikzjax"
 ]
