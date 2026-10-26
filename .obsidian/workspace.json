@@ -54,17 +54,17 @@
             }
           },
           {
-            "id": "e3bc3fa22a9ea7de",
+            "id": "f9a1299ab50a88bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PeriodicNotes/2026/Daily/10/2026-10-26.md",
+                "file": "Personal Access Token.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-10-26"
+              "title": "Personal Access Token"
             }
           }
         ],
@@ -309,14 +309,17 @@
       "obsidian-full-calendar:Open Full Calendar": false,
       "vscode-editor:Create Code File": false,
       "periodic-para:LifeOS Creation": false,
-      "periodic-para:Quick record": false,
-      "periodic-para:Sync Memos": false
+      "periodic-para:Quick record": false
     }
   },
-  "active": "e3bc3fa22a9ea7de",
+  "active": "f9a1299ab50a88bc",
   "lastOpenFiles": [
-    "PeriodicNotes/Templates/Daily.md",
+    "Untitled.base",
+    "Personal Access Token.md",
+    "TaskNotes/Views/relationships.base",
+    "TaskNotes/Views/mini-calendar-default.base",
     "PeriodicNotes/2026/Daily/10/2026-10-26.md",
+    "PeriodicNotes/Templates/Daily.md",
     "copilot/copilot-conversations/agent__app.js1_Obsidian_Developer_Console_pluginobsidian-git371_loading_Git_plugi@20261026_183928.md",
     "PeriodicNotes/2026/Daily/10",
     "PeriodicNotes/2026/Daily",
@@ -325,13 +328,9 @@
     "PeriodicNotes",
     "copilot/copilot-conversations/agent__Why_is_sync_failing@20261026_182122.md",
     "copilot/copilot-conversations/agent__I_want_to_save_this_setting_and_make_sure_that@20261026_181700.md",
-    "Personal Access Token.md",
-    "Untitled.base",
     "Scripts/set-github-credentials.sh",
     "Full Calendar plugin patch.md",
     "TaskNotes/Views/calendar-default.base",
-    "Scripts/reapply-full-calendar-patch.sh",
-    "Scripts",
     "Untitled.canvas",
     "copilot/copilot-conversations/agent__pluginobsidian-git371_obsidian-git_Committed_7_files_pluginobsidian-git371@20261026_155544.md",
     "Untitled 1.canvas",
@@ -352,7 +351,6 @@
     "copilot/skills/obsidian-cli/SKILL.md",
     "copilot/skills/json-canvas/SKILL.md",
     "copilot/skills/json-canvas/references/EXAMPLES.md",
-    "copilot/skills/obsidian-bases/SKILL.md",
-    "copilot/skills/obsidian-bases/references/EXAMPLES.md"
+    "copilot/skills/obsidian-bases/SKILL.md"
   ]
 }

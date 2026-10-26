@@ -11,7 +11,7 @@
   "autoCommitGlobs": "",
   "disablePush": false,
   "pullBeforePush": true,
-  "squashCommitsBeforePush": false,
+  "squashCommitsBeforePush": true,
   "disablePopups": false,
   "showErrorNotices": true,
   "disablePopupsForNoChanges": false,
