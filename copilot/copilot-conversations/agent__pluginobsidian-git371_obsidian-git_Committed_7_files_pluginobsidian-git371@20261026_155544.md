@@ -128,3 +128,9 @@ On the other device, either:
 
 I also set `push.default = upstream` locally so a push from Obsidian Git will push `master` → `main` correctly once credentials are available (the branch-name mismatch was blocking it).
 [Timestamp: 2026/10/26 16:09:27]
+
+**user**: It keeps asking me for my username and password/access token
+[Timestamp: 2026/10/26 16:54:49]
+
+**ai**: 
+[Timestamp: 2026/10/26 16:54:49]

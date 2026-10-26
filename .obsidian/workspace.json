@@ -291,7 +291,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -324,8 +324,9 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "c72a8501bc6ebc71",
+  "active": "f350c86f9c535042",
   "lastOpenFiles": [
+    "Scripts/set-github-credentials.sh",
     "Full Calendar plugin patch.md",
     "TaskNotes/Views/calendar-default.base",
     "Personal Access Token.md",
