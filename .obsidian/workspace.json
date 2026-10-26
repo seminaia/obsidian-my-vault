@@ -22,6 +22,22 @@
             }
           }
         ]
+      },
+      {
+        "id": "ce39de21aad11153",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "15af539f17d0df65",
+            "type": "leaf",
+            "state": {
+              "type": "reveal-preview-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Slide Preview"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -294,8 +310,9 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "7722ef65bb6beb3c",
+  "active": "5d4dabd05d29af0a",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2026-10-26 19.20.23.excalidraw.md",
     "2026-10-26.md",
     "Personal Access Token.md",
     "Untitled.base",
