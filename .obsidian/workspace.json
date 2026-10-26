@@ -317,12 +317,12 @@
             "state": {
               "type": "full-calendar-agent-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "full-calendar-agent-view"
+              "icon": "bot",
+              "title": "Calendar agent"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 10
       }
     ],
     "direction": "horizontal",
@@ -352,7 +352,10 @@
       "obsidian-day-planner:Open Multi-Day View": false,
       "vscode-editor:Create Code File": false,
       "periodic-para:LifeOS Creation": false,
-      "periodic-para:Quick record": false
+      "periodic-para:Quick record": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "full-calendar-remastered:Open calendar agent": false,
+      "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
   "active": "67b3ab84ab05344a",
