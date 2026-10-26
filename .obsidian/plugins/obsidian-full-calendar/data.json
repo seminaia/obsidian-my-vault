@@ -2,7 +2,7 @@
   "calendarSources": [
     {
       "type": "ical",
-      "color": "#ff5900",
+      "color": "#ff7300",
       "url": "https://outlook.office365.com/owa/calendar/228c818532f344acb20622dccbccdcf3@wpi.edu/1c57b7eed9a74a7ab4e870860957981d11167500164446565170/calendar.ics"
     },
     {

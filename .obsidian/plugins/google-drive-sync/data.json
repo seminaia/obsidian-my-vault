@@ -5,7 +5,7 @@
   "accessTokenUrl": "",
   "autoPush": true,
   "operations": {
-    "copilot/copilot-conversations/agent__pluginobsidian-git371_obsidian-git_Committed_7_files_pluginobsidian-git371@20261026_155544.md": "create"
+    "copilot/copilot-conversations/agent__pluginobsidian-git371_obsidian-git_Committed_7_files_pluginobsidian-git371@20261026_155544.md": "modify"
   },
   "driveIdToPath": {
     "1fAf8wLznz7elbBIly-1vTh65_IKDYOUW": "copilot/skills/copilot-youtube-transcript/youtube-transcript.sh",
@@ -199,9 +199,15 @@
     "1hTVizj5V9FTopfm3lFYug3G9oUBm0cVd": ".obsidian/plugins/notebook-navigator/styles.css",
     "1DVJ6Uue5xjF6Mvo4bA5HpRGKamiv6BRy": ".obsidian/plugins/obsidian-day-planner/main.js",
     "1EfWzua5juoP3LZdJ7v6dvZmwQHOHO_bC": ".obsidian/plugins/obsidian-day-planner/manifest.json",
-    "1fvf3LFQ-2FOZTqshfMVTm9mLanyl2AWG": ".obsidian/plugins/notebook-navigator/main.js"
+    "1fvf3LFQ-2FOZTqshfMVTm9mLanyl2AWG": ".obsidian/plugins/notebook-navigator/main.js",
+    "1Q2QTf9dC7aBVlUeb4KrYOoix844P9ev8": "copilot/copilot-conversations/agent__pluginobsidian-git371_obsidian-git_Committed_7_files_pluginobsidian-git371@20261026_155544.md",
+    "1PoeczbYCDbcoKDYjQeNJrGXo_13kgPVc": ".obsidian/plugins/obsidian-full-calendar",
+    "1a2Tb8UrC3ZTnP-YJLC97-xJwamYMTqje": ".obsidian/plugins/obsidian-full-calendar/manifest.json",
+    "1kMx-d_amq6xG08VTDIUzlg5EsCNV2sPc": ".obsidian/plugins/obsidian-full-calendar/data.json",
+    "19STOQRPUthSntQwhc-oV-tfEd56o0RIJ": ".obsidian/plugins/obsidian-full-calendar/main.js",
+    "14xTHxhFFWOZLdq4RKn3BjTEAZ6FB5SfZ": ".obsidian/plugins/obsidian-full-calendar/styles.css"
   },
   "rootFolderId": "1JQp4bupb5GUAcW-j67ipbeVP1NdLFx5k",
-  "lastSyncedAt": 1793044109914,
-  "changesToken": "83797"
+  "lastSyncedAt": 1793044719294,
+  "changesToken": "83827"
 }

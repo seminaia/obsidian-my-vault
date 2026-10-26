@@ -5,7 +5,8 @@ backendId: opencode
 sessionId: "ses_e864006caffeR5nRPvdyjL33kn"
 tags:
   - copilot-conversation
-usage: '{"usedTokens":6923,"contextWindow":1048576,"updatedAt":1793044580884}'
+usage: '{"usedTokens":8925,"updatedAt":1793044890544}'
+lastAccessedAt: 1793044652016
 ---
 
 **user**: plugin:obsidian-git:371 obsidian-git: Committed 7 files
@@ -51,3 +52,25 @@ The first `TypeError: Cannot read properties of undefined (reading 'property')` 
 
 Want me to remove one of the two calendar sources from the config, or help locate the duplicate event?
 [Timestamp: 2026/10/26 15:56:16]
+
+**user**: The same thing keeps happening even though I deduped
+[Timestamp: 2026/10/26 16:01:21]
+
+**ai**: Confirmed — there are **3 shared UIDs** still common to both feeds, including the one in the error:
+
+- `2611E27A-2708-449A-9689-E80478C2B7E8`
+- `040000008200E00074C5B7101A82E0080000000020E422BBE993DA01000000000000000`
+- `pdei2v0t2i8cd7ndloc4jeltt0@google.com`
+
+So the dedup you did removed some but not all. The plugin keys events by `UID`, so **every** shared UID will trigger this collision, not just the first one. You need to remove *all* three from one of the two accounts (or, easier, remove the events from one calendar entirely).
+
+Quick way to find them: search each account's calendar for events whose UID matches. If you want, I can print the `SUMMARY`/`DTSTART` for each shared UID so you know which events to delete:
+
+Want me to list the titles and dates of those 3 shared events?
+[Timestamp: 2026/10/26 16:01:21]
+
+**user**: I just want it fixed
+[Timestamp: 2026/10/26 16:02:07]
+
+**ai**: 
+[Timestamp: 2026/10/26 16:02:07]
