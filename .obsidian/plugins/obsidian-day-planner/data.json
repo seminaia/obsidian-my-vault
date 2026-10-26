@@ -25,7 +25,26 @@
   "pluginVersion": "0.35.1",
   "showCompletedTasks": true,
   "showSubtasksInTaskBlocks": true,
-  "icals": [],
+  "icals": [
+    {
+      "name": "WPI",
+      "email": "ssem@wpi.edu",
+      "url": "https://calendar.google.com/calendar/ical/rhser941ogpqr3a0b9gk8ffnn6da1ru2%40import.calendar.google.com/public/basic.ics",
+      "color": "#ff5900"
+    },
+    {
+      "name": "GMAIL",
+      "email": "seminaia401@gmail.com",
+      "url": "https://calendar.google.com/calendar/ical/seminaia401%40gmail.com/public/basic.ics",
+      "color": "#0055ff"
+    },
+    {
+      "name": "ICLOUD",
+      "email": "",
+      "url": "",
+      "color": "#ffffff"
+    }
+  ],
   "colorOverrides": [],
   "releaseNotes": true,
   "taskStatusOnCreation": " ",
