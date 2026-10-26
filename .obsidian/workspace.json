@@ -305,7 +305,6 @@
       "workspaces:Manage workspace layouts": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-kanban:Create new board": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
       "google-drive-sync:Push to Google Drive": false,
       "3d-graph:3D Graph": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
