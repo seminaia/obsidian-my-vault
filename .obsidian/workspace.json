@@ -30,9 +30,92 @@
               "icon": "table-2",
               "title": "Oct, 26–Oct, 28"
             }
+          },
+          {
+            "id": "73c61f4fdb5a869e",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-view",
+              "state": {},
+              "icon": "calendar-glyph",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "6806cfaddbe8861c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TaskNotes/Start Here.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Start Here"
+            }
+          },
+          {
+            "id": "2eed594d624e8d1c",
+            "type": "leaf",
+            "state": {
+              "type": "planner-weekly",
+              "state": {},
+              "icon": "table-2",
+              "title": "Oct, 26–Oct, 28"
+            }
+          },
+          {
+            "id": "4343007d2a426ba7",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "TaskNotes/Views/pomodoro-stats.base",
+                "viewName": "Daily"
+              },
+              "icon": "lucide-table",
+              "title": "pomodoro-stats"
+            }
+          },
+          {
+            "id": "ab0c8d58d82ab802",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "TaskNotes/Views/calendar-default.base",
+                "viewName": "Calendar"
+              },
+              "icon": "tasknotes-simple",
+              "title": "calendar-default"
+            }
+          },
+          {
+            "id": "451d46e9713e38c0",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "TaskNotes/Views/mini-calendar-default.base",
+                "viewName": "Due"
+              },
+              "icon": "tasknotes-simple",
+              "title": "mini-calendar-default"
+            }
+          },
+          {
+            "id": "9a72afbdff135408",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-view",
+              "state": {},
+              "icon": "calendar-glyph",
+              "title": "Calendar"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -252,7 +335,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 9
       }
     ],
     "direction": "horizontal",
@@ -283,35 +366,44 @@
       "vscode-editor:Create Code File": false,
       "periodic-para:LifeOS Creation": false,
       "periodic-para:Quick record": false,
-      "obsidian-advanced-slides:Show Slide Preview": false
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "tasknotes:Open mini calendar view": false,
+      "tasknotes:Open calendar view": false,
+      "tasknotes:Open tasks view": false,
+      "tasknotes:Open agenda view": false,
+      "tasknotes:Open Kanban board": false,
+      "tasknotes:Open Pomodoro timer": false,
+      "tasknotes:Open Pomodoro statistics": false,
+      "tasknotes:Create new task": false
     }
   },
-  "active": "bb1e47267fff7adb",
+  "active": "ab0c8d58d82ab802",
   "lastOpenFiles": [
+    "TaskNotes/Views/mini-calendar-default.base",
+    "TaskNotes/Views/calendar-default.base",
+    "TaskNotes/Views/pomodoro-stats.base",
+    "TaskNotes/Views/tasks-default.base",
+    "TaskNotes/Views/relationships.base",
+    "TaskNotes/Start Here.md",
+    "TaskNotes/Views/agenda-default.base",
+    "TaskNotes/Views/kanban-default.base",
+    "TaskNotes/Views",
+    "TaskNotes",
     "2026-10-26.md",
     "Untitled.base",
     "Personal Access Token.md",
     "Full Calendar plugin patch.md",
     "Excalidraw/Drawing 2026-10-26 19.20.23.excalidraw.md",
-    "TaskNotes/Views/relationships.base",
-    "TaskNotes/Views/mini-calendar-default.base",
     "PeriodicNotes/2026/Daily/10/2026-10-26.md",
     "PeriodicNotes/Templates/Daily.md",
     "copilot/copilot-conversations/agent__app.js1_Obsidian_Developer_Console_pluginobsidian-git371_loading_Git_plugi@20261026_183928.md",
-    "PeriodicNotes/2026/Daily/10",
-    "PeriodicNotes/2026/Daily",
-    "PeriodicNotes/2026",
-    "PeriodicNotes/Templates",
-    "PeriodicNotes",
     "copilot/copilot-conversations/agent__Why_is_sync_failing@20261026_182122.md",
     "copilot/copilot-conversations/agent__I_want_to_save_this_setting_and_make_sure_that@20261026_181700.md",
-    "Scripts/set-github-credentials.sh",
-    "TaskNotes/Views/calendar-default.base",
     "Untitled.canvas",
     "copilot/copilot-conversations/agent__pluginobsidian-git371_obsidian-git_Committed_7_files_pluginobsidian-git371@20261026_155544.md",
     "Untitled 1.canvas",
     "Untitled 2.canvas",
-    "TaskNotes/Start Here.md",
     "Tatsumi Ishihara.md",
     "README.md",
     "Welcome.md",
