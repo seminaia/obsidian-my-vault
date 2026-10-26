@@ -1,0 +1,59 @@
+{
+  "format": {
+    "timeFormat": "HH:mm",
+    "dataViewSyntax": false
+  },
+  "calendars": {
+    "WPI": {
+      "icsName": "WPI",
+      "icsUrl": "https://outlook.office365.com/owa/calendar/228c818532f344acb20622dccbccdcf3@wpi.edu/1c57b7eed9a74a7ab4e870860957981d11167500164446565170/calendar.ics",
+      "ownerEmail": "ssem@wpi.edu",
+      "format": {
+        "checkbox": true,
+        "includeEventEndTime": true,
+        "icsName": true,
+        "summary": true,
+        "location": true,
+        "description": true,
+        "calendarType": "remote",
+        "showAttendees": true,
+        "showOngoing": true,
+        "showTransparentEvents": true
+      },
+      "calendarType": "remote"
+    }
+  },
+  "fieldExtraction": {
+    "enabled": true,
+    "patterns": [
+      {
+        "name": "Google Meet",
+        "pattern": "GOOGLE-CONFERENCE",
+        "matchType": "contains",
+        "priority": 1,
+        "extractedFieldName": "Video Call URLs"
+      },
+      {
+        "name": "Zoom",
+        "pattern": "zoom.us",
+        "matchType": "contains",
+        "priority": 2,
+        "extractedFieldName": "Video Call URLs"
+      },
+      {
+        "name": "Skype",
+        "pattern": "https:\\/\\/join\\.skype\\.com\\/[a-zA-Z0-9]+",
+        "matchType": "regex",
+        "priority": 3,
+        "extractedFieldName": "Video Call URLs"
+      },
+      {
+        "name": "Microsoft Teams",
+        "pattern": "https:\\/\\/teams\\.microsoft\\.com\\/l\\/meetup-join\\/[^>]+",
+        "matchType": "regex",
+        "priority": 4,
+        "extractedFieldName": "Video Call URLs"
+      }
+    ]
+  }
+}
