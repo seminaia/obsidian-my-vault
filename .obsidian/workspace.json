@@ -44,16 +44,6 @@
             }
           },
           {
-            "id": "8824ec1edd9452ff",
-            "type": "leaf",
-            "state": {
-              "type": "full-calendar-view",
-              "state": {},
-              "icon": "calendar-glyph",
-              "title": "Calendar"
-            }
-          },
-          {
             "id": "f9a1299ab50a88bc",
             "type": "leaf",
             "state": {
@@ -65,6 +55,16 @@
               },
               "icon": "lucide-file",
               "title": "Personal Access Token"
+            }
+          },
+          {
+            "id": "913c77e759a4f189",
+            "type": "leaf",
+            "state": {
+              "type": "planner-weekly",
+              "state": {},
+              "icon": "table-2",
+              "title": "Oct, 26–Oct, 28"
             }
           }
         ],
@@ -135,9 +135,19 @@
               "icon": "notebook-navigator",
               "title": "Notebook Navigator"
             }
+          },
+          {
+            "id": "b7668e0b5514a06e",
+            "type": "leaf",
+            "state": {
+              "type": "periodic-para",
+              "state": {},
+              "icon": "file-plus",
+              "title": "LifeOS"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -276,9 +286,19 @@
               "icon": "timer",
               "title": "Time Tracker"
             }
+          },
+          {
+            "id": "3978328ae5e5d1e6",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-agent-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Calendar agent"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 10
       }
     ],
     "direction": "horizontal",
@@ -309,13 +329,14 @@
       "obsidian-full-calendar:Open Full Calendar": false,
       "vscode-editor:Create Code File": false,
       "periodic-para:LifeOS Creation": false,
-      "periodic-para:Quick record": false
+      "periodic-para:Quick record": false,
+      "full-calendar-remastered:Open calendar agent": false
     }
   },
-  "active": "f9a1299ab50a88bc",
+  "active": "3978328ae5e5d1e6",
   "lastOpenFiles": [
-    "Untitled.base",
     "Personal Access Token.md",
+    "Untitled.base",
     "TaskNotes/Views/relationships.base",
     "TaskNotes/Views/mini-calendar-default.base",
     "PeriodicNotes/2026/Daily/10/2026-10-26.md",

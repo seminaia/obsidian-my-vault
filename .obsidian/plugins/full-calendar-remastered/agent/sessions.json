@@ -1,0 +1,13 @@
+{
+  "activeSessionId": "session-1793054847947",
+  "sessions": [
+    {
+      "id": "session-1793054847947",
+      "title": "Default session",
+      "createdAt": 1793054847947,
+      "updatedAt": 1793054847947,
+      "messages": [],
+      "proposals": []
+    }
+  ]
+}
