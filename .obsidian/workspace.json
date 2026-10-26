@@ -4,28 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6cc373521b150fa6",
+        "id": "0c5905052fd5a170",
         "type": "tabs",
         "children": [
           {
-            "id": "66af110f8f028598",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": 130,
-                  "y": 187.5,
-                  "zoom": -0.7239541061305004
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Untitled"
-            }
-          },
-          {
-            "id": "e3592880691be813",
+            "id": "8809ab1dceb18b90",
             "type": "leaf",
             "state": {
               "type": "bases",
@@ -38,99 +21,21 @@
             }
           },
           {
-            "id": "6b5255ca4df8a6ff",
+            "id": "a1343bc421f572e1",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "TaskNotes/Views/calendar-default.base",
-                "viewName": "Calendar"
+                "file": "2026-10-26.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "tasknotes-simple",
-              "title": "calendar-default"
-            }
-          },
-          {
-            "id": "4965b49e4bb64d29",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "TaskNotes/Views/agenda-default.base",
-                "viewName": "Agenda"
-              },
-              "icon": "tasknotes-simple",
-              "title": "agenda-default"
-            }
-          },
-          {
-            "id": "e82f436de2e9f2ad",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "TaskNotes/Views/kanban-default.base",
-                "viewName": "Kanban Board"
-              },
-              "icon": "tasknotes-simple",
-              "title": "kanban-default"
-            }
-          },
-          {
-            "id": "127dd738c1c6b26f",
-            "type": "leaf",
-            "state": {
-              "type": "tasknotes-pomodoro-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "tasknotes-pomodoro-view"
-            }
-          },
-          {
-            "id": "6bd75235a9ee9757",
-            "type": "leaf",
-            "state": {
-              "type": "tasknotes-pomodoro-stats-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "tasknotes-pomodoro-stats-view"
-            }
-          },
-          {
-            "id": "b6e62b4b1f85a76f",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "6bd370469c8f9da6",
-            "type": "leaf",
-            "state": {
-              "type": "planner-release-notes",
-              "state": {},
               "icon": "lucide-file",
-              "title": "Day Planner Release 0.35.1"
+              "title": "2026-10-26"
             }
           },
           {
-            "id": "927446e1e7a3cd0e",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "TaskNotes/Views/mini-calendar-default.base",
-                "viewName": "Due"
-              },
-              "icon": "tasknotes-simple",
-              "title": "mini-calendar-default"
-            }
-          },
-          {
-            "id": "01911d4a649aea6b",
+            "id": "b883c17d0d30559e",
             "type": "leaf",
             "state": {
               "type": "full-calendar-view",
@@ -140,7 +45,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -361,12 +266,11 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 9
       }
     ],
     "direction": "horizontal",
-    "width": 656.1796875,
-    "collapsed": true
+    "width": 656.1796875
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -403,18 +307,19 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "0a79c97a3782f78b",
+  "active": "b883c17d0d30559e",
   "lastOpenFiles": [
-    "TaskNotes/Views/kanban-default.base",
+    "2026-10-26.md",
     "TaskNotes/Views/calendar-default.base",
+    "TaskNotes/Views/mini-calendar-default.base",
+    "TaskNotes/Views/kanban-default.base",
     "TaskNotes/Views/agenda-default.base",
+    "Untitled.canvas",
     "TaskNotes/Views/tasks-default.base",
     "TaskNotes/Start Here.md",
     "Events",
     "Untitled 1.canvas",
-    "TaskNotes/Views/mini-calendar-default.base",
     "Untitled 1.base",
-    "Untitled.canvas",
     "Untitled.base",
     "Tatsumi Ishihara.md",
     "README.md",
@@ -440,7 +345,6 @@
     "copilot/skills/obsidian-markdown/references/PROPERTIES.md",
     "copilot/skills/obsidian-markdown/references/EMBEDS.md",
     "copilot/skills/obsidian-markdown/references/CALLOUTS.md",
-    "copilot/skills/copilot-fetch-x/SKILL.md",
-    "copilot/skills/copilot-youtube-transcript/SKILL.md"
+    "copilot/skills/copilot-fetch-x/SKILL.md"
   ]
 }

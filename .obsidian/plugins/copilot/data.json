@@ -412,6 +412,14 @@
           "binarySource": "custom",
           "probeSessionId": "ses_e8abe78adffeTMOSB7SVKde4Z7"
         }
+      },
+      "bee677df-d725-4093-a199-1183e99629d4": {
+        "opencode": {
+          "binaryPath": "/home/soki-sem/.opencode/bin/opencode",
+          "binaryVersion": "2.1.4",
+          "binarySource": "custom",
+          "probeSessionId": "ses_e864ae405ffevt0nex573sZV1m"
+        }
       }
     }
   },

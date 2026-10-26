@@ -2,11 +2,11 @@
 epoch: 1792963954831
 mode: agent
 backendId: opencode
-sessionId: "ses_e8b05d0a4ffeAgyOgrpSTaDn5Q"
-usage: '{"usedTokens":18319,"contextWindow":200000,"updatedAt":1792964450332}'
+sessionId: "ses_e864ab8fbffeGwIfwz3AG4BRnU"
+usage: '{"usedTokens":18319,"updatedAt":1792964450332}'
 tags:
   - copilot-conversation
-lastAccessedAt: 1792968632523
+lastAccessedAt: 1793043285783
 ---
 
 **user**: I need help with github
