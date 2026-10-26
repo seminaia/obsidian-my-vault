@@ -1,0 +1,60 @@
+{
+  "snapStepMinutes": 10,
+  "progressIndicator": "mini-timeline",
+  "showTaskNotification": true,
+  "zoomLevel": 2,
+  "timelineIcon": "calendar-with-checkmark",
+  "endLabel": "All done",
+  "startHour": 6,
+  "timelineDateFormat": "YYYY-MM-DD",
+  "centerNeedle": true,
+  "plannerHeading": "Day planner",
+  "plannerHeadingLevel": 1,
+  "timelineColored": true,
+  "timelineStartColor": "#006466",
+  "timelineEndColor": "#4d194d",
+  "timestampFormat": "HH:mm",
+  "hourFormat": "H",
+  "extendDurationUntilNext": false,
+  "defaultDurationMinutes": 30,
+  "minimalDurationMinutes": 10,
+  "showTimestampInTaskBlock": false,
+  "showUnscheduledNestedTasks": true,
+  "showNow": true,
+  "showNext": true,
+  "pluginVersion": "0.35.1",
+  "showCompletedTasks": true,
+  "showSubtasksInTaskBlocks": true,
+  "icals": [
+    {
+      "name": "WPI",
+      "email": "ssem@wpi.edu",
+      "url": "https://calendar.google.com/calendar/ical/rhser941ogpqr3a0b9gk8ffnn6da1ru2%40import.calendar.google.com/public/basic.ics",
+      "color": "#ff5900"
+    },
+    {
+      "name": "GMAIL",
+      "email": "seminaia401@gmail.com",
+      "url": "https://calendar.google.com/calendar/ical/seminaia401%40gmail.com/public/basic.ics",
+      "color": "#0055ff"
+    },
+    {
+      "name": "ICLOUD",
+      "email": "seminaia401@icloud.com",
+      "url": "https://p44-caldav.icloud.com/published/2/MTE1MDcyNzk5MzMxMTUwN7QoxBICqjyw12j76vlBkv3Rd1_jMRkfJagw06ust-3-",
+      "color": "#a600ff"
+    }
+  ],
+  "colorOverrides": [],
+  "releaseNotes": true,
+  "taskStatusOnCreation": " ",
+  "eventFormatOnCreation": "task",
+  "sortTasksInPlanAfterEdit": true,
+  "firstDayOfWeek": "monday",
+  "multiDayRange": "3-days",
+  "showActiveClockInStatusBar": true,
+  "timelineColumns": {
+    "planner": true,
+    "timeTracker": false
+  }
+}
