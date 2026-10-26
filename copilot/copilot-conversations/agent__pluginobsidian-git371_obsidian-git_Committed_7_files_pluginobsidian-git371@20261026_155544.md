@@ -5,7 +5,7 @@ backendId: opencode
 sessionId: "ses_e864006caffeR5nRPvdyjL33kn"
 tags:
   - copilot-conversation
-usage: '{"usedTokens":51970,"contextWindow":200000,"updatedAt":1793045367661}'
+usage: '{"usedTokens":65647,"contextWindow":200000,"updatedAt":1793045618823}'
 lastAccessedAt: 1793044652016
 ---
 
@@ -109,5 +109,22 @@ Changed files:
 **user**: we would need to change it on my other device too
 [Timestamp: 2026/10/26 16:09:27]
 
-**ai**: 
+**ai**: Done — made it portable for the other device.
+
+**New:** `Scripts/reapply-full-calendar-patch.sh` (executable, safe to re-run)
+- `./Scripts/reapply-full-calendar-patch.sh` — backs up `main.js` to `~/full-calendar-main.js.bak` and patches it
+- `--check` — reports `patched` / `NOT patched` without touching anything
+- Fails loudly if the plugin code moved (e.g. a different plugin version)
+- Tested against a clean 0.10.7 copy: patches correctly, then reports `Already patched` on repeat runs
+
+**Updated note:** [[Full Calendar plugin patch]] now has an "On another device" section with the two paths.
+
+**Important sync caveat:** I couldn't push. The vault repo is 14 commits ahead of `obsidian-my-vault/main`, and this machine has no GitHub credentials (`fatal: could not read Username for 'https://github.com'`). Obsidian Git's push command also left the remote untouched. So the commits — including the patched `main.js` — exist only locally.
+
+On the other device, either:
+
+1. **If it syncs `.obsidian/`** (Obsidian Sync / Drive sync): the patched `main.js` arrives with the vault — just reload the plugin and run *Full Calendar: Revalidate*.
+2. **If it only syncs notes**: the note and script arrive, then run `./Scripts/reapply-full-calendar-patch.sh` there and reload the plugin.
+
+I also set `push.default = upstream` locally so a push from Obsidian Git will push `master` → `main` correctly once credentials are available (the branch-name mismatch was blocking it).
 [Timestamp: 2026/10/26 16:09:27]
