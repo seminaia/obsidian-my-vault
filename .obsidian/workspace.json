@@ -250,29 +250,9 @@
               "icon": "timer",
               "title": "Time Tracker"
             }
-          },
-          {
-            "id": "3978328ae5e5d1e6",
-            "type": "leaf",
-            "state": {
-              "type": "full-calendar-agent-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "full-calendar-agent-view"
-            }
-          },
-          {
-            "id": "7722ef65bb6beb3c",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
           }
         ],
-        "currentTab": 11
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -306,7 +286,7 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "9eb59571ba7e501c",
+  "active": "bb1e47267fff7adb",
   "lastOpenFiles": [
     "2026-10-26.md",
     "Untitled.base",
