@@ -32,9 +32,29 @@
               "icon": "lucide-table",
               "title": "Untitled"
             }
+          },
+          {
+            "id": "f14467e72d91a422",
+            "type": "leaf",
+            "state": {
+              "type": "planner-weekly",
+              "state": {},
+              "icon": "table-2",
+              "title": "Oct, 26–Oct, 28"
+            }
+          },
+          {
+            "id": "ec4f92564000ecee",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-view",
+              "state": {},
+              "icon": "calendar-glyph",
+              "title": "Calendar"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -185,7 +205,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -245,11 +264,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
-    "width": 590.40625
+    "width": 524.8984375
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -286,8 +305,9 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "0a79c97a3782f78b",
+  "active": "ec4f92564000ecee",
   "lastOpenFiles": [
+    "Untitled.base",
     "Untitled 1.canvas",
     "Untitled 2.canvas",
     "2026-10-26.md",
@@ -301,7 +321,6 @@
     "TaskNotes/Views/tasks-default.base",
     "TaskNotes/Start Here.md",
     "Events",
-    "Untitled.base",
     "Tatsumi Ishihara.md",
     "README.md",
     "Personal Access Token.md",

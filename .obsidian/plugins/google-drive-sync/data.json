@@ -4,10 +4,7 @@
   "clientSecret": "",
   "accessTokenUrl": "",
   "autoPush": true,
-  "operations": {
-    "2026-10-26.md": "delete",
-    "Untitled 1.canvas": "delete"
-  },
+  "operations": {},
   "driveIdToPath": {
     "1fAf8wLznz7elbBIly-1vTh65_IKDYOUW": "copilot/skills/copilot-youtube-transcript/youtube-transcript.sh",
     "1HwaQeQYpHCIY5QY6p1sg6CHhCKqzuDYT": "copilot/skills/copilot-youtube-transcript/youtube-transcript.ps1",
@@ -185,25 +182,13 @@
     "1DbyZgk16a3U0v-FSRSjlX81jmH2lIQUK": ".obsidian/plugins/obsidian-reminder-plugin/styles.css",
     "11aLb3e1QE66-QWHZnbwvnQJuhgyba85w": ".obsidian/plugins/obsidian-reminder-plugin/manifest.json",
     "1di8T9ROBUE8OUM7HvaEnb03QUKT5wHtW": ".obsidian/plugins/obsidian-reminder-plugin/main.js",
-    "1U00SrgjjIevdG8Zj95pyIIQBHRWiSWxQ": ".obsidian/plugins/sheet-plus/styles.css",
-    "1cv2WhgiBSZdJwuIYhPGyG99PeQOrcOGc": ".obsidian/plugins/fast-note-sync/styles.css",
-    "10A5GeRtS1pJ5STlnklmqQ8XAWE2hpngb": ".obsidian/plugins/sheet-plus",
     "1YkoADXxn6wQ-JfO3_lP16WxCn35YeiO_": ".obsidian/plugins/obsidian-mind-map",
-    "1eokJuur1eMd_GsG-kF8yqFxXcFc89IQC": ".obsidian/plugins/sheet-plus/manifest.json",
     "1RAbtYCYU2x8RUSbkPWRnoTtG78ihV479": ".obsidian/plugins/obsidian-mind-map/manifest.json",
-    "1Iu7LtTjf3PKCHwUIHQ69_karmQ_NzCgE": ".obsidian/plugins/fast-note-sync/manifest.json",
-    "1aX0VXzNirabditoApaaCwV6yDwlx3Mxg": ".obsidian/plugins/sheet-plus/main.js",
     "11KUcEmQ5kSsUEY7EF4RkDh-ySp_MG0sm": ".obsidian/plugins/obsidian-mind-map/main.js",
-    "1B-54RuVi_Ubdi8TgpKmQvl0P8p7MNwMS": ".obsidian/plugins/fast-note-sync/main.js",
     "1wHcwOYw4ODrKXWK42REUqMKrW2S0RgLX": ".obsidian/image-converter-image-alignments.json",
-    "1sjS0-Z9m0yZm7xxHUWiqMmVeBKU6_PWm": ".obsidian/plugins/fast-note-sync",
-    "18SfJjim0UjCkFjFzbMTQCfSQwGWYxXCV": ".obsidian/plugins/tasknotes/data.json",
-    "1AeJOadN9DxwRUYH2J_JOs_oLM138z-6E": ".obsidian/plugins/fast-note-sync/data.json",
     "16RYQmgrRblHcrLlnQlJn40YA_M_EVHne": "copilot/copilot-conversations/agent__help_me_figure_out_why_it_is_saying_fatal_refusing@20261026_150443.md",
-    "1M_HNgdr3rEuhnT4XBh9tt2fP-JzW-eDe": "Untitled 1.canvas",
     "1Ub0HnJ9i7wyOZJTVHo_0Z1MLrDroGi-8": "Events",
     "1bmUFTFoWuCKuJLKx2lmO7x93Tl53WynT": ".obsidian/plugins/obsidian-day-planner",
-    "1nQDlTo78ce8WRHEmhzSufW4LijyZiNC8": ".obsidian/plugins/obsidian-full-calendar",
     "190gCNY5PkxqDE_aVKQwot01_lmBVjgSn": ".obsidian/plugins/notebook-navigator",
     "1-1dn8dAwoF920GAv2ZN43GHVwwbJEEL3": ".obsidian/plugins/notebook-navigator/manifest.json",
     "1WxwlYfjM9pHgHlRXBh9nnv6KcFAugjYR": ".obsidian/plugins/notebook-navigator/data.json",
@@ -212,14 +197,9 @@
     "1hTVizj5V9FTopfm3lFYug3G9oUBm0cVd": ".obsidian/plugins/notebook-navigator/styles.css",
     "1DVJ6Uue5xjF6Mvo4bA5HpRGKamiv6BRy": ".obsidian/plugins/obsidian-day-planner/main.js",
     "1EfWzua5juoP3LZdJ7v6dvZmwQHOHO_bC": ".obsidian/plugins/obsidian-day-planner/manifest.json",
-    "1fvf3LFQ-2FOZTqshfMVTm9mLanyl2AWG": ".obsidian/plugins/notebook-navigator/main.js",
-    "1dqerj-IpNTHO0LpARCHoERql0bajw7zV": ".obsidian/plugins/obsidian-full-calendar/data.json",
-    "1raolFPhxZphwaw0UxRzvGEB3XoRNRuVv": ".obsidian/plugins/obsidian-full-calendar/main.js",
-    "1wg5pxkE1jpuOTMH8hWwtTTWogQ5wOndN": ".obsidian/plugins/obsidian-full-calendar/styles.css",
-    "1gMQrZXV8j7FBhZtYhQS1YPW553C2Flxg": ".obsidian/plugins/obsidian-full-calendar/manifest.json",
-    "1u9C500JUI3k-OWW7aPjMfpYV1wT4C9Sv": "2026-10-26.md"
+    "1fvf3LFQ-2FOZTqshfMVTm9mLanyl2AWG": ".obsidian/plugins/notebook-navigator/main.js"
   },
   "rootFolderId": "1JQp4bupb5GUAcW-j67ipbeVP1NdLFx5k",
-  "lastSyncedAt": 1793043810262,
-  "changesToken": "83777"
+  "lastSyncedAt": 1793044109914,
+  "changesToken": "83797"
 }
