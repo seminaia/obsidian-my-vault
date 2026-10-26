@@ -5,7 +5,7 @@ backendId: opencode
 sessionId: "ses_e864006caffeR5nRPvdyjL33kn"
 tags:
   - copilot-conversation
-usage: '{"usedTokens":65647,"contextWindow":200000,"updatedAt":1793045618823}'
+usage: '{"usedTokens":79179,"contextWindow":200000,"updatedAt":1793048463070}'
 lastAccessedAt: 1793044652016
 ---
 
@@ -132,5 +132,22 @@ I also set `push.default = upstream` locally so a push from Obsidian Git will pu
 **user**: It keeps asking me for my username and password/access token
 [Timestamp: 2026/10/26 16:54:49]
 
-**ai**: 
+**ai**: Root cause found and fixed.
+
+**Why it kept prompting:** your global git config had `credential.helper = manager`, but Git Credential Manager isn't installed on this machine — so git could never save credentials and asked every time. On top of that, the token in `Personal Access Token.md` was dead (GitHub returns 401; it was almost certainly auto-revoked by secret scanning because `seminaia/obsidian-my-vault` is a **public** repo).
+
+**What I did:**
+- Switched the helper to `store` (`~/.gitconfig`)
+- The second token in that note *was* valid — I verified it against the GitHub API, stored it in `~/.git-credentials` (mode `600`), and removed it from the note so it could never be committed to the public repo
+- Pushed successfully: `obsidian-my-vault/main` is now at `b716054`, including the patched `main.js` and both scripts
+- Added `Scripts/set-github-credentials.sh` for rotating the token later (validates before storing, never writes it into the vault)
+
+**Your other device:** just pull. The patched plugin file comes with the repo; reload the plugin and revalidate.
+
+**Security note:** don't put tokens in vault notes — this repo is public. If you ever paste one, treat it as leaked and revoke it. The old dead token still exists in past history, but it's invalid.
+
+Changed in vault:
+- `Personal Access Token.md` — token removed, replaced with credential-setup instructions
+- `Scripts/set-github-credentials.sh` — new
+- `Full Calendar plugin patch.md` — other-device steps updated (pushed, commit `2f129f7`)
 [Timestamp: 2026/10/26 16:54:49]
