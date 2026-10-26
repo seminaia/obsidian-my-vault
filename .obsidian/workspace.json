@@ -82,8 +82,8 @@
             "state": {
               "type": "tasknotes-pomodoro-view",
               "state": {},
-              "icon": "clock",
-              "title": "Pomodoro"
+              "icon": "lucide-ghost",
+              "title": "tasknotes-pomodoro-view"
             }
           },
           {
@@ -92,8 +92,8 @@
             "state": {
               "type": "tasknotes-pomodoro-stats-view",
               "state": {},
-              "icon": "bar-chart",
-              "title": "Pomodoro stats"
+              "icon": "lucide-ghost",
+              "title": "tasknotes-pomodoro-stats-view"
             }
           },
           {
