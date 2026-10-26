@@ -5,7 +5,7 @@ backendId: opencode
 sessionId: "ses_e864006caffeR5nRPvdyjL33kn"
 tags:
   - copilot-conversation
-usage: '{"usedTokens":43793,"contextWindow":200000,"updatedAt":1793045140654}'
+usage: '{"usedTokens":51970,"contextWindow":200000,"updatedAt":1793045367661}'
 lastAccessedAt: 1793044652016
 ---
 
@@ -86,3 +86,28 @@ Want me to list the titles and dates of those 3 shared events?
 
 Caveat: updating/reinstalling the plugin will overwrite `main.js` and the bug returns (upstream 0.10.7 is archived and unmaintained). If you update, tell me and I'll re-apply the patch.
 [Timestamp: 2026/10/26 16:02:07]
+
+**user**: we cant forget that
+[Timestamp: 2026/10/26 16:07:26]
+
+**ai**: Documented so it can't get lost — new note: [[Full Calendar plugin patch]]
+
+It records:
+- **Why** the calendars collided (global event store keyed by ICS `UID`; one duplicate threw and aborted a whole feed)
+- **The exact patch** and its location (`main.js` ~line 64087)
+- **Verification** (event count ~582, zero `Revalidation failed` errors)
+- **Re-apply script** after any plugin update — tested both ways: patches a clean 0.10.7 file correctly and reports `already patched` when run again
+- **Rollback** instructions and the backup path (`~/full-calendar-main.js.bak`)
+
+Frontmatter has `status: patched`, `plugin-version: 0.10.7`, and aliases so searching "full calendar fix" or "full calendar duplicate uid" finds it.
+
+Changed files:
+- `.obsidian/plugins/obsidian-full-calendar/main.js` — duplicate-skip patch
+- `Full Calendar plugin patch.md` — new reference note
+[Timestamp: 2026/10/26 16:07:26]
+
+**user**: we would need to change it on my other device too
+[Timestamp: 2026/10/26 16:09:27]
+
+**ai**: 
+[Timestamp: 2026/10/26 16:09:27]

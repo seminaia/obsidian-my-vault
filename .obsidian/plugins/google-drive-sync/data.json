@@ -4,7 +4,11 @@
   "clientSecret": "",
   "accessTokenUrl": "",
   "autoPush": true,
-  "operations": {},
+  "operations": {
+    "Scripts": "create",
+    "Scripts/reapply-full-calendar-patch.sh": "create",
+    "Full Calendar plugin patch.md": "modify"
+  },
   "driveIdToPath": {
     "1fAf8wLznz7elbBIly-1vTh65_IKDYOUW": "copilot/skills/copilot-youtube-transcript/youtube-transcript.sh",
     "1HwaQeQYpHCIY5QY6p1sg6CHhCKqzuDYT": "copilot/skills/copilot-youtube-transcript/youtube-transcript.ps1",
@@ -203,9 +207,10 @@
     "1a2Tb8UrC3ZTnP-YJLC97-xJwamYMTqje": ".obsidian/plugins/obsidian-full-calendar/manifest.json",
     "1kMx-d_amq6xG08VTDIUzlg5EsCNV2sPc": ".obsidian/plugins/obsidian-full-calendar/data.json",
     "19STOQRPUthSntQwhc-oV-tfEd56o0RIJ": ".obsidian/plugins/obsidian-full-calendar/main.js",
-    "14xTHxhFFWOZLdq4RKn3BjTEAZ6FB5SfZ": ".obsidian/plugins/obsidian-full-calendar/styles.css"
+    "14xTHxhFFWOZLdq4RKn3BjTEAZ6FB5SfZ": ".obsidian/plugins/obsidian-full-calendar/styles.css",
+    "1kIGrKgyO4I1S-zlgBqXdx7MiOFIOCvmJ": "Full Calendar plugin patch.md"
   },
   "rootFolderId": "1JQp4bupb5GUAcW-j67ipbeVP1NdLFx5k",
-  "lastSyncedAt": 1793045207742,
-  "changesToken": "83865"
+  "lastSyncedAt": 1793045437633,
+  "changesToken": "83872"
 }
