@@ -20,8 +20,37 @@
               "icon": "lucide-file",
               "title": "2026-10-26"
             }
+          },
+          {
+            "id": "1a8e033b63c91db0",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://blacksmithgu.github.io/obsidian-dataview/",
+                "title": "Dataview",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Dataview"
+            }
+          },
+          {
+            "id": "c798552223b9ef03",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://blacksmithgu.github.io/obsidian-dataview/",
+                "title": "Dataview",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Dataview"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "ce39de21aad11153",
@@ -310,10 +339,10 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "5d4dabd05d29af0a",
+  "active": "c798552223b9ef03",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-10-26 19.20.23.excalidraw.md",
     "2026-10-26.md",
+    "Excalidraw/Drawing 2026-10-26 19.20.23.excalidraw.md",
     "Personal Access Token.md",
     "Untitled.base",
     "TaskNotes/Views/relationships.base",

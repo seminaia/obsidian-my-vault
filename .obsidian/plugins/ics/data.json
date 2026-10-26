@@ -1,13 +1,31 @@
 {
   "format": {
     "timeFormat": "HH:mm",
-    "dataViewSyntax": false
+    "dataViewSyntax": true
   },
   "calendars": {
     "WPI": {
       "icsName": "WPI",
       "icsUrl": "https://outlook.office365.com/owa/calendar/228c818532f344acb20622dccbccdcf3@wpi.edu/1c57b7eed9a74a7ab4e870860957981d11167500164446565170/calendar.ics",
       "ownerEmail": "ssem@wpi.edu",
+      "format": {
+        "checkbox": true,
+        "includeEventEndTime": true,
+        "icsName": true,
+        "summary": true,
+        "location": true,
+        "description": true,
+        "calendarType": "remote",
+        "showAttendees": true,
+        "showOngoing": true,
+        "showTransparentEvents": true
+      },
+      "calendarType": "remote"
+    },
+    "GMAIL": {
+      "icsName": "GMAIL",
+      "icsUrl": "https://calendar.google.com/calendar/ical/seminaia401%40gmail.com/public/basic.ics",
+      "ownerEmail": "seminaia401@gmail.com",
       "format": {
         "checkbox": true,
         "includeEventEndTime": true,
