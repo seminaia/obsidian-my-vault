@@ -6,7 +6,7 @@ sessionId: "ses_e85058160ffefi0QbBTafV9ByC"
 tags:
   - copilot-conversation
 usage: '{"usedTokens":107162,"contextWindow":200000,"updatedAt":1793066793494}'
-lastAccessedAt: 1793066439308
+lastAccessedAt: 1793067000272
 ---
 
 **user**: I want my agenda/calendar as my homepage but it doesnt load the ics for them when it happens

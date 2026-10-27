@@ -95,8 +95,7 @@
               "title": "Personal Access Token"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -306,7 +305,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -346,7 +345,7 @@
       "tasknotes:Create new task": false
     }
   },
-  "active": "892bfe0d58321cf0",
+  "active": "8db3bae88df61789",
   "lastOpenFiles": [
     "TaskNotes/Views/agenda-default.base",
     "README.md",
