@@ -108,8 +108,8 @@
   "startView": "files",
   "showInfoButtons": true,
   "homepage": {
-    "source": "weekly-note",
-    "file": null,
+    "source": "file",
+    "file": "TaskNotes/Views/agenda-default.base",
     "createMissingPeriodicNote": true
   },
   "dualPane": true,
