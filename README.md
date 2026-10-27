@@ -1,18 +1,10 @@
----
-title: Calendar Home
-verified: 2026-10-26
-obsidian: 1.14.5
-tasknotes: 4.14.0
-homepage: 4.6.0
----
-
 # Calendar Home
 
-The calendar/agenda homepage setup. It is deliberately **not** a copy: Obsidian's config, the Bases and the TaskNotes spec are tracked by git at their real paths, so a clone already reproduces them exactly. A mirror inside this folder would only drift from the live files.
+Obsidian vault whose homepage is a TaskNotes calendar/agenda. This page describes the setup and how to reproduce it exactly on another machine.
 
 ## What the setup is
 
-- Obsidian opens [[agenda-default.base|the agenda]] as the pinned homepage.
+- Obsidian opens [the agenda](TaskNotes/Views/agenda-default.base) as the pinned homepage.
 - The agenda and the full calendar are TaskNotes Bases views over `#task` notes.
 - They render three ICS subscriptions: WPI, GMAIL, ICLOUD.
 - The TaskNotes ICS refresh patch makes subscribed events appear on a cold start.
@@ -48,7 +40,7 @@ That reports, line by line: the seven Bases, `mdbase.yaml`, `_types/task.md`, bo
 | `TaskNotes/Views/*.base` | Agenda, full calendar, mini calendar, and the other TaskNotes views. |
 | `mdbase.yaml`, `_types/task.md` | mdbase collection spec and task schema. |
 
-The pinned versions and the patch contract are in [[Profiles/Calendar Home/manifest.json|manifest.json]].
+Everything is stored at its live path and tracked by git, so a clone reproduces it exactly. There is no second copy to drift. The pinned versions and the patch contract are in [manifest.json](Profiles/Calendar%20Home/manifest.json).
 
 ## If a setting drifts
 
@@ -62,12 +54,10 @@ git restore -- .obsidian/plugins/tasknotes/data.json \
 
 Then run `--check` again.
 
-## The one thing git cannot keep
+## After a TaskNotes update
 
-> [!tip] After a TaskNotes update
-> Updating the plugin overwrites `.obsidian/plugins/tasknotes/main.js`, which removes the ICS refresh fix. Run `./Scripts/calendar-home.sh --repair` (or `Scripts/reapply-tasknotes-ics-refresh-patch.sh`) to put it back. `--check` reports whether it is missing.
+> **Note:** Updating the plugin overwrites `.obsidian/plugins/tasknotes/main.js`, which removes the ICS refresh fix. Run `./Scripts/calendar-home.sh --repair` (or `Scripts/reapply-tasknotes-ics-refresh-patch.sh`) to put it back. `--check` reports whether it is missing.
 
 ## Caveat
 
-> [!danger] This repository is public
-> `.obsidian/plugins/tasknotes/data.json` contains the three private ICS feed URLs and a TaskNotes API token, and it is committed to a public GitHub repository. Anyone with the repo can read the calendar feeds. If that is not intended, rotate the published calendar links (Outlook/Google/iCloud) and the API token, then make the repository private.
+> **Warning:** This repository is public. `.obsidian/plugins/tasknotes/data.json` contains the three private ICS feed URLs and a TaskNotes API token, and it is committed here. Anyone with the repo can read the calendar feeds. If that is not intended, rotate the published calendar links (Outlook/Google/iCloud) and the API token, then make the repository private.
