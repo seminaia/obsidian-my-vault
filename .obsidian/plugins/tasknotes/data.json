@@ -279,11 +279,11 @@
     "enableAutoExport": true,
     "autoExportPath": "tasknotes-calendar.ics",
     "autoExportInterval": 60,
-    "useDurationForExport": false,
-    "excludeArchivedFromExport": false,
-    "excludeCompletedFromExport": false,
-    "requireDueDateForExport": false,
-    "requireScheduledDateForExport": false,
+    "useDurationForExport": true,
+    "excludeArchivedFromExport": true,
+    "excludeCompletedFromExport": true,
+    "requireDueDateForExport": true,
+    "requireScheduledDateForExport": true,
     "useICSEndAsDue": true,
     "recurringEventRelatedNotesMode": "series"
   },
@@ -292,10 +292,10 @@
   "notificationType": "system",
   "notificationSoundEnabled": true,
   "notificationSoundVolume": 50,
-  "enableAPI": false,
+  "enableAPI": true,
   "apiPort": 8080,
-  "apiAuthToken": "",
-  "enableMCP": false,
+  "apiAuthToken": "p2Wbwvr2vTZC-6KRM066H1vIRbJCCQH0FS_mYb4LWFk",
+  "enableMCP": true,
   "webhooks": [],
   "userFields": [],
   "modalFieldsConfig": {
@@ -452,7 +452,7 @@
     "recurrence"
   ],
   "enableBases": true,
-  "enableMdbaseSpec": false,
+  "enableMdbaseSpec": true,
   "autoCreateDefaultBasesFiles": true,
   "commandFileMapping": {
     "open-calendar-view": "TaskNotes/Views/mini-calendar-default.base",
@@ -495,7 +495,7 @@
   "icsSubscriptions": [
     {
       "name": "WPI",
-      "url": "",
+      "url": "https://outlook.office365.com/owa/calendar/228c818532f344acb20622dccbccdcf3@wpi.edu/1c57b7eed9a74a7ab4e870860957981d11167500164446565170/calendar.ics",
       "color": "#6366f1",
       "enabled": true,
       "type": "remote",

@@ -13,15 +13,42 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-10-26.md",
+                "file": "2026/W44.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-10-26"
+              "title": "W44"
+            }
+          },
+          {
+            "id": "a1cc59af13ff8a00",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "TaskNotes/Views/mini-calendar-default.base",
+                "viewName": "Due"
+              },
+              "icon": "tasknotes-simple",
+              "title": "mini-calendar-default"
+            }
+          },
+          {
+            "id": "71763752d7602621",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "TaskNotes/Views/calendar-default.base",
+                "viewName": "Calendar"
+              },
+              "icon": "tasknotes-simple",
+              "title": "calendar-default"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -284,20 +311,22 @@
       "tasknotes:Create new task": false
     }
   },
-  "active": "c5d48bebbd749fa6",
+  "active": "71763752d7602621",
   "lastOpenFiles": [
+    "TaskNotes/Views/mini-calendar-default.base",
+    "2026/W44.md",
+    "2026-10-26.md",
+    "2026",
+    "mdbase.yaml",
+    "_types/task.md",
+    "_types",
     "TaskNotes/Start Here.md",
     "TaskNotes/Views/pomodoro-stats.base",
     "TaskNotes/Views/calendar-default.base",
-    "TaskNotes/Views/mini-calendar-default.base",
     "TaskNotes/Views/kanban-default.base",
     "TaskNotes/Views/agenda-default.base",
     "TaskNotes/Views/tasks-default.base",
     "TaskNotes/Views/relationships.base",
-    "TaskNotes/Views",
-    "TaskNotes",
-    "2026-10-26.md",
-    "Untitled.base",
     "Personal Access Token.md",
     "Full Calendar plugin patch.md",
     "Excalidraw/Drawing 2026-10-26 19.20.23.excalidraw.md",
@@ -321,8 +350,6 @@
     "Sources/CO2-negative fuel production using low-CO2 electricity Syngas from a combination of methane pyrolysis and dry reforming with techno-economic analysis.md",
     "Sources/A review on in-situ methanation based on CO2H2O Co-electrolysis in solid oxide electrolytic cells addressing the thermo-kinetic mismatch.md",
     "Excalidraw/Drawing 2026-10-25 18.44.25.excalidraw.md",
-    "copilot/skills/obsidian-cli/SKILL.md",
-    "copilot/skills/json-canvas/SKILL.md",
-    "copilot/skills/json-canvas/references/EXAMPLES.md"
+    "copilot/skills/obsidian-cli/SKILL.md"
   ]
 }
