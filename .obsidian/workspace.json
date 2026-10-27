@@ -32,6 +32,65 @@
             }
           },
           {
+            "id": "cf4aa3a9c5927e51",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "TaskNotes/Views/agenda-default.base",
+                "viewName": "Agenda"
+              },
+              "icon": "tasknotes-simple",
+              "title": "agenda-default"
+            }
+          },
+          {
+            "id": "e8e0d9596d5f0493",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "TaskNotes/Views/tasks-default.base",
+                "viewName": "Manual Order"
+              },
+              "icon": "tasknotes-simple",
+              "title": "tasks-default"
+            }
+          },
+          {
+            "id": "8b67eb93fd17aad5",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "TaskNotes/Views/kanban-default.base",
+                "viewName": "Kanban Board"
+              },
+              "icon": "tasknotes-simple",
+              "title": "kanban-default"
+            }
+          },
+          {
+            "id": "dcb464c8ceefe2dc",
+            "type": "leaf",
+            "state": {
+              "type": "tasknotes-pomodoro-view",
+              "state": {},
+              "icon": "clock",
+              "title": "Pomodoro"
+            }
+          },
+          {
+            "id": "dd3f17d30ba65230",
+            "type": "leaf",
+            "state": {
+              "type": "tasknotes-pomodoro-stats-view",
+              "state": {},
+              "icon": "bar-chart",
+              "title": "Pomodoro stats"
+            }
+          },
+          {
             "id": "71763752d7602621",
             "type": "leaf",
             "state": {
@@ -45,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -265,7 +324,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -304,11 +363,14 @@
       "tasknotes:Open Kanban board": false,
       "tasknotes:Open Pomodoro timer": false,
       "tasknotes:Open Pomodoro statistics": false,
-      "tasknotes:Create new task": false
+      "tasknotes:Create new task": false,
+      "homepage:Open homepage": false
     }
   },
-  "active": "a1cc59af13ff8a00",
+  "active": "dd3f17d30ba65230",
   "lastOpenFiles": [
+    "TaskNotes/Views/tasks-default.base",
+    "TaskNotes/Views/agenda-default.base",
     "2026-10-26.md",
     "Personal Access Token.md",
     "TaskNotes/Views/mini-calendar-default.base",
@@ -322,8 +384,6 @@
     "TaskNotes/Start Here.md",
     "TaskNotes/Views/pomodoro-stats.base",
     "TaskNotes/Views/kanban-default.base",
-    "TaskNotes/Views/agenda-default.base",
-    "TaskNotes/Views/tasks-default.base",
     "TaskNotes/Views/relationships.base",
     "Excalidraw/Drawing 2026-10-26 19.20.23.excalidraw.md",
     "PeriodicNotes/2026/Daily/10/2026-10-26.md",

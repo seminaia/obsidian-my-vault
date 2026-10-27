@@ -2,7 +2,7 @@
   "version": 5,
   "homepages": {
     "Main Homepage": {
-      "value": "Home.md",
+      "value": "TaskNotes/Start Here.md",
       "kind": "File",
       "openOnStartup": true,
       "openMode": "Keep open notes",
