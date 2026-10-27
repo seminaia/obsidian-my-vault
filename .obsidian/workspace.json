@@ -47,8 +47,7 @@
               "title": "calendar-default"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -300,7 +299,6 @@
       "periodic-para:LifeOS Creation": false,
       "periodic-para:Quick record": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
-      "obsidian-full-calendar:Open Full Calendar": false,
       "tasknotes:Open mini calendar view": false,
       "tasknotes:Open calendar view": false,
       "tasknotes:Open tasks view": false,
@@ -311,8 +309,9 @@
       "tasknotes:Create new task": false
     }
   },
-  "active": "71763752d7602621",
+  "active": "c5d48bebbd749fa6",
   "lastOpenFiles": [
+    "TaskNotes/Views/calendar-default.base",
     "TaskNotes/Views/mini-calendar-default.base",
     "2026/W44.md",
     "2026-10-26.md",
@@ -322,7 +321,6 @@
     "_types",
     "TaskNotes/Start Here.md",
     "TaskNotes/Views/pomodoro-stats.base",
-    "TaskNotes/Views/calendar-default.base",
     "TaskNotes/Views/kanban-default.base",
     "TaskNotes/Views/agenda-default.base",
     "TaskNotes/Views/tasks-default.base",

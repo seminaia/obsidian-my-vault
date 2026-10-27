@@ -514,7 +514,7 @@
     {
       "name": "ICLOUD",
       "url": "http://p44-caldav.icloud.com/published/2/MTE1MDcyNzk5MzMxMTUwN7QoxBICqjyw12j76vlBkv3Rd1_jMRkfJagw06ust-3-",
-      "color": "#6366f1",
+      "color": "#a600ff",
       "enabled": false,
       "type": "remote",
       "refreshInterval": 60,
