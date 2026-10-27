@@ -25,13 +25,10 @@
             "id": "a1cc59af13ff8a00",
             "type": "leaf",
             "state": {
-              "type": "bases",
-              "state": {
-                "file": "TaskNotes/Views/mini-calendar-default.base",
-                "viewName": "Due"
-              },
-              "icon": "tasknotes-simple",
-              "title": "mini-calendar-default"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
@@ -47,7 +44,8 @@
               "title": "calendar-default"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -126,7 +124,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -309,12 +307,14 @@
       "tasknotes:Create new task": false
     }
   },
-  "active": "c5d48bebbd749fa6",
+  "active": "a1cc59af13ff8a00",
   "lastOpenFiles": [
-    "TaskNotes/Views/calendar-default.base",
-    "TaskNotes/Views/mini-calendar-default.base",
-    "2026/W44.md",
     "2026-10-26.md",
+    "Personal Access Token.md",
+    "TaskNotes/Views/mini-calendar-default.base",
+    "Full Calendar plugin patch.md",
+    "TaskNotes/Views/calendar-default.base",
+    "2026/W44.md",
     "2026",
     "mdbase.yaml",
     "_types/task.md",
@@ -325,8 +325,6 @@
     "TaskNotes/Views/agenda-default.base",
     "TaskNotes/Views/tasks-default.base",
     "TaskNotes/Views/relationships.base",
-    "Personal Access Token.md",
-    "Full Calendar plugin patch.md",
     "Excalidraw/Drawing 2026-10-26 19.20.23.excalidraw.md",
     "PeriodicNotes/2026/Daily/10/2026-10-26.md",
     "PeriodicNotes/Templates/Daily.md",
