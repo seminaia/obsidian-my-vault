@@ -5,7 +5,7 @@ backendId: opencode
 sessionId: "ses_e85058160ffefi0QbBTafV9ByC"
 tags:
   - copilot-conversation
-usage: '{"usedTokens":97028,"contextWindow":200000,"updatedAt":1793066268142}'
+usage: '{"usedTokens":107162,"contextWindow":200000,"updatedAt":1793066793494}'
 lastAccessedAt: 1793066439308
 ---
 
@@ -174,3 +174,19 @@ One caveat on what I restored: `reapply-full-calendar-patch.sh` patches `obsidia
 
 The public-repo warning still stands — the committed `tasknotes/data.json` exposes the three ICS feed URLs and the API token. Worth rotating if this isn't intentional.
 [Timestamp: 2026/10/26 21:54:30]
+
+**user**: I want the READ ME to show up in GITHUB so it should be in the parent directory
+[Timestamp: 2026/10/26 22:05:06]
+
+**ai**: Moved it to the repository root — that's the only location GitHub auto-renders as the repo's landing page. A README one level up in `Profiles/` would just show up as another file.
+
+**Done:**
+- [[README|README.md]] is now at the vault root and replaced the old one-line `# Vault` file.
+- `Profiles/Calendar Home/` now holds only `manifest.json`.
+- Removed the Obsidian-only syntax (wikilinks, `> [!note]` callouts) so it renders correctly on GitHub; links are now standard relative Markdown, including `[manifest.json](Profiles/Calendar%20Home/manifest.json)`.
+- Committed and pushed: `3cf2904..3ad37c7  master -> main`, and `README.md` is confirmed in `obsidian-my-vault/main`.
+
+Same content as before — what the setup is, restore steps, `--check`/`--repair`, the settings table, the drift and patch notes, and the public-repo warning.
+
+If the repo page still shows the old state, it's GitHub caching; a hard refresh fixes it.
+[Timestamp: 2026/10/26 22:05:06]
