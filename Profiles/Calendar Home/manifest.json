@@ -1,0 +1,139 @@
+{
+  "profile": "Calendar Home",
+  "profileVersion": 1,
+  "created": "2026-10-26",
+  "description": "Homepage calendar/agenda setup for this vault: TaskNotes Bases calendar + agenda, TaskNotes ICS subscriptions, and the Homepage plugin that opens the agenda on startup.",
+  "obsidian": {
+    "version": "1.14.5"
+  },
+  "plugins": {
+    "tasknotes": {
+      "id": "tasknotes",
+      "name": "TaskNotes",
+      "version": "4.14.0",
+      "minAppVersion": "1.12.2",
+      "required": true,
+      "source": "community"
+    },
+    "homepage": {
+      "id": "homepage",
+      "name": "Homepage",
+      "version": "4.6.0",
+      "minAppVersion": "1.13.0",
+      "required": true,
+      "source": "community"
+    }
+  },
+  "homepageTarget": "TaskNotes/Views/agenda-default.base",
+  "corePluginsRequired": [
+    "bases",
+    "daily-notes"
+  ],
+  "patch": {
+    "script": "Scripts/reapply-tasknotes-ics-refresh-patch.sh",
+    "marker": "tnIcsRefreshTimer",
+    "appliesTo": ".obsidian/plugins/tasknotes/main.js",
+    "summary": "Refetch open TaskNotes Bases calendars when the ICS subscription cache changes, debounced by 1s. Fixes empty calendars on cold start.",
+    "note": "Plugin updates overwrite main.js. Re-run the patch script after updating TaskNotes, or re-run this profile's apply script."
+  },
+  "restoreScript": "Scripts/apply-calendar-home-profile.sh",
+  "saveScript": "Scripts/save-calendar-home-profile.sh",
+  "files": [
+    {
+      "path": ".obsidian/appearance.json",
+      "mode": "merge",
+      "role": "Theme + accent colour + ribbon.",
+      "sha256": "4d41fb329ac0185c0c0db6d2a12d082a01c5f6db186910fb0b56fbf6eaae5bc8"
+    },
+    {
+      "path": ".obsidian/community-plugins.json",
+      "mode": "plugins",
+      "role": "Enabled community plugins. Restore adds the profile's plugins that are actually installed, without disabling anything.",
+      "sha256": "f3af2446fb660ebb416196a674b3cd4317a5f2e40375e758f629322a04a46483"
+    },
+    {
+      "path": ".obsidian/core-plugins.json",
+      "mode": "core",
+      "role": "Core plugin state. Restore only forces bases + daily-notes on; other core toggles are left alone.",
+      "sha256": "40f7d429460e0eea28bc7306b35b52fc82e370bd84977fe9622925639d8804d1"
+    },
+    {
+      "path": ".obsidian/daily-notes.json",
+      "mode": "merge",
+      "role": "Daily note folder + template. The calendar's date links create daily notes here.",
+      "sha256": "6222748d96b3a2c3e758e4dfde009893ae595e3138ab95f6512875773f151a2d"
+    },
+    {
+      "path": ".obsidian/plugins/homepage/data.json",
+      "mode": "replace",
+      "role": "Homepage settings: opens TaskNotes/Views/agenda-default.base on startup, pinned, keep-open-notes mode.",
+      "sha256": "fdacb39785f7ce4aa7210613f1d199876dd0c1a3f62f8870e8780f3837b84ee5"
+    },
+    {
+      "path": ".obsidian/plugins/tasknotes/data.json",
+      "mode": "replace",
+      "role": "TaskNotes settings: folders, field mapping, statuses, calendar view defaults, ICS subscriptions (WPI, GMAIL, ICLOUD). apiAuthToken is blanked in the snapshot and carried over from the target device.",
+      "sha256": "fb0f8b9f8fa0c3e6b26929837b052f2b2202c1492ee600a8441568f9a7670d3f"
+    },
+    {
+      "path": ".obsidian/types.json",
+      "mode": "merge",
+      "role": "Property type overrides (multitext/tags/checkbox) used by the Bases views.",
+      "sha256": "2ed14898441aacd7f439895bd6d08936c9ea76616b6d98091b988c66feb20c6f"
+    },
+    {
+      "path": "TaskNotes/Views/agenda-default.base",
+      "mode": "replace",
+      "role": "Homepage: week agenda built on the TaskNotes calendar view.",
+      "sha256": "b0e4292e6ef00d2090972ab231e09e64d3487e11e0b4db739d4a9a17edc570e3"
+    },
+    {
+      "path": "TaskNotes/Views/calendar-default.base",
+      "mode": "replace",
+      "role": "Full calendar Base (week/month views over tasks + ICS events).",
+      "sha256": "1a652637c21fb4f02a0f2f9bf9c6443358879da14897c08970e88e7a5edfb28c"
+    },
+    {
+      "path": "TaskNotes/Views/kanban-default.base",
+      "mode": "replace",
+      "role": "Task Kanban Base (shipped with TaskNotes, kept for parity).",
+      "sha256": "3ed8c301eeca80dacf5d54944ee8b240ae026538290d120969698f3c2129571e"
+    },
+    {
+      "path": "TaskNotes/Views/mini-calendar-default.base",
+      "mode": "replace",
+      "role": "Compact calendar Base.",
+      "sha256": "14a63bb5305374e8df2df2d55dc5f3f9bd8117c0b3b9bfca6d715e8d4e2653db"
+    },
+    {
+      "path": "TaskNotes/Views/pomodoro-stats.base",
+      "mode": "replace",
+      "role": "Pomodoro statistics Base.",
+      "sha256": "e10f634629cd2cddf259a468de6d8ed16b0be64487cebf2fe0335fe474b16198"
+    },
+    {
+      "path": "TaskNotes/Views/relationships.base",
+      "mode": "replace",
+      "role": "Task relationships Base.",
+      "sha256": "fbea48b64e3faa0de356c3d8a40ff6b152a9dd69acae1d1be7e774b41ec47d24"
+    },
+    {
+      "path": "TaskNotes/Views/tasks-default.base",
+      "mode": "replace",
+      "role": "Task list Base (shipped with TaskNotes, kept for parity).",
+      "sha256": "3aba5f562c6652d3889998161792bf888c81472357baf2a74e43a4e191d6b8be"
+    },
+    {
+      "path": "_types/task.md",
+      "mode": "replace",
+      "role": "Task type schema; defines the task frontmatter fields and TaskNotes roles.",
+      "sha256": "04114cbd9213ec92fd6c80f4a38b3bdbd58f810db9e72a5565bb202220ff256f"
+    },
+    {
+      "path": "mdbase.yaml",
+      "mode": "replace",
+      "role": "mdbase collection spec for TaskNotes (v0.2.0).",
+      "sha256": "ace81742a39abd5503a1a776f4384474935f8538846c32dec542da1cd1ec0383"
+    }
+  ]
+}
