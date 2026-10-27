@@ -13,7 +13,16 @@
       "hiddenFileProperties": [],
       "navigationBanner": null,
       "periodicNotesFolder": "",
-      "shortcuts": [],
+      "shortcuts": [
+        {
+          "type": "note",
+          "path": "TaskNotes/Views/agenda-default.base"
+        },
+        {
+          "type": "note",
+          "path": "TaskNotes/Views/calendar-default.base"
+        }
+      ],
       "navRainbow": {
         "mode": "none",
         "balanceHueLuminance": true,
@@ -108,7 +117,7 @@
   "startView": "files",
   "showInfoButtons": true,
   "homepage": {
-    "source": "file",
+    "source": "none",
     "file": "TaskNotes/Views/calendar-default.base",
     "createMissingPeriodicNote": true
   },

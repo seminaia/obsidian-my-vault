@@ -22,89 +22,78 @@
             }
           },
           {
-            "id": "a1cc59af13ff8a00",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "cf4aa3a9c5927e51",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "TaskNotes/Views/calendar-default.base",
-                "viewName": "Calendar"
-              },
-              "icon": "tasknotes-simple",
-              "title": "calendar-default"
-            }
-          },
-          {
-            "id": "e8e0d9596d5f0493",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "TaskNotes/Views/tasks-default.base",
-                "viewName": "Manual Order"
-              },
-              "icon": "tasknotes-simple",
-              "title": "tasks-default"
-            }
-          },
-          {
-            "id": "8b67eb93fd17aad5",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "TaskNotes/Views/kanban-default.base",
-                "viewName": "Kanban Board"
-              },
-              "icon": "tasknotes-simple",
-              "title": "kanban-default"
-            }
-          },
-          {
-            "id": "dcb464c8ceefe2dc",
-            "type": "leaf",
-            "state": {
-              "type": "tasknotes-pomodoro-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "tasknotes-pomodoro-view"
-            }
-          },
-          {
-            "id": "dd3f17d30ba65230",
-            "type": "leaf",
-            "state": {
-              "type": "tasknotes-pomodoro-stats-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "tasknotes-pomodoro-stats-view"
-            }
-          },
-          {
             "id": "71763752d7602621",
             "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "TaskNotes/Views/calendar-default.base",
+                "viewName": "View"
+              },
+              "pinned": true,
+              "icon": "lucide-list",
+              "title": "calendar-default"
+            }
+          },
+          {
+            "id": "f969f9f8151daa27",
+            "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "bases",
               "state": {
                 "file": "TaskNotes/Views/calendar-default.base",
                 "viewName": "Calendar"
               },
+              "pinned": true,
               "icon": "tasknotes-simple",
               "title": "calendar-default"
+            }
+          },
+          {
+            "id": "15153c461956a5f7",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "TaskNotes/Views/agenda-default.base",
+                "viewName": "Agenda"
+              },
+              "icon": "tasknotes-simple",
+              "title": "agenda-default"
+            }
+          },
+          {
+            "id": "bfc4bb7596ac3b2b",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "TaskNotes/Views/calendar-default.base",
+                "viewName": "Calendar"
+              },
+              "pinned": true,
+              "icon": "tasknotes-simple",
+              "title": "calendar-default"
+            }
+          },
+          {
+            "id": "a4512f0b8bc181f1",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "TaskNotes/Views/agenda-default.base",
+                "viewName": "Agenda"
+              },
+              "icon": "tasknotes-simple",
+              "title": "agenda-default"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -173,7 +162,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -314,7 +303,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -322,6 +311,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "homepage:Open homepage": false,
       "zk-prefixer:Create new unique note": true,
       "random-note:Open random note": true,
       "audio-recorder:Start/stop recording": false,
@@ -353,22 +343,23 @@
       "tasknotes:Create new task": false
     }
   },
-  "active": "cf4aa3a9c5927e51",
+  "active": "8db3bae88df61789",
   "lastOpenFiles": [
-    "TaskNotes/Views/tasks-default.base",
+    "Scripts/reapply-tasknotes-ics-refresh-patch.sh",
     "TaskNotes/Views/calendar-default.base",
     "TaskNotes/Views/agenda-default.base",
-    "TaskNotes/Views/pomodoro-stats.base",
+    "TaskNotes/Views/mini-calendar-default.base",
+    "TaskNotes/Views/relationships.base",
+    "TaskNotes/Views/tasks-default.base",
+    "copilot/copilot-conversations/agent__I_want_my_agendacalendar_as_my_homepage_but_it_doesnt@20261026_213031.md",
     "TaskNotes/Views/kanban-default.base",
+    "TaskNotes/Views/pomodoro-stats.base",
     "TaskNotes/Start Here.md",
     "copilot/skills/copilot-web-search/SKILL.md",
     "copilot/skills/copilot-web-search/web-search.ps1",
     "copilot/skills/copilot-web-search/web-search.cmd",
     "copilot/skills/copilot-web-search/web-search.sh",
-    "copilot/skills/copilot-web-search",
     "copilot/skills/copilot-web-fetch/SKILL.md",
-    "copilot/skills/copilot-web-fetch/web-fetch.ps1",
-    "copilot/skills/copilot-web-fetch/web-fetch.cmd",
     "TaskNotes/Enable the Obsidian Bases core plugin.md",
     "2026/W44.md",
     "2026-10-26.md",
@@ -392,7 +383,6 @@
     "copilot/copilot-conversations/agent__I_need_help_with_github@20261025_173234.md",
     "Sources/Production of synthetic gas by the co-electrolysis of H2O and CO2 in the molten carbonate electrolyzer.md",
     "Sources/H2O co-electrolysis using single and stack solid oxide electrolysis cell (SOEC).md",
-    "Sources/Fuel-assisted steam and carbon dioxide co-electrolysis in molten carbonate cells First attempts.md",
-    "Sources/CO2-negative fuel production using low-CO2 electricity Syngas from a combination of methane pyrolysis and dry reforming with techno-economic analysis.md"
+    "Sources/Fuel-assisted steam and carbon dioxide co-electrolysis in molten carbonate cells First attempts.md"
   ]
 }

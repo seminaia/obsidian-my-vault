@@ -65,7 +65,7 @@ views:
     showPropertyBasedEvents: false
     showOverdueOnToday: true
     createDailyNotesFromDateLinks: true
-    calendarView: listWeek
+    calendarView: timeGridWeek
     startDateProperty: file.ctime
     listDayCount: 7
     titleProperty: file.basename

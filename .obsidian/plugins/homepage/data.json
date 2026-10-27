@@ -2,8 +2,8 @@
   "version": 5,
   "homepages": {
     "Main Homepage": {
-      "value": "Final Layout",
-      "kind": "Workspace",
+      "value": "TaskNotes/Views/calendar-default.base",
+      "kind": "File",
       "openOnStartup": true,
       "openMode": "Keep open notes",
       "manualOpenMode": "Keep open notes",

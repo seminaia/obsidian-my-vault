@@ -521,5 +521,10 @@
       "id": "ics_3v9c33v2emvpyqqa4"
     }
   ],
-  "googleCalendarTaskFingerprints": {}
+  "googleCalendarTaskFingerprints": {},
+  "pomodoroState": {
+    "isRunning": false,
+    "timeRemaining": 1500
+  },
+  "lastPomodoroDate": "2026-10-26"
 }
