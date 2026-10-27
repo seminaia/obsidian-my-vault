@@ -496,11 +496,29 @@
     {
       "name": "WPI",
       "url": "https://outlook.office365.com/owa/calendar/228c818532f344acb20622dccbccdcf3@wpi.edu/1c57b7eed9a74a7ab4e870860957981d11167500164446565170/calendar.ics",
-      "color": "#6366f1",
+      "color": "#ff5900",
       "enabled": true,
       "type": "remote",
       "refreshInterval": 60,
       "id": "ics_9nfj2lotcmvpyhs1h"
+    },
+    {
+      "name": "GMAIL",
+      "url": "https://calendar.google.com/calendar/ical/seminaia401%40gmail.com/public/basic.ics",
+      "color": "#0055ff",
+      "enabled": true,
+      "type": "remote",
+      "refreshInterval": 60,
+      "id": "ics_9tjccilc6mvpyob8p"
+    },
+    {
+      "name": "ICLOUD",
+      "url": "http://p44-caldav.icloud.com/published/2/MTE1MDcyNzk5MzMxMTUwN7QoxBICqjyw12j76vlBkv3Rd1_jMRkfJagw06ust-3-",
+      "color": "#6366f1",
+      "enabled": false,
+      "type": "remote",
+      "refreshInterval": 60,
+      "id": "ics_3v9c33v2emvpyqqa4"
     }
   ]
 }
