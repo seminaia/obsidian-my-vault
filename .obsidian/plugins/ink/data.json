@@ -1,9 +1,9 @@
 {
   "settingsVersion": "0.5.0",
   "onboardingTips": {
-    "welcomeTipRead": false,
+    "welcomeTipRead": true,
     "strokeLimitTipRead": false,
-    "lastVersionTipRead": ""
+    "lastVersionTipRead": "0.6.1"
   },
   "gettingStartedExpanded": false,
   "customAttachmentFolders": true,
