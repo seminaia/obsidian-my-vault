@@ -2,7 +2,7 @@
   "version": 5,
   "homepages": {
     "Main Homepage": {
-      "value": "TaskNotes/Views/calendar-default.base",
+      "value": "TaskNotes/Views/agenda-default.base",
       "kind": "File",
       "openOnStartup": true,
       "openMode": "Keep open notes",
@@ -12,7 +12,7 @@
       "openWhenEmpty": true,
       "openOnNewTab": true,
       "refreshDataview": false,
-      "autoCreate": false,
+      "autoCreate": true,
       "autoScroll": false,
       "pin": true,
       "commands": [],

@@ -4,96 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "d89afa517dffcb4d",
+        "id": "4319557cbd73288c",
         "type": "tabs",
         "children": [
           {
-            "id": "c5d48bebbd749fa6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026/W44.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "W44"
-            }
-          },
-          {
-            "id": "71763752d7602621",
+            "id": "02fa0fc46214bfeb",
             "type": "leaf",
             "pinned": true,
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "TaskNotes/Views/calendar-default.base",
-                "viewName": "View"
-              },
-              "pinned": true,
-              "icon": "lucide-list",
-              "title": "calendar-default"
-            }
-          },
-          {
-            "id": "f969f9f8151daa27",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "TaskNotes/Views/calendar-default.base",
-                "viewName": "Calendar"
-              },
-              "pinned": true,
-              "icon": "tasknotes-simple",
-              "title": "calendar-default"
-            }
-          },
-          {
-            "id": "15153c461956a5f7",
-            "type": "leaf",
             "state": {
               "type": "bases",
               "state": {
                 "file": "TaskNotes/Views/agenda-default.base",
                 "viewName": "Agenda"
               },
-              "icon": "tasknotes-simple",
-              "title": "agenda-default"
-            }
-          },
-          {
-            "id": "bfc4bb7596ac3b2b",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "TaskNotes/Views/calendar-default.base",
-                "viewName": "Calendar"
-              },
               "pinned": true,
-              "icon": "tasknotes-simple",
-              "title": "calendar-default"
-            }
-          },
-          {
-            "id": "a4512f0b8bc181f1",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "TaskNotes/Views/agenda-default.base",
-                "viewName": "Agenda"
-              },
               "icon": "tasknotes-simple",
               "title": "agenda-default"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -343,11 +272,12 @@
       "tasknotes:Create new task": false
     }
   },
-  "active": "8db3bae88df61789",
+  "active": "02fa0fc46214bfeb",
   "lastOpenFiles": [
-    "Scripts/reapply-tasknotes-ics-refresh-patch.sh",
-    "TaskNotes/Views/calendar-default.base",
     "TaskNotes/Views/agenda-default.base",
+    "2026/W44.md",
+    "TaskNotes/Views/calendar-default.base",
+    "Scripts/reapply-tasknotes-ics-refresh-patch.sh",
     "TaskNotes/Views/mini-calendar-default.base",
     "TaskNotes/Views/relationships.base",
     "TaskNotes/Views/tasks-default.base",
@@ -358,10 +288,8 @@
     "copilot/skills/copilot-web-search/SKILL.md",
     "copilot/skills/copilot-web-search/web-search.ps1",
     "copilot/skills/copilot-web-search/web-search.cmd",
-    "copilot/skills/copilot-web-search/web-search.sh",
     "copilot/skills/copilot-web-fetch/SKILL.md",
     "TaskNotes/Enable the Obsidian Bases core plugin.md",
-    "2026/W44.md",
     "2026-10-26.md",
     "Personal Access Token.md",
     "Full Calendar plugin patch.md",

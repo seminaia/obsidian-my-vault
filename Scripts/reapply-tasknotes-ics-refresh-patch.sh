@@ -8,6 +8,10 @@
 # changes (including the initial load), so the homepage shows subscribed
 # calendars without a manual "Refresh".
 #
+# A short debounce coalesces the near-simultaneous subscription fetches:
+# FullCalendar drops an overlapping refetch, which otherwise leaves only the
+# first feed visible.
+#
 # Safe to run repeatedly: it does nothing if the patch is already present.
 #
 # Usage:
@@ -26,7 +30,7 @@ if [[ ! -f "$MAIN_JS" ]]; then
   exit 1
 fi
 
-if grep -q 'icsSubscriptionService.on("data-changed"' "$MAIN_JS"; then
+if grep -q "tnIcsRefreshTimer" "$MAIN_JS"; then
   echo "Already patched: $MAIN_JS"
   exit 0
 fi
@@ -48,7 +52,11 @@ if src.count(needle) != 1:
 
 replacement = (
     "n.icsSubscriptionService=new C_(n);"
+    "let tnIcsRefreshTimer=null;"
     'n.icsSubscriptionService.on("data-changed",()=>{'
+    "tnIcsRefreshTimer!==null&&window.clearTimeout(tnIcsRefreshTimer);"
+    "tnIcsRefreshTimer=window.setTimeout(()=>{"
+    "tnIcsRefreshTimer=null;"
     "try{"
     "n.app.workspace.iterateAllLeaves(t=>{"
     "try{"
@@ -60,6 +68,7 @@ replacement = (
     "}catch(r){}"
     "})"
     "}catch(t){}"
+    "},1e3)"
     "});"
     "n.icsNoteService=new D_(n)"
 )
