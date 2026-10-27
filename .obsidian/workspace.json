@@ -23,34 +23,6 @@
             }
           },
           {
-            "id": "5739d7c0a791dbfa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_types/task.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "task"
-            }
-          },
-          {
-            "id": "255f614e9deccf0a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Personal Access Token.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Personal Access Token"
-            }
-          },
-          {
             "id": "e7f0a19c5c5efb7b",
             "type": "leaf",
             "state": {
@@ -59,43 +31,16 @@
                 "file": "Untitled.canvas",
                 "viewState": {
                   "x": 130,
-                  "y": 187.5,
+                  "y": -386.8273311897108,
                   "zoom": -0.7785736906938228
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "Untitled"
             }
-          },
-          {
-            "id": "89a9caa57227b72c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "df570cf3c4e90154",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Personal Access Token.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Personal Access Token"
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -347,14 +292,14 @@
   },
   "active": "c72a8501bc6ebc71",
   "lastOpenFiles": [
-    "TaskNotes/Views/agenda-default.base",
+    "Personal Access Token.md",
     "README.md",
     "Untitled.canvas",
+    "_types/task.md",
+    "TaskNotes/Views/agenda-default.base",
     "Untitled.base",
     "PeriodicNotes/Templates/Daily.md",
-    "Personal Access Token.md",
     "Profiles/Calendar Home/README.md",
-    "_types/task.md",
     "Profiles/Calendar Home/files/_types/task.md",
     "Profiles/Calendar Home/files/TaskNotes/Views/agenda-default.base",
     "Scripts/calendar-home.sh",
