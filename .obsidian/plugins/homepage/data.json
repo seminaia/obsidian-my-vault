@@ -2,7 +2,7 @@
   "version": 5,
   "homepages": {
     "Main Homepage": {
-      "value": "TaskNotes",
+      "value": "Final Layout",
       "kind": "Workspace",
       "openOnStartup": true,
       "openMode": "Keep open notes",
@@ -14,7 +14,7 @@
       "refreshDataview": false,
       "autoCreate": false,
       "autoScroll": false,
-      "pin": false,
+      "pin": true,
       "commands": [],
       "alwaysApply": true,
       "hideReleaseNotes": true

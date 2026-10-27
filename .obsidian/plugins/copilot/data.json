@@ -381,12 +381,6 @@
     "skills": {
       "folder": "copilot/skills",
       "builtinPreferences": {
-        "copilot-web-search": {
-          "disabled": true
-        },
-        "copilot-web-fetch": {
-          "disabled": true
-        },
         "obsidian-markdown": {
           "disabledAgents": [
             "claude",

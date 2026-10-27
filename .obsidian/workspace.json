@@ -11,19 +11,6 @@
             "id": "c5d48bebbd749fa6",
             "type": "leaf",
             "state": {
-              "type": "bases",
-              "state": {
-                "file": "TaskNotes/Views/agenda-default.base",
-                "viewName": "Agenda"
-              },
-              "icon": "tasknotes-simple",
-              "title": "agenda-default"
-            }
-          },
-          {
-            "id": "4c444f2b8ad5aecf",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
                 "file": "2026/W44.md",
@@ -71,6 +58,29 @@
             }
           },
           {
+            "id": "d81dd066d862cd99",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "8b67eb93fd17aad5",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "TaskNotes/Views/kanban-default.base",
+                "viewName": "Kanban Board"
+              },
+              "icon": "tasknotes-simple",
+              "title": "kanban-default"
+            }
+          },
+          {
             "id": "dcb464c8ceefe2dc",
             "type": "leaf",
             "state": {
@@ -104,7 +114,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -354,25 +364,28 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "4c444f2b8ad5aecf",
+  "active": "0a79c97a3782f78b",
   "lastOpenFiles": [
     "TaskNotes/Views/agenda-default.base",
+    "TaskNotes/Views/kanban-default.base",
     "TaskNotes/Start Here.md",
+    "TaskNotes/Views/calendar-default.base",
+    "copilot/skills/copilot-web-search/SKILL.md",
+    "copilot/skills/copilot-web-search/web-search.ps1",
+    "copilot/skills/copilot-web-search/web-search.cmd",
+    "copilot/skills/copilot-web-search/web-search.sh",
+    "copilot/skills/copilot-web-search",
+    "copilot/skills/copilot-web-fetch/SKILL.md",
+    "copilot/skills/copilot-web-fetch/web-fetch.ps1",
+    "copilot/skills/copilot-web-fetch/web-fetch.cmd",
+    "copilot/skills/copilot-web-fetch/web-fetch.sh",
+    "copilot/skills/copilot-web-fetch",
     "TaskNotes/Enable the Obsidian Bases core plugin.md",
     "2026/W44.md",
-    "TaskNotes/Views/kanban-default.base",
-    "TaskNotes/Views/tasks-default.base",
     "2026-10-26.md",
     "Personal Access Token.md",
-    "TaskNotes/Views/mini-calendar-default.base",
     "Full Calendar plugin patch.md",
-    "TaskNotes/Views/calendar-default.base",
-    "2026",
-    "mdbase.yaml",
     "_types/task.md",
-    "_types",
-    "TaskNotes/Views/pomodoro-stats.base",
-    "TaskNotes/Views/relationships.base",
     "Excalidraw/Drawing 2026-10-26 19.20.23.excalidraw.md",
     "PeriodicNotes/2026/Daily/10/2026-10-26.md",
     "PeriodicNotes/Templates/Daily.md",
@@ -391,8 +404,6 @@
     "Sources/Production of synthetic gas by the co-electrolysis of H2O and CO2 in the molten carbonate electrolyzer.md",
     "Sources/H2O co-electrolysis using single and stack solid oxide electrolysis cell (SOEC).md",
     "Sources/Fuel-assisted steam and carbon dioxide co-electrolysis in molten carbonate cells First attempts.md",
-    "Sources/CO2-negative fuel production using low-CO2 electricity Syngas from a combination of methane pyrolysis and dry reforming with techno-economic analysis.md",
-    "Sources/A review on in-situ methanation based on CO2H2O Co-electrolysis in solid oxide electrolytic cells addressing the thermo-kinetic mismatch.md",
-    "Excalidraw/Drawing 2026-10-25 18.44.25.excalidraw.md"
+    "Sources/CO2-negative fuel production using low-CO2 electricity Syngas from a combination of methane pyrolysis and dry reforming with techno-economic analysis.md"
   ]
 }

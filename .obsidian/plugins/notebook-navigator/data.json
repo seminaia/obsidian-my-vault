@@ -109,7 +109,7 @@
   "showInfoButtons": true,
   "homepage": {
     "source": "file",
-    "file": "TaskNotes/Views/agenda-default.base",
+    "file": null,
     "createMissingPeriodicNote": true
   },
   "dualPane": true,
