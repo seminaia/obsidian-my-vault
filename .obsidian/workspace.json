@@ -26,17 +26,13 @@
             "id": "e7f0a19c5c5efb7b",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "bases",
               "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": 130,
-                  "y": -386.8273311897108,
-                  "zoom": -0.7785736906938228
-                }
+                "file": "TaskNotes/Views/agenda-default.base",
+                "viewName": "Agenda"
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Untitled"
+              "icon": "tasknotes-simple",
+              "title": "agenda-default"
             }
           }
         ],
@@ -258,7 +254,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "homepage:Open homepage": false,
       "zk-prefixer:Create new unique note": true,
       "random-note:Open random note": true,
       "audio-recorder:Start/stop recording": false,
@@ -287,14 +282,17 @@
       "tasknotes:Open Kanban board": false,
       "tasknotes:Open Pomodoro timer": false,
       "tasknotes:Open Pomodoro statistics": false,
-      "tasknotes:Create new task": false
+      "tasknotes:Create new task": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "c72a8501bc6ebc71",
+  "active": "e7f0a19c5c5efb7b",
   "lastOpenFiles": [
+    "Untitled.canvas",
     "Personal Access Token.md",
     "README.md",
-    "Untitled.canvas",
     "_types/task.md",
     "TaskNotes/Views/agenda-default.base",
     "Untitled.base",
