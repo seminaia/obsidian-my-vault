@@ -23,31 +23,34 @@
             }
           },
           {
-            "id": "c7b094c4c54ac017",
+            "id": "5739d7c0a791dbfa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "_types/task.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "task"
             }
           },
           {
-            "id": "b6d11791af27a4b9",
+            "id": "255f614e9deccf0a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Profiles/Personal Access Token.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Personal Access Token"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -257,7 +260,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -297,27 +300,26 @@
       "tasknotes:Create new task": false
     }
   },
-  "active": "8db3bae88df61789",
+  "active": "c72a8501bc6ebc71",
   "lastOpenFiles": [
+    "Profiles/Personal Access Token.md",
+    "Profiles/Calendar Home/README.md",
+    "TaskNotes/Views/agenda-default.base",
+    "_types/task.md",
+    "Profiles/Calendar Home/files/_types/task.md",
+    "Profiles/Calendar Home/files/TaskNotes/Views/agenda-default.base",
+    "README.md",
+    "Scripts/calendar-home.sh",
     "Scripts/reapply-full-calendar-patch.sh",
     "PeriodicNotes/Templates/Daily.md",
     "PeriodicNotes/Templates",
     "PeriodicNotes",
-    "Profiles/Calendar Home/README.md",
-    "TaskNotes/Views/agenda-default.base",
     "Profiles/Calendar Home/files/TaskNotes/Views/tasks-default.base",
     "Profiles/Calendar Home/files/TaskNotes/Views/relationships.base",
     "Profiles/Calendar Home/files/TaskNotes/Views/pomodoro-stats.base",
     "Profiles/Calendar Home/files/TaskNotes/Views/mini-calendar-default.base",
-    "Profiles/Calendar Home/files/TaskNotes/Views/kanban-default.base",
-    "Profiles/Calendar Home/files/TaskNotes/Views/calendar-default.base",
-    "Profiles/Calendar Home/files/TaskNotes/Views/agenda-default.base",
-    "Profiles/Calendar Home/files/_types/task.md",
     "2026/2026-10-26.md",
-    "Personal Access Token.md",
     "Untitled.canvas",
-    "README.md",
-    "_types/task.md",
     "2026/W44.md",
     "copilot/copilot-conversations/agent__I_want_my_agendacalendar_as_my_homepage_but_it_doesnt@20261026_213031.md",
     "TaskNotes/Start Here.md",

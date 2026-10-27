@@ -1,7 +1,6 @@
 ---
 title: Calendar Home
-profile_version: 1
-saved: 2026-10-26
+verified: 2026-10-26
 obsidian: 1.14.5
 tasknotes: 4.14.0
 homepage: 4.6.0
@@ -9,95 +8,66 @@ homepage: 4.6.0
 
 # Calendar Home
 
-A saved snapshot of the calendar/agenda homepage setup, together with every setting it depends on, so the same vault can be rebuilt identically on another device or in a fresh clone.
+The calendar/agenda homepage setup. It is deliberately **not** a copy: Obsidian's config, the Bases and the TaskNotes spec are tracked by git at their real paths, so a clone already reproduces them exactly. A mirror inside this folder would only drift from the live files.
 
-> [!info] What this reproduces
-> Obsidian opens [[agenda-default.base|the agenda]] as the pinned homepage. The agenda and the full calendar are TaskNotes Bases views over `#task` notes, and they also render events from three ICS subscriptions (WPI, GMAIL, ICLOUD). The TaskNotes ICS refresh patch is reapplied on restore, so subscribed events appear on a cold start without pressing Refresh.
+## What the setup is
 
-## Restore
+- Obsidian opens [[agenda-default.base|the agenda]] as the pinned homepage.
+- The agenda and the full calendar are TaskNotes Bases views over `#task` notes.
+- They render three ICS subscriptions: WPI, GMAIL, ICLOUD.
+- The TaskNotes ICS refresh patch makes subscribed events appear on a cold start.
 
-> [!warning] Quit Obsidian first
-> Obsidian rewrites plugin `data.json` files when it exits. Restoring while it is running can silently undo the settings.
+## Restore on another device
 
-From the vault root:
+1. Clone the repository and open it in Obsidian 1.14.5.
+2. Check that **TaskNotes 4.14.0** and **Homepage 4.6.0** are installed. Both plugin folders are tracked, so the code is already in `.obsidian/plugins/`.
+3. Quit Obsidian completely.
+4. Run `./Scripts/calendar-home.sh --repair`.
+5. Reopen Obsidian.
 
-```bash
-./Scripts/apply-calendar-home-profile.sh --dry-run   # preview
-./Scripts/apply-calendar-home-profile.sh             # apply
-```
+The repair step enables the two plugins and the **Bases** / **Daily notes** core plugins, points Homepage at the agenda, and reapplies the TaskNotes patch. It does not overwrite your Bases or settings.
 
-The script backs up everything it touches to `Profiles/Calendar Home/.backups/<timestamp>/`, merges the Obsidian config files instead of clobbering unrelated settings, reapplies the TaskNotes patch, and prints the installed plugin versions.
-
-Afterwards, quit and reopen Obsidian. If the homepage does not appear, open [[agenda-default.base]] once — the Homepage plugin pins it from then on.
-
-To verify without writing anything:
+## Verify
 
 ```bash
-./Scripts/apply-calendar-home-profile.sh --check
+./Scripts/calendar-home.sh --check
 ```
 
-## On another device or a fresh clone
+That reports, line by line: the seven Bases, `mdbase.yaml`, `_types/task.md`, both plugin versions, both plugins enabled, the two core plugins, the homepage target, and the patch. Exit code 1 if anything is off.
 
-1. Clone the vault repository and open it in Obsidian 1.14.5.
-2. Enable **TaskNotes 4.14.0** and **Homepage 4.6.0** in *Settings → Community plugins*. Both plugin folders are tracked in this repository, so the code is already there; only the enable flag is needed.
-3. Quit Obsidian.
-4. Run `./Scripts/apply-calendar-home-profile.sh --yes`.
-5. Reopen Obsidian and open the agenda.
+## Where the settings live
 
-> [!note] Plugin versions matter
-> The profile was captured against TaskNotes 4.14.0 and Homepage 4.6.0. A different version may migrate or reject the saved `data.json`. Install those versions first, or check the version warnings the script prints.
+| Vault path | What it controls |
+| --- | --- |
+| `.obsidian/plugins/tasknotes/data.json` | Task folders, field mapping, statuses, calendar view defaults, the three ICS feeds. |
+| `.obsidian/plugins/homepage/data.json` | Opens `TaskNotes/Views/agenda-default.base` on startup, pinned. |
+| `.obsidian/community-plugins.json` | TaskNotes and Homepage enabled. |
+| `.obsidian/core-plugins.json` | Bases and Daily notes enabled. |
+| `.obsidian/daily-notes.json` | Daily note folder/template used by the calendar's date links. |
+| `.obsidian/appearance.json`, `.obsidian/types.json` | Theme, accent colour, property types. |
+| `TaskNotes/Views/*.base` | Agenda, full calendar, mini calendar, and the other TaskNotes views. |
+| `mdbase.yaml`, `_types/task.md` | mdbase collection spec and task schema. |
 
-## What is included
+The pinned versions and the patch contract are in [[Profiles/Calendar Home/manifest.json|manifest.json]].
 
-| Vault path                                                                                               | Role                                                                                                  |
-| -------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| `TaskNotes/Views/agenda-default.base`                                                                    | The homepage. Week agenda over tasks + ICS events.                                                    |
-| `TaskNotes/Views/calendar-default.base`                                                                  | Full calendar Base.                                                                                   |
-| `TaskNotes/Views/mini-calendar-default.base`                                                             | Compact calendar Base.                                                                                |
-| `TaskNotes/Views/tasks-default.base`, `kanban-default.base`, `pomodoro-stats.base`, `relationships.base` | Remaining TaskNotes Bases, kept so the set is complete.                                               |
-| `.obsidian/plugins/tasknotes/data.json`                                                                  | TaskNotes settings: task folders, field mapping, statuses, calendar view defaults, ICS subscriptions. |
-| `.obsidian/plugins/homepage/data.json`                                                                   | Which note opens on startup and how.                                                                  |
-| `.obsidian/community-plugins.json`                                                                       | Enabled plugin list. Restore adds the profile's plugins that are installed.                           |
-| `.obsidian/core-plugins.json`                                                                            | Core plugin state. Restore only forces **Bases** and **Daily notes** on.                              |
-| `.obsidian/daily-notes.json`                                                                             | Daily note folder/template used by the calendar's date links.                                         |
-| `.obsidian/appearance.json`                                                                              | Theme, accent colour, ribbon.                                                                         |
-| `.obsidian/types.json`                                                                                   | Property type overrides used by the Bases views.                                                      |
-| `mdbase.yaml`, `_types/task.md`                                                                          | TaskNotes mdbase collection spec and task schema.                                                     |
+## If a setting drifts
 
-The exact list, modes and checksums live in [[Profiles/Calendar Home/manifest.json|manifest.json]].
-
-> [!note] Profile layout
-> `Profiles/Calendar Home/files/` mirrors the vault paths it restores, including the hidden `.obsidian/` folder, so each snapshot file maps 1:1 onto its destination. Backups from every restore go to `Profiles/Calendar Home/.backups/` (git-ignored).
-
-## What is not included
-
-- **Window/tab layout** (`.obsidian/workspace.json`, `workspaces.json`) — panel sizes and open tabs are per device. Reopen the views once and Obsidian saves them locally.
-- **Plugin binaries** — already tracked elsewhere in `.obsidian/plugins/`; the profile only pins versions.
-- **Vault content** — task notes, events, daily notes and templates stay in the vault.
-- **Credentials** — the TaskNotes API token is blanked in the snapshot and re-used from the target device when one exists. See the warning below.
-
-> [!danger] This repository is public
-> `.obsidian/plugins/tasknotes/data.json` is tracked in a public GitHub repository and contains the three private ICS feed URLs, plus a TaskNotes API token. Anyone with the repo can read the calendar feeds. If that is not intended, rotate the published calendar links (Outlook/Google/iCloud) and the TaskNotes API token, then make the repository private. The profile snapshot keeps the feed URLs for fidelity but never stores the API token.
-
-## Maintenance
-
-The snapshot only stays accurate if it is refreshed after changing the setup:
+Restore the committed versions of just the setup files:
 
 ```bash
-./Scripts/save-calendar-home-profile.sh
+git restore -- .obsidian/plugins/tasknotes/data.json \
+  .obsidian/plugins/homepage/data.json \
+  TaskNotes/Views mdbase.yaml _types/task.md
 ```
 
-That copies the live files back into `files/`, blanks the API token and pomodoro state, and rewrites [[Profiles/Calendar Home/manifest.json|manifest.json]] with new checksums.
+Then run `--check` again.
+
+## The one thing git cannot keep
 
 > [!tip] After a TaskNotes update
-> Updating the plugin overwrites `main.js`, which removes the ICS refresh fix. Re-run `Scripts/reapply-tasknotes-ics-refresh-patch.sh` (or the apply script) to put it back. `--check` reports whether it is missing.
+> Updating the plugin overwrites `.obsidian/plugins/tasknotes/main.js`, which removes the ICS refresh fix. Run `./Scripts/calendar-home.sh --repair` (or `Scripts/reapply-tasknotes-ics-refresh-patch.sh`) to put it back. `--check` reports whether it is missing.
 
-## Troubleshooting
+## Caveat
 
-| Symptom | Fix |
-| --- | --- |
-| Calendar is empty on first open | `Scripts/apply-calendar-home-profile.sh --check`, then reapply the patch and reopen the view. |
-| Only one ICS feed shows | The patch debounces refetches by 1s; wait a moment or close/reopen the view. |
-| Homepage does not open | Check Homepage settings: `TaskNotes/Views/agenda-default.base`, *open on startup* on. |
-| Events appear but tasks do not | The Bases filter is `file.hasTag("task")`; confirm task notes carry the `task` tag. |
-| Daily notes land in the wrong place | Adjust `daily-notes.json` after restore; the saved template points at `2026/W44.md`. |
+> [!danger] This repository is public
+> `.obsidian/plugins/tasknotes/data.json` contains the three private ICS feed URLs and a TaskNotes API token, and it is committed to a public GitHub repository. Anyone with the repo can read the calendar feeds. If that is not intended, rotate the published calendar links (Outlook/Google/iCloud) and the API token, then make the repository private.

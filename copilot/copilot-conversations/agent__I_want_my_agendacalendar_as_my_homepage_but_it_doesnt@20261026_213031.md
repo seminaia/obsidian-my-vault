@@ -5,8 +5,8 @@ backendId: opencode
 sessionId: "ses_e85058160ffefi0QbBTafV9ByC"
 tags:
   - copilot-conversation
-usage: '{"usedTokens":68791,"contextWindow":200000,"updatedAt":1793065963108}'
-lastAccessedAt: 1793065526232
+usage: '{"usedTokens":97028,"contextWindow":200000,"updatedAt":1793066268142}'
+lastAccessedAt: 1793066439308
 ---
 
 **user**: I want my agenda/calendar as my homepage but it doesnt load the ics for them when it happens
@@ -123,5 +123,54 @@ The new files are untracked; the vault's auto-backup will pick them up, or `git 
 **user**: restore it, why is everything in profiles, seems redundant
 [Timestamp: 2026/10/26 21:54:30]
 
-**ai**: 
+**ai**: You were right — the copies were redundant. Here's what I did.
+
+## Why it was redundant
+
+`.obsidian/`, `TaskNotes/Views/*.base`, `mdbase.yaml` and `_types/task.md` are already tracked (and pushed) in this repo. Cloning it reproduces the setup exactly. Mirroring those same files into `Profiles/Calendar Home/files/` created a second source of truth — and it had already drifted: the snapshot's `data.json` differed from the live one only in the API token and pomodoro state.
+
+So I removed the mirror. The repository itself is the profile now.
+
+## What's left
+
+```
+Profiles/Calendar Home/
+├── README.md      what the setup is, versions, restore steps
+└── manifest.json  version pins, homepage target, patch contract
+Scripts/calendar-home.sh
+```
+
+`calendar-home.sh` only checks and repairs what git *can't* enforce on a running install:
+
+- TaskNotes 4.14.0 / Homepage 4.6.0 installed and enabled
+- Bases + Daily notes core plugins on
+- Homepage opens `TaskNotes/Views/agenda-default.base` on startup
+- All seven Bases, `mdbase.yaml`, `_types/task.md` present
+- `main.js` carries the ICS refresh patch
+
+```bash
+./Scripts/calendar-home.sh --check     # 17 checks, exit 1 if anything is off
+./Scripts/calendar-home.sh --repair    # fixes plugin flags, homepage target, patch
+```
+
+Tested against a deliberately broken sandbox (plugins disabled, homepage pointed at `README.md`, core plugins off): `--repair` brought it back to 17/17.
+
+## Restore
+
+The calendar setup itself was never broken — `--check` passes on the live vault: agenda homepage pinned, 7 Bases, both versions, WPI/GMAIL/ICLOUD feeds, patch present. Nothing to re-apply.
+
+If by "restore it" you meant the files that disappeared:
+
+- **Restored** `PeriodicNotes/Templates/Daily.md` and `Scripts/reapply-full-calendar-patch.sh` from git.
+- **Not restored** `2026-10-26.md`: it wasn't deleted, it was moved to `2026/2026-10-26.md` with byte-identical content. Recreating the root copy would just duplicate the note.
+
+The old snapshot isn't lost either — it's in commit `5cbfb8d` if you ever want a non-git copy:
+
+```bash
+git restore --source=5cbfb8d -- "Profiles/Calendar Home/files"
+```
+
+One caveat on what I restored: `reapply-full-calendar-patch.sh` patches `obsidian-full-calendar`, which isn't installed in this vault. It's back as requested, but currently inert.
+
+The public-repo warning still stands — the committed `tasknotes/data.json` exposes the three ICS feed URLs and the API token. Worth rotating if this isn't intentional.
 [Timestamp: 2026/10/26 21:54:30]
