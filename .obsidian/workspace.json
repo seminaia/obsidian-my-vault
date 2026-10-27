@@ -37,11 +37,11 @@
             "state": {
               "type": "bases",
               "state": {
-                "file": "TaskNotes/Views/agenda-default.base",
-                "viewName": "Agenda"
+                "file": "TaskNotes/Views/calendar-default.base",
+                "viewName": "Calendar"
               },
               "icon": "tasknotes-simple",
-              "title": "agenda-default"
+              "title": "calendar-default"
             }
           },
           {
@@ -55,16 +55,6 @@
               },
               "icon": "tasknotes-simple",
               "title": "tasks-default"
-            }
-          },
-          {
-            "id": "d81dd066d862cd99",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
             }
           },
           {
@@ -114,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -360,16 +350,17 @@
       "tasknotes:Open Kanban board": false,
       "tasknotes:Open Pomodoro timer": false,
       "tasknotes:Open Pomodoro statistics": false,
-      "tasknotes:Create new task": false,
-      "homepage:Open homepage": false
+      "tasknotes:Create new task": false
     }
   },
-  "active": "0a79c97a3782f78b",
+  "active": "cf4aa3a9c5927e51",
   "lastOpenFiles": [
+    "TaskNotes/Views/tasks-default.base",
+    "TaskNotes/Views/calendar-default.base",
     "TaskNotes/Views/agenda-default.base",
+    "TaskNotes/Views/pomodoro-stats.base",
     "TaskNotes/Views/kanban-default.base",
     "TaskNotes/Start Here.md",
-    "TaskNotes/Views/calendar-default.base",
     "copilot/skills/copilot-web-search/SKILL.md",
     "copilot/skills/copilot-web-search/web-search.ps1",
     "copilot/skills/copilot-web-search/web-search.cmd",
@@ -378,8 +369,6 @@
     "copilot/skills/copilot-web-fetch/SKILL.md",
     "copilot/skills/copilot-web-fetch/web-fetch.ps1",
     "copilot/skills/copilot-web-fetch/web-fetch.cmd",
-    "copilot/skills/copilot-web-fetch/web-fetch.sh",
-    "copilot/skills/copilot-web-fetch",
     "TaskNotes/Enable the Obsidian Bases core plugin.md",
     "2026/W44.md",
     "2026-10-26.md",
