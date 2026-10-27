@@ -305,7 +305,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -345,7 +345,7 @@
       "tasknotes:Create new task": false
     }
   },
-  "active": "8db3bae88df61789",
+  "active": "c72a8501bc6ebc71",
   "lastOpenFiles": [
     "TaskNotes/Views/agenda-default.base",
     "README.md",
