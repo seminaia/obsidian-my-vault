@@ -1,6 +1,6 @@
 {
   "tasksFolder": "TaskNotes/Tasks",
-  "moveArchivedTasks": false,
+  "moveArchivedTasks": true,
   "archiveFolder": "TaskNotes/Archive",
   "taskTag": "task",
   "taskIdentificationMethod": "tag",

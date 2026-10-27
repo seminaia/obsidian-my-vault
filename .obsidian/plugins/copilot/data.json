@@ -366,6 +366,10 @@
     "activeBackend": "opencode",
     "backends": {
       "opencode": {
+        "defaultModel": {
+          "baseModelId": "opencode/deepseek-v4.1-flash-free",
+          "effort": "max"
+        },
         "defaultMode": "auto"
       }
     },

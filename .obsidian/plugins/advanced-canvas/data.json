@@ -57,7 +57,7 @@
   "autoResizeNodeSnapToGrid": true,
   "collapsibleGroupsFeatureEnabled": true,
   "collapsedGroupPreviewOnDrag": true,
-  "focusModeFeatureEnabled": false,
+  "focusModeFeatureEnabled": true,
   "presentationFeatureEnabled": true,
   "showSetStartNodeInPopup": false,
   "defaultSlideDimensions": [

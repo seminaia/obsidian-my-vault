@@ -9,7 +9,7 @@
   "isSaveToFileEnabled": false,
   "isSaveToWebEnabled": false,
   "savePath": "",
-  "saveFileName": "",
+  "saveFileName": "Vault",
   "saveFileExtension": ".ical",
   "howToParseInternalLinks": "DoNotModifyThem",
   "ignoreCompletedTasks": true,

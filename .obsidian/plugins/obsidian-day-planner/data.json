@@ -18,7 +18,7 @@
   "extendDurationUntilNext": false,
   "defaultDurationMinutes": 30,
   "minimalDurationMinutes": 10,
-  "showTimestampInTaskBlock": false,
+  "showTimestampInTaskBlock": true,
   "showUnscheduledNestedTasks": true,
   "showNow": true,
   "showNext": true,
@@ -50,7 +50,7 @@
   "taskStatusOnCreation": " ",
   "eventFormatOnCreation": "task",
   "sortTasksInPlanAfterEdit": true,
-  "firstDayOfWeek": "monday",
+  "firstDayOfWeek": "sunday",
   "multiDayRange": "3-days",
   "showActiveClockInStatusBar": true,
   "timelineColumns": {
