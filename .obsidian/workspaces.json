@@ -314,7 +314,383 @@
       },
       "active": "5d4dabd05d29af0a",
       "mtime": "2026-10-26T19:20:57-04:00"
+    },
+    "Final Layout": {
+      "main": {
+        "id": "6068aeb39666da33",
+        "type": "split",
+        "children": [
+          {
+            "id": "d89afa517dffcb4d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "c5d48bebbd749fa6",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "2026/W44.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "W44"
+                }
+              },
+              {
+                "id": "a1cc59af13ff8a00",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {},
+                  "icon": "lucide-git-fork",
+                  "title": "Graph view"
+                }
+              },
+              {
+                "id": "cf4aa3a9c5927e51",
+                "type": "leaf",
+                "state": {
+                  "type": "bases",
+                  "state": {
+                    "file": "TaskNotes/Views/agenda-default.base",
+                    "viewName": "Agenda"
+                  },
+                  "icon": "tasknotes-simple",
+                  "title": "agenda-default"
+                }
+              },
+              {
+                "id": "e8e0d9596d5f0493",
+                "type": "leaf",
+                "state": {
+                  "type": "bases",
+                  "state": {
+                    "file": "TaskNotes/Views/tasks-default.base",
+                    "viewName": "Manual Order"
+                  },
+                  "icon": "tasknotes-simple",
+                  "title": "tasks-default"
+                }
+              },
+              {
+                "id": "d81dd066d862cd99",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "TaskNotes/Start Here.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Start Here"
+                }
+              },
+              {
+                "id": "8b67eb93fd17aad5",
+                "type": "leaf",
+                "state": {
+                  "type": "bases",
+                  "state": {
+                    "file": "TaskNotes/Views/kanban-default.base",
+                    "viewName": "Kanban Board"
+                  },
+                  "icon": "tasknotes-simple",
+                  "title": "kanban-default"
+                }
+              },
+              {
+                "id": "dcb464c8ceefe2dc",
+                "type": "leaf",
+                "state": {
+                  "type": "tasknotes-pomodoro-view",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Pomodoro"
+                }
+              },
+              {
+                "id": "dd3f17d30ba65230",
+                "type": "leaf",
+                "state": {
+                  "type": "tasknotes-pomodoro-stats-view",
+                  "state": {},
+                  "icon": "bar-chart",
+                  "title": "Pomodoro stats"
+                }
+              },
+              {
+                "id": "71763752d7602621",
+                "type": "leaf",
+                "state": {
+                  "type": "bases",
+                  "state": {
+                    "file": "TaskNotes/Views/calendar-default.base",
+                    "viewName": "Calendar"
+                  },
+                  "icon": "tasknotes-simple",
+                  "title": "calendar-default"
+                }
+              }
+            ],
+            "currentTab": 4
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "dc0b54f0cabfdd58",
+        "type": "split",
+        "children": [
+          {
+            "id": "0ea75e117030dcfa",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "5d4dabd05d29af0a",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "4adca50080054314",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              },
+              {
+                "id": "0a79c97a3782f78b",
+                "type": "leaf",
+                "state": {
+                  "type": "notebook-navigator",
+                  "state": {},
+                  "icon": "notebook-navigator",
+                  "title": "Notebook Navigator"
+                }
+              },
+              {
+                "id": "892bfe0d58321cf0",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300
+      },
+      "right": {
+        "id": "5ea2bded6f2b390f",
+        "type": "split",
+        "children": [
+          {
+            "id": "6863661aa29734ce",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "6da6f965f7ba272e",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Untitled.canvas",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks"
+                }
+              },
+              {
+                "id": "27ff66fdf5e63393",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Untitled.canvas",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links"
+                }
+              },
+              {
+                "id": "e7f3bee7184339bd",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "32af155f7d1cb584",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
+                }
+              },
+              {
+                "id": "5c2f428543cb9a4a",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline"
+                }
+              },
+              {
+                "id": "c72a8501bc6ebc71",
+                "type": "leaf",
+                "state": {
+                  "type": "git-view",
+                  "state": {},
+                  "icon": "git-pull-request",
+                  "title": "Source Control"
+                }
+              },
+              {
+                "id": "8db3bae88df61789",
+                "type": "leaf",
+                "state": {
+                  "type": "copilot-agent-chat-view",
+                  "state": {},
+                  "icon": "copilot-agent",
+                  "title": "Copilot Agent Chat"
+                }
+              },
+              {
+                "id": "3b7d8e5305ed8791",
+                "type": "leaf",
+                "state": {
+                  "type": "reminder-list",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Reminders"
+                }
+              },
+              {
+                "id": "6e3b8be7352f0c1a",
+                "type": "leaf",
+                "state": {
+                  "type": "planner-timeline",
+                  "state": {},
+                  "icon": "calendar-with-checkmark",
+                  "title": "Timeline"
+                }
+              },
+              {
+                "id": "bb1e47267fff7adb",
+                "type": "leaf",
+                "state": {
+                  "type": "planner-time-tracker",
+                  "state": {},
+                  "icon": "timer",
+                  "title": "Time Tracker"
+                }
+              }
+            ],
+            "currentTab": 5
+          }
+        ],
+        "direction": "horizontal",
+        "width": 524.8984375
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "zk-prefixer:Create new unique note": true,
+          "random-note:Open random note": true,
+          "audio-recorder:Start/stop recording": false,
+          "workspaces:Manage workspace layouts": false,
+          "obsidian-excalidraw-plugin:New drawing": false,
+          "obsidian-kanban:Create new board": false,
+          "3d-graph:3D Graph": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "switcher:Open quick switcher": true,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "daily-notes:Open today's daily note": true,
+          "templates:Insert template": true,
+          "command-palette:Open command palette": false,
+          "bases:Create new base": false,
+          "obsidian-git:Open Git source control": false,
+          "copilot:Open Copilot Agent Chat": false,
+          "notebook-navigator:Notebook Navigator": false,
+          "obsidian-day-planner:Open Timeline": false,
+          "obsidian-day-planner:Open Multi-Day View": false,
+          "vscode-editor:Create Code File": false,
+          "periodic-para:LifeOS Creation": true,
+          "periodic-para:Quick record": false,
+          "obsidian-advanced-slides:Show Slide Preview": false,
+          "tasknotes:Open mini calendar view": false,
+          "tasknotes:Open calendar view": false,
+          "tasknotes:Open tasks view": false,
+          "tasknotes:Open agenda view": false,
+          "tasknotes:Open Kanban board": false,
+          "tasknotes:Open Pomodoro timer": false,
+          "tasknotes:Open Pomodoro statistics": false,
+          "tasknotes:Create new task": false,
+          "homepage:Open homepage": false
+        }
+      },
+      "active": "d81dd066d862cd99",
+      "mtime": "2026-10-26T20:58:56-04:00"
     }
   },
-  "active": "WS layout"
+  "active": "Final Layout"
 }

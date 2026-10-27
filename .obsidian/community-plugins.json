@@ -1,7 +1,6 @@
 [
   "obsidian-excalidraw-plugin",
   "obsidian-git",
-  "obsidian-kanban",
   "obsidian-zotero-desktop-connector",
   "obsidian-pandoc",
   "image-converter",
@@ -23,7 +22,6 @@
   "docxer",
   "vscode-editor",
   "obsidian-tikzjax",
-  "periodic-para",
   "obsidian-advanced-slides",
   "tasknotes",
   "homepage"
