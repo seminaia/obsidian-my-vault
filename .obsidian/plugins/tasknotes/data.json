@@ -520,5 +520,8 @@
       "refreshInterval": 60,
       "id": "ics_3v9c33v2emvpyqqa4"
     }
-  ]
+  ],
+  "googleCalendarTaskFingerprints": {
+    "TaskNotes/Enable the Obsidian Bases core plugin.md": "{\"title\":\"Enable the Obsidian **Bases** core plugin.\",\"status\":\"open\",\"priority\":\"normal\",\"archived\":false,\"scheduled\":\"2026-10-26\",\"due\":null,\"timeEstimate\":null,\"recurrence\":null,\"recurrence_anchor\":null,\"complete_instances\":[],\"skipped_instances\":[],\"reminders\":[],\"tags\":[\"task\"],\"contexts\":[],\"projects\":[]}"
+  }
 }
