@@ -1,0 +1,14 @@
+{
+  "githubToken": "",
+  "githubUsername": "",
+  "repoName": "",
+  "autoSync": true,
+  "syncIntervalMs": 3000,
+  "excludePatterns": [
+    ".obsidian/workspace",
+    ".obsidian/workspace.json",
+    ".obsidian/plugins/*/data.json"
+  ],
+  "lastSyncTime": 0,
+  "commitMessageTemplate": "sync: {{datetime}}"
+}

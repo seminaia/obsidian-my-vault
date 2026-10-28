@@ -52,16 +52,30 @@
             "id": "296c37439b13342f",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "bases",
               "state": {
-                "file": "Excalidraw/Drawing 2026-10-27 17.54.56.excalidraw.md"
+                "file": "TaskNotes/Views/agenda-default.base",
+                "viewName": "Agenda"
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-10-27 17.54.56.excalidraw"
+              "icon": "tasknotes-simple",
+              "title": "agenda-default"
+            }
+          },
+          {
+            "id": "1d8dc892c068f070",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "TaskNotes/Views/agenda-default.base",
+                "viewName": "Agenda"
+              },
+              "icon": "tasknotes-simple",
+              "title": "agenda-default"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -221,16 +235,6 @@
             }
           },
           {
-            "id": "c72a8501bc6ebc71",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          },
-          {
             "id": "8db3bae88df61789",
             "type": "leaf",
             "state": {
@@ -293,7 +297,6 @@
       "templates:Insert template": true,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false,
       "copilot:Open Copilot Agent Chat": false,
       "notebook-navigator:Notebook Navigator": false,
       "obsidian-day-planner:Open Timeline": true,
@@ -310,14 +313,15 @@
       "tasknotes:Create new task": false,
       "pdf-plus:PDF++: Toggle auto-copy": true,
       "pdf-plus:PDF++: Toggle auto-focus": true,
-      "pdf-plus:PDF++: Toggle auto-paste": true
+      "pdf-plus:PDF++: Toggle auto-paste": true,
+      "github-sync:Sync with Remote": false
     }
   },
-  "active": "0c1a4a753cf639f3",
+  "active": "1d8dc892c068f070",
   "lastOpenFiles": [
-    "TaskNotes/Views/tasks-default.base",
     "TaskNotes/Views/agenda-default.base",
     "Excalidraw/Drawing 2026-10-27 17.54.56.excalidraw.md",
+    "TaskNotes/Views/tasks-default.base",
     "Excalidraw/Drawing 2026-10-25 18.44.25.excalidraw.md",
     "Excalidraw/Drawing 2026-10-26 19.20.23.excalidraw.md",
     "README.md",

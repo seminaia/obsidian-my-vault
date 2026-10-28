@@ -1,6 +1,5 @@
 [
   "obsidian-excalidraw-plugin",
-  "obsidian-git",
   "obsidian-zotero-desktop-connector",
   "obsidian-pandoc",
   "image-converter",
@@ -28,5 +27,5 @@
   "pdf-plus",
   "periodic-notes",
   "ink",
-  "git-obsi-sync"
+  "github-sync"
 ]
