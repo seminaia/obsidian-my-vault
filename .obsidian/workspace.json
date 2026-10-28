@@ -21,8 +21,22 @@
               "icon": "tasknotes-simple",
               "title": "agenda-default"
             }
+          },
+          {
+            "id": "296c37439b13342f",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "TaskNotes/Views/agenda-default.base",
+                "viewName": "Agenda"
+              },
+              "icon": "tasknotes-simple",
+              "title": "agenda-default"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -274,11 +288,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "0a79c97a3782f78b",
+  "active": "296c37439b13342f",
   "lastOpenFiles": [
+    "TaskNotes/Views/kanban-default.base",
+    "TaskNotes/Views/agenda-default.base",
     "Excalidraw/Drawing 2026-10-27 17.54.56.excalidraw.md",
     "copilot/copilot-conversations/agent__tcp192.168.4.593390_io_timeout_(130829)@20261028_130859.md",
-    "TaskNotes/Views/agenda-default.base",
     "Untitled.md",
     "Notebooks/Notebook.bnp",
     "Notebooks",
@@ -313,7 +328,6 @@
     "copilot/copilot-conversations/agent__I_want_to_save_this_setting_and_make_sure_that@20261026_181700.md",
     "copilot/copilot-conversations/agent__pluginobsidian-git371_obsidian-git_Committed_7_files_pluginobsidian-git371@20261026_155544.md",
     "Untitled 1.canvas",
-    "Untitled 2.canvas",
-    "Tatsumi Ishihara.md"
+    "Untitled 2.canvas"
   ]
 }
