@@ -1,5 +1,5 @@
 {
-  "remoteURL": "git@github.com:seminaia/obsidian-my-vault.git",
+  "remoteURL": "https://github.com/seminaia/obsidian-my-vault.git",
   "gitLocation": "",
   "syncinterval": 5,
   "isSyncOnLoad": true,

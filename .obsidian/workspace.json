@@ -74,8 +74,7 @@
               "title": "agenda-default"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -317,7 +316,7 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "1d8dc892c068f070",
+  "active": "f18665de71fc5f5c",
   "lastOpenFiles": [
     "TaskNotes/Views/agenda-default.base",
     "Excalidraw/Drawing 2026-10-27 17.54.56.excalidraw.md",
