@@ -207,3 +207,9 @@ What you were likely seeing is an old error notification/toast that doesn't clea
 - To see any future error text: command palette → **Obsidian Git: Show Git output** (or `Ctrl+Shift+I` → Console).
 - Dismiss the old notification; it won't reappear once a sync cycle completes successfully.
 [Timestamp: 2026/10/28 18:03:06]
+
+**user**: when i push the sync button it gives me the same error
+[Timestamp: 2026/10/28 18:04:04]
+
+**ai**: 
+[Timestamp: 2026/10/28 18:04:04]
