@@ -38,14 +38,13 @@
             "id": "771956441db77bfc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "2026/2026-10-27.md",
-                "mode": "source",
-                "source": false
+                "file": "TaskNotes/Views/agenda-default.base",
+                "viewName": "Agenda"
               },
-              "icon": "lucide-file",
-              "title": "2026-10-27"
+              "icon": "tasknotes-simple",
+              "title": "agenda-default"
             }
           }
         ],
