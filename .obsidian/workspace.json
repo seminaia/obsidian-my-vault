@@ -48,7 +48,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -300,8 +300,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "771956441db77bfc",
+  "active": "9aae1ea55c3aa04a",
   "lastOpenFiles": [
+    "TaskNotes/Views/agenda-default.base",
     "Untitled.md",
     "Notebooks/Notebook.bnp",
     "Notebooks",
@@ -310,7 +311,6 @@
     "README.md",
     "202610271800.md",
     "Excalidraw/Drawing 2026-10-27 17.54.56.excalidraw.md",
-    "TaskNotes/Views/agenda-default.base",
     "Untitled.base",
     "Untitled.canvas",
     "Personal Access Token.md",
@@ -339,7 +339,6 @@
     "copilot/copilot-conversations/agent__pluginobsidian-git371_obsidian-git_Committed_7_files_pluginobsidian-git371@20261026_155544.md",
     "Untitled 1.canvas",
     "Untitled 2.canvas",
-    "Tatsumi Ishihara.md",
-    "Welcome.md"
+    "Tatsumi Ishihara.md"
   ]
 }
