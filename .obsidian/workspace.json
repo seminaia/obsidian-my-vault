@@ -21,34 +21,8 @@
               "icon": "tasknotes-simple",
               "title": "agenda-default"
             }
-          },
-          {
-            "id": "9aae1ea55c3aa04a",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-10-27 17.54.56.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-10-27 17.54.56.excalidraw"
-            }
-          },
-          {
-            "id": "771956441db77bfc",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "TaskNotes/Views/agenda-default.base",
-                "viewName": "Agenda"
-              },
-              "icon": "tasknotes-simple",
-              "title": "agenda-default"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -258,7 +232,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -300,8 +274,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "9aae1ea55c3aa04a",
+  "active": "8db3bae88df61789",
   "lastOpenFiles": [
+    "copilot/copilot-conversations/agent__tcp192.168.4.593390_io_timeout_(130829)@20261028_130859.md",
     "TaskNotes/Views/agenda-default.base",
     "Untitled.md",
     "Notebooks/Notebook.bnp",
