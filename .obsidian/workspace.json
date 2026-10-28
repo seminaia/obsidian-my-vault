@@ -221,7 +221,8 @@
               "title": "Time Tracker"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -263,7 +264,7 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "6da6f965f7ba272e",
+  "active": "8db3bae88df61789",
   "lastOpenFiles": [
     "TaskNotes/Views/agenda-default.base",
     "Excalidraw/Drawing 2026-10-27 17.54.56.excalidraw.md",
