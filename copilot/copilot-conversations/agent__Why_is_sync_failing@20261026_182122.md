@@ -5,7 +5,7 @@ backendId: opencode
 sessionId: "ses_e85b25d6bffecJOTXukpLGXaXZ"
 tags:
   - copilot-conversation
-usage: '{"usedTokens":41041,"contextWindow":200000,"updatedAt":1793225175610}'
+usage: '{"usedTokens":43389,"contextWindow":200000,"updatedAt":1793225196187}'
 lastAccessedAt: 1793224954421
 agentLabel: "Sync failure"
 ---
@@ -234,5 +234,17 @@ One side note: the last pull removed the `obsidian-git` and `git-obsi-sync` plug
 **user**: refspec main doesnt match
 [Timestamp: 2026/10/28 18:06:15]
 
-**ai**: 
+**ai**: That error is exactly what I fixed — GitHub Sync was running `git push origin main`, but your local branch was `master`, so there was no `main` refspec. I renamed the branch and just verified the plugin's own sync command now runs:
+
+```
+git push origin main -u --verbose --porcelain
+```
+
+and it completed successfully. The repo is now `main → origin/main`, clean.
+
+If you still see "refspec main doesn't match":
+
+- It's likely the old notice still on screen — dismiss it and press sync again.
+- If it persists, restart Obsidian so the plugin re-reads the branch (its `simple-git` instance can cache the old branch).
+- On any other device syncing this vault, run `git branch -m master main` there too.
 [Timestamp: 2026/10/28 18:06:15]
