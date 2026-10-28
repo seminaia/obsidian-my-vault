@@ -73,9 +73,22 @@
               "icon": "tasknotes-simple",
               "title": "agenda-default"
             }
+          },
+          {
+            "id": "3e5ee5ec32a5309b",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "TaskNotes/Views/agenda-default.base",
+                "viewName": "Agenda"
+              },
+              "icon": "tasknotes-simple",
+              "title": "agenda-default"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -167,9 +180,19 @@
           "icon": "pen-tool",
           "title": "Notebooks"
         }
+      },
+      {
+        "id": "b3eeaf596552d790",
+        "type": "leaf",
+        "state": {
+          "type": "notebook-navigator",
+          "state": {},
+          "icon": "notebook-navigator",
+          "title": "Notebook Navigator"
+        }
       }
     ],
-    "currentTab": 0
+    "currentTab": 6
   },
   "right": {
     "id": "4158fe51306b8f8d",
@@ -311,7 +334,7 @@
       "betternotebooks:Open BetterNoteBooks": false
     }
   },
-  "active": "cb46057cd422d55b",
+  "active": "63432c8c59c7844c",
   "lastOpenFiles": [
     "TaskNotes/Views/agenda-default.base",
     "Untitled.md",
