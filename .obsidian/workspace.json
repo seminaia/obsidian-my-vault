@@ -41,11 +41,11 @@
             "state": {
               "type": "bases",
               "state": {
-                "file": "TaskNotes/Views/calendar-default.base",
-                "viewName": "Calendar"
+                "file": "TaskNotes/Views/agenda-default.base",
+                "viewName": "Agenda"
               },
               "icon": "tasknotes-simple",
-              "title": "calendar-default"
+              "title": "agenda-default"
             }
           },
           {
