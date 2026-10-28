@@ -5,7 +5,7 @@ backendId: opencode
 sessionId: "ses_e85b25d6bffecJOTXukpLGXaXZ"
 tags:
   - copilot-conversation
-usage: '{"usedTokens":27644,"contextWindow":200000,"updatedAt":1793224995025}'
+usage: '{"usedTokens":41041,"contextWindow":200000,"updatedAt":1793225175610}'
 lastAccessedAt: 1793224954421
 agentLabel: "Sync failure"
 ---
@@ -211,5 +211,28 @@ What you were likely seeing is an old error notification/toast that doesn't clea
 **user**: when i push the sync button it gives me the same error
 [Timestamp: 2026/10/28 18:04:04]
 
-**ai**: 
+**ai**: Found the real cause. The **GitHub Sync** plugin (`github-sync:github-sync-command`) hardcodes:
+
+```js
+await git.push("origin", "main", ["-u"]);
+```
+
+But your local branch was named **`master`**, so there was no local `main` branch to push — every sync with changes failed with a refspec error, no matter what the remote looked like.
+
+I fixed it by renaming the branch and setting tracking:
+
+```
+git branch -m master main
+git branch --set-upstream-to=origin/main main
+```
+
+Your repo is now on `main` tracking `origin/main`, and a plain `git push` succeeds. Press the sync button again — it should complete instead of erroring.
+
+One side note: the last pull removed the `obsidian-git` and `git-obsi-sync` plugin folders because they're deleted on the remote. If you still want Obsidian Git, reinstall it on this device.
 [Timestamp: 2026/10/28 18:04:04]
+
+**user**: refspec main doesnt match
+[Timestamp: 2026/10/28 18:06:15]
+
+**ai**: 
+[Timestamp: 2026/10/28 18:06:15]
