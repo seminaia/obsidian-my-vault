@@ -47,9 +47,32 @@
               "icon": "lucide-file",
               "title": "Untitled"
             }
+          },
+          {
+            "id": "d937ca0f746e359b",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "TaskNotes/Views/agenda-default.base",
+                "viewName": "Agenda"
+              },
+              "icon": "tasknotes-simple",
+              "title": "agenda-default"
+            }
+          },
+          {
+            "id": "cb46057cd422d55b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -130,6 +153,16 @@
           },
           "icon": "lucide-bookmark",
           "title": "Bookmarks"
+        }
+      },
+      {
+        "id": "8d0d5853a5c0bf78",
+        "type": "leaf",
+        "state": {
+          "type": "goodnote-max-notebook-view",
+          "state": {},
+          "icon": "pen-tool",
+          "title": "Notebooks"
         }
       }
     ],
@@ -223,6 +256,16 @@
           "icon": "timer",
           "title": "Time Tracker"
         }
+      },
+      {
+        "id": "63432c8c59c7844c",
+        "type": "leaf",
+        "state": {
+          "type": "goodnote-max-page-view",
+          "state": {},
+          "icon": "files",
+          "title": "Pages"
+        }
       }
     ],
     "currentTab": 4
@@ -260,15 +303,20 @@
       "tasknotes:Open Pomodoro timer": false,
       "tasknotes:Open Pomodoro statistics": false,
       "tasknotes:Create new task": false,
-      "goodnotes-handwriting-workflow:Start Goodnotes handwriting": false
+      "goodnotes-handwriting-workflow:Start Goodnotes handwriting": false,
+      "goodnote-max:GoodNote Max": false,
+      "betternotebooks:Open BetterNoteBooks": false
     }
   },
-  "active": "dbe122ed60ac1d90",
+  "active": "cb46057cd422d55b",
   "lastOpenFiles": [
+    "TaskNotes/Views/agenda-default.base",
     "Untitled.md",
+    "Notebooks/Notebook.bnp",
+    "Notebooks",
+    "GoodNoteMax",
     "Excalidraw/Drawing 2026-10-27 17.54.56.excalidraw.md",
     "202610271800.md",
-    "TaskNotes/Views/agenda-default.base",
     "2026/2026-10-27.md",
     "copilot/copilot-conversations/agent__help_me_figure_out_why_it_is_saying_fatal_refusing@20261026_150443.md",
     "Full Calendar plugin patch.md",

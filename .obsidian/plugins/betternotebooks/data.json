@@ -1,0 +1,46 @@
+{
+  "defaultColor": "#242424",
+  "defaultWidth": 2.5,
+  "smoothingFactor": 0.35,
+  "pressureSensitivity": 2,
+  "defaultPageFormat": "a4",
+  "defaultOrientation": "portrait",
+  "defaultBackground": "ruled",
+  "autosaveIntervalSeconds": 3,
+  "customColors": [
+    "#242424",
+    "#1a56db",
+    "#d92525",
+    "#16a34a",
+    "#eab308",
+    "#ec4899",
+    "#8b5cf6",
+    "#06b6d4"
+  ],
+  "shapeRecognitionEnabled": true,
+  "shapeHoldDurationMs": 450,
+  "eraserMode": "precision",
+  "eraserRadius": 16,
+  "defaultDashStyle": "solid",
+  "penDashStyle": "solid",
+  "highlighterDashStyle": "solid",
+  "shapeDashStyle": "solid",
+  "defaultOpacity": 1,
+  "defaultShapeFill": false,
+  "defaultShapeFillOpacity": 0.25,
+  "stylusOnlyMode": false,
+  "zoomAdaptiveStrokeWidth": true,
+  "notebooksFolder": "Notebooks",
+  "lastActiveNotebookPath": "Notebooks/Notebook.bnp",
+  "penWidthSlots": [
+    1.8,
+    4
+  ],
+  "penActiveSlotIndex": 0,
+  "eraserRadiusSlots": [
+    12,
+    28
+  ],
+  "eraserActiveSlotIndex": 0,
+  "language": "auto"
+}
