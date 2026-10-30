@@ -21,8 +21,22 @@
               "icon": "tasknotes-simple",
               "title": "agenda-default"
             }
+          },
+          {
+            "id": "1ff47cff4d5387c0",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "TaskNotes/Views/agenda-default.base",
+                "viewName": "Agenda"
+              },
+              "icon": "tasknotes-simple",
+              "title": "agenda-default"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -264,7 +278,7 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "8db3bae88df61789",
+  "active": "1ff47cff4d5387c0",
   "lastOpenFiles": [
     "TaskNotes/Views/agenda-default.base",
     "Excalidraw/Drawing 2026-10-27 17.54.56.excalidraw.md",
