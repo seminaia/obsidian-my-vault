@@ -89,3 +89,11 @@ Syncthing confirms both are loaded; both folders are idle with 0 errors. Plugins
 
 **Still outstanding:** revoke the Google OAuth token that's in the public repo's history — <https://myaccount.google.com/permissions>. That's the one real security item.
 [Timestamp: 2026/11/02 14:21:45]
+
+**user**: have zotflow downloaded and I keep getting a push error because of the username to git
+[Timestamp: 2026/11/02 14:26:15]
+
+**ai**: Let me reproduce the push error and check how git is authenticating, plus verify ZotFlow landed.
+
+
+[Timestamp: 2026/11/02 14:26:15]
