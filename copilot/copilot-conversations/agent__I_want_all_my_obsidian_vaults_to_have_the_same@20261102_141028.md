@@ -95,5 +95,15 @@ Syncthing confirms both are loaded; both folders are idle with 0 errors. Plugins
 
 **ai**: Let me reproduce the push error and check how git is authenticating, plus verify ZotFlow landed.
 
+Found the real cause — and it's serious. Fit is committing its own `data.json`, including your GitHub PAT, into the **public** repo. Let me confirm whether that token still works and whether GitHub has already revoked it.
+
+
+
+Confirmed: that PAT is **live** (GitHub API returns 200) and is sitting in the public repo's current tree and history. Fit is re-committing it every minute. Let me check how to stop it and whether other plugin configs leak secrets too.
+
+
+
+
+
 
 [Timestamp: 2026/11/02 14:26:15]
