@@ -3,3 +3,7 @@
 .obsidian/plugins/tasknotes/data.json
 .obsidian/plugins/github-sync/data.json
 .obsidian/plugins/google-drive-sync/data.json
+
+# Local Syncthing config and Fit cache.
+.stignore
+_fit/

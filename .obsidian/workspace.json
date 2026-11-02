@@ -23,29 +23,31 @@
             }
           },
           {
-            "id": "1ff47cff4d5387c0",
+            "id": "3ac6ddee60e440dc",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "TaskNotes/Views/agenda-default.base",
-                "viewName": "Agenda"
+                "file": "copilot/copilot-conversations/agent__I_want_all_my_obsidian_vaults_to_have_the_same@20261102_141028.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "tasknotes-simple",
-              "title": "agenda-default"
+              "icon": "lucide-file",
+              "title": "agent__I_want_all_my_obsidian_vaults_to_have_the_same@20261102_141028"
             }
           },
           {
-            "id": "262cd8445805776d",
+            "id": "03502e76d2a60629",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "TaskNotes/Views/agenda-default.base",
-                "viewName": "Agenda"
+                "file": "copilot/copilot-conversations/agent__I_want_all_my_obsidian_vaults_to_have_the_same@20261102_141028.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "tasknotes-simple",
-              "title": "agenda-default"
+              "icon": "lucide-file",
+              "title": "agent__I_want_all_my_obsidian_vaults_to_have_the_same@20261102_141028"
             }
           }
         ],
@@ -122,7 +124,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 245.3125
   },
   "right": {
     "id": "5ea2bded6f2b390f",
@@ -138,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TaskNotes/Views/agenda-default.base",
+                "file": "copilot/copilot-conversations/agent__I_want_all_my_obsidian_vaults_to_have_the_same@20261102_141028.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,6 +249,18 @@
               "icon": "clock",
               "title": "Reminders"
             }
+          },
+          {
+            "id": "c1834f15b9cfed69",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "copilot/copilot-conversations/agent__I_want_all_my_obsidian_vaults_to_have_the_same@20261102_141028.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties"
+            }
           }
         ],
         "currentTab": 5
@@ -292,9 +306,12 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "262cd8445805776d",
+  "active": "03502e76d2a60629",
   "lastOpenFiles": [
+    "Untitled.md",
+    "TaskNotes/Views/agenda-default.base",
     "copilot/copilot-conversations/agent__I_want_all_my_obsidian_vaults_to_have_the_same@20261102_141028.md",
+    "_fit",
     "copilot/skills/obsidian-cli/SKILL.md",
     "copilot/skills/obsidian-cli/LICENSE",
     "copilot/skills/obsidian-cli",
@@ -314,10 +331,8 @@
     "handwritten-notes",
     "copilot/copilot-conversations/how_do_I_connect_obsidian_from_my_iPad_and_iPhone@20261028_221249.md",
     "Notebooks/MTE 5847 materials for electrochemical systems.md",
-    "Homework+1.pdf",
     "Excalidraw/Scripts/Downloaded/Palm Guard.svg",
     "Excalidraw/Scripts/Downloaded/Palm Guard.md",
-    "Excalidraw/Scripts/Downloaded",
     "Excalidraw/Drawing 2026-10-30 15.40.13.excalidraw.md",
     "Excalidraw/Drawing 2026-10-30 12.08.36.excalidraw.md",
     "Drawing 2026-10-30 13.07.43.excalidraw.md",
@@ -329,8 +344,6 @@
     "Excalidraw/Drawing 2026-10-26 19.20.23.excalidraw.md",
     "README.md",
     "202610271800.md",
-    "Untitled.md",
-    "202610281536.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Untitled 2.canvas"

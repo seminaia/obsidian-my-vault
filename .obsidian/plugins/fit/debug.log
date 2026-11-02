@@ -14,3 +14,1025 @@
   "lastCommit": null
 }
 [2026-11-02T19:11:48.263Z] [Plugin] Plugin initialization completed successfully
+[2026-11-02T19:16:26.154Z] ... ⬇️ [RemoteVault] Fetching initial state from GitHub (25a37c6)...
+[2026-11-02T19:16:26.420Z] ... ☁️ [RemoteVault] Fetched 432 files
+[2026-11-02T19:16:26.424Z] .. 📦 [Cache] Loaded SHA caches from storage: {
+  "source": "plugin data.json",
+  "localShaCount": 0,
+  "remoteShaCount": 432,
+  "lastCommit": null,
+  "warnings": [
+    "Local SHA cache empty but remote cache has files - may incorrectly pull files as \"new\" that were deleted locally"
+  ]
+}
+[2026-11-02T19:16:26.424Z] [FitSettings] Cache has been updated
+[2026-11-02T19:17:24.258Z] ... ⬇️ [RemoteVault] Fetching initial state from GitHub (25a37c6)...
+[2026-11-02T19:17:24.603Z] ... ☁️ [RemoteVault] Fetched 432 files
+[2026-11-02T19:17:24.606Z] .. 📦 [Cache] Loaded SHA caches from storage: {
+  "source": "plugin data.json",
+  "localShaCount": 0,
+  "remoteShaCount": 432,
+  "lastCommit": null,
+  "warnings": [
+    "Local SHA cache empty but remote cache has files - may incorrectly pull files as \"new\" that were deleted locally"
+  ]
+}
+[2026-11-02T19:17:24.606Z] [FitSettings] Cache has been updated
+[2026-11-02T19:18:43.018Z] [Plugin] Auto sync requested
+[2026-11-02T19:18:43.024Z] 🚀 [SYNC START] Auto sync requested
+[2026-11-02T19:18:43.025Z] 🔄 [Sync] Checking local and remote changes (parallel)...
+[2026-11-02T19:18:43.025Z] .. 💾 [LocalVault] Scanning files...
+[2026-11-02T19:18:43.026Z] .. ☁️ [RemoteVault] Fetching from GitHub...
+[2026-11-02T19:18:44.644Z] ... ⬇️ [RemoteVault] Fetching initial state from GitHub (25a37c6)...
+[2026-11-02T19:18:44.668Z] ... 💾 [LocalVault] Scanned 77 files
+[2026-11-02T19:18:44.993Z] ... ☁️ [RemoteVault] Fetched 432 files
+[2026-11-02T19:18:44.995Z] .. ✅ [Sync] Change detection complete
+[2026-11-02T19:18:44.995Z] 🔄 [FitSync] Syncing changes (77 local, 0 remote): {
+  "local": {
+    "ADDED": [
+      "mdbase.yaml",
+      "handwritten-notes/Untitled.md",
+      "copilot/skills/obsidian-markdown/references/PROPERTIES.md",
+      "copilot/skills/obsidian-markdown/references/EMBEDS.md",
+      "copilot/skills/obsidian-markdown/references/CALLOUTS.md",
+      "copilot/skills/obsidian-markdown/SKILL.md",
+      "copilot/skills/obsidian-markdown/LICENSE",
+      "copilot/skills/obsidian-cli/SKILL.md",
+      "copilot/skills/obsidian-cli/LICENSE",
+      "copilot/skills/obsidian-bases/references/FUNCTIONS_REFERENCE.md",
+      "copilot/skills/obsidian-bases/references/EXAMPLES.md",
+      "copilot/skills/obsidian-bases/SKILL.md",
+      "copilot/skills/obsidian-bases/LICENSE",
+      "copilot/skills/json-canvas/references/EXAMPLES.md",
+      "copilot/skills/json-canvas/SKILL.md",
+      "copilot/skills/json-canvas/LICENSE",
+      "copilot/skills/copilot-youtube-transcript/youtube-transcript.sh",
+      "copilot/skills/copilot-youtube-transcript/youtube-transcript.ps1",
+      "copilot/skills/copilot-youtube-transcript/youtube-transcript.cmd",
+      "copilot/skills/copilot-youtube-transcript/SKILL.md",
+      "copilot/skills/copilot-web-search/web-search.sh",
+      "copilot/skills/copilot-web-search/web-search.ps1",
+      "copilot/skills/copilot-web-search/web-search.cmd",
+      "copilot/skills/copilot-web-search/SKILL.md",
+      "copilot/skills/copilot-web-fetch/web-fetch.sh",
+      "copilot/skills/copilot-web-fetch/web-fetch.ps1",
+      "copilot/skills/copilot-web-fetch/web-fetch.cmd",
+      "copilot/skills/copilot-web-fetch/SKILL.md",
+      "copilot/skills/copilot-fetch-x/fetch-x.sh",
+      "copilot/skills/copilot-fetch-x/fetch-x.ps1",
+      "copilot/skills/copilot-fetch-x/fetch-x.cmd",
+      "copilot/skills/copilot-fetch-x/SKILL.md",
+      "copilot/copilot-conversations/how_do_I_connect_obsidian_from_my_iPad_and_iPhone@20261028_221249.md",
+      "copilot/copilot-conversations/agent__tcp192.168.4.593390_io_timeout_(130829)@20261028_130859.md",
+      "copilot/copilot-conversations/agent__pluginobsidian-git371_obsidian-git_Committed_7_files_pluginobsidian-git371@20261026_155544.md",
+      "copilot/copilot-conversations/agent__help_me_figure_out_why_it_is_saying_fatal_refusing@20261026_150443.md",
+      "copilot/copilot-conversations/agent__app.js1_Obsidian_Developer_Console_pluginobsidian-git371_loading_Git_plugi@20261026_183928.md",
+      "copilot/copilot-conversations/agent__Why_is_sync_failing@20261026_182122.md",
+      "copilot/copilot-conversations/agent__I_want_my_agendacalendar_as_my_homepage_but_it_doesnt@20261026_213031.md",
+      "copilot/copilot-conversations/agent__I_want_to_save_this_setting_and_make_sure_that@20261026_181700.md",
+      "copilot/copilot-conversations/agent__I_want_all_my_obsidian_vaults_to_have_the_same@20261102_141028.md",
+      "copilot/copilot-conversations/agent__I_need_help_with_github@20261025_173234.md",
+      "Welcome.md",
+      "_types/task.md",
+      "Untitled.canvas",
+      "Untitled.base",
+      "Tasks/Virtual Events.md",
+      "TaskNotes/Views/tasks-default.base",
+      "TaskNotes/Views/relationships.base",
+      "TaskNotes/Views/pomodoro-stats.base",
+      "TaskNotes/Views/mini-calendar-default.base",
+      "TaskNotes/Views/kanban-default.base",
+      "TaskNotes/Views/calendar-default.base",
+      "TaskNotes/Views/agenda-default.base",
+      "TaskNotes/Start Here.md",
+      "Sources/Production of synthetic gas by the co-electrolysis of H2O and CO2 in the molten carbonate electrolyzer.md",
+      "Sources/H2O co-electrolysis using single and stack solid oxide electrolysis cell (SOEC).md",
+      "Sources/Fuel-assisted steam and carbon dioxide co-electrolysis in molten carbonate cells First attempts.md",
+      "Sources/CO2-negative fuel production using low-CO2 electricity Syngas from a combination of methane pyrolysis and dry reforming with techno-economic analysis.md",
+      "Sources/A review on in-situ methanation based on CO2H2O Co-electrolysis in solid oxide electrolytic cells addressing the thermo-kinetic mismatch.md",
+      "Sources/1-s2.0-S2772970226000143-main.pdf",
+      "Scripts/set-github-credentials.sh",
+      "Scripts/reapply-tasknotes-ics-refresh-patch.sh",
+      "Scripts/reapply-full-calendar-patch.sh",
+      "Scripts/calendar-home.sh",
+      "README.md",
+      "PeriodicNotes/Templates/Daily.md",
+      "Notebooks/MTE 5847 materials for electrochemical systems.md",
+      "Homework+1.pdf",
+      "Excalidraw/Scripts/Downloaded/Palm Guard.svg",
+      "Excalidraw/Scripts/Downloaded/Palm Guard.md",
+      "2026/mdbase.yaml",
+      "2026/W44.md",
+      "2026/2026-10-30.md",
+      "2026/2026-10-28.md",
+      "2026/2026-10-27.md",
+      "2026/2026-10-26.md"
+    ]
+  }
+}
+[2026-11-02T19:18:44.996Z] [FitSync] Conflict detection complete: {
+  "safeLocal": 77,
+  "safeRemote": 0,
+  "clashes": 0
+}
+[2026-11-02T19:18:46.580Z] ... 📦 [RemoteVault] Using cached state (25a37c6)
+[2026-11-02T19:18:56.582Z] [Performance Warning] Slow operation detected: {
+  "operation": "GitHub blob creation",
+  "message": "Operation still running after 10.0s"
+}
+[2026-11-02T19:18:59.062Z] .. ⬆️ [Push] Pushed 1 changes to remote
+[2026-11-02T19:18:59.066Z] .. 📦 [Cache] Updating SHA cache after sync: {
+  "localChanges": 77,
+  "remoteChanges": 0,
+  "commitChanged": true,
+  "warnings": [
+    "Local SHA cache jumped from 0 to 77 files - possible recovery from empty cache or first sync"
+  ],
+  "localOpsApplied": 0,
+  "remoteOpsPushed": 1
+}
+[2026-11-02T19:18:59.071Z] .. 📦 [Cache] Loaded SHA caches from storage: {
+  "source": "plugin data.json",
+  "localShaCount": 77,
+  "remoteShaCount": 432,
+  "lastCommit": "3890209f6b2f6302a76ef8485cbec9b2f59c777d"
+}
+[2026-11-02T19:18:59.072Z] ✅ [SYNC COMPLETE] Success: {
+  "duration": "16.05s",
+  "totalOperations": 1,
+  "conflicts": 0,
+  "changes": [
+    {
+      "heading": "Local file updates:",
+      "changes": []
+    },
+    {
+      "heading": "Remote file updates:",
+      "changes": [
+        {
+          "path": "copilot/copilot-conversations/agent__I_want_all_my_obsidian_vaults_to_have_the_same@20261102_141028.md",
+          "type": "ADDED"
+        }
+      ]
+    }
+  ]
+}
+[2026-11-02T19:19:43.017Z] [Plugin] Auto sync requested
+[2026-11-02T19:19:43.020Z] 🚀 [SYNC START] Auto sync requested
+[2026-11-02T19:19:43.020Z] 🔄 [Sync] Checking local and remote changes (parallel)...
+[2026-11-02T19:19:43.020Z] .. 💾 [LocalVault] Scanning files...
+[2026-11-02T19:19:43.021Z] .. ☁️ [RemoteVault] Fetching from GitHub...
+[2026-11-02T19:19:44.742Z] ... ⬇️ [RemoteVault] Fetching initial state from GitHub (3890209)...
+[2026-11-02T19:19:44.760Z] ... 💾 [LocalVault] Scanned 77 files
+[2026-11-02T19:19:45.208Z] ... ☁️ [RemoteVault] Fetched 432 files
+[2026-11-02T19:19:45.209Z] .. ✅ [Sync] Change detection complete
+[2026-11-02T19:19:45.210Z] [FitSync] Conflict detection complete: {
+  "safeLocal": 0,
+  "safeRemote": 0,
+  "clashes": 0
+}
+[2026-11-02T19:19:45.222Z] .. 📦 [Cache] Loaded SHA caches from storage: {
+  "source": "plugin data.json",
+  "localShaCount": 77,
+  "remoteShaCount": 432,
+  "lastCommit": "3890209f6b2f6302a76ef8485cbec9b2f59c777d"
+}
+[2026-11-02T19:19:45.223Z] ✅ [SYNC COMPLETE] Success: {
+  "duration": "2.20s",
+  "totalOperations": 0,
+  "conflicts": 0
+}
+[2026-11-02T19:20:43.018Z] [Plugin] Auto sync requested
+[2026-11-02T19:20:43.033Z] 🚀 [SYNC START] Auto sync requested
+[2026-11-02T19:20:43.034Z] 🔄 [Sync] Checking local and remote changes (parallel)...
+[2026-11-02T19:20:43.034Z] .. 💾 [LocalVault] Scanning files...
+[2026-11-02T19:20:43.035Z] .. ☁️ [RemoteVault] Fetching from GitHub...
+[2026-11-02T19:20:44.821Z] ... ⬇️ [RemoteVault] Fetching initial state from GitHub (3890209)...
+[2026-11-02T19:20:44.837Z] ... 💾 [LocalVault] Scanned 77 files
+[2026-11-02T19:20:45.174Z] ... ☁️ [RemoteVault] Fetched 432 files
+[2026-11-02T19:20:45.175Z] .. ✅ [Sync] Change detection complete
+[2026-11-02T19:20:45.176Z] [FitSync] Conflict detection complete: {
+  "safeLocal": 0,
+  "safeRemote": 0,
+  "clashes": 0
+}
+[2026-11-02T19:20:45.187Z] .. 📦 [Cache] Loaded SHA caches from storage: {
+  "source": "plugin data.json",
+  "localShaCount": 77,
+  "remoteShaCount": 432,
+  "lastCommit": "3890209f6b2f6302a76ef8485cbec9b2f59c777d"
+}
+[2026-11-02T19:20:45.188Z] ✅ [SYNC COMPLETE] Success: {
+  "duration": "2.15s",
+  "totalOperations": 0,
+  "conflicts": 0
+}
+[2026-11-02T19:21:43.017Z] [Plugin] Auto sync requested
+[2026-11-02T19:21:43.020Z] 🚀 [SYNC START] Auto sync requested
+[2026-11-02T19:21:43.020Z] 🔄 [Sync] Checking local and remote changes (parallel)...
+[2026-11-02T19:21:43.020Z] .. 💾 [LocalVault] Scanning files...
+[2026-11-02T19:21:43.021Z] .. ☁️ [RemoteVault] Fetching from GitHub...
+[2026-11-02T19:21:44.553Z] ... ⬇️ [RemoteVault] Fetching initial state from GitHub (3890209)...
+[2026-11-02T19:21:44.569Z] ... 💾 [LocalVault] Scanned 77 files
+[2026-11-02T19:21:44.852Z] ... ☁️ [RemoteVault] Fetched 432 files
+[2026-11-02T19:21:44.853Z] .. ✅ [Sync] Change detection complete
+[2026-11-02T19:21:44.853Z] [FitSync] Conflict detection complete: {
+  "safeLocal": 0,
+  "safeRemote": 0,
+  "clashes": 0
+}
+[2026-11-02T19:21:44.860Z] .. 📦 [Cache] Loaded SHA caches from storage: {
+  "source": "plugin data.json",
+  "localShaCount": 77,
+  "remoteShaCount": 432,
+  "lastCommit": "3890209f6b2f6302a76ef8485cbec9b2f59c777d"
+}
+[2026-11-02T19:21:44.860Z] ✅ [SYNC COMPLETE] Success: {
+  "duration": "1.84s",
+  "totalOperations": 0,
+  "conflicts": 0
+}
+[2026-11-02T19:22:43.017Z] [Plugin] Auto sync requested
+[2026-11-02T19:22:43.021Z] 🚀 [SYNC START] Auto sync requested
+[2026-11-02T19:22:43.022Z] 🔄 [Sync] Checking local and remote changes (parallel)...
+[2026-11-02T19:22:43.022Z] .. 💾 [LocalVault] Scanning files...
+[2026-11-02T19:22:43.025Z] .. ☁️ [RemoteVault] Fetching from GitHub...
+[2026-11-02T19:22:44.634Z] ... ⬇️ [RemoteVault] Fetching initial state from GitHub (3890209)...
+[2026-11-02T19:22:44.671Z] ... 💾 [LocalVault] Scanned 77 files
+[2026-11-02T19:22:45.008Z] ... ☁️ [RemoteVault] Fetched 432 files
+[2026-11-02T19:22:45.009Z] .. ✅ [Sync] Change detection complete
+[2026-11-02T19:22:45.010Z] 🔄 [FitSync] Syncing changes (1 local, 0 remote): {
+  "local": {
+    "MODIFIED": [
+      "copilot/copilot-conversations/agent__I_want_all_my_obsidian_vaults_to_have_the_same@20261102_141028.md"
+    ]
+  }
+}
+[2026-11-02T19:22:45.011Z] [FitSync] Conflict detection complete: {
+  "safeLocal": 1,
+  "safeRemote": 0,
+  "clashes": 0
+}
+[2026-11-02T19:22:45.303Z] ... 📦 [RemoteVault] Using cached state (3890209)
+[2026-11-02T19:22:47.237Z] .. ⬆️ [Push] Pushed 1 changes to remote
+[2026-11-02T19:22:47.239Z] .. 📦 [Cache] Updating SHA cache after sync: {
+  "localChanges": 0,
+  "remoteChanges": 0,
+  "commitChanged": true,
+  "localOpsApplied": 0,
+  "remoteOpsPushed": 1
+}
+[2026-11-02T19:22:47.252Z] .. 📦 [Cache] Loaded SHA caches from storage: {
+  "source": "plugin data.json",
+  "localShaCount": 77,
+  "remoteShaCount": 432,
+  "lastCommit": "f088f8e8a12ad05e57c4cf3033b537ab1bcebfee"
+}
+[2026-11-02T19:22:47.253Z] ✅ [SYNC COMPLETE] Success: {
+  "duration": "4.23s",
+  "totalOperations": 1,
+  "conflicts": 0,
+  "changes": [
+    {
+      "heading": "Local file updates:",
+      "changes": []
+    },
+    {
+      "heading": "Remote file updates:",
+      "changes": [
+        {
+          "path": "copilot/copilot-conversations/agent__I_want_all_my_obsidian_vaults_to_have_the_same@20261102_141028.md",
+          "type": "MODIFIED"
+        }
+      ]
+    }
+  ]
+}
+[2026-11-02T19:24:33.764Z] [Plugin] Auto sync requested
+[2026-11-02T19:24:33.785Z] 🚀 [SYNC START] Auto sync requested
+[2026-11-02T19:24:33.785Z] 🔄 [Sync] Checking local and remote changes (parallel)...
+[2026-11-02T19:24:33.786Z] .. 💾 [LocalVault] Scanning files...
+[2026-11-02T19:24:33.791Z] .. ☁️ [RemoteVault] Fetching from GitHub...
+[2026-11-02T19:24:35.453Z] ... ⬇️ [RemoteVault] Fetching initial state from GitHub (f088f8e)...
+[2026-11-02T19:24:35.473Z] ... 💾 [LocalVault] Scanned 77 files
+[2026-11-02T19:24:35.811Z] ... ☁️ [RemoteVault] Fetched 432 files
+[2026-11-02T19:24:35.813Z] .. ✅ [Sync] Change detection complete
+[2026-11-02T19:24:35.813Z] 🔄 [FitSync] Syncing changes (1 local, 0 remote): {
+  "local": {
+    "MODIFIED": [
+      "copilot/copilot-conversations/agent__I_want_all_my_obsidian_vaults_to_have_the_same@20261102_141028.md"
+    ]
+  }
+}
+[2026-11-02T19:24:35.814Z] [FitSync] Conflict detection complete: {
+  "safeLocal": 1,
+  "safeRemote": 0,
+  "clashes": 0
+}
+[2026-11-02T19:24:36.182Z] ... 📦 [RemoteVault] Using cached state (f088f8e)
+[2026-11-02T19:24:38.635Z] .. ⬆️ [Push] Pushed 1 changes to remote
+[2026-11-02T19:24:38.637Z] .. 📦 [Cache] Updating SHA cache after sync: {
+  "localChanges": 0,
+  "remoteChanges": 0,
+  "commitChanged": true,
+  "localOpsApplied": 0,
+  "remoteOpsPushed": 1
+}
+[2026-11-02T19:24:38.644Z] .. 📦 [Cache] Loaded SHA caches from storage: {
+  "source": "plugin data.json",
+  "localShaCount": 77,
+  "remoteShaCount": 432,
+  "lastCommit": "d2443d8e176a0ecafd59c51db18890d7f634554b"
+}
+[2026-11-02T19:24:38.645Z] ✅ [SYNC COMPLETE] Success: {
+  "duration": "4.86s",
+  "totalOperations": 1,
+  "conflicts": 0,
+  "changes": [
+    {
+      "heading": "Local file updates:",
+      "changes": []
+    },
+    {
+      "heading": "Remote file updates:",
+      "changes": [
+        {
+          "path": "copilot/copilot-conversations/agent__I_want_all_my_obsidian_vaults_to_have_the_same@20261102_141028.md",
+          "type": "MODIFIED"
+        }
+      ]
+    }
+  ]
+}
+[2026-11-02T19:25:33.763Z] [Plugin] Auto sync requested
+[2026-11-02T19:25:33.781Z] 🚀 [SYNC START] Auto sync requested
+[2026-11-02T19:25:33.782Z] 🔄 [Sync] Checking local and remote changes (parallel)...
+[2026-11-02T19:25:33.782Z] .. 💾 [LocalVault] Scanning files...
+[2026-11-02T19:25:33.786Z] .. ☁️ [RemoteVault] Fetching from GitHub...
+[2026-11-02T19:25:35.279Z] ... ⬇️ [RemoteVault] Fetching initial state from GitHub (d2443d8)...
+[2026-11-02T19:25:35.303Z] ... 💾 [LocalVault] Scanned 77 files
+[2026-11-02T19:25:35.664Z] ... ☁️ [RemoteVault] Fetched 432 files
+[2026-11-02T19:25:35.665Z] .. ✅ [Sync] Change detection complete
+[2026-11-02T19:25:35.666Z] [FitSync] Conflict detection complete: {
+  "safeLocal": 0,
+  "safeRemote": 0,
+  "clashes": 0
+}
+[2026-11-02T19:25:35.684Z] .. 📦 [Cache] Loaded SHA caches from storage: {
+  "source": "plugin data.json",
+  "localShaCount": 77,
+  "remoteShaCount": 432,
+  "lastCommit": "d2443d8e176a0ecafd59c51db18890d7f634554b"
+}
+[2026-11-02T19:25:35.684Z] ✅ [SYNC COMPLETE] Success: {
+  "duration": "1.90s",
+  "totalOperations": 0,
+  "conflicts": 0
+}
+[2026-11-02T19:26:33.763Z] [Plugin] Auto sync requested
+[2026-11-02T19:26:33.765Z] 🚀 [SYNC START] Auto sync requested
+[2026-11-02T19:26:33.766Z] 🔄 [Sync] Checking local and remote changes (parallel)...
+[2026-11-02T19:26:33.766Z] .. 💾 [LocalVault] Scanning files...
+[2026-11-02T19:26:33.767Z] .. ☁️ [RemoteVault] Fetching from GitHub...
+[2026-11-02T19:26:35.251Z] ... ⬇️ [RemoteVault] Fetching initial state from GitHub (d2443d8)...
+[2026-11-02T19:26:35.295Z] ... 💾 [LocalVault] Scanned 77 files
+[2026-11-02T19:26:35.614Z] ... ☁️ [RemoteVault] Fetched 432 files
+[2026-11-02T19:26:35.614Z] .. ✅ [Sync] Change detection complete
+[2026-11-02T19:26:35.614Z] 🔄 [FitSync] Syncing changes (1 local, 0 remote): {
+  "local": {
+    "MODIFIED": [
+      "copilot/copilot-conversations/agent__I_want_all_my_obsidian_vaults_to_have_the_same@20261102_141028.md"
+    ]
+  }
+}
+[2026-11-02T19:26:35.615Z] [FitSync] Conflict detection complete: {
+  "safeLocal": 1,
+  "safeRemote": 0,
+  "clashes": 0
+}
+[2026-11-02T19:26:36.341Z] ... 📦 [RemoteVault] Using cached state (d2443d8)
+[2026-11-02T19:26:38.544Z] .. ⬆️ [Push] Pushed 1 changes to remote
+[2026-11-02T19:26:38.545Z] .. 📦 [Cache] Updating SHA cache after sync: {
+  "localChanges": 0,
+  "remoteChanges": 0,
+  "commitChanged": true,
+  "localOpsApplied": 0,
+  "remoteOpsPushed": 1
+}
+[2026-11-02T19:26:38.557Z] .. 📦 [Cache] Loaded SHA caches from storage: {
+  "source": "plugin data.json",
+  "localShaCount": 77,
+  "remoteShaCount": 432,
+  "lastCommit": "34ff6a17529ef870e3cf32d899ee2cbff06907f1"
+}
+[2026-11-02T19:26:38.558Z] ✅ [SYNC COMPLETE] Success: {
+  "duration": "4.79s",
+  "totalOperations": 1,
+  "conflicts": 0,
+  "changes": [
+    {
+      "heading": "Local file updates:",
+      "changes": []
+    },
+    {
+      "heading": "Remote file updates:",
+      "changes": [
+        {
+          "path": "copilot/copilot-conversations/agent__I_want_all_my_obsidian_vaults_to_have_the_same@20261102_141028.md",
+          "type": "MODIFIED"
+        }
+      ]
+    }
+  ]
+}
+[2026-11-02T19:27:33.763Z] [Plugin] Auto sync requested
+[2026-11-02T19:27:33.774Z] 🚀 [SYNC START] Auto sync requested
+[2026-11-02T19:27:33.774Z] 🔄 [Sync] Checking local and remote changes (parallel)...
+[2026-11-02T19:27:33.774Z] .. 💾 [LocalVault] Scanning files...
+[2026-11-02T19:27:33.775Z] .. ☁️ [RemoteVault] Fetching from GitHub...
+[2026-11-02T19:27:35.247Z] ... ⬇️ [RemoteVault] Fetching initial state from GitHub (34ff6a1)...
+[2026-11-02T19:27:35.425Z] ... 💾 [LocalVault] Scanned 77 files
+[2026-11-02T19:27:35.679Z] ... ☁️ [RemoteVault] Fetched 432 files
+[2026-11-02T19:27:35.680Z] .. ✅ [Sync] Change detection complete
+[2026-11-02T19:27:35.681Z] [FitSync] Conflict detection complete: {
+  "safeLocal": 0,
+  "safeRemote": 0,
+  "clashes": 0
+}
+[2026-11-02T19:27:35.709Z] .. 📦 [Cache] Loaded SHA caches from storage: {
+  "source": "plugin data.json",
+  "localShaCount": 77,
+  "remoteShaCount": 432,
+  "lastCommit": "34ff6a17529ef870e3cf32d899ee2cbff06907f1"
+}
+[2026-11-02T19:27:35.709Z] ✅ [SYNC COMPLETE] Success: {
+  "duration": "1.94s",
+  "totalOperations": 0,
+  "conflicts": 0
+}
+[2026-11-02T19:28:33.763Z] [Plugin] Auto sync requested
+[2026-11-02T19:28:33.765Z] 🚀 [SYNC START] Auto sync requested
+[2026-11-02T19:28:33.765Z] 🔄 [Sync] Checking local and remote changes (parallel)...
+[2026-11-02T19:28:33.765Z] .. 💾 [LocalVault] Scanning files...
+[2026-11-02T19:28:33.766Z] .. ☁️ [RemoteVault] Fetching from GitHub...
+[2026-11-02T19:28:35.596Z] ... ⬇️ [RemoteVault] Fetching initial state from GitHub (34ff6a1)...
+[2026-11-02T19:28:35.627Z] ... 💾 [LocalVault] Scanned 77 files
+[2026-11-02T19:28:35.925Z] ... ☁️ [RemoteVault] Fetched 432 files
+[2026-11-02T19:28:35.925Z] .. ✅ [Sync] Change detection complete
+[2026-11-02T19:28:35.926Z] [FitSync] Conflict detection complete: {
+  "safeLocal": 0,
+  "safeRemote": 0,
+  "clashes": 0
+}
+[2026-11-02T19:28:35.930Z] .. 📦 [Cache] Loaded SHA caches from storage: {
+  "source": "plugin data.json",
+  "localShaCount": 77,
+  "remoteShaCount": 432,
+  "lastCommit": "34ff6a17529ef870e3cf32d899ee2cbff06907f1"
+}
+[2026-11-02T19:28:35.930Z] ✅ [SYNC COMPLETE] Success: {
+  "duration": "2.17s",
+  "totalOperations": 0,
+  "conflicts": 0
+}
+[2026-11-02T19:29:33.763Z] [Plugin] Auto sync requested
+[2026-11-02T19:29:33.776Z] 🚀 [SYNC START] Auto sync requested
+[2026-11-02T19:29:33.777Z] 🔄 [Sync] Checking local and remote changes (parallel)...
+[2026-11-02T19:29:33.777Z] .. 💾 [LocalVault] Scanning files...
+[2026-11-02T19:29:33.779Z] .. ☁️ [RemoteVault] Fetching from GitHub...
+[2026-11-02T19:29:35.245Z] ... ⬇️ [RemoteVault] Fetching initial state from GitHub (34ff6a1)...
+[2026-11-02T19:29:35.403Z] ... 💾 [LocalVault] Scanned 77 files
+[2026-11-02T19:29:35.607Z] ... ☁️ [RemoteVault] Fetched 432 files
+[2026-11-02T19:29:35.607Z] .. ✅ [Sync] Change detection complete
+[2026-11-02T19:29:35.608Z] 🔄 [FitSync] Syncing changes (1 local, 0 remote): {
+  "local": {
+    "MODIFIED": [
+      "copilot/copilot-conversations/agent__I_want_all_my_obsidian_vaults_to_have_the_same@20261102_141028.md"
+    ]
+  }
+}
+[2026-11-02T19:29:35.608Z] [FitSync] Conflict detection complete: {
+  "safeLocal": 1,
+  "safeRemote": 0,
+  "clashes": 0
+}
+[2026-11-02T19:29:35.907Z] ... 📦 [RemoteVault] Using cached state (34ff6a1)
+[2026-11-02T19:29:37.640Z] .. ⬆️ [Push] Pushed 1 changes to remote
+[2026-11-02T19:29:37.641Z] .. 📦 [Cache] Updating SHA cache after sync: {
+  "localChanges": 0,
+  "remoteChanges": 0,
+  "commitChanged": true,
+  "localOpsApplied": 0,
+  "remoteOpsPushed": 1
+}
+[2026-11-02T19:29:37.645Z] .. 📦 [Cache] Loaded SHA caches from storage: {
+  "source": "plugin data.json",
+  "localShaCount": 77,
+  "remoteShaCount": 432,
+  "lastCommit": "5de3346b3b5161f90f248686c36dd5f25788236f"
+}
+[2026-11-02T19:29:37.646Z] ✅ [SYNC COMPLETE] Success: {
+  "duration": "3.87s",
+  "totalOperations": 1,
+  "conflicts": 0,
+  "changes": [
+    {
+      "heading": "Local file updates:",
+      "changes": []
+    },
+    {
+      "heading": "Remote file updates:",
+      "changes": [
+        {
+          "path": "copilot/copilot-conversations/agent__I_want_all_my_obsidian_vaults_to_have_the_same@20261102_141028.md",
+          "type": "MODIFIED"
+        }
+      ]
+    }
+  ]
+}
+[2026-11-02T19:30:33.763Z] [Plugin] Auto sync requested
+[2026-11-02T19:30:33.776Z] 🚀 [SYNC START] Auto sync requested
+[2026-11-02T19:30:33.777Z] 🔄 [Sync] Checking local and remote changes (parallel)...
+[2026-11-02T19:30:33.777Z] .. 💾 [LocalVault] Scanning files...
+[2026-11-02T19:30:33.778Z] .. ☁️ [RemoteVault] Fetching from GitHub...
+[2026-11-02T19:30:35.330Z] ... ⬇️ [RemoteVault] Fetching initial state from GitHub (5de3346)...
+[2026-11-02T19:30:35.361Z] ... 💾 [LocalVault] Scanned 77 files
+[2026-11-02T19:30:35.725Z] ... ☁️ [RemoteVault] Fetched 432 files
+[2026-11-02T19:30:35.726Z] .. ✅ [Sync] Change detection complete
+[2026-11-02T19:30:35.727Z] 🔄 [FitSync] Syncing changes (1 local, 0 remote): {
+  "local": {
+    "MODIFIED": [
+      "copilot/copilot-conversations/agent__I_want_all_my_obsidian_vaults_to_have_the_same@20261102_141028.md"
+    ]
+  }
+}
+[2026-11-02T19:30:35.728Z] [FitSync] Conflict detection complete: {
+  "safeLocal": 1,
+  "safeRemote": 0,
+  "clashes": 0
+}
+[2026-11-02T19:30:36.113Z] ... 📦 [RemoteVault] Using cached state (5de3346)
+[2026-11-02T19:30:38.020Z] .. ⬆️ [Push] Pushed 1 changes to remote
+[2026-11-02T19:30:38.021Z] .. 📦 [Cache] Updating SHA cache after sync: {
+  "localChanges": 0,
+  "remoteChanges": 0,
+  "commitChanged": true,
+  "localOpsApplied": 0,
+  "remoteOpsPushed": 1
+}
+[2026-11-02T19:30:38.029Z] .. 📦 [Cache] Loaded SHA caches from storage: {
+  "source": "plugin data.json",
+  "localShaCount": 77,
+  "remoteShaCount": 432,
+  "lastCommit": "5e352dbd09ace1fe209f7a589e6bb6bdec379b9b"
+}
+[2026-11-02T19:30:38.030Z] ✅ [SYNC COMPLETE] Success: {
+  "duration": "4.25s",
+  "totalOperations": 1,
+  "conflicts": 0,
+  "changes": [
+    {
+      "heading": "Local file updates:",
+      "changes": []
+    },
+    {
+      "heading": "Remote file updates:",
+      "changes": [
+        {
+          "path": "copilot/copilot-conversations/agent__I_want_all_my_obsidian_vaults_to_have_the_same@20261102_141028.md",
+          "type": "MODIFIED"
+        }
+      ]
+    }
+  ]
+}
+[2026-11-02T19:31:33.763Z] [Plugin] Auto sync requested
+[2026-11-02T19:31:33.774Z] 🚀 [SYNC START] Auto sync requested
+[2026-11-02T19:31:33.775Z] 🔄 [Sync] Checking local and remote changes (parallel)...
+[2026-11-02T19:31:33.775Z] .. 💾 [LocalVault] Scanning files...
+[2026-11-02T19:31:33.776Z] .. ☁️ [RemoteVault] Fetching from GitHub...
+[2026-11-02T19:31:35.282Z] ... ⬇️ [RemoteVault] Fetching initial state from GitHub (87acbd4)...
+[2026-11-02T19:31:35.359Z] ... 💾 [LocalVault] Scanned 77 files
+[2026-11-02T19:31:35.763Z] ... ☁️ [RemoteVault] Fetched 431 files
+[2026-11-02T19:31:35.766Z] [Fit] Remote changes detected: {
+  "ADDED": 1,
+  "MODIFIED": 0,
+  "REMOVED": 2,
+  "total": 3
+}
+[2026-11-02T19:31:35.767Z] .. ✅ [Sync] Change detection complete
+[2026-11-02T19:31:35.767Z] 🔄 [FitSync] Syncing changes (1 local, 3 remote): {
+  "local": {
+    "MODIFIED": [
+      "copilot/copilot-conversations/agent__I_want_all_my_obsidian_vaults_to_have_the_same@20261102_141028.md"
+    ]
+  },
+  "remote": {
+    "ADDED": [
+      ".gitignore"
+    ],
+    "REMOVED": [
+      ".obsidian/plugins/github-sync/data.json",
+      ".obsidian/plugins/tasknotes/data.json"
+    ]
+  }
+}
+[2026-11-02T19:31:35.774Z] [FitSync] Conflict detection complete: {
+  "safeLocal": 1,
+  "safeRemote": 0,
+  "clashes": 3
+}
+[2026-11-02T19:31:36.338Z] ... 📦 [RemoteVault] Using cached state (87acbd4)
+[2026-11-02T19:31:38.172Z] .. ⬆️ [Push] Pushed 1 changes to remote
+[2026-11-02T19:31:38.189Z] .. ⬇️ [Pull] Applied remote changes to local: {
+  "filesWritten": 0,
+  "filesDeleted": 0,
+  "clashesWrittenToFit": 1
+}
+[2026-11-02T19:31:38.189Z] [FitSync] Updated local state with SHAs from written files: {
+  "filesProcessed": 1,
+  "totalFilesInState": 78
+}
+[2026-11-02T19:31:38.190Z] .. 📦 [Cache] Updating SHA cache after sync: {
+  "localChanges": 1,
+  "remoteChanges": 3,
+  "commitChanged": true,
+  "localOpsApplied": 1,
+  "remoteOpsPushed": 1
+}
+[2026-11-02T19:31:38.193Z] .. 📦 [Cache] Loaded SHA caches from storage: {
+  "source": "plugin data.json",
+  "localShaCount": 78,
+  "remoteShaCount": 431,
+  "lastCommit": "a2f7eadda05d196894550b83343b655379debf0c"
+}
+[2026-11-02T19:31:38.193Z] [FitSync] Sync completed with conflicts: {
+  "conflictCount": 3,
+  "conflicts": [
+    {
+      "path": ".gitignore",
+      "local": "untracked",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/github-sync/data.json",
+      "local": "protected",
+      "remote": "REMOVED"
+    },
+    {
+      "path": ".obsidian/plugins/tasknotes/data.json",
+      "local": "protected",
+      "remote": "REMOVED"
+    }
+  ]
+}
+[2026-11-02T19:31:38.194Z] [FitSync] 2 path(s) blocked by sync policy: {
+  "protectedPaths": [
+    ".obsidian/plugins/github-sync/data.json",
+    ".obsidian/plugins/tasknotes/data.json"
+  ]
+}
+[2026-11-02T19:31:38.194Z] ✅ [SYNC COMPLETE] Success with conflicts: {
+  "duration": "4.42s",
+  "totalOperations": 2,
+  "conflicts": 3,
+  "changes": [
+    {
+      "heading": "Local file updates:",
+      "changes": [
+        {
+          "path": "_fit/.gitignore",
+          "type": "ADDED"
+        }
+      ]
+    },
+    {
+      "heading": "Remote file updates:",
+      "changes": [
+        {
+          "path": "copilot/copilot-conversations/agent__I_want_all_my_obsidian_vaults_to_have_the_same@20261102_141028.md",
+          "type": "MODIFIED"
+        }
+      ]
+    }
+  ],
+  "unresolvedConflicts": [
+    {
+      "path": ".gitignore",
+      "localState": "untracked",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/github-sync/data.json",
+      "localState": "protected",
+      "remoteOp": "REMOVED"
+    },
+    {
+      "path": ".obsidian/plugins/tasknotes/data.json",
+      "localState": "protected",
+      "remoteOp": "REMOVED"
+    }
+  ]
+}
+[2026-11-02T19:32:33.763Z] [Plugin] Auto sync requested
+[2026-11-02T19:32:33.765Z] 🚀 [SYNC START] Auto sync requested
+[2026-11-02T19:32:33.765Z] 🔄 [Sync] Checking local and remote changes (parallel)...
+[2026-11-02T19:32:33.765Z] .. 💾 [LocalVault] Scanning files...
+[2026-11-02T19:32:33.767Z] .. ☁️ [RemoteVault] Fetching from GitHub...
+[2026-11-02T19:32:35.340Z] ... ⬇️ [RemoteVault] Fetching initial state from GitHub (a2f7ead)...
+[2026-11-02T19:32:35.420Z] ... 💾 [LocalVault] Scanned 78 files
+[2026-11-02T19:32:35.761Z] ... ☁️ [RemoteVault] Fetched 431 files
+[2026-11-02T19:32:35.762Z] .. ✅ [Sync] Change detection complete
+[2026-11-02T19:32:35.762Z] 🔄 [FitSync] Syncing changes (2 local, 0 remote): {
+  "local": {
+    "ADDED": [
+      "Untitled.md"
+    ],
+    "MODIFIED": [
+      "copilot/copilot-conversations/agent__I_want_all_my_obsidian_vaults_to_have_the_same@20261102_141028.md"
+    ]
+  }
+}
+[2026-11-02T19:32:35.762Z] [FitSync] Conflict detection complete: {
+  "safeLocal": 2,
+  "safeRemote": 0,
+  "clashes": 0
+}
+[2026-11-02T19:32:36.080Z] ... 📦 [RemoteVault] Using cached state (a2f7ead)
+[2026-11-02T19:32:37.920Z] .. ⬆️ [Push] Pushed 2 changes to remote
+[2026-11-02T19:32:37.921Z] .. 📦 [Cache] Updating SHA cache after sync: {
+  "localChanges": 2,
+  "remoteChanges": 1,
+  "commitChanged": true,
+  "localOpsApplied": 0,
+  "remoteOpsPushed": 2
+}
+[2026-11-02T19:32:37.932Z] .. 📦 [Cache] Loaded SHA caches from storage: {
+  "source": "plugin data.json",
+  "localShaCount": 78,
+  "remoteShaCount": 432,
+  "lastCommit": "6641cbfc3d4926e6c44f341f23c7f86d5252129f"
+}
+[2026-11-02T19:32:37.933Z] ✅ [SYNC COMPLETE] Success: {
+  "duration": "4.17s",
+  "totalOperations": 2,
+  "conflicts": 0,
+  "changes": [
+    {
+      "heading": "Local file updates:",
+      "changes": []
+    },
+    {
+      "heading": "Remote file updates:",
+      "changes": [
+        {
+          "path": "Untitled.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "copilot/copilot-conversations/agent__I_want_all_my_obsidian_vaults_to_have_the_same@20261102_141028.md",
+          "type": "MODIFIED"
+        }
+      ]
+    }
+  ]
+}
+[2026-11-02T19:32:57.174Z] [Plugin] Manual sync requested
+[2026-11-02T19:32:57.184Z] 🚀 [SYNC START] Manual sync requested
+[2026-11-02T19:32:57.184Z] 🔄 [Sync] Checking local and remote changes (parallel)...
+[2026-11-02T19:32:57.184Z] .. 💾 [LocalVault] Scanning files...
+[2026-11-02T19:32:57.186Z] .. ☁️ [RemoteVault] Fetching from GitHub...
+[2026-11-02T19:32:58.805Z] ... ⬇️ [RemoteVault] Fetching initial state from GitHub (6641cbf)...
+[2026-11-02T19:32:58.881Z] ... 💾 [LocalVault] Scanned 77 files
+[2026-11-02T19:32:59.117Z] ... ☁️ [RemoteVault] Fetched 432 files
+[2026-11-02T19:32:59.117Z] .. ✅ [Sync] Change detection complete
+[2026-11-02T19:32:59.118Z] 🔄 [FitSync] Syncing changes (2 local, 0 remote): {
+  "local": {
+    "MODIFIED": [
+      "copilot/copilot-conversations/agent__I_want_all_my_obsidian_vaults_to_have_the_same@20261102_141028.md"
+    ],
+    "REMOVED": [
+      "Untitled.md"
+    ]
+  }
+}
+[2026-11-02T19:32:59.123Z] [FitSync] Conflict detection complete: {
+  "safeLocal": 2,
+  "safeRemote": 0,
+  "clashes": 0
+}
+[2026-11-02T19:32:59.440Z] ... 📦 [RemoteVault] Using cached state (6641cbf)
+[2026-11-02T19:33:01.116Z] .. ⬆️ [Push] Pushed 2 changes to remote
+[2026-11-02T19:33:01.117Z] .. 📦 [Cache] Updating SHA cache after sync: {
+  "localChanges": 1,
+  "remoteChanges": 1,
+  "commitChanged": true,
+  "localOpsApplied": 0,
+  "remoteOpsPushed": 2
+}
+[2026-11-02T19:33:01.120Z] .. 📦 [Cache] Loaded SHA caches from storage: {
+  "source": "plugin data.json",
+  "localShaCount": 77,
+  "remoteShaCount": 431,
+  "lastCommit": "25236407aa7f1c5b83c5852bb73fe517b9e0d776"
+}
+[2026-11-02T19:33:01.120Z] ✅ [SYNC COMPLETE] Success: {
+  "duration": "3.94s",
+  "totalOperations": 2,
+  "conflicts": 0,
+  "changes": [
+    {
+      "heading": "Local file updates:",
+      "changes": []
+    },
+    {
+      "heading": "Remote file updates:",
+      "changes": [
+        {
+          "path": "copilot/copilot-conversations/agent__I_want_all_my_obsidian_vaults_to_have_the_same@20261102_141028.md",
+          "type": "MODIFIED"
+        },
+        {
+          "path": "Untitled.md",
+          "type": "REMOVED"
+        }
+      ]
+    }
+  ]
+}
+[2026-11-02T19:33:33.763Z] [Plugin] Auto sync requested
+[2026-11-02T19:33:33.780Z] 🚀 [SYNC START] Auto sync requested
+[2026-11-02T19:33:33.780Z] 🔄 [Sync] Checking local and remote changes (parallel)...
+[2026-11-02T19:33:33.780Z] .. 💾 [LocalVault] Scanning files...
+[2026-11-02T19:33:33.782Z] .. ☁️ [RemoteVault] Fetching from GitHub...
+[2026-11-02T19:33:35.314Z] ... ⬇️ [RemoteVault] Fetching initial state from GitHub (2523640)...
+[2026-11-02T19:33:35.382Z] ... 💾 [LocalVault] Scanned 78 files
+[2026-11-02T19:33:35.681Z] ... ☁️ [RemoteVault] Fetched 431 files
+[2026-11-02T19:33:35.684Z] .. ✅ [Sync] Change detection complete
+[2026-11-02T19:33:35.684Z] 🔄 [FitSync] Syncing changes (2 local, 0 remote): {
+  "local": {
+    "ADDED": [
+      "Untitled.md"
+    ],
+    "MODIFIED": [
+      "copilot/copilot-conversations/agent__I_want_all_my_obsidian_vaults_to_have_the_same@20261102_141028.md"
+    ]
+  }
+}
+[2026-11-02T19:33:35.684Z] [FitSync] Conflict detection complete: {
+  "safeLocal": 2,
+  "safeRemote": 0,
+  "clashes": 0
+}
+[2026-11-02T19:33:36.332Z] ... 📦 [RemoteVault] Using cached state (2523640)
+[2026-11-02T19:33:38.495Z] .. ⬆️ [Push] Pushed 2 changes to remote
+[2026-11-02T19:33:38.496Z] .. 📦 [Cache] Updating SHA cache after sync: {
+  "localChanges": 1,
+  "remoteChanges": 1,
+  "commitChanged": true,
+  "localOpsApplied": 0,
+  "remoteOpsPushed": 2
+}
+[2026-11-02T19:33:38.505Z] .. 📦 [Cache] Loaded SHA caches from storage: {
+  "source": "plugin data.json",
+  "localShaCount": 78,
+  "remoteShaCount": 432,
+  "lastCommit": "f366016f7cc4630cc7c1e4dbd50b2232eb5644b7"
+}
+[2026-11-02T19:33:38.506Z] ✅ [SYNC COMPLETE] Success: {
+  "duration": "4.73s",
+  "totalOperations": 2,
+  "conflicts": 0,
+  "changes": [
+    {
+      "heading": "Local file updates:",
+      "changes": []
+    },
+    {
+      "heading": "Remote file updates:",
+      "changes": [
+        {
+          "path": "Untitled.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "copilot/copilot-conversations/agent__I_want_all_my_obsidian_vaults_to_have_the_same@20261102_141028.md",
+          "type": "MODIFIED"
+        }
+      ]
+    }
+  ]
+}
+[2026-11-02T19:34:33.772Z] [Plugin] Auto sync requested
+[2026-11-02T19:34:33.774Z] 🚀 [SYNC START] Auto sync requested
+[2026-11-02T19:34:33.774Z] 🔄 [Sync] Checking local and remote changes (parallel)...
+[2026-11-02T19:34:33.775Z] .. 💾 [LocalVault] Scanning files...
+[2026-11-02T19:34:33.777Z] .. ☁️ [RemoteVault] Fetching from GitHub...
+[2026-11-02T19:34:35.358Z] ... ⬇️ [RemoteVault] Fetching initial state from GitHub (f366016)...
+[2026-11-02T19:34:35.581Z] ... 💾 [LocalVault] Scanned 78 files
+[2026-11-02T19:34:35.756Z] ... ☁️ [RemoteVault] Fetched 432 files
+[2026-11-02T19:34:35.757Z] .. ✅ [Sync] Change detection complete
+[2026-11-02T19:34:35.757Z] 🔄 [FitSync] Syncing changes (1 local, 0 remote): {
+  "local": {
+    "MODIFIED": [
+      "copilot/copilot-conversations/agent__I_want_all_my_obsidian_vaults_to_have_the_same@20261102_141028.md"
+    ]
+  }
+}
+[2026-11-02T19:34:35.758Z] [FitSync] Conflict detection complete: {
+  "safeLocal": 1,
+  "safeRemote": 0,
+  "clashes": 0
+}
+[2026-11-02T19:34:36.055Z] ... 📦 [RemoteVault] Using cached state (f366016)
+[2026-11-02T19:34:38.143Z] .. ⬆️ [Push] Pushed 1 changes to remote
+[2026-11-02T19:34:38.144Z] .. 📦 [Cache] Updating SHA cache after sync: {
+  "localChanges": 0,
+  "remoteChanges": 0,
+  "commitChanged": true,
+  "localOpsApplied": 0,
+  "remoteOpsPushed": 1
+}
+[2026-11-02T19:34:38.147Z] .. 📦 [Cache] Loaded SHA caches from storage: {
+  "source": "plugin data.json",
+  "localShaCount": 78,
+  "remoteShaCount": 432,
+  "lastCommit": "56a8446f1ba5efd8291c959379f519dd34d04064"
+}
+[2026-11-02T19:34:38.148Z] ✅ [SYNC COMPLETE] Success: {
+  "duration": "4.37s",
+  "totalOperations": 1,
+  "conflicts": 0,
+  "changes": [
+    {
+      "heading": "Local file updates:",
+      "changes": []
+    },
+    {
+      "heading": "Remote file updates:",
+      "changes": [
+        {
+          "path": "copilot/copilot-conversations/agent__I_want_all_my_obsidian_vaults_to_have_the_same@20261102_141028.md",
+          "type": "MODIFIED"
+        }
+      ]
+    }
+  ]
+}
+[2026-11-02T19:35:33.763Z] [Plugin] Auto sync requested
+[2026-11-02T19:35:33.765Z] 🚀 [SYNC START] Auto sync requested
+[2026-11-02T19:35:33.765Z] 🔄 [Sync] Checking local and remote changes (parallel)...
+[2026-11-02T19:35:33.766Z] .. 💾 [LocalVault] Scanning files...
+[2026-11-02T19:35:33.767Z] .. ☁️ [RemoteVault] Fetching from GitHub...
+[2026-11-02T19:35:35.308Z] ... ⬇️ [RemoteVault] Fetching initial state from GitHub (56a8446)...
+[2026-11-02T19:35:35.374Z] ... 💾 [LocalVault] Scanned 78 files
+[2026-11-02T19:35:35.923Z] ... ☁️ [RemoteVault] Fetched 432 files
+[2026-11-02T19:35:35.924Z] .. ✅ [Sync] Change detection complete
+[2026-11-02T19:35:35.924Z] 🔄 [FitSync] Syncing changes (1 local, 0 remote): {
+  "local": {
+    "MODIFIED": [
+      "copilot/copilot-conversations/agent__I_want_all_my_obsidian_vaults_to_have_the_same@20261102_141028.md"
+    ]
+  }
+}
+[2026-11-02T19:35:35.925Z] [FitSync] Conflict detection complete: {
+  "safeLocal": 1,
+  "safeRemote": 0,
+  "clashes": 0
+}
+[2026-11-02T19:35:36.279Z] ... 📦 [RemoteVault] Using cached state (56a8446)
+[2026-11-02T19:35:38.515Z] .. ⬆️ [Push] Pushed 1 changes to remote
+[2026-11-02T19:35:38.517Z] .. 📦 [Cache] Updating SHA cache after sync: {
+  "localChanges": 0,
+  "remoteChanges": 0,
+  "commitChanged": true,
+  "localOpsApplied": 0,
+  "remoteOpsPushed": 1
+}
+[2026-11-02T19:35:38.533Z] .. 📦 [Cache] Loaded SHA caches from storage: {
+  "source": "plugin data.json",
+  "localShaCount": 78,
+  "remoteShaCount": 432,
+  "lastCommit": "6995dc8623762edf08f99a8f565f0348f40a965d"
+}
+[2026-11-02T19:35:38.534Z] ✅ [SYNC COMPLETE] Success: {
+  "duration": "4.77s",
+  "totalOperations": 1,
+  "conflicts": 0,
+  "changes": [
+    {
+      "heading": "Local file updates:",
+      "changes": []
+    },
+    {
+      "heading": "Remote file updates:",
+      "changes": [
+        {
+          "path": "copilot/copilot-conversations/agent__I_want_all_my_obsidian_vaults_to_have_the_same@20261102_141028.md",
+          "type": "MODIFIED"
+        }
+      ]
+    }
+  ]
+}
