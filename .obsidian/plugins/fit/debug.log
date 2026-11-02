@@ -1036,3 +1036,43 @@
     }
   ]
 }
+[2026-11-02T19:36:33.763Z] [Plugin] Auto sync requested
+[2026-11-02T19:36:33.766Z] 🚀 [SYNC START] Auto sync requested
+[2026-11-02T19:36:33.767Z] 🔄 [Sync] Checking local and remote changes (parallel)...
+[2026-11-02T19:36:33.767Z] .. 💾 [LocalVault] Scanning files...
+[2026-11-02T19:36:33.769Z] .. ☁️ [RemoteVault] Fetching from GitHub...
+[2026-11-02T19:36:35.609Z] ... ⬇️ [RemoteVault] Fetching initial state from GitHub (ae8c29d)...
+[2026-11-02T19:36:35.642Z] ... 💾 [LocalVault] Scanned 78 files
+[2026-11-02T19:36:36.141Z] ... ☁️ [RemoteVault] Fetched 435 files
+[2026-11-02T19:36:36.143Z] [Fit] Remote changes detected: {
+  "ADDED": 3,
+  "MODIFIED": 4,
+  "REMOVED": 0,
+  "total": 7
+}
+[2026-11-02T19:36:36.143Z] .. ✅ [Sync] Change detection complete
+[2026-11-02T19:36:36.144Z] 🔄 [FitSync] Syncing changes (1 local, 7 remote): {
+  "local": {
+    "MODIFIED": [
+      "copilot/copilot-conversations/agent__I_want_all_my_obsidian_vaults_to_have_the_same@20261102_141028.md"
+    ]
+  },
+  "remote": {
+    "ADDED": [
+      ".obsidian/plugins/zotflow/main.js",
+      ".obsidian/plugins/zotflow/manifest.json",
+      ".obsidian/plugins/zotflow/styles.css"
+    ],
+    "MODIFIED": [
+      ".gitignore",
+      ".obsidian/community-plugins.json",
+      ".obsidian/plugins/fit/debug.log",
+      ".obsidian/workspace.json"
+    ]
+  }
+}
+[2026-11-02T19:36:36.145Z] [FitSync] Conflict detection complete: {
+  "safeLocal": 1,
+  "safeRemote": 0,
+  "clashes": 7
+}
