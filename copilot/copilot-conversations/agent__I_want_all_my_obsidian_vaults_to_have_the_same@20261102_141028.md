@@ -160,5 +160,11 @@ GitHub Sync is now actually unloaded (`false` at runtime), so this is its last l
 
 
 
+GitHub Sync's last commit already contains ZotFlow and the updated enabled list — it just never pushed. I'll rebase that one commit onto Fit's tip and push.
+
+
+
+
+
 
 [Timestamp: 2026/11/02 14:26:15]
