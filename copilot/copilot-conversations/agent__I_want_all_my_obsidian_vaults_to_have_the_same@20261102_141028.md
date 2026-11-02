@@ -148,5 +148,17 @@ Push is fixed — SSH works even if the remote URL flips back to HTTPS. Now let 
 
 
 
+ZotFlow is installed and in the enabled list, but Obsidian needs a reload to discover the new folder (the CLI can't load a plugin it hasn't scanned yet). Let me verify the remote stays clean and that Fit respects the new `.gitignore`.
+
+GitHub Sync is still loaded and keeps pulling/merging, which re-creates conflicts. I'll stop automatic merges from corrupting the tree, resolve this one, and leave the plugin unloaded on your next Obsidian restart.
+
+
+
+GitHub Sync is now actually unloaded (`false` at runtime), so this is its last leftover merge. I'll abort it and check what its final commit contained.
+
+
+
+
+
 
 [Timestamp: 2026/11/02 14:26:15]
