@@ -116,5 +116,15 @@ SSH push works. Now let me stop the PAT from being tracked and confirm Fit respe
 
 
 
+Fit does honor `.gitignore` (it bundles a `GitignoreFilter`). I'll untrack the credential-bearing configs, add ignore rules, and push the cleanup over SSH.
+
+Fit pushed while I was committing, so the push was rejected. I'll rebase onto the new remote tip and keep the deletions (the working files stay on disk).
+
+
+
+Local git is mid-merge (another sign of the two sync plugins fighting), so I'll fix the public tree directly through GitHub's API: add `.gitignore`, then delete the two credential files from the current tree.
+
+The good news: the Fit PAT is **not** on the remote — it's only in your local git history, so it will leak if you push those local commits. The remote does contain TaskNotes' `apiAuthToken`. I'll clean the remote current tree via API.
+
 
 [Timestamp: 2026/11/02 14:26:15]
