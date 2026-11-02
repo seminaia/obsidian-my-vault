@@ -16,8 +16,8 @@ tags:
 
 | Device | OS | Vault path | Sync role |
 | --- | --- | --- | --- |
-| ThinkPad-P71 | Ubuntu 26.04 | `~/Vault` | Syncthing peer, **only git auto-writer** |
-| HP EliteBook 840 G6 | Windows | `ezkwn-kcmvj/My Vault` | Syncthing peer, git manual only |
+| ThinkPad-P71 | Ubuntu 26.04 | `~/Vault` | Syncthing peer, Fit writer (1 min) |
+| HP EliteBook 840 G6 | Windows | `ezkwn-kcmvj/My Vault` | Syncthing peer, Fit writer (5 min) |
 | iPad | iPadOS | iCloud Drive | Apple island, git manual only |
 | iPhone | iOS | iCloud Drive | Apple island, no git plugin |
 
@@ -37,11 +37,12 @@ GitHub repo: `seminaia/obsidian-my-vault` — **public**, so no credentials may 
 > [!warning] iCloud is not the third wheel
 > "ICLOUD" inside TaskNotes and Day Planner is a published **calendar feed** (`p44-caldav.icloud.com/published/...`), read-only. It moves calendar events, not files. The iCloud that matters here is iCloud **Drive**, which only the iPad and iPhone use.
 
-## The three rules
+## The four rules
 
-1. **One git auto-writer.** The ThinkPad pushes. Everyone else syncs manually or not at all. Three Fit instances pushing every minute is what caused the rejected pushes, the merge commits, and the stuck rebases.
-2. **`.git` must not travel while git is working.** Syncthing excludes it (`.stignore`). iCloud cannot exclude anything, so git on the iPad stays manual.
-3. **Never run two file-syncers over one folder.** No vault inside iCloud Drive on a machine that also runs Syncthing.
+1. **Two writers, staggered.** ThinkPad and HP both push, but never on the same beat — ThinkPad every 1 minute, HP every 5. Same-minute pushes are what caused the rejected pushes and the merge commits.
+2. **Fit only, never `github-sync`.** Fit talks to the GitHub API and detects conflicts before writing. `github-sync` shells out to the local `git` binary, stages with `git add ./*`, and merge-pulls — it is the source of every `Merge branch 'main' of github.com:…` commit, and it dies on a repo that is mid-rebase.
+3. **`.git` must not travel while git is working.** Syncthing excludes it (`.stignore`). iCloud cannot exclude anything, so git on the iPad stays manual.
+4. **Never run two file-syncers over one folder.** No vault inside iCloud Drive on a machine that also runs Syncthing.
 
 ---
 
@@ -139,17 +140,40 @@ powercfg /a
 
 ---
 
-## Step 3 — One git writer
+## Step 3 — Two git writers, staggered
 
-### HP — stop pushing
+Both desktops push to GitHub. What keeps that safe is the interval, not the count.
 
-Obsidian → Settings → Fit → **turn auto-sync off**. Keep the plugin installed; it just must not commit.
+| Machine | Plugin | Interval | Device name |
+| --- | --- | --- | --- |
+| ThinkPad | Fit | 1 min | `ThinkPad-P71` |
+| HP | Fit | **5 min** | `HP-EliteBook` |
 
-Also fix its identity — the device name is blank, which is why its commits show as `Commit from `:
+### Both machines — turn `github-sync` off
 
-- Fit settings → device name → `HP-EliteBook`
+It is installed and enabled on both, and it must not run:
 
-### ThinkPad — the only auto-writer
+```js
+let hostname = os.hostname();
+let msg = hostname + " " + date.getFullYear() + "-" + ...
+await git.add("./*").commit(msg);
+```
+
+It shells out to the local `git` binary, stages with `git add ./*`, and merge-pulls. That is where every `Merge branch 'main' of github.com:…` commit comes from, and on the HP it will hit the stuck rebase and fail. Fit reaches the same repo through the GitHub API and needs no working `.git` at all.
+
+Obsidian → Settings → Community plugins → **GitHub Sync → disable**.
+
+### HP — become a writer
+
+1. **Fit → device name** → `HP-EliteBook`. It is currently blank, which is why its commits show as `Commit from ` with nothing after.
+2. **Fit → auto-sync** → on.
+3. **Fit → auto check interval** → `5` minutes.
+4. Leave the stuck rebase alone. Fit does not use `.git`, so it cannot hurt you. Clear it only if you want `git` on that machine to work again: `git rebase --abort`, then `git fetch && git reset --hard origin/main`.
+
+> [!warning] First sync after the gap
+> The HP last synced **2026-11-01 01:07**. Its first pull carries every note change since then, plus the removal of 338 `.obsidian` files from the repo — those are protected and skipped, so its local plugins survive untouched.
+
+### ThinkPad — stay on 1 minute
 
 Fit stays on, checking every minute. This is the machine that feeds GitHub for the iPad.
 
@@ -157,10 +181,16 @@ Fit stays on, checking every minute. This is the machine that feeds GitHub for t
 
 ```bash
 cd ~/Vault
-git log origin/main -20 --format="%s" | grep -oE "Commit from [^ ]*( [^ ]+)* on" | sort | uniq -c
+git log origin/main -30 --format="%s" | grep -oE "Commit from [^ ]*( [^ ]+)* on" | sort | uniq -c
 ```
 
-You want **one** device name in that list.
+You want **two** device names — `ThinkPad-P71` and `HP-EliteBook` — and no `Merge branch` entries in between.
+
+```bash
+git log origin/main -30 --format="%s" | grep -c "^Merge branch"
+```
+
+That should stay at zero once `github-sync` is off on both machines.
 
 ---
 
@@ -211,12 +241,14 @@ The iPad then reads `.obsidian-mobile`, the iPhone keeps `.obsidian`, and neithe
 
 | Symptom | Cause | Fix |
 | --- | --- | --- |
-| `! [rejected] ... fetch first` | another device pushed | find the second auto-writer, turn it off |
-| `cannot lock ref` | two git clients on one repo | same |
+| `! [rejected] ... fetch first` | two devices pushed in the same minute | widen the interval gap (1 vs 5), let Fit retry next cycle |
+| `cannot lock ref` | two git clients on one repo | turn `github-sync` off |
+| `Merge branch 'main' of github.com:…` commits | `github-sync` merge-pulling on a 1-minute timer | disable `github-sync`, use Fit only (Step 3) |
 | detached HEAD / mid-rebase | iCloud or Syncthing copied `.git` | on that device: `git rebase --abort`, then reset to `origin/main` |
 | `ssh: Connection timed out` | different networks | Tailscale, or join the same Wi-Fi |
 | Syncthing shows HP `connected: false` | HP asleep or offline | wake it, check `powercfg` |
 | `sync-conflict` files | both sides edited the same note | keep one, delete the other, then resync |
+| `_fit/` clash files appear | both devices edited the same note inside one interval | pick a version, delete the clash, resync |
 | iPad app reloads after every sync | iPad and iPhone share one `.obsidian` over iCloud; each workspace write reloads the other | give the iPad `.obsidian-mobile` (Step 4) |
 
 ---
