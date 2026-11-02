@@ -140,5 +140,10 @@ GitHub Sync is still running and keeps resetting the remote back to HTTPS — th
 
 
 
+<<<<<<< HEAD
+SSH now reaches GitHub (the rejection is just Fit's newer commit, not auth). I'll point GitHub Sync's own config at SSH too, then rebase and push.
+
+=======
+>>>>>>> 6641cbfc3d4926e6c44f341f23c7f86d5252129f
 
 [Timestamp: 2026/11/02 14:26:15]
