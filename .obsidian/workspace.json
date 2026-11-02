@@ -39,10 +39,13 @@
             "id": "262cd8445805776d",
             "type": "leaf",
             "state": {
-              "type": "tasknotes-release-notes",
-              "state": {},
-              "icon": "book-open",
-              "title": "What's new in TaskNotes 4.15.0"
+              "type": "bases",
+              "state": {
+                "file": "TaskNotes/Views/agenda-default.base",
+                "viewName": "Agenda"
+              },
+              "icon": "tasknotes-simple",
+              "title": "agenda-default"
             }
           }
         ],
@@ -254,6 +257,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "fit:Sync to GitHub": false,
       "zk-prefixer:Create new unique note": false,
       "random-note:Open random note": false,
       "audio-recorder:Start/stop recording": false,
@@ -288,7 +292,7 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "8db3bae88df61789",
+  "active": "262cd8445805776d",
   "lastOpenFiles": [
     "copilot/copilot-conversations/agent__I_want_all_my_obsidian_vaults_to_have_the_same@20261102_141028.md",
     "copilot/skills/obsidian-cli/SKILL.md",
