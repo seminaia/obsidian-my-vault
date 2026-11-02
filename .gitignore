@@ -15,3 +15,8 @@ copilot/copilot-conversations/
 
 # Plugin debug logs.
 .obsidian/plugins/*/debug.log
+
+# Device-specific workspace layout.
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspaces.json
