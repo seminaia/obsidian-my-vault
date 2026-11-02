@@ -12,3 +12,6 @@ _fit/
 copilot/copilot-conversations/
 .copilot/
 .obsidian/plugins/copilot/data.json
+
+# Plugin debug logs.
+.obsidian/plugins/*/debug.log
