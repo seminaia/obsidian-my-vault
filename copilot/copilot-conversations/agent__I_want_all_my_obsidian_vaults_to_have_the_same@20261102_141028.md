@@ -140,10 +140,13 @@ GitHub Sync is still running and keeps resetting the remote back to HTTPS — th
 
 
 
-<<<<<<< HEAD
 SSH now reaches GitHub (the rejection is just Fit's newer commit, not auth). I'll point GitHub Sync's own config at SSH too, then rebase and push.
 
-=======
->>>>>>> 6641cbfc3d4926e6c44f341f23c7f86d5252129f
+The repo is mid-rebase again and the remote flipped back to HTTPS. I'll make git rewrite GitHub HTTPS URLs to SSH (so the URL flip can't break pushes), then unwind the failed rebase without touching your files.
+
+Push is fixed — SSH works even if the remote URL flips back to HTTPS. Now let me restore the empty note, set the upstream, and install ZotFlow from the iPad mirror (code only, no settings).
+
+
+
 
 [Timestamp: 2026/11/02 14:26:15]
