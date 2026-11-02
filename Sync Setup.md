@@ -68,12 +68,26 @@ tailscale ip -4
 1. Install from <https://tailscale.com/download>, sign in with the **same account**.
 2. Enable **MagicDNS** in the Tailscale admin console.
 
+### Live tailnet (verified 2026-11-02)
+
+Suffix: `tail08af9a.ts.net`. MagicDNS resolves on the ThinkPad.
+
+| Device | Tailnet IP | Status |
+| --- | --- | --- |
+| `thinkpad-p71` | `100.73.99.31` | online, key expires 2027-05-01 |
+| `ipad-gen-8` | `100.72.194.103` | online |
+| `iphone-14` | `100.126.221.81` | online |
+| HP | — | **not on the tailnet yet** |
+
 ### Connect
 
 ```bash
-ssh soki@hp-elitebook        # MagicDNS name
+ssh soki@hp-elitebook.tail08af9a.ts.net
 ssh soki@100.x.y.z           # or the tailnet IP
 ```
+
+> [!warning] The HP is the machine that matters
+> Tailscale on the iPad and iPhone is convenient but changes nothing about Obsidian's sync — those two already reach each other over iCloud. The HP is the one with no route to the ThinkPad, and it is also the one that falls asleep. It must join the tailnet before any of this works.
 
 > [!note] Windows SSH server
 > Windows blocks port 22 by default. In an **admin PowerShell** on the HP:
