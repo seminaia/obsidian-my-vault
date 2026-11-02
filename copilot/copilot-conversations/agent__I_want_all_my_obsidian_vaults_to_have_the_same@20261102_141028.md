@@ -7,7 +7,7 @@ tags:
   - copilot-conversation
 lastAccessedAt: 1793646716555
 agentLabel: "Sync plugins across Obsidian vaults"
-usage: '{"usedTokens":64865,"contextWindow":200000,"updatedAt":1793647052150}'
+usage: '{"usedTokens":79252,"contextWindow":200000,"updatedAt":1793647406440}'
 ---
 
 **user**: I want all my obsidian vaults to have the same plugins
@@ -70,5 +70,22 @@ I haven't changed anything yet, and I won't touch the Syncthing mirror or force-
 
 **ai**: Got it — Syncthing is your transport. Then the fix is to let Syncthing own `.obsidian` and stop the git plugins from fighting it. Let me check the Syncthing side before changing anything.
 
+Syncthing is connected to only one remote device, and it's **offline** — that's why nothing has synced since Oct 31. I'll stop Syncthing from carrying `.git` (the cause of the stuck rebase) while leaving plugins and settings in scope.
 
+Done — I set Syncthing up to own the vault sync and stopped it from carrying git metadata:
+
+- **`~/Vault/.stignore`** — ignores `.git`, `.trash`, `workspace*.json`, sync-plugin `data.json`s, debug logs.
+- **`~/ezkwn-kcmvj/.stignore`** — same rules, prefixed with `My Vault/`.
+
+Syncthing confirms both are loaded; both folders are idle with 0 errors. Plugins and settings are **not** ignored, so `.obsidian/plugins` and `community-plugins.json` still sync normally. Excluding `.git` is what prevents another stuck rebase.
+
+**Why the plugin sets differed:** the iPad's Syncthing device is currently **disconnected** — nothing has synced since Oct 31. Once it reconnects, the whole `.obsidian/plugins` folder and the enabled list sync automatically. No extra plugin-sync tool needed.
+
+**Two things to do on the iPad:**
+1. Add the same ignore patterns in Syncthing (folder → Ignore Patterns). Patterns are per-device and don't travel with the folder.
+2. Turn off **Fit/GitHub Sync auto-sync** there. Keep git backup on one device only — the ThinkPad — otherwise both devices push divergent histories to the same repo. With `.git` excluded from Syncthing, the iPad doesn't need git at all.
+
+**One plugin gap remains:** the only enabled difference is **ZotFlow** (iPad only). Want me to install it on the ThinkPad — code only, not its settings — and enable it, so the lists match before the iPad reconnects? Or would you rather remove it on the iPad?
+
+**Still outstanding:** revoke the Google OAuth token that's in the public repo's history — <https://myaccount.google.com/permissions>. That's the one real security item.
 [Timestamp: 2026/11/02 14:21:45]
