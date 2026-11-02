@@ -105,5 +105,16 @@ Confirmed: that PAT is **live** (GitHub API returns 200) and is sitting in the p
 
 
 
+Two concrete problems, both fixable:
+
+1. **Your push error**: git has no stored credential (`~/.git-credentials` is empty), so HTTPS pushes can't answer the username prompt. But your **SSH key already works** as `seminaia` — switching the remote to SSH removes the prompt entirely.
+2. **A live PAT leak**: Fit is committing its own `data.json` (with a valid 40-char PAT) to the public repo every minute. TaskNotes' `apiAuthToken` is tracked there too. Those need to be untracked and rotated.
+
+Let me fix the remote first and verify pushes work.
+
+SSH push works. Now let me stop the PAT from being tracked and confirm Fit respects `.gitignore` (it has gitignore logic).
+
+
+
 
 [Timestamp: 2026/11/02 14:26:15]
