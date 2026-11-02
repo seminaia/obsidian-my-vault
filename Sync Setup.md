@@ -27,9 +27,12 @@ tags:
 | --- | --- | --- |
 | **Syncthing** | ThinkPad ↔ HP | notes + `.obsidian` (plugins, settings). Excludes `.git`. |
 | **iCloud Drive** | iPad ↔ iPhone | notes + `.obsidian` |
-| **GitHub** | Apple island ↔ desktop island, plus history | everything except `.gitignore`d files |
+| **GitHub** | Apple island ↔ desktop island, plus history | **notes only** — `.obsidian` is deliberately excluded |
 
 GitHub repo: `seminaia/obsidian-my-vault` — **public**, so no credentials may ever be committed.
+
+> [!info] What is deliberately not in git
+> `.obsidian/` (197 MB of plugin binaries and settings), `.obsidian-mobile/`, Copilot chat logs, `.copilot/`, plugin debug logs, workspace layout and `.trash/` are all ignored. Plugins travel between desktops over Syncthing. The repo is 84 files, about 24 MB.
 
 > [!warning] iCloud is not the third wheel
 > "ICLOUD" inside TaskNotes and Day Planner is a published **calendar feed** (`p44-caldav.icloud.com/published/...`), read-only. It moves calendar events, not files. The iCloud that matters here is iCloud **Drive**, which only the iPad and iPhone use.
@@ -157,6 +160,17 @@ The Apple island stays on iCloud Drive. That is the transport between iPad and i
 - Do not run Obsidian on iPad and iPhone editing the same note at the same time.
 - Do not tap sync on the iPad while iCloud is still uploading.
 
+### Give the iPad its own config folder
+
+Without this, Obsidian reloads the whole app after every sync. Fit writes into `.obsidian`, and Obsidian cannot hot-reload community plugin changes — on iOS that means a full restart. With 194 MB of plugin files, seven of them desktop-only, it happens constantly.
+
+1. **Settings → Files and links → Override config folder** → `.obsidian-mobile`
+2. Force-quit Obsidian and reopen the vault.
+3. Install only the plugins you use on iPad: TaskNotes, Excalidraw, Day Planner, Reminder, Homepage.
+4. Skip the desktop-only ones — they cannot run on iOS anyway: `latex-math`, `obsidian-advanced-slides`, `obsidian-zotero-desktop-connector`, `obsidian-citation-plugin`, `obsidian-pandoc`, `obsidian-image-toolkit`, `github-sync`.
+
+The iPad then reads `.obsidian-mobile` and ignores everything Fit writes into `.obsidian`, so syncing stops triggering reloads. Desktop plugin parity is unaffected — that travels over Syncthing.
+
 > [!danger] Why manual
 > iCloud copies `.git` while Fit writes to it. That is how the repo ended up on a detached HEAD mid-rebase. You cannot add ignore patterns to iCloud Drive, so the only mitigation is not running git automatically there.
 
@@ -185,6 +199,7 @@ The Apple island stays on iCloud Drive. That is the transport between iPad and i
 | `ssh: Connection timed out` | different networks | Tailscale, or join the same Wi-Fi |
 | Syncthing shows HP `connected: false` | HP asleep or offline | wake it, check `powercfg` |
 | `sync-conflict` files | both sides edited the same note | keep one, delete the other, then resync |
+| iPad app reloads after every sync | Fit writes `.obsidian`; iOS cannot hot-reload plugins | give the iPad `.obsidian-mobile` (Step 4) |
 
 ---
 
