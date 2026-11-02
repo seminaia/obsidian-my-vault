@@ -1,8 +1,7 @@
-# Never commit plugin settings that can contain credentials.
-.obsidian/plugins/fit/data.json
-.obsidian/plugins/tasknotes/data.json
-.obsidian/plugins/github-sync/data.json
-.obsidian/plugins/google-drive-sync/data.json
+# Obsidian config is device-specific and huge (194 MB of plugin binaries).
+# Plugins travel between desktops over Syncthing; mobile uses .obsidian-mobile.
+.obsidian/
+.obsidian-mobile/
 
 # Local Syncthing config and Fit cache.
 .stignore
@@ -11,12 +10,6 @@ _fit/
 # Copilot chat logs and local settings.
 copilot/copilot-conversations/
 .copilot/
-.obsidian/plugins/copilot/data.json
 
-# Plugin debug logs.
-.obsidian/plugins/*/debug.log
-
-# Device-specific workspace layout.
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
-.obsidian/workspaces.json
+# Obsidian local trash.
+.trash/
