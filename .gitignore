@@ -7,3 +7,8 @@
 # Local Syncthing config and Fit cache.
 .stignore
 _fit/
+
+# Copilot chat logs and local settings.
+copilot/copilot-conversations/
+.copilot/
+.obsidian/plugins/copilot/data.json
