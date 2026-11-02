@@ -126,5 +126,19 @@ Local git is mid-merge (another sign of the two sync plugins fighting), so I'll 
 
 The good news: the Fit PAT is **not** on the remote — it's only in your local git history, so it will leak if you push those local commits. The remote does contain TaskNotes' `apiAuthToken`. I'll clean the remote current tree via API.
 
+The remote tree is clean now. But your **local** branch still contains commits with the Fit PAT, and GitHub Sync is still running with a now-working SSH remote — so it could publish them. I'll move the branch back to the clean remote tip without touching your files.
+
+
+
+Local branch is back on a clean tip (no PAT in HEAD). Let me verify it matches the remote, restore the upstream, and check whether Fit re-adds its config.
+
+
+
+Branch is clean and matches the remote. I'll add the local Syncthing/Fit files to `.gitignore` and push over SSH to confirm the fix end-to-end.
+
+GitHub Sync is still running and keeps resetting the remote back to HTTPS — that's why the error persists. Let me confirm and unload it through Obsidian's CLI (it's already disabled in settings, just still loaded in memory).
+
+
+
 
 [Timestamp: 2026/11/02 14:26:15]
