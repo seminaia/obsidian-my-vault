@@ -1076,3 +1076,163 @@
   "safeRemote": 0,
   "clashes": 7
 }
+[2026-11-02T19:36:51.664Z] ... 📦 [RemoteVault] Using cached state (ae8c29d)
+[2026-11-02T19:36:53.478Z] [Plugin] Sync failed: {
+  "type": "unknown",
+  "message": "HttpError: Update is not a fast forward - https://docs.github.com/rest/git/refs#update-a-reference",
+  "details": {
+    "originalError": {
+      "name": "HttpError",
+      "message": "Update is not a fast forward - https://docs.github.com/rest/git/refs#update-a-reference",
+      "status": 422,
+      "request": {
+        "method": "PATCH",
+        "url": "https://api.github.com/repos/seminaia/obsidian-my-vault/git/refs/heads%2Fmain",
+        "headers": {
+          "accept": "application/vnd.github.v3+json",
+          "user-agent": "octokit-core.js/7.0.6 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.14.5 Chrome/150.0.7871.250 Electron/43.8.3 Safari/537.36",
+          "if-none-match": "",
+          "x-github-api-version": "2022-11-28",
+          "authorization": "token [REDACTED]",
+          "content-type": "application/json; charset=utf-8"
+        },
+        "body": {
+          "sha": "f163e290ee47c6aca050f71123b35b0a6f096dd1"
+        },
+        "request": {}
+      },
+      "response": {
+        "url": "https://api.github.com/repos/seminaia/obsidian-my-vault/git/refs/heads%2Fmain",
+        "status": 422,
+        "headers": {
+          "content-length": "150",
+          "content-type": "application/json; charset=utf-8",
+          "x-accepted-oauth-scopes": "repo",
+          "x-github-media-type": "github.v3; format=json",
+          "x-github-request-id": "E2AC:25514D:1D58DF9:5FAE8C2:6AE8E655",
+          "x-oauth-scopes": "admin:enterprise, admin:gpg_key, admin:org, admin:org_hook, admin:public_key, admin:repo_hook, admin:ssh_signing_key, audit_log, codespace, copilot, delete:packages, delete_repo, gist, notifications, project, repo, user, workflow, write:discussion, write:network_configurations, write:packages",
+          "x-ratelimit-limit": "5000",
+          "x-ratelimit-remaining": "4867",
+          "x-ratelimit-reset": "1793650726",
+          "x-ratelimit-resource": "core",
+          "x-ratelimit-used": "133"
+        },
+        "data": {
+          "message": "Update is not a fast forward",
+          "documentation_url": "https://docs.github.com/rest/git/refs#update-a-reference",
+          "status": "422"
+        }
+      }
+    }
+  }
+}
+[2026-11-02T19:37:33.763Z] [Plugin] Auto sync requested
+[2026-11-02T19:37:33.774Z] 🚀 [SYNC START] Auto sync requested
+[2026-11-02T19:37:33.775Z] 🔄 [Sync] Checking local and remote changes (parallel)...
+[2026-11-02T19:37:33.775Z] .. 💾 [LocalVault] Scanning files...
+[2026-11-02T19:37:33.777Z] .. ☁️ [RemoteVault] Fetching from GitHub...
+[2026-11-02T19:37:33.797Z] [LocalVault] Paths ignored by .gitignore: {
+  "paths": [
+    "copilot/copilot-conversations/how_do_I_connect_obsidian_from_my_iPad_and_iPhone@20261028_221249.md",
+    "copilot/copilot-conversations/agent__tcp192.168.4.593390_io_timeout_(130829)@20261028_130859.md",
+    "copilot/copilot-conversations/agent__pluginobsidian-git371_obsidian-git_Committed_7_files_pluginobsidian-git371@20261026_155544.md",
+    "copilot/copilot-conversations/agent__help_me_figure_out_why_it_is_saying_fatal_refusing@20261026_150443.md",
+    "copilot/copilot-conversations/agent__app.js1_Obsidian_Developer_Console_pluginobsidian-git371_loading_Git_plugi@20261026_183928.md",
+    "copilot/copilot-conversations/agent__Why_is_sync_failing@20261026_182122.md",
+    "copilot/copilot-conversations/agent__I_want_my_agendacalendar_as_my_homepage_but_it_doesnt@20261026_213031.md",
+    "copilot/copilot-conversations/agent__I_want_to_save_this_setting_and_make_sure_that@20261026_181700.md",
+    "copilot/copilot-conversations/agent__I_want_all_my_obsidian_vaults_to_have_the_same@20261102_141028.md",
+    "copilot/copilot-conversations/agent__I_need_help_with_github@20261025_173234.md"
+  ]
+}
+[2026-11-02T19:37:35.630Z] ... ⬇️ [RemoteVault] Fetching initial state from GitHub (a3ec0f4)...
+[2026-11-02T19:37:35.662Z] ... 💾 [LocalVault] Scanned 68 files
+[2026-11-02T19:37:36.016Z] ... ☁️ [RemoteVault] Fetched 435 files
+[2026-11-02T19:37:36.017Z] [Fit] Remote changes detected: {
+  "ADDED": 3,
+  "MODIFIED": 5,
+  "REMOVED": 0,
+  "total": 8
+}
+[2026-11-02T19:37:36.018Z] .. ✅ [Sync] Change detection complete
+[2026-11-02T19:37:36.018Z] 🔄 [FitSync] Syncing changes (10 local, 8 remote): {
+  "local": {
+    "REMOVED": [
+      "copilot/copilot-conversations/how_do_I_connect_obsidian_from_my_iPad_and_iPhone@20261028_221249.md",
+      "copilot/copilot-conversations/agent__tcp192.168.4.593390_io_timeout_(130829)@20261028_130859.md",
+      "copilot/copilot-conversations/agent__pluginobsidian-git371_obsidian-git_Committed_7_files_pluginobsidian-git371@20261026_155544.md",
+      "copilot/copilot-conversations/agent__help_me_figure_out_why_it_is_saying_fatal_refusing@20261026_150443.md",
+      "copilot/copilot-conversations/agent__app.js1_Obsidian_Developer_Console_pluginobsidian-git371_loading_Git_plugi@20261026_183928.md",
+      "copilot/copilot-conversations/agent__Why_is_sync_failing@20261026_182122.md",
+      "copilot/copilot-conversations/agent__I_want_my_agendacalendar_as_my_homepage_but_it_doesnt@20261026_213031.md",
+      "copilot/copilot-conversations/agent__I_want_to_save_this_setting_and_make_sure_that@20261026_181700.md",
+      "copilot/copilot-conversations/agent__I_want_all_my_obsidian_vaults_to_have_the_same@20261102_141028.md",
+      "copilot/copilot-conversations/agent__I_need_help_with_github@20261025_173234.md"
+    ]
+  },
+  "remote": {
+    "ADDED": [
+      ".obsidian/plugins/zotflow/main.js",
+      ".obsidian/plugins/zotflow/manifest.json",
+      ".obsidian/plugins/zotflow/styles.css"
+    ],
+    "MODIFIED": [
+      ".gitignore",
+      ".obsidian/community-plugins.json",
+      ".obsidian/plugins/fit/debug.log",
+      ".obsidian/workspace.json",
+      "copilot/copilot-conversations/agent__I_want_all_my_obsidian_vaults_to_have_the_same@20261102_141028.md"
+    ]
+  }
+}
+[2026-11-02T19:37:36.032Z] [FitSync] Conflict detection complete: {
+  "safeLocal": 9,
+  "safeRemote": 0,
+  "clashes": 8
+}
+[2026-11-02T19:37:46.558Z] [FitSync] Skipping deletion - couldn't confirm local file actually deleted: {
+  "path": "copilot/copilot-conversations/how_do_I_connect_obsidian_from_my_iPad_and_iPhone@20261028_221249.md",
+  "existence": "file",
+  "reason": "File present on filesystem but absent from state cache (likely filtering rule change)"
+}
+[2026-11-02T19:37:46.558Z] [FitSync] Skipping deletion - couldn't confirm local file actually deleted: {
+  "path": "copilot/copilot-conversations/agent__tcp192.168.4.593390_io_timeout_(130829)@20261028_130859.md",
+  "existence": "file",
+  "reason": "File present on filesystem but absent from state cache (likely filtering rule change)"
+}
+[2026-11-02T19:37:46.559Z] [FitSync] Skipping deletion - couldn't confirm local file actually deleted: {
+  "path": "copilot/copilot-conversations/agent__pluginobsidian-git371_obsidian-git_Committed_7_files_pluginobsidian-git371@20261026_155544.md",
+  "existence": "file",
+  "reason": "File present on filesystem but absent from state cache (likely filtering rule change)"
+}
+[2026-11-02T19:37:46.559Z] [FitSync] Skipping deletion - couldn't confirm local file actually deleted: {
+  "path": "copilot/copilot-conversations/agent__help_me_figure_out_why_it_is_saying_fatal_refusing@20261026_150443.md",
+  "existence": "file",
+  "reason": "File present on filesystem but absent from state cache (likely filtering rule change)"
+}
+[2026-11-02T19:37:46.559Z] [FitSync] Skipping deletion - couldn't confirm local file actually deleted: {
+  "path": "copilot/copilot-conversations/agent__app.js1_Obsidian_Developer_Console_pluginobsidian-git371_loading_Git_plugi@20261026_183928.md",
+  "existence": "file",
+  "reason": "File present on filesystem but absent from state cache (likely filtering rule change)"
+}
+[2026-11-02T19:37:46.559Z] [FitSync] Skipping deletion - couldn't confirm local file actually deleted: {
+  "path": "copilot/copilot-conversations/agent__Why_is_sync_failing@20261026_182122.md",
+  "existence": "file",
+  "reason": "File present on filesystem but absent from state cache (likely filtering rule change)"
+}
+[2026-11-02T19:37:46.559Z] [FitSync] Skipping deletion - couldn't confirm local file actually deleted: {
+  "path": "copilot/copilot-conversations/agent__I_want_my_agendacalendar_as_my_homepage_but_it_doesnt@20261026_213031.md",
+  "existence": "file",
+  "reason": "File present on filesystem but absent from state cache (likely filtering rule change)"
+}
+[2026-11-02T19:37:46.560Z] [FitSync] Skipping deletion - couldn't confirm local file actually deleted: {
+  "path": "copilot/copilot-conversations/agent__I_want_to_save_this_setting_and_make_sure_that@20261026_181700.md",
+  "existence": "file",
+  "reason": "File present on filesystem but absent from state cache (likely filtering rule change)"
+}
+[2026-11-02T19:37:46.560Z] [FitSync] Skipping deletion - couldn't confirm local file actually deleted: {
+  "path": "copilot/copilot-conversations/agent__I_need_help_with_github@20261025_173234.md",
+  "existence": "file",
+  "reason": "File present on filesystem but absent from state cache (likely filtering rule change)"
+}
+[2026-11-02T19:37:47.113Z] ... ⬇️ [RemoteVault] New commit detected (d7c6f25), fetching tree...
