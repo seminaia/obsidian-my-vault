@@ -1,0 +1,5 @@
+# Never commit plugin settings that can contain credentials.
+.obsidian/plugins/fit/data.json
+.obsidian/plugins/tasknotes/data.json
+.obsidian/plugins/github-sync/data.json
+.obsidian/plugins/google-drive-sync/data.json
