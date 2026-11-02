@@ -102,6 +102,10 @@ fields:
     type: date
     description: "Target recurrence date for a materialized occurrence note."
     tn_role: occurrenceDate
+  recurrence_original_date:
+    type: date
+    description: "Original rule date of a pending moved virtual recurring occurrence."
+    tn_role: recurrenceOriginalDate
   tags:
     type: list
     tn_role: tags

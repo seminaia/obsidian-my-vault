@@ -34,9 +34,19 @@
               "icon": "tasknotes-simple",
               "title": "agenda-default"
             }
+          },
+          {
+            "id": "262cd8445805776d",
+            "type": "leaf",
+            "state": {
+              "type": "tasknotes-release-notes",
+              "state": {},
+              "icon": "book-open",
+              "title": "What's new in TaskNotes 4.15.0"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -206,16 +216,6 @@
             }
           },
           {
-            "id": "3b7d8e5305ed8791",
-            "type": "leaf",
-            "state": {
-              "type": "reminder-list",
-              "state": {},
-              "icon": "clock",
-              "title": "Reminders"
-            }
-          },
-          {
             "id": "6e3b8be7352f0c1a",
             "type": "leaf",
             "state": {
@@ -233,6 +233,16 @@
               "state": {},
               "icon": "timer",
               "title": "Time Tracker"
+            }
+          },
+          {
+            "id": "f3195b9cd980114a",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {},
+              "icon": "clock",
+              "title": "Reminders"
             }
           }
         ],
@@ -278,8 +288,18 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "1ff47cff4d5387c0",
+  "active": "262cd8445805776d",
   "lastOpenFiles": [
+    "copilot/skills/obsidian-cli/SKILL.md",
+    "copilot/skills/obsidian-cli/LICENSE",
+    "copilot/skills/obsidian-cli",
+    "copilot/skills/obsidian-markdown/SKILL.md",
+    "copilot/skills/obsidian-markdown/LICENSE",
+    "copilot/skills/obsidian-markdown/references/PROPERTIES.md",
+    "copilot/skills/obsidian-markdown/references/EMBEDS.md",
+    "copilot/skills/obsidian-markdown/references/CALLOUTS.md",
+    "copilot/skills/obsidian-markdown/references",
+    "copilot/skills/obsidian-markdown",
     "Tasks/Virtual Events.md",
     "Tasks",
     "Sources/1-s2.0-S2772970226000143-main.pdf",
@@ -293,17 +313,13 @@
     "Excalidraw/Scripts/Downloaded/Palm Guard.svg",
     "Excalidraw/Scripts/Downloaded/Palm Guard.md",
     "Excalidraw/Scripts/Downloaded",
-    "Excalidraw/Scripts",
     "Excalidraw/Drawing 2026-10-30 15.40.13.excalidraw.md",
     "Excalidraw/Drawing 2026-10-30 12.08.36.excalidraw.md",
     "Drawing 2026-10-30 13.07.43.excalidraw.md",
     "202610301540.md",
-    "2026/mdbase.yaml",
     "2026/2026-10-30.md",
     "2026/2026-10-28.md",
-    "TaskNotes/Views/agenda-default.base",
     "Excalidraw/Drawing 2026-10-27 17.54.56.excalidraw.md",
-    "TaskNotes/Views/tasks-default.base",
     "Excalidraw/Drawing 2026-10-25 18.44.25.excalidraw.md",
     "Excalidraw/Drawing 2026-10-26 19.20.23.excalidraw.md",
     "README.md",
@@ -311,12 +327,6 @@
     "Untitled.md",
     "202610281536.md",
     "202610281654.md",
-    "202610281655.md",
-    "202610281537.md",
-    "TaskNotes/Views/kanban-default.base",
-    "copilot/copilot-conversations/agent__tcp192.168.4.593390_io_timeout_(130829)@20261028_130859.md",
-    "2026/2026-10-26.md",
-    "2026/2026-10-27.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Untitled 2.canvas"

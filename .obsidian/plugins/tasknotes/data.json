@@ -150,12 +150,14 @@
     "contexts": "contexts",
     "projects": "projects",
     "attachments": "attachments",
+    "assignees": "assignees",
     "timeEstimate": "timeEstimate",
     "completedDate": "completedDate",
     "dateCreated": "dateCreated",
     "dateModified": "dateModified",
     "recurrence": "recurrence",
     "recurrenceAnchor": "recurrence_anchor",
+    "recurrenceOriginalDate": "recurrence_original_date",
     "recurrenceParent": "recurrence_parent",
     "occurrenceDate": "occurrence_date",
     "occurrenceMaterialization": "occurrence_materialization",
@@ -491,7 +493,7 @@
     "defaultReminderMinutes": null
   },
   "enableDebugLogging": false,
-  "lastSeenVersion": "4.14.0",
+  "lastSeenVersion": "4.15.0",
   "icsSubscriptions": [
     {
       "name": "WPI",
@@ -526,5 +528,5 @@
     "isRunning": false,
     "timeRemaining": 1500
   },
-  "lastPomodoroDate": "2026-10-26"
+  "lastPomodoroDate": "2026-11-02"
 }
