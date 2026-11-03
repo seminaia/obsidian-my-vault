@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+
+@media screen and (max-width: 600px) {
+/*---------------------------------------------
+
+ idxNavi
+ 
+ ---------------------------------------------*/
+ul.linkBox li a {font-size:12px;}
+ul.idxNavi {width:100%;}
+ul.idxNavi li {float:none; width:100%; padding:0 2%; box-sizing:border-box; background: none;}
+ul.idxNavi li a {display: block;height: 46px;padding: 0 12px;box-shadow: 2px 2px 5px #ddd;border: double 3px #999 !important;margin-bottom: 10px;box-sizing: content-box;border-radius: 0 !important;background-color: #fff !important;background-position:right 10px top 5px !important;background-size: 38px auto !important;}
+ul.idxNavi li.idxNaviIcon04 a {background-size: 28px auto !important;background-position:right 12px top 4px !important;}
+ul.idxNavi li a span {width:100%;height: 46px;}
+ul.idxNavi li a:hover {background-color: #f1f1f1!important;}
+
+.layoutWrapperLeft, .layoutWrapperRight {float:none; width:100%; padding:0 2%;}
+
+ul.arrowBox.arrowBox01 {width:100%; display: block}
+ul.arrowBox.arrowBox01.listSize01 li {width:100%; margin-bottom:10px;display: block !important;}
+ul.listSize01.line2 li a {width:100% !important;display: block !important; height: auto !important;}
+
+.charactorBox .separateBoxLeft {float:none; width:100%;}
+.charactorBox .separateBoxRight {display:none;}
+dl.newsList{width:100%; margin-bottom:30px;}
+dl.newsList dt,dl.newsList dd {display:block; width:100%;float:none;}
+dl.newsList dd {padding-top:0; border:none;}
+
+.layoutWrapperRight .layoutBox:first-child ul li { margin: 0 auto;left: 0;right: 0;width: 230px;}
+.layoutWrapperRight ul.banner, .layoutWrapperRight ul.banner02, .layoutWrapperRight ul.banner_seminar {margin: auto; margin-top: auto;margin-top: -110px;left: 0;right: 0;width: 230px;}
+.layoutWrapperRight ul.banner_sound {margin: auto; margin-top: -154px;left: 0;right: 0;width: 230px;}
+}
+
+@media screen and (min-width: 600px) and (max-width: 979px){
+#headerWrapper {padding:0;}
+.freeArea {padding: 0 2%;}
+
+ul.arrowBox.arrowBox01 {width:100%; display: block}
+ul.arrowBox.arrowBox01.listSize01 li {width:100%; margin-bottom:10px;display: block !important;}
+ul.listSize01.line2 li a {width:100% !important;display: block !important; height: auto !important;}
+
+ul.idxNavi {width: 100%;}
+ul.idxNavi li {width: 49%;margin-right: 2%;margin-bottom: 20px;}
+ul.idxNavi li:nth-child(even) {margin-right: 0;}
+ul.idxNavi li a {background-position:right 10px top 5px !important;}
+.charactorBox .separateBoxRight {width: 100%;}
+
+ul.menu.accordion{ display: flex; justify-content: space-between; flex-wrap: wrap; margin-right: 0; width: 100%;}
+ul.menu.accordion li.type{ float: none; width: 49%; margin: 0 0 10px 0}
+ul.menu li.type ul.sub{ width: 49%;}
+ul.menu.accordion:after{ content: none}
+
+.layoutWrapperLeft {width:100%; max-width:100%;}
+.layoutWrapperLeft > * {margin-right: 240px;}
+.layoutWrapperLeft dl.newsList {width:auto;}
+.layoutWrapperLeft dl.newsList{border-bottom:none;}
+.layoutWrapperLeft dl.newsList dt {padding-bottom:0;}
+.layoutWrapperLeft dl.newsList dt,.layoutWrapperLeft dl.newsList dd{border-top:none;}
+.layoutWrapperLeft dl.newsList dd {border-bottom: 1px dotted #000;}
+ul.arrowBox.arrowBox01.listSize01 li {width:100%;}
+.charactorBox .separateBoxLeft {max-width: 100%;margin-right: 0;}
+
+.pover-pl01,.pover-pl02 {line-height:1.1 !important;}
+}
+
+@media screen and (max-width: 599px){
+
+ul.menu.accordion{ display: flex; justify-content: space-between; flex-wrap: wrap; margin-right: 0; width: 100%; margin-bottom: 10px; padding:0 2%;}
+ul.menu.accordion li.type{ float: none; width: 100%; margin: 0 0 1px 0}
+ul.menu li.type ul.sub{ width: 100%;}
+ul.menu.accordion:after{ content: none}
+
+.pover-pl01,.pover-pl02 {line-height:1.1 !important;}
+}

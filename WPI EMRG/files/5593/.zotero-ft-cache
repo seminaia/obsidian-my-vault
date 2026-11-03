@@ -1,0 +1,748 @@
+The energy payback time of advanced crystalline silicon PV modules in 2020: a prospective study - Mann - 2014 - Progress in Photovoltaics: Research and Applications - Wiley Online Library
+
+    Skip to Article Content
+    Skip to Article Information
+
+COVID-19 Impact: Information for print subscribers
+Access By Gordon Library, WPI
+Wiley Online Library
+Wiley Online Library
+Gordon Library, WPI
+Access by Gordon Library, WPI
+Search within
+
+    Search term
+    Advanced Search Citation Search
+    Search term
+    Advanced Search Citation Search
+
+Login / Register
+Progress in Photovoltaics: Research and Applications
+Volume 22, Issue 11 Progress in Photovoltaics: Research and Applications
+Broader Perspectives
+Full Access
+The energy payback time of advanced crystalline silicon PV modules in 2020: a prospective study
+Sander A. Mann
+
+Corresponding Author
+
+Copernicus Institute, Utrecht University, Budapestlaan 6, 3584 CD, Utrecht, The Netherlands
+
+Center for Life Cycle Analysis, Columbia University, New York, NY, 10027 USA
+
+Correspondence: Sander A. Mann, FOM Institute AMOLF, Science Park 104, 1098 XG Amsterdam, The Netherlands.
+
+E‐mail: mann@amolf.nl
+Search for more papers by this author
+Mariska J. de Wild‐Scholten
+
+SmartGreenScans, Wagenmakersweg 22, 1873 GH, Groet, The Netherlands
+Search for more papers by this author
+Vasilis M. Fthenakis
+
+Center for Life Cycle Analysis, Columbia University, New York, NY, 10027 USA
+Search for more papers by this author
+Wilfried G.J.H.M. van Sark
+
+Copernicus Institute, Utrecht University, Budapestlaan 6, 3584 CD, Utrecht, The Netherlands
+Search for more papers by this author
+Wim C. Sinke
+
+ECN Solar Energy, Petten, The Netherlands
+Search for more papers by this author
+Sander A. Mann
+
+Corresponding Author
+
+Copernicus Institute, Utrecht University, Budapestlaan 6, 3584 CD, Utrecht, The Netherlands
+
+Center for Life Cycle Analysis, Columbia University, New York, NY, 10027 USA
+
+Correspondence: Sander A. Mann, FOM Institute AMOLF, Science Park 104, 1098 XG Amsterdam, The Netherlands.
+
+E‐mail: mann@amolf.nl
+Search for more papers by this author
+Mariska J. de Wild‐Scholten
+
+SmartGreenScans, Wagenmakersweg 22, 1873 GH, Groet, The Netherlands
+Search for more papers by this author
+Vasilis M. Fthenakis
+
+Center for Life Cycle Analysis, Columbia University, New York, NY, 10027 USA
+Search for more papers by this author
+Wilfried G.J.H.M. van Sark
+
+Copernicus Institute, Utrecht University, Budapestlaan 6, 3584 CD, Utrecht, The Netherlands
+Search for more papers by this author
+Wim C. Sinke
+
+ECN Solar Energy, Petten, The Netherlands
+Search for more papers by this author
+First published: 11 February 2013
+https://doi.org/10.1002/pip.2363
+Citations: 52
+FullTextFinder@WPI
+About
+
+        Figures
+        References
+        Related
+        Information
+    PDF PDF
+
+Sections
+
+    ABSTRACT
+    1 INTRODUCTION
+    2 TECHNOLOGY ROADMAPPING
+    3 PROSPECTIVE LCA
+    4 UNCERTAINTY ANALYSIS
+    5 RESULTS
+    6 DISCUSSION
+    7 CONCLUSION
+    ACKNOWLEDGEMENTS
+    REFERENCES
+    Citing Literature
+
+PDF PDF
+Tools
+
+    Request permission
+    Export citation
+    Add to favorites
+    Track citation
+
+Share Share
+
+Give access
+Share full text access
+Close modal
+
+Share full-text access
+Please review our Terms and Conditions of Use and check box below to share full-text version of article.
+I have read and accept the Wiley Online Library Terms and Conditions of Use
+Shareable Link
+
+Use the link below to share a full-text version of this article with your friends and colleagues. Learn more.
+Copy URL
+
+Share a link
+Share on
+
+    Email
+    Facebook
+    Twitter
+    Linked In
+    Reddit
+    Wechat
+
+ABSTRACT
+
+The photovoltaic (PV) market is experiencing vigorous growth, whereas prices are dropping rapidly. This growth has in large part been possible through public support, deserved for its promise to produce electricity at a low cost to the environment. It is therefore important to monitor and minimize environmental impacts associated with PV technologies. In this work, we forecast the environmental performance of crystalline silicon technologies in 2020, the year in which electricity from PV is anticipated to be competitive with wholesale electricity costs all across Europe. Our forecasts are based on technological scenario development and a prospective life cycle assessment with a thorough uncertainty and sensitivity analysis. We estimate that the energy payback time at an in‐plane irradiation of 1700 kWh/(m 2  year) of crystalline silicon modules can be reduced to below 0.5 years by 2020, which is less than half of the current energy payback time. Copyright © 2013 John Wiley & Sons, Ltd.
+1 INTRODUCTION
+
+The photovoltaic (PV) market has experienced double digit growth in the past decade and has now reached a global capacity of approximately 67 GW 1 . The year‐on‐year growth of newly installed capacity was 67% from 2010 to 2011, greatly exceeding the International Energy Agency's (IEA) annual growth rate projection of 17% for this decade from 2009 2 , 3 .
+
+Average European electricity generation costs from PV modules today are 0.20 €/kWh 4 , which is competitive with the retail electricity prices in some European countries. However, to fully penetrate the market, the cost of PV electricity has to be driven down further, to the wholesale electricity cost of ~0.08 €/kWh in most European countries 5 . Module production costs have historically been reduced by increases in plant production capacity, increases in module efficiency, reduced cost of silicon feedstock, and reduced silicon consumption per watt‐peak (W p ) 6 - 8 . In recent years, there have been a number of roadmapping exercises that outline paths toward low‐cost crystalline silicon modules 2 , 9 - 15 , which basically emphasize these approaches. With ongoing cost reductions of PV modules and rising wholesale electricity costs, it is expected that utility‐scale grid parity will be reached by 2014 in south Italy and by 2020 throughout Europe 4 .
+
+The fast growth of the PV markets is largely based on their promise to produce abundant electricity at a low cost to the environment. It is therefore important to monitor and report indicators of the environmental performance of PV technologies, such as the energy payback time (EPBT), the time in which an operating PV system produces the energy required to manufacture it. EPBTs are determined through life cycle assessments (LCAs) of the PV systems' cradle‐to‐grave life cycles. The most recent reported EPBT values are 1.5 and 1.3 years for monocrystalline and multicrystalline silicon PV systems, produced in Germany and located in southern Europe 16 . Note that it is important to distinguish between “modules” and “systems”, as the former does not include production of the balance of system (BOS) components and installation. The European Photovoltaic Technology Platform stresses that any negative environmental impact associated with PV systems must be minimized, implying reduction of emissions, recycling of materials, and reduction of EPBTs 15 . Their system EPBT target for 2020 is 0.6 years, and a long‐term target is 0.3 years 17 . The IEA targets are 0.9 years for 2020 and 0.7 years for 2030 2 , 17 .
+
+In this paper, we forecast the 2020 EPBTs for crystalline silicon modules. To do so, we developed three prospective module types, based on the aforementioned roadmaps. These scenarios are then modeled in a prospective LCA to calculate the EPBT and energy return on energy investment (EROI). The roadmapping exercise is discussed in Section 2 , the LCA methodology in Section 3 , and the uncertainty analysis in Section 4 . The results are presented in Section 5 and discussed in Section 6 .
+2 TECHNOLOGY ROADMAPPING
+
+In this section, we will present a short overview of technological improvements that are proposed to drive down production costs per Wp, drawing from the existing roadmapping exercises 10 - 13 .
+2.1 Feedstock and ingot growth
+
+Today, almost all commercially available modules are made from polysilicon from the Siemens process, which is converted into crystalline ingots through either Czochralski (Cz) crystal growth (for monocrystalline silicon) or directional solidification (DS) (for multicrystalline silicon). As polysilicon accounts for almost 25% of the total module production cost today 10 , some facilities try to reduce cost by process integration with material and energy recycling routes 16 . Additionally, the high cost has triggered development of alternatives to the traditional Siemens route (e.g., the fluidized bed reactor process 18 ) and even abandonment of poly‐Si altogether, as with upgraded metallurgical grade silicon (UMG‐Si) 19 . Multi‐Si cell efficiencies achieved on alternative Si feedstocks such as UMG‐Si have been demonstrated to be comparable with those of multi‐Si cells from standard feedstock in selected cases 19 , 20 .
+
+Ingot sizes will increase (most notably for the DS technique), which increases the throughput and yield of good quality silicon. Another interesting development is quasi‐mono silicon, a crossover between both crystallization techniques 21 . Here, the DS method is modified so that the crystal growth is seeded by a monocrystalline layer at the bottom of the melt. This produces large ingots with a central monocrystalline region, surrounded by multicrystalline edges. This approach has several benefits to regular DS ingots: as the material is quasi‐mono, the lack of grain boundaries could result in higher efficiencies. In fact, because of the lack of grain boundaries in central regions of the ingot, the segregation of impurities is more effective. This further encourages the use of UMG feedstock without compromising efficiency loss 10 .
+2.2 Wafering
+
+To reduce the required amount of polysilicon, the wafer thickness is continuously reduced, from 500 µm in 1979 22 to an average of 180 µm today 13 . The kerf loss, the silicon loss due to sawing, has decreased as well, to about 150 µm per wafer today. With further advances in the multiwire slurry saw (MWSS) process, it is expected that 120 µm wafers with 120 µm kerf loss are achievable by 2020 13 , which already reduces silicon consumption by 27% if breakage does not increase and efficiencies can be maintained.
+
+Aside from the kerf loss, the MWSS process has other drawbacks: wafer contamination, thickness variation across the wafer, high breakage, and high material consumption. To address those drawbacks, alternative wafering methods were proposed, most notably a wire sawing process using a fixed diamond abrasive on the wire (fixed abrasive sawing) 23 . Most machines on the market today are adaptable for diamond wires, and implementing them will increase the throughput by a factor of 2–3. In addition, the kerf is commercially recyclable as opposed to kerf from the slurry‐based process 24 , and wire consumption per wafer is much lower. However, the cost of the wire is much higher, and this so far stands in the way of significant market penetration, but wire costs have been decreasing by 30% per year 23 .
+
+To do away with the kerf loss altogether, kerfless cutting methods have been developed, such as the ribbon silicon 25 , electrochemical cutting 26 , laser wafer cutting 27 , stress‐induced lift‐off 28 , and light ion implantation 29 . Of these methods, ribbon silicon is the oldest, but it has difficulties maintaining or increasing market share 25 . Light ion implantation is commercially available, originally through Silicon Genesis (their PolyMax process 29 ) but more recently also through Twin Creeks (the Hyperion 30 ). It uses proton implantation to create a weak layer at a controlled depth in the silicon brick, after which the wafer is separated by cleaving. This process allows for wafers with a thickness between 20 and 150 µm, and even the thinner wafers have excellent mechanical strength 29 . A drawback is the considerable energy required for the high‐vacuum hydrogen implantation process.
+
+In the past, wafer sizes have also increased to reduce production costs. Larger 210 × 210 mm 2 wafers are expected to be introduced in 2017, but the current 156 × 156 mm 2 size will be the norm until at least 2020 13 , because larger and thinner wafers will be too brittle to handle with current processing techniques. In fact, thinner wafers already put considerable constraints on cell design and processing, as, for instance, front‐to‐rear interconnection, soldering, and high‐temperature processing will result in high yield losses for currently used processes and module architectures.
+2.3 Cell processing
+
+Surface recombination becomes more important as the wafer thickness decreases, so very high quality passivation schemes are needed. Because the aluminum back surface field does not passivate well enough and the contact area has to be reduced, a transition to rear‐side dielectric passivation is required. Excellent results have recently been achieved on thermal SiO 2 /plasma‐enhanced chemical vapor deposition SiN x stacks 31 , but thermal growth of SiO 2 might be less favorable for very thin wafers. A relatively new low‐temperature approach to high‐quality passivation is atomic layer deposition of Al 2 O 3 32 , with recombination velocities as low as 2 cm/s on n‐type float‐zone wafers 33 . Another effective low‐temperature approach is to use amorphous silicon (a‐Si), as in a‐Si : H/crystalline silicon heterojunction (HIT) cells 34 . The HIT and effective passivation increase the open circuit voltage significantly: an efficiency of 23.7% has already been achieved on a 98‐µm‐thick wafer 35 . As the patent on HIT technology has expired, it can be expected that by 2020, other manufacturers will also make use of this approach.
+
+Because front‐to‐rear interconnection and soldering of interconnects will induce too much stress on thin wafers, the International Technology Roadmap for Photovoltaics (ITRPV) roadmap expects 35% of all cells to be rear contact by 2020 13 . There are three main approaches to rear‐contact cells 36 : metal wrap‐through (MWT), emitter wrap‐through (EWT), and back‐junction (BJ). In the first two approaches, the emitter is still at the front of the device, but holes are laser drilled through the wafer that transports carriers to the rear, either through the metal contacts (MWT) or the emitter (EWT). The main difference between MWT and EWT is thus that the MWT still has grid lines (but no bus bars) on the front surface. In a BJ cell, the emitter is located at the rear surface, typically in an interdigitated fashion with the back surface field (BSF). A BJ has the benefit that the contacts can cover almost the whole rear side of the cell, greatly reducing series resistance 37 . All three approaches reduce contact shading, although this is especially true for the EWT and BJ types. So far, large‐area efficiencies of 24.2% have been reached on BJ solar cells 38 and over 20% on MWT cells 39 . An interdigitated back contact silicon (IBC) HIT cell (IBC‐HIT) has been reported at an efficiency of 20.2% 40 , but simulations show that 26% conversion efficiency is achievable 41 .
+
+Traditional screen printing is reaching its limits too. It is a “hard contact” technique, which creates yield issues on thin wafers. Furthermore, the aspect ratio of fingers is rather low, resulting in either large contact areas (which are high surface recombination areas) or small contacts with high resistance. Finally, the cost of silver in the metallization paste is becoming quite high, at 6–14 ¢ per Wp today 42 . All in all, this implies a move away from silver screen printing in the coming years. A first step may be the introduction of stencil printing, providing higher aspect ratios than screen printing, but the preferred option on the somewhat longer term seems to be plating of copper contacts 42 .
+
+Reducing the wafer thickness relaxes the demands on the bulk diffusion length for efficient carrier collection but at the same time reduces the amount of light absorbed if no additional light trapping measures are taken. Random pyramidal textures are shown to perform quite well even at 50 µm wafer thickness, with demonstrated efficiencies of over 19% 43 . Such thin cells with inverted pyramidal textures have even shown efficiencies of up to 21.5% 44 , 45 and could be further improved with BJ schemes and better passivation. Below 40 µm, the absorption starts dropping rapidly, and for very thin wafers, dielectric 46 , 47 or plasmonic resonators 3 , 48 may be required for high efficiencies.
+2.4 Encapsulation
+
+The encapsulation step is responsible for most material and labor costs: it accounts for 30–40% of the total costs per Wp 9 , 10 . Hence, there is much to gain by cutting down on material consumption and through automation and increasing throughput.
+
+Front‐to‐rear interconnection through stringing and soldering is responsible for a large fraction of the yield losses today, and with decreasing wafer thickness, this may get worse. As back‐contact cells require an interdigitated conductive pattern on the back sheet, these interconnection yield losses can be prevented. Späth et al . have already developed a fully automated high‐throughput module assembly line that drastically reduced cell breakage, even on 130‐µm wafers 49 . Because for BJ cells most processing is on the back of the cell, it is possible to attach the wafers to a glass superstrate after processing of the front 50 . This then allows for monolithic processing of the cells, which increases the yield of very thin wafers during cell processing.
+
+Another approach is to eliminate foil lamination all together 51 . Modules are sealed in double glazing at room temperature. An automated module assembly line based on this process, which also eliminates soldering, was first offered by Apollon Solar 52 and produced a module every 2 min. More recently, Bystronic Glass introduced a system that reportedly can produce a module every 45 s 53 (but with soldering). These throughputs are incredibly high compared with conventional module encapsulation processes, while material consumption is reduced and recycling becomes easier.
+2.5 Technological scenarios
+
+On the basis of the developments described in the previous subsections, we have defined three modules, as shown in Table  1 and Figure  1 . Module 1a is a very high efficiency scenario based on 120‐µm‐thick 156 × 156 mm 2 MWSS wafers and an IBC‐HIT design with dielectric stack passivation, random pyramidal texture on the front surface, and plated copper contacts. As shown in Table  1 , high cell and module yield are assumed because of advances expected in monolithic cell processing and module assembly 13 , whereas ingot and wafer yields are assumed to be the same as today. Because efficiencies of 23.7% have already been achieved on 100‐µm‐thick front contacted HIT cells 35 , but results on IBC‐HIT are not quite that high yet, we estimate the efficiency to be 23.5%. Because of high packing densities and antireflection coated glass, we estimated the difference between cell and total area module efficiencies to be 1.5% absolute, down from 2.5 to 3% for today's high‐efficiency modules.
+Table 1. Description of the three technological scenarios under investigation.
+Process step 	Module 1a 	Module 1b 	Module 2
+Feedstock 	Poly‐Si 	UMG‐Si
+Crystallization 	Czochralski ingot growth 	Seeded DS
+Ingot yield (%) 	95 	95 	95
+Good Si out/Si in (%) 	85 	85 	85
+Wafering 	MWSS 	Ion implantation 	MWSS
+Wafer thickness 	120 	40 	120
+Kerf loss 	120 	0 	120
+Yield (%) 	90 	98 	90
+Cell processing 	IBC‐HIT design, random pyramidal texture, plated copper contacts. 	Metal wrap‐through design, random texture, front and rear passivation, plated copper contacts.
+Yield (%) 	99 	99.5 	99
+Efficiency (%) 	23.5 	22.5 	20
+Module assembly 	Frameless encapsulation without lamination foil 51 , with all‐rear low‐stress interconnection and high packing density.
+Yield (%) 	99.5 	99.5 	99.5
+Efficiency (%) 	22 	21 	19
+
+    UMG‐Si, upgraded metallurgical grade silicon; DS, directional solidification; MWSS, multiwire slurry saw; IBC‐HIT, interdigitated back contact silicon heterojunction.
+
+image
+Figure 1
+Open in figure viewer PowerPoint
+Schematic structure of the three modules. Modules 1a and 1b only differ in the wafer thickness, 100 and 40 µm, respectively. Both are interdigitated back contact heterojunction cells with plated copper contacts. Module 2 is a metal wrap‐through cell based on quasi‐mono wafers with plated copper contacts. The schematics of modules 1a/b are based on 40 and of 2 on 39 . BSF, back surface field.
+
+Module 1b is a slight modification of 1a: Wafering is now carried out through light ion implantation, as in Silicon Genesis' PolyMax process 29 . Wafers from this process are stronger mechanically, which is why we have assumed higher yields. Furthermore, the wafers are much thinner, at 40 µm, which comes at an efficiency penalty of at most 1% absolute 45 .
+
+Module 2 is a low‐cost alternative based on UMG‐Si feedstock and 156 × 156 mm 2 quasi‐monocrystalline wafers. Because of the poorer quality material, we chose an MWT cell design, with random texturing on the front, front/rear passivation, and plated contacts. The efficiency for this cell is 20%, based on promising UMG‐Si and MWT results and ITRPV projections 13 . Because these wafers are square, we took the efficiency loss between cell and total module at 1% absolute, even lower than in modules 1a and b.
+
+All modules are encapsulated in a double glazing type of process, without lamination foil or curing 51 . This is a high‐throughput process that is symbolic of new module assembly techniques, but as with the cell designs, there is large uncertainty on whether this is the direction the market will go. We will therefore discuss other possibilities of cell design and encapsulation in the discussion (Section 6.2 ).
+3 PROSPECTIVE LCA
+
+To obtain an idea of the environmental impacts of these modules, we performed a prospective LCA. LCA is a methodological tool to evaluate a product's environmental impact over its life cycle, from primary resource extraction (cradle) to disposal (grave) or recycling. For PV energy, a guideline is provided by IEA PVPS task 12 54 , and a general guideline can be found in Reference 55 . An LCA is typically performed in four stages: (i) scope definition, (ii) life cycle inventory analysis, (iii) impact assessment, and (iv) interpretation. We used SimaPro 7.3.2 as the software tool to perform the inventory analysis and impact assessment 56 .
+
+The functional unit is one m 2 module area of the three modules introduced in the previous section, and the system boundaries are shown in Figure  2 . Our prospective analysis focuses only on the cradle‐to‐gate stages of the modules, excluding the BOS and end‐of‐life stage. However, to make comparisons with system EPBT targets, we accounted for the BOS assuming static scenarios in the discussion.
+image
+Figure 2
+Open in figure viewer PowerPoint
+System boundaries used in the inventory analysis.
+3.1 Data collection, modeling, and inventory analysis
+
+The life cycle inventory analysis is performed using the Ecoinvent database (version 2.2) (Ecoinvent Centre, St. Gallen, Switzerland) 57 for material and energy inputs. For electricity inputs, we used the continental European electricity mix, which has a conversion efficiency of 0.315. The primary energy requirement is calculated using the cumulative energy demand (CED) (v. 1.08) method 58 in units of MJp.
+
+In the inventory, we have used as much original data as possible. As shown in Table  2 , we used new data from four different companies and complemented that with data published in literature and from the Ecoinvent database. In two cases, the HIT formation step and conductive patterning of the back sheet, data were unavailable and modeling was required.
+Table 2. Primary energy data values and sources.
+Process step 	Key inputs 	Value 	Source (year)
+Feedstock 	Poly‐Si, Siemens process (Wacker, Germany) 	545 MJp/kg 	Wetzel, Feuerstein 16 (2011)
+	UMG‐Si (Elkem Solar, Norway) 	322 MJp/kg 	De Wild‐Scholten, MJ 62 (2008)
+Crystallization 	CZ‐Si electricity use 	85.6 kWh/kg Cz‐Si 	Ecoinvent 63 (2007)
+	Quasi‐mono Si electricity use 	19.3 kWh/kg quasi‐mono Si 	Multi‐Si from Ecoinvent 63 (2007)
+	Other 		Ecoinvent 63 (2007)
+Wafering (MWSS) 	Electricity (including cooling), wire, and slurry consumption 	Confidential 	Applied Materials 64 (2012)
+	Other 		Ecoinvent 63 (2007)
+Wafering (ion implantation) 	Electricity requirement for total process 	51.4 kWh/m 2 	SiGen 65 (2012)
+Cell processing 	Plating of contacts 	Confidential 	Meco 66 (2012)
+	IBC‐HIT deposition 	44.5 MJp/m 2 	Modeled based on Photon International 59 (2011)
+	Various process steps 		Photon International 67 (2009)
+Encapsulation 	Solar glass (front 3.0 mm, rear 2.8 mm) 	14.6 kg/m 2 	ITRPV 13 (2012)
+	Conductive back sheet (without glass) 	66.7 MJp/m 2 	Modeled based on Ecoinvent 57 (2007) and Meco 66 (2012)
+	Other 		Apollon Solar 68 (2010)
+
+    UMG‐Si, upgraded metallurgical grade silicon; MWSS, multiwire slurry saw; IBC‐HIT, interdigitated back contact silicon heterojunction.
+
+For the HIT formation, we used general data on Oerlikon's KAI‐1200 a‐Si plasma‐enhanced chemical vapor deposition chamber 59 (Table  3 ), which can deposit the a‐Si layer on 40 1.43 m 2 modules per hour, in two batches of 20 modules. With a deposition speed of 0.3 nm/s and an a‐Si : H layer of 300 nm, it follows that the KAI‐1200 requires 800 s of loading, unloading, and starting up per batch.
+Table 3. Modeling of interdigitated back contact silicon heterojunction deposition.
+Process parameters 	Value 	Source
+a‐Si deposition rate 	0.3 nm/s 	Photon International 59
+Average power consumption 	280 kW 	Photon International 59
+Loading or unloading 	400 s/batch 	See Section 3.1
+Changing masks 	200 s/batch 	Own estimate
+Total process time 	1433 s/batch 	Own estimate
+Energy and material consumption 	
+Electricity 	3.9 kWh/m 2 	Own model, Photon International 59
+SiH 4 	0.97 g/m 2 	Van der Meulen, R, and Alsema, EA 69
+H 2 	1.45 g/m 2
+O 2 	0.16 g/m 2
+NF 3 	0.11 g/m 2
+
+We modeled a device structure as described in 18 , with a 5‐nm intrinsic buffer layer under the emitter. The process flow is based on 60 : the starting point is a wafer with a passivation layer, which is to be etched away in the regions where the emitter and BSF are deposited. Then, an additional mask is put in place for deposition of the intrinsic layer and emitter, after which the mask is changed for deposition of the BSF. We have assumed that each mask change requires half the time it takes to fully load or unload the chambers. Because vacuum and heater equipment are responsible for most of the power consumption, and are always on, we use the average power consumption for each process step.
+
+The deposition and patterning of a conductive layer on the back sheet were modeled as follows: (i) vapor deposition of a thin metal layer on a glass sheet, (ii) copper plating of that thin metal layer, (iii) screen printing of an etch‐resist resin in an interdigitated pattern on the metal layer, (iv) etching, and (v) washing. The vapor deposition process data were obtained from the Ecoinvent database, whereas the other steps are taken from cell processing steps (Table  2 ).
+3.2 Impact assessment
+We have chosen to calculate the embodied energy, or CED for the production of one m 2 of module, which we will present as such. Additionally, we will present the EPBT, defined as the ratio of the CED over the primary energy that the PV system prevents from being consumed on the grid to which it is connected:
+urn:x-wiley:10627995:media:pip2363:pip2363-math-0001 (1)
+where E CED is the CED required for the production of 1 m 2 of module, η grid is the conversion efficiency of the grid in which the PV system is installed (0.315), G is the annual insolation for southern Europe (1700 kWh/(m 2 *yr), η conv is the PV module conversion efficiency, and PR is the system performance ratio. Following the IEA PVPS guideline 54 , we assumed a PR of 0.75 for rooftop residential systems, but we will discuss how higher PRs affect the EPBT in the discussion.
+The EPBT is a widely used measure to indicate the energy performance of PV. It is attractive for a number of reasons: it relates the somewhat abstract CED to the module performance and it is a proxy for environmental performance. Furthermore, less data is required than for the calculation of emissions per kWh. On the other hand, it has drawbacks too: it does not take into account the PV module lifetime, it is inherently linked to the system in which the PV system is installed (through the grid conversion efficiency 61 ), and it does not compare easily with other sources of electricity. An alternative metric that accounts for the life expectancy of the system is the EROI, defined as 70 :
+urn:x-wiley:10627995:media:pip2363:pip2363-math-0002 (2)
+where E out is the net electricity output over the product's lifetime, E inv is the total invested primary energy required to produce that electricity, that is, the sum of the primary energy required for the production of the product ( E PP ) and energy for the supply chain of the feedstock to produce the electricity ( E ED ). Note that the EROI as defined here equals the life expectancy of the PV system multiplied by the grid efficiency and divided by the EPBT.
+
+After the impact assessment, we move on to the next, and final, stage of the LCA: interpretation. Because of the prospective nature of this study, a thorough uncertainty analysis is required.
+4 UNCERTAINTY ANALYSIS
+
+We can distinguish between various sources of uncertainty in LCA 71 . First and foremost, there is parameter uncertainty: Parameters can be hard to measure precisely or precise values might be unavailable, and they might be inherently variable. Then, there is scenario uncertainty, which is related to the normative choices made in constructing scenarios. The last source is modeling uncertainty, which comes from the structure of the model.
+
+Because of the prospective nature of this study, parameter and scenario uncertainty are most significant: Data are subject to change in the coming years, and the scenarios that we have developed may not represent the actual situation in 2020. Our approach to deal with these uncertainties is discussed as follows.
+4.1 Parameter uncertainty
+
+A prospective LCA study has two major data quality issues: data representativeness (e.g., scaling up from laboratory scale or temporal fluctuations in primary energy requirements for material inputs) and data availability (e.g., confidential or nonexistent data, which therefore have to be modeled). The challenge is to quantify these uncertainties in a transparent manner, for which the most common approach is to use a pedigree matrix approach, as in the Ecoinvent database 72 . Here, the assumption is made that all inputs are accurately described by a lognormal distribution. The variance of this distribution is a measure of the uncertainty of the input and is found using a pedigree matrix with data quality indicators 72 , 73 . There are five data characteristics on which this variance is based: (i) data reliability, (ii) data completeness, (iii) temporal correlation, (iv) geographic correlation, and (v) further technical correlation. Each characteristic is divided into five quality levels, ranging from good to poor. On the basis of expert judgment, the indicator scores then give the variance of the input value. In Table  4 , we show the pedigree matrix for the two most important characteristics in prospective studies (temporal and technological correlation).
+Table 4. Excerpt of the pedigree matrix 72 , adjusted to have 2020 as the database base year.
+Indicator score 	1 (Good) 	2 	3 	4 	5 (Poor)
+Temporal correlation 	— 	— 	Data from 2010 or later. 	Data from 2005 or later. 	Data from before 2005.
+Further technical correlation 	Data from enterprises, processes, and materials under study. 	Data from processes and materials under study but different enterprises. 	Data from processes and materials under study but from different technology. 	Data on related processes or materials. 	Data on related processes on laboratory scale or from different technology.
+
+A useful measure of the uncertainty of an input is the 95% confidence interval: a range in which the true value will lie with 95% certainty. The confidence interval is related to the input variance and is thus calculated on the basis of the pedigree matrix, as outlined in 72 . For example, the electricity use for production of Cz‐Si comes from the Ecoinvent database. The input value of 85.6 kWh/kg is based on verified measurements (score 1 on reliability) but comes from only one site relevant for the market (score 4 on completeness). It is valid for the year 2007 (temporal score 4), comes from an area with similar production conditions (geographical score 3), and is representative for enterprises, processes, and materials under study (technological score 1). Following the procedure outlined in 72 , the 95% confidence interval of the electricity requirement for a kilogram of Cz‐Si in 2020 then ranges from 69.7 to 105 kWh/kg Cz‐Si. It should be noted, however, that the electricity requirement is more likely to move toward the lower bound because of technological improvements.
+
+Using the same procedure, we have calculated the variances of all inputs and then propagated these using Monte Carlo analysis 74 to find the 95% confidence interval of the CED, EPBT, and EROI for each module.
+4.2 Scenario uncertainty
+
+The technological scenarios and performance forecasts that we have made are subject to uncertainty too. For instance, cell and module efficiencies might be higher or lower than we predicted, so we will present the EPBT and EROI results on an efficiency interval. We have based our yield assumptions on the values reported in the ITRPV roadmap  13 , which are based on expert judgment. We address the yield uncertainty through parameter uncertainty, as described in the previous subsection: industrial expert estimates receive a data quality indicator score of 4 for reliability. Together with the other indicator scores, one can find the variance and 95% confidence interval of the yield assumptions, as outlined in 72 . For example, the yield during cell processing is reported to be 99% by 2020. This means that for 1 m 2 of cells, 1.01 m 2 of wafers is required, but the 95% confidence interval lies between 1.008 and 1.012 m 2 . The uncertainty on process yields is then propagated just as the other parameter uncertainties.
+
+Finally, crystalline silicon PV modules might be produced by processes in 2020 that are unknown today or that we did not account for in our scenarios: we address these possibilities in Section 6.2 .
+5 RESULTS
+
+On the basis of the life cycle inventory, we calculated the cradle‐to‐gate (factory) primary energy consumption for production of the three modules, including the 95% confidence interval, as shown in Figure  3 (a) (in primary energy requirement per m 2 of module). To put these values into context: the most recent LCA results for multicrystalline and monocrystalline silicon PV modules are 2150 and 2750 MJp/m 2 , respectively 16 , so the CED of modules 1a, 1b, and 2 are only 74% (2030/2750), 55% (1500/2750), and 62% (1330/2150) of the corresponding CEDs today.
+image
+Figure 3
+Open in figure viewer PowerPoint
+(a) Cumulative energy demand (CED) per m 2 and (b) Breakdown into feedstock, ingot, wafering, cell processing, and encapsulation steps. The percentage shows the contribution of each process step to the total CED. UMG‐Si, upgraded metallurgical grade silicon.
+
+The CED of module 1a is considerably higher than that of modules 1b and 2. The breakdown in Figure  3 (b) shows that this is almost solely due to the relatively high consumption of monocrystalline silicon. Moving toward a kerfless cutting method drastically reduces silicon consumption, by a factor of five, but at the same time, the wafering energy is increased because of the energy intensive ion implantation process. Modules 1a and 2 require the same amount of feedstock, but the UMG‐Si feedstock and seeded DS reduce the primary energy requirement for this step by almost a factor of three (although this comes at an efficiency penalty). Because we only investigated a double glazing‐like encapsulation process, all modules have the same encapsulation energy.
+
+The breakdown for the aforementioned recent LCA results on monocrystalline silicon modules into poly‐Si,ingot growth and wafering, cell processing, and encapsulation is approximately 500, 1260, 390, and 600 MJp/m 2 (or 18%, 46%, 14%, and 22%), respectively 16 . Comparing this with the breakdown shown in Figure  3 (b), we see that in module 1a, modest reductions have been achieved in feedstock, crystallization and wafering (owing to thinner wafers), and encapsulation. The cell processing energy requirement has not changed much, most likely because low‐temperature processing has offset increases due to the increased overall process complexity. As mentioned before, poly‐Si consumption is drastically reduced in module 1b, and module 2 uses low‐energy feedstock. Because module 2 is based on quasi‐mono wafers, the energy requirement here is reduced further (the corresponding energy requirement for ingot growth and wafering in 2011 in a multi‐Si module was ~670 MJ p /m 2 16 ).
+
+The confidence intervals are quite large: [1560, 2660], [1110, 2010], and [1060, 1650] MJp/m 2 for modules 1a, 1b, and 2 respectively (Figure  2 (a)). This is mainly due to the temporal uncertainty: About half (or even 63% for module 1a) of the primary energy requirement comes from poly‐Si feedstock, ingot growth, and wafering, and these production steps have a large potential for reduction in energy intensity by scaling up. We therefore expect the actual CED to decrease toward the lower bound rather than increase.
+
+We also calculated the EPBTs for these modules (Figure  4 (a)). The mean payback time of module 1a is just over 0.6 years, whereas 1b and 2 have an EPBT just below than 0.5 years. As is common today, there is a gap between multi‐Si and mono‐Si for traditional wafers, but by using thin, kerfless cut wafers, this gap closes. The most recent module EPBT values are 1.3 for mono‐Si and 1.1 for multi‐Si 16 , so a reduction in the EPBT of over a factor two is feasible by 2020—or even more if we take into account the potential to move toward the lower bound of the confidence interval. Aside from the reduction in CED of the three modules, the considerable increase in module efficiency is an important factor in the EPBT reductions.
+image
+Figure 4
+Open in figure viewer PowerPoint
+(a) Module energy payback time (EPBT) over efficiency range (with the estimated efficiency given in the legend), where the solid line is the mean, and the shaded area gives the 95% confidence interval. (b) Module energy return on energy investment (EROI) over efficiency range. We assumed a life expectancy of 35 years and an insolation of 1700 kWh/(m 2 *year).
+
+In Figure  4 (b), we show the EROI of produced electricity for a lifetime of 35 years 15 . It is by using the same data as for the comparison of CED 16 , but with a lifetime of 30 years, that the EROI for multi‐Si and mono‐Si PV modules from 2011 is 8.8 and 7.5, respectively, so the EROI of crystalline silicon PV modules will increase dramatically in the coming years.
+6 DISCUSSION
+
+As we mentioned before, prospective LCA studies are subject to parameter and scenario uncertainties. We will discuss those uncertainties in the next two subsections and then conclude this section with a brief discussion of the BOS components.
+6.1 Parameter sensitivity
+
+In addition to the uncertainty analysis that we included in our results, it is important to check if our results are overly sensitive for certain input parameters. As we mentioned in Section 3.2 , the PR is one of these parameters: currently taken at 0.75, it might well be underestimated significantly and values of 0.9 are feasible 75 . If the PR were to increase to 0.80, 0.85, or 0.90, this would further reduce the EPBT of the modules by 6%, 12%, or 17%, respectively. With a PR of 90%, the lowest EPBT would be 0.4 years (for module 2).
+
+To check for sensitive inputs in the LCI, we calculated how much the module's CED would change if the input value were to move to the upper bound of the 95% confidence interval. The top three inputs to which the results are most sensitive are shown in Table  5 . For example, with 7%, the electricity requirement for Cz ingot growth is the most sensitive input for module 1a. This means that if the electricity requirement were to increase to the upper bound of the input's 95% confidence interval by 2020, the total CED of module 1a would increase by 7%. In other words, regarding the Cz electricity requirement, we are 95% sure that module 1a's CED lies within an interval of approximately ±7%.
+Table 5. The top three most sensitive inputs for the three modules, with the influence on the total CED that the inputs have if they shift to the upper bound of their 95% confidence interval.
+	Module 1a 	Module 1b 	Module 2
+1 	Cz electricity requirement (7%) 	Wafering electricity demand (6%) 	Solar glass (4%)
+2 	Poly‐Si feedstock (5%) 	Solar glass (3%) 	UMG‐Si feedstock (4%)
+3 	Solar glass (3%) 	ARC deposition (3%) 	DS electricity requirement (3%)
+
+    CED, cumulative energy demand; UMG‐Si, upgraded metallurgical grade silicon; DS, directional solidification; ARC, antireflection coating.
+
+In this section, we will explicitly deal with the kerfless cutting energy and the Cz crystal growth electricity consumption. Note that the process steps that we modeled have high uncertainty but account for only a small share of the total primary energy demand, and therefore, the final CED can be considered insensitive to these inputs.
+
+Although we have first‐hand data from Silicon Genesis on the energy requirement for ion implantation wafering, it is a new technology. Pilot production is running since 2009 but not yet at full capacity 29 , and the energy requirement per wafer might therefore be subject to considerable change in the future. In Figure  5 (a), we show the 95% confidence interval of the ion implantation wafering electricity requirement for 50 µm wafers, but variation over this interval only results in a 5% decrease at the lower bound or a 6% increase at the upper bound of the CED and EPBT. The energy intensity usually decreases as a technology matures, so we expect that changes will be for the better.
+image
+Figure 5
+Open in figure viewer PowerPoint
+(a) Sensitivity analysis for ion implantation wafering energy requirement for module 1b and (b) sensitivity analysis for modules 1a and 1b on the electricity requirement for Cz crystal pulling. The vertical dashed lines show the lower and upper bounds of the 95% confidence interval, and the mean value, which is used in our inventory. In (b), the vertical dashed line marked “DS” signifies the energy consumption for directional solidification.
+
+Module 1a is particularly sensitive to the electricity requirement for Cz crystal growth: the input share is large (almost 30%), the data are old (published in 2007), and the data already had a relatively high uncertainty to start with. Over the confidence interval for Cz‐Si electricity consumption, the CED and EPBT of module 1a range from 94% on the lower bound to 107% on the upper bound compared with the mean. Figure  5 (b) shows the impact of the electricity requirement per kilogram Cz‐Si on the EPBT of modules 1a and 1b. It is quite clear that the impact on module 1b is modest, because the input share for that module is just 7%. The dashed line on the left in Figure  4 (b) shows the electricity requirement per kilogram Si for DS, which is lower than 20 kWh/kg. We show this because it is representative for quasi‐mono feedstock, which according to the ITRPV will have a market share of almost 50% in 2020 13 . If quasi‐mono ingots can replace Cz ingots, this will result in a substantial reduction in the EPBT of module 1a: over 22%. Even if the use of quasi‐mono ingots comes at an efficiency penalty, the reduction in electricity requirement will be beneficial. It must be noted, however, that BJ solar cells require very high carrier lifetimes, and at this point, it is uncertain whether such demands can be met on quasi‐mono wafers. This is why, in the ITRPV roadmap, quasi‐mono is projected to replace multi‐Si wafers (and hence is used in module 2), whereas the mono‐Si share remains practically constant.
+
+To conclude, the primary energy requirement for the production of electricity is a very sensitive parameter, as other authors have pointed out 61 , 76 . In this study, we used the average continental European grid electricity mix, which has an efficiency of 31.5%. However, the grid efficiency varies between countries and changes over time. For example, if PV reaches a 20% penetration of the grid, the grid efficiency will increase to roughly 41% 61 . As Figure  6 (a) shows, this increases the EPBT because less primary energy consumption is prevented by displacing grid mix electricity with electricity from a PV module. On the other hand, it also reduces the primary energy requirement for module production, which causes the EROI to increase, as shown in Figure  6 (b). For these figures, we have assumed that the poly‐Si feedstock is not produced with grid electricity but with on‐site power generation, and hence that share of the CED is not affected by a change in grid efficiency. In reality, poly‐Si is often produced using power from a mix of gas and steam turbines, hydro, and the grid. It is noted that if poly‐Si production in the future increasingly uses coal‐based electricity, EPBTs and emissions will worsen.
+image
+Figure 6
+Open in figure viewer PowerPoint
+The influence of the grid efficiency, the produced electricity (MJe) per consumed primary energy (MJp), on (a) the module energy payback time (EPBT) and (b) the module energy return on energy investment (EROI) of the three technological scenarios. The vertical dashed line shows the European electricity mix grid efficiency used in this study.
+6.2 Scenario uncertainty
+
+Sources of scenario uncertainty include diamond wire sawing, encapsulation methods, double‐sided contact cells, and passivation methods. Starting from the latter, Al 2 O 3 is a promising candidate for high‐quality passivation, but lacking data, we used data for SiN x passivation. Even though SiN x passivation does not reduce the surface recombination velocities enough for high efficiencies, the energy this deposition process requires will be similar to (or higher than) Al 2 O 3 deposition, and any difference will not significantly influence the final results because the input share is low.
+
+Although we only investigated rear‐contact modules, the ITRPV expects 65% of the market share to still be double‐sided contact modules in 2020 13 . This will primarily result in lower packing densities, as efficiencies of 23.7% have already been shown on double‐sided HIT cells and module 2 already has a contact grid on the front, so the efficiency penalty from the additional bus bars is small.
+
+There are two sources of scenario uncertainty that we believe could significantly impact the outcome. The first is fixed abrasive sawing with diamond‐particle‐coated wires. According to the ITRPV, by 2020, 100% of mono‐Si and 80% of multi‐Si wafers will be sawn with diamond‐coated wires, thus almost completely replacing slurry‐based wire sawing 13 . Using diamond‐particle‐coated wires results in higher throughput, lower sawing energy consumption, kerf width reduction, kerf recycling, and lower wire consumption. With data from NorSun 77 and Garbo 78 , we have calculated that this results in a 29% reduction in the primary energy requirement per 120‐µm‐thick monocrystalline wafer or to an EPBT of 0.5 years for module 1a. Unfortunately, no diamond‐wire producer was willing to share data with us because of their highly competitive business environment, so we could not include a diamond‐wire cutting scenario in our study.
+
+The second source of significant scenario uncertainty is the encapsulation method. We used a high‐throughput encapsulation process that does not require foil lamination, but it may very well be that, for instance, an interdigitated interconnection scheme can only successfully be integrated on foil. From 16 , we calculated that the additional primary energy requirement for the conventional encapsulation method with only one glass sheet, but with EVA, Tedlar, and curing is about 190 MJ p /m 2 . This would increase the EPBT of modules 1a, 1b, and 2 by 9%, 13%, and 15%, respectively.
+6.3 Balance of system
+
+Although the BOS lies outside of the scope of this investigation, it is a crucial part of any PV energy system, and we will therefore briefly discuss its impacts on our results. One can distinguish between two common types of grid‐connected PV systems: building‐integrated systems (e.g., rooftop panels) and ground‐based systems (e.g., large‐scale centralized power plants). In Table  6 , we show the EPBT and EROI for both types of system, calculated with data from 79 . The rooftop system consists of a 2.5‐kW inverter and a Schletter mounting system. The PV plant uses average mounting structure data from market surveys and inverter data based on a 4.6‐MWp plant in Tucson, USA. For the large‐scale PV plant, a PR of 0.80 is used 56 . An extensive discussion of the EROI of PV systems in relation to other sources of electricity is given in 70 .
+Table 6. The primary energy consumption of the BOS components for two types of PV systems and the EPBT and EROI on a system level.
+	Rooftop 	Grount‐mount PV plant
+Module 	1a 	1b 	2 	1a 	1b 	2
+Structure, cabling (MJ/m 2 ) 	225 	225 	225 	645 	645 	645
+Inverter (MJ/m 2 ) 	704 	675 	614 	254 	243 	222
+Total (MJ/m 2 ) 	929 	900 	839 	899 	888 	867
+EPBT (years) 	0.9 	0.7 	0.7 	0.8 	0.7 	0.7
+EROI ( E out / E in ) 	13 	15 	15 	14 	16 	16
+
+    BOS, balance of system; PV, photovoltaic; EPBT , energy payback time; EROI , energy return on energy investment.
+    Data comes from 78 .
+
+To reduce costs associated with the BOS, the EUPVTP has identified some research priorities 15 . For the EPBT, the most relevant goals are an increase in the inverter lifetime (of over 30 years by 2025 compared with 15 years now) and low‐cost support structures, cabling and electrical connections. As Table  6 shows, the inverter accounts for a considerable share of the CED of rooftop systems, and even a modest increase in the inverter lifetime would therefore significantly decrease the system EPBT. The inverter is less important in the case of large‐scale PV plants, where the support structure dominates the CED.
+7 CONCLUSION
+
+In this work, we presented a prospective life cycle analysis of crystalline silicon PV technologies in the year 2020. To do so, we developed three technological scenarios (two based on monocrystalline silicon and one based on quasi‐monocrystalline silicon), building on various existing roadmaps. To summarize, increasing the cell efficiency is (after scaling up) the most important lever to reduce energy demand and costs. By using high‐quality passivation and BJs, higher efficiencies can be achieved while simultaneously reducing the wafer thickness, which reduces the embodied energy even further. However, thinner wafers also require novel cell processing and encapsulation schemes, which we accounted for. We forecast that the EPBT of crystalline silicon modules can be reduced to 0.5 years or less (below 0.7 years when including BOS). This confirms that the European Photovoltaic Technology Platform's target of 0.6 years at the system level may be too ambitious, but the IEA target of 0.9 year will be met. The EROI of PV modules is expected to increase further by a factor two to three in the coming years.
+
+This is a prospective LCA, subject to technological improvements taking place, and as such, it carries a considerable degree of uncertainty. To address parameter uncertainty, we present results with a 95% confidence interval, but scenario uncertainty remains: crystalline silicon modules in 2020 may be based on technologies or production methods that we did not include in our scenarios, such as diamond‐particle‐coated wire sawing for wafering. Because the general tendency of maturing technologies is to become less energy and material intensive and we have used data that are representative of, at best, the situation today, our forecasts can be considered conservative.
+
+Finally, it is important to note that these results cannot easily be compared with other PV technologies, because they too can change over time. Nonetheless, these results show that there is considerable potential to reduce the environmental impact of crystalline silicon PVs while reducing production costs.
+ACKNOWLEDGEMENTS
+
+We would like to thank Dr. Philippe Nasch of Applied Materials, Martijn Zwegers of Meco, Ted Fong of Silicon Genesis, Étienne Saint‐Sernin, formerly of Apollon Solar, Dr. Ilaria Lombardi of Garbo, and Dr. Øyvind Nielsen of NorSun for supplying data and helpful discussion. Furthermore, we would like to thank Dr. Carol Olson, Dr. Noorie Rajvanshi, Dr. Hyung Chul Kim, Dr. Evert Nieuwlaar, and Dr. Doug Rose for insightful comments and Dr. Martin Patel for assistance with SimaPro.
+
+REFERENCES
+
+    1 European Photovoltaic Industry Association . Market report 2011. Available at http://www.epia.org/index.php?id  = 18.
+    Google Scholar FullTextFinder@WPI
+    2 International Energy Agency . Technology roadmap—solar photovoltaic energy . 2010 . http://www.iea.org
+    Google Scholar FullTextFinder@WPI
+    3 Green MA , Pillai S . Harnessing plasmonics for solar cells . Nature Photonics 2012 ; 6 ( 3 ): 130 – 132 . DOI: 10.1038/nphoton.2012.30 .
+    Crossref CAS Web of Science® Google Scholar FullTextFinder@WPI
+    4 European Photovoltaic Industry Association . Solar photovoltaics—competing in the energy sector . September 2011 , Brussels. Available at http://www.epia.org/
+    Google Scholar FullTextFinder@WPI
+    5 International Energy Agency . Key world energy statistics . 2011 , Paris. http://www.iea.org .
+    Google Scholar FullTextFinder@WPI
+    6 Nemet GF . Beyond the learning curve: factors influencing cost reductions in photovoltaics . Energy Policy 2006 ; 34 ( 17 ): 3218 – 3232 . DOI: 10.1016/j.enpol.2005.06.020 .
+    Crossref Web of Science® Google Scholar FullTextFinder@WPI
+    7 van Sark WGJHM , Alsema EA , Junginger HM , de Moor HHC , Schaeffer GJ . Accuracy of progress ratios determined from experience curves: the case of photovoltaic technology development . Progress in Photovoltaics: Research and Applications 2008 ; 16 : 441 – 453 .
+    Wiley Online Library CAS Web of Science® Google Scholar FullTextFinder@WPI
+    8 Yu CF , van Sark WGJHM , Alsema EA . How to incorporate input price changes and scale effects into the learning curve? A photovoltaics case study . Renewable and Sustainable Energy Review 2011 ; 15 : 324 – 337 .
+    Crossref Web of Science® Google Scholar FullTextFinder@WPI
+    9 del Cañizo C , del Coso G , Sinke WC . Crystalline silicon solar module technology : towards the 1 € Per watt‐peak goal . Progress in Photovoltaics: Research and Applications 2009 ; 17 ( 3 ): 199 – 209 .
+    Wiley Online Library CAS Web of Science® Google Scholar FullTextFinder@WPI
+    10 Green MA . Quo Vadis Silicon Photovoltaics? Proceedings of the 26th European Photovoltaic Solar Energy Conference and Exhibition , Hamburg, 2011 : pp. 16‐21.
+    Google Scholar FullTextFinder@WPI
+    11 Dross F , Baert K , Bearda T , Deckers J , Depauw V , El Daif O , Gordon I , Gougam A , Govaerts J , Granata S , Labie R , Loozen X , Martini R , Masolin A , O'Sullivan B , Qiu Y , Vaes J , Van Gestel D , Van Hoeymissen J , Vanleenhove A , Van Nieuwenhuysen K , Venkatachalam S , Meuris M , Poortmans J . Crystalline thin‐foil silicon solar cells: where crystalline quality meets thin‐film processing . Progress in Photovoltaics: Research and Applications 2012 ; (published online), DOI: 10.1002/pip.1238 .
+    Wiley Online Library PubMed Web of Science® Google Scholar FullTextFinder@WPI
+    12 Mertens R , Baert K , Horzel J , Mertens P , Poortmans J . Crystalline silicon for PV applications: status, challenges & growth for large scale electricity production . Proceedings of the 26th European Photovoltaic Solar Energy Conference and Exhibition , Hamburg, 2011 : 803‐807.
+    Google Scholar FullTextFinder@WPI
+    13 Crystalline Silicon Technology and Manufacturing Group . International Technology Roadmap for Photovoltaics: Results 2011 , 3rd ed. SEMI PV Group Europe: Berlin, March 2012 . http://www.itrpv.net .
+    Google Scholar FullTextFinder@WPI
+    14 Wolden CA , Kurtin J , Baxter JB , Repins I , Shaheen SE , Torvik JT , Rockett AA , Fthenakis VM , Aydil ES . Photovoltaic manufacturing: present status, future prospects and research needs . Journal of Vacuum Science and Technology A 2011 ; 29 ( 3 ), DOI: 10.1116/1.3569757 .
+    Crossref CAS PubMed Web of Science® Google Scholar FullTextFinder@WPI
+    15 European Photovoltaic Technology Platform . A strategic research agenda for photovoltaic solar energy technology, 2nd edition . 2011 . http://www.eupvplatform.org/
+    Google Scholar FullTextFinder@WPI
+    16 Wetzel T , Feuerstein F . Update of energy payback time data for crystalline silicon PV modules . Proceedings of the 26th European Photovoltaic Solar Energy Conference and Exhibition , Hamburg, 2011 : pp. 3191‐3195.
+    Google Scholar FullTextFinder@WPI
+    17 These numbers are reported as 0.5 and 0.25 years in the original document, but the conditions are different (1800 kWh/(m2 year) and a performance ratio (PR) of 0.8) than those usually considered in LCA studies (1700 kWh/(m2 year) and PR of 0.75) . The same hold for the IEA numbers, which are 1 and 0.75 year, but reported for 1500 kWh/year illumination conditions.
+    Google Scholar FullTextFinder@WPI
+    18 Westgaard T , Olson C , Veltkamp T . Life cycle analysis of modules: a multicrystalline silicon case study . Photovoltaics International 2012 ; 15 : 122 – 128 .
+    Google Scholar FullTextFinder@WPI
+    19 Modanese C , di Sabatino M , Søiland A , Peter K , Arnberg L . Investigation of bulk and solar cell properties of ingots cast from compensated solar grade silicon . Progress in Photovoltaics: Research and Applications 2011 ; 19 ( 1 ): 45 – 53 . DOI: 10.1002/pip.986 .
+    Wiley Online Library CAS Web of Science® Google Scholar FullTextFinder@WPI
+    20 Braathen S , Enebakk E , Glöckner R , de Wild‐Scholten MJ , Preis P , Peter K . High performance solar cells based on low cost solar silicon with low carbon footprint . Proceedings of SolarCon , Shanghai, 2011 .
+    Google Scholar FullTextFinder@WPI
+    21 Jouini A , Ponthenier D , Lignier H , Enjalbert N , Marie B , Drevet B , Pihan E , Cayron C , Lafford T , Camel D . Improved multicrystalline silicon ingot crystal quality through seed growth for high efficiency solar cells . Progress in Photovoltaics: Research and Applications 2011 . in press, DOI: 10.1002/pip.1221 .
+    Wiley Online Library Web of Science® Google Scholar FullTextFinder@WPI
+    22 Swanson RM . A vision for crystalline silicon photovoltaics . Progress in Photovoltaics: Research and Applications 2006 ; 14 : 443 – 453 , DOI: 10.1002/pip.709 .
+    Wiley Online Library Web of Science® Google Scholar FullTextFinder@WPI
+    23 Bye J‐I , Norheim L , Holme B , Nielsen O , Steinsvik S , Jensen SA , Fragiacomo G , Lombardi I . Industrialised diamond wire wafer slicing for high efficiency solar cells . Proceedings of the 26th European Photovoltaic Solar Energy Conference , Hamburg, 2011 ; 956‐960.
+    Google Scholar FullTextFinder@WPI
+    24 Lombardi I , Tappa F , Fragiacomo G , Pizzini S , Hugo F . Progresses in the recycling of silicon fine powders from fixed abrasive operations on silicon ingots . Proceedings of the 26th European Photovoltaic Solar Energy Conference , Hamburg, 201; 1981‐1985.
+    Google Scholar FullTextFinder@WPI
+    25 Schönecker A , Seren S , Laas L , den Heijer M , Kraaijveld B . Silicon ribbon material: entering the market or eternal promise? Proceedings of the 26th European Photovoltaic Solar Energy , Hamburg, 2011 ; 920‐924.
+    Google Scholar FullTextFinder@WPI
+    26 Lee C‐L , Kanda Y , Ikeda S , Matsumura M . Electrochemical method for slicing Si blocks into wafers using platinum wire electrodes . Solar Energy Materials and Solar Cells 2011 ; 95 ( 2 ): 716 – 720
+    Crossref CAS Web of Science® Google Scholar FullTextFinder@WPI
+    27 Hopman S , Fell A , Mayer K , Mesec M , Willeke GP , Kray D . First results of wafering with laser chemical processing . Proceedings of the 23rd European Photovoltaic Solar Energy Conference , Valencia, 2008 ; 1131‐1135.
+    Google Scholar FullTextFinder@WPI
+    28 Dross F , Milhe A , Robbelein J , Gordon I , Bouchard P‐O , Beaucarne G , Poortmans J . Slim‐Cut: a kerf‐loss‐free method for wafering 50‐µm‐thick crystalline Si wafers based on stress‐induced lift‐off . Proceedings of the 23rd European Photovoltaic Solar Energy Conference , Valencia, 2008 ; 1278‐1281.
+    Google Scholar FullTextFinder@WPI
+    29 Henley F , Kang S , Brailove A , Fujisaka A . Kerf‐free wafering for high‐volume, high‐efficiency c‐Si cell . Proceedings of the 26th European Photovoltaic Solar Energy Conference and Exhibition , Hamburg, 2011 ; 971‐978.
+    Google Scholar FullTextFinder@WPI
+    30 Ryding G , Smick T , Park B , Gillespie J , Eide P , Sakase T , Ota K , Horner R , Arnold D . A 1.2 MeV, 100 mA proton implanter . whitepaper , available at http://www.twincreekstechnologies.com .
+    Google Scholar FullTextFinder@WPI
+    31 Larionova Y , Mertens V , Harder N‐P , Brendel R . Surface passivation of N‐type Czochralski silicon substrates by thermal‐SiO2/plasma‐enhanced chemical vapor deposition SiN stacks . Applied Physics Letters 2010 ; 96 : 032105 1‐3. DOI: 10.1063/1.3291681 .
+    Crossref CAS Web of Science® Google Scholar FullTextFinder@WPI
+    32 Dingemans G , Kessels WMM . Recent progress in the development and understanding of silicon surface passivation by aluminum oxide for photovoltaics . Proceedings of the 26th European Photovoltaic Solar Energy Conference and Exhibition , Hamburg, 2011 ; pp. 1083‐1090.
+    Google Scholar FullTextFinder@WPI
+    33 Hoex B , Schmidt J , Pohl P , Van De Sanden MDM , Kessels WMM . Silicon surface passivation by atomic layer deposited Al2O3 . Journal of Applied Physics 2008 ; 104 . DOI: 10.1063/1.2963707 .
+    Crossref CAS Web of Science® Google Scholar FullTextFinder@WPI
+    34 van Sark WGJHM , Korte L , Roca F . Physics and technology of amorphous‐crystalline heterostructure silicon solar cells . Springer Verlag: Heidelberg, Germany , 2011 .
+    Google Scholar FullTextFinder@WPI
+    35 Kinoshita T , Fujishima D , Yano A , Ogane A , Tohoda S , Matsuyama K , Nakamura Y , Tokuoka N , Kanno H , Sakata H , Taguchi M , Maruyama E . The approaches for high efficiency HITTM solar cell with very thin (<100 µm) silicon wafer over 23% . Proceedings of the 26th European Photovoltaic Solar Energy Conference and Exhibition , Hamburg, 2011 ; pp. 871‐874.
+    Google Scholar FullTextFinder@WPI
+    36 van Kerschaver E , Beaucarne G . Back‐contact solar cells: a review . Progress in Photovoltaics: Research and Applications 2006 ; 14 : 107 – 123 . DOI: 10.1002/pip.657 .
+    Wiley Online Library Web of Science® Google Scholar FullTextFinder@WPI
+    37 Mulligan WP , Rose DH , Cudzinovic MJ , De Ceuster DM , McIntosh KR , Smith DD , Swanson RM . Manufacture of solar cells with 21% efficiency . Proceedings of the 19th European Photovoltaic Solar Energy Conference and Exhibition, Paris, 2004 ; 387–390.
+    Google Scholar FullTextFinder@WPI
+    38 Cousins PJ , Smith DD , Luan HC , Manning J , Dennis TD , Waldhauer A , Wilson KE , Harley G , Mulligan WP . Gen III: improved performance at lower cost . 35th IEEE PVSC, Honolulu, HI, June 2010.
+    Google Scholar FullTextFinder@WPI
+    39 Thaidigsmann B , Lohmüller E , Jäger U , Mack S , Lottspeich F , Spribille A , Birmann K , Erath D , Wolf A , Clement F , Biro D , Preu R large‐area P‐type HIP‐MWT silicon solar cells with screen printed contacts exceeding 20% efficiency . Physica Status Solidi Rapid Research Letters 2011 ; 5 ( 8 ): 286 – 288 DOI: 10.1002/pssr.201105311 .
+    Wiley Online Library CAS Web of Science® Google Scholar FullTextFinder@WPI
+    40 Mingirulli N , Haschke J , Gogolin R , Schulze TF , Harder N‐P , Korte L , Brendel R , Rech B . Efficient interdigitated back‐contacted silicon heterojunction solar cells . Physica Status Solidi Rapid Research Letters 2011 ; 5 ( 4 ): 159 – 161 DOI: 10.1002/pssr.201105056 .
+    Wiley Online Library CAS Web of Science® Google Scholar FullTextFinder@WPI
+    41 Lu M , Das U , Bowden S , Hegedus S , Birkmire R . Optimization of interdigitated back contact silicon heterojunction solar cells: tailoring hetero‐interface band structures while maintaining surface passivation . Progress in Photovoltaics: Research and Applications 2011 ; 19 : 326 – 338 .
+    Wiley Online Library CAS PubMed Web of Science® Google Scholar FullTextFinder@WPI
+    42 Green MA . Ag requirements for silicon wafer‐based solar cells . Progress in Photovoltaics: Research and Applications 2011 ; 19 ( 8 ): 911 – 916 . DOI: 10.1002/pip.1125 .
+    Wiley Online Library CAS Web of Science® Google Scholar FullTextFinder@WPI
+    43 Petermann JH , Zielke D , Schmidt J , Haase F , Garralaga Rojas E , Brendel R . 19%—efficient and 43‐µm‐thick crystalline Si solar cell from layer transfer using porous silicon . Progress in Photovoltaics: Research and Applications 2012 ; 20 : 1 – 5 .
+    Wiley Online Library CAS Web of Science® Google Scholar FullTextFinder@WPI
+    44 Wang A , Zhao J , Wenham SR , Green MA . 21.5% efficient thin silicon solar cell . Progress in Photovoltaics: Research and Applications 1996 ; 4 : 55 – 58 .
+    Wiley Online Library CAS Web of Science® Google Scholar FullTextFinder@WPI
+    45 Kray D , McIntosh KR . Analysis of ultrathin high‐efficiency silicon solar cells . Physica Status Solidi A 2009 ; 206 : 1647 – 1654 , DOI: 10.1002/pssa.200824500 .
+    Wiley Online Library CAS Web of Science® Google Scholar FullTextFinder@WPI
+    46 Spinelli P , Verschuuren MA , Polman A . Broadband omnidirectional antireflection coating based on subwavelength surface Mie resonators . Nature Communications 2012 ; 3 : 692 , DOI: 10.1038/ncomms1691 .
+    Crossref CAS PubMed Web of Science® Google Scholar FullTextFinder@WPI
+    47 Mann SA , Grote RR , Osgood Jr. RM , Schuller JA . Dielectric particle and void resonators for thin film solar cell textures . Optics Express 2011 ; 19 ( 25 ): 25729 – 25740 , DOI: 10.1364/OE.19.025729 .
+    Crossref CAS PubMed Web of Science® Google Scholar FullTextFinder@WPI
+    48 Atwater HA , Polman A . Plasmonics for improved photovoltaic devices . Nature Materials 2010 ; 9 ( 3 ): 205 – 213 , DOI: 10.1038/nmat2629 .
+    Crossref CAS PubMed Web of Science® Google Scholar FullTextFinder@WPI
+    49 Späth M , De Jong PC , Bennett IJ , Visser TP , Bakker J , Verschoor AJ . First experiments on module assembly line using back‐contact solar cells . Proceedings of the 23rd European Photovoltaic Solar Energy Conference , Valencia, 2008 , 2917‐2921.
+    Google Scholar FullTextFinder@WPI
+    50 Govaerts, J , Labie R , Granata S , Gonzalez M , O'Sullivan B , Vanleenhove A , Wera J , Gougam A , Kumar A , Bearda T , Beaucarne G , van der Heide A , Dewallef S , Vanfleteren J , Gordon I , Baert K . Progress in I‐module: towards improved performance, reliability and module‐level fabrication technologies for back‐contact PV modules based on ultra‐thin silicon solar cells . Proceedings of the 26th European Photovoltaic Solar Energy Conference and Exhibition , Hamburg, 2011 , pp. 69‐72.
+    Google Scholar FullTextFinder@WPI
+    51 Dupuis J , Saint‐Sernin E , Nichiporuk O , Lefillastre P , Bussery D , Einhaus R . NICE module technology—from the concept to the mass production—a 10 years review . Proceedings of the 38th Photovoltaic Specialists Conference , Austin, 2012 .
+    Google Scholar FullTextFinder@WPI
+    52 Saint‐Sernin E , Einhaus R , Bamberg K , Panno P . Industrialisation of Apollon 's nice module technology . Proceedings of the 23rd European Photovoltaic Solar Energy Conference and Exhibition , Valencia, 2008 ; 2825‐2828.
+    Google Scholar FullTextFinder@WPI
+    53 http://www.bystronic‐glass.com/global/com/en/solar_technology/Portfolio/TPedge/index.php (date of access: 05/30/2012).
+    Google Scholar FullTextFinder@WPI
+    54 Fthenakis V , Frischknecht R , Raugei M , Kim HC , Alsema E , Held M , de Wild‐Scholten M . Methodology guidelines on life cycle assessment of photovoltaic electricity, 2nd edition . IEA PVPS Task 12, International Energy Agency Photovoltaic Power Systems Program, 2011.
+    Google Scholar FullTextFinder@WPI
+    55 ILCD handbook , http://lct.jrc.ec.europa.eu/
+    Google Scholar FullTextFinder@WPI
+    56 http://www.preconsultants.nl/simapro
+    Google Scholar FullTextFinder@WPI
+    57 Frischknecht R , Jungbluth N , Althaus HJ , Doka G , Dones R , Hischier R , Hellweg S , Nemecek T , Rebitzer G , Spielmann M . Overview and Methodology . Dübendorf , 2011 . http://www.ecoinvent.org/fileadmin/documents/en/01_OverviewAndMethodology.pdf
+    Google Scholar FullTextFinder@WPI
+    58 Hischier R , Weidema B , Althaus HJ , Bauer C , Doka G , Dones R , Frischknecht R , Hellweg S , Humbert S , Jungbluth N , Köllner T , Loerincik Y , Margni M , Nemecek T . Implementation of Life Cycle Impact Assessment Methods . St. Gallen , 2010 . http://www.ecoinvent.org/fileadmin/documents/en/03_LCIA‐Implementation‐v2.2.pdf
+    Google Scholar FullTextFinder@WPI
+    59 Market Survey, Photon International , November 2011 , PHOTON Europe GmbH, pp. 176‐177.
+    Google Scholar FullTextFinder@WPI
+    60 Scherff M . Novel method for preparation of interdigitated back contacted a‐Si:H/c‐Si heterojunction solar cells . Proceedings of the 26th European Photovoltaic Solar Energy Conference and Exhibition , Hamburg, 2011 , pp. 69‐72.
+    Google Scholar FullTextFinder@WPI
+    61 Raugei M . Energy Pay‐back time: methodological caveats and future scenarios . Progress in Photovoltaics: Research and Applications 2012 . in press. DOI: 10.1002/pip.1249 .
+    Wiley Online Library PubMed Web of Science® Google Scholar FullTextFinder@WPI
+    62 de Wild‐Scholten MJ , Gløckner R , Odden JO , Halvorsen G , Tronstad R . LCA comparison of the elkem solar metallurgical route and conventional Gas routes to solar silicon . Proceedings of the 23rd European Photovoltaic Solar Energy Conference , Valencia.
+    Google Scholar FullTextFinder@WPI
+    63 Jungbluth N , Stuck M , Frischknecht R . Photovoltaics . In: Sachbilanzen von Energiesystemen: Grundlagen für den ökologischen Vergleich von Energiesystemen und den Einbezug von Energiesystemen in Ökobilanzen für die Schweiz. ecoinvent report No. 6‐XII, Swiss Centre for Life Cycle Inventories: Dübendorf, CH, 2009 .
+    Google Scholar FullTextFinder@WPI
+    64 Personal communication with Dr. P. Nasch , Applied Materials, 02/29/ 2012 .
+    Google Scholar FullTextFinder@WPI
+    65 Personal communication with T. Fong , Silicon Genesis, 04/12/ 2012 .
+    Google Scholar FullTextFinder@WPI
+    66 Personal communication with M. Zwegers , Meco, 02/17/ 2012 .
+    Google Scholar FullTextFinder@WPI
+    67 Photon International, various 2009 issues, PHOTON Europe GmbH
+    Google Scholar FullTextFinder@WPI
+    68 Personal communication with E. Saint‐Sernin , Apollon Solar, 01/13/ 2011 .
+    Google Scholar FullTextFinder@WPI
+    69 van der Meulen R , Alsema E . Life‐cycle greenhouse gas effects of introducing nano‐crystalline materials in thin‐film silicon solar cells’ , Progress in Photovoltaics: Research and Applications 2011 ; 19 : 453 – 463 DOI: 10.1002/pip.1058 .
+    Wiley Online Library CAS Web of Science® Google Scholar FullTextFinder@WPI
+    70 Raugei M , Fulani‐i‐Palmer P , Fthenakis V . The energy return on energy investment (EROI) of photovoltaics: methodology and comparisons with fossil fuel life cycles . Energy Policy 2012 ; 45 : 576 – 582 .
+    Crossref Web of Science® Google Scholar FullTextFinder@WPI
+    71 Lloyd SM , Rise R . Characterizing, propagating, and analyzing uncertainty in life‐cycle assessment . Journal of Industrial Ecology 2007 ; 11 ( 1 ): 161 – 179 .
+    Wiley Online Library Web of Science® Google Scholar FullTextFinder@WPI
+    72 Weidema BP , Bauer C , Hischier R , Motel C , Nemecek T , Reinhardt J , Video CO , Weren't G . Overview and methodology: data quality guideline for the ecoinvent database version 3 . Ecoinvent Report 1(v3). The ecoinvent center: St. Gallen, 2012 .
+    Google Scholar FullTextFinder@WPI
+    73 Weidema BP . Multi‐user test of the data quality matrix for product life cycle inventory data . The International Journal of Life Cycle Assessment 1998 ; 3 ( 5 ): 259 – 265 . DOI: 10.1007/BF02979832
+    Crossref Google Scholar FullTextFinder@WPI
+    74 Liu JS . Monte Carlo Strategies in Scientific Computing . Springer Verlag: New York , 2001 .
+    Google Scholar FullTextFinder@WPI
+    75 Reich NH , Mueller B , Armbruster A , van Sark WGJHM . Kiefer Klaus, Reise C. Performance ratio revisited: is PR > 90% realistic? Progress in Photovoltaics: Research and Applications 2012 ; 20 : 717 – 726 DOI: 10.1002/pip.1219 .
+    Wiley Online Library Web of Science® Google Scholar FullTextFinder@WPI
+    76 Reich NH , Alsema EA , van Sark WGJHM , Turkenburg WC , Sinke WC . Greenhouse gas emissions associated with photovoltaic electricity from crystalline silicon modules under various energy supply options . Progress in Photovoltaics: Research and Applications 2011 ; 19 : 603 – 613 DOI: 10.1002/pip.1066 .
+    Wiley Online Library CAS Web of Science® Google Scholar FullTextFinder@WPI
+    77 Personal communication with Dr. Øyvind Nielsen , Norsun, 12/06/ 2010 .
+    Google Scholar FullTextFinder@WPI
+    78 Personal communication with Dr. Ilaria Lombari , Garbo, 12/01/ 2010
+    Google Scholar FullTextFinder@WPI
+    79 Fthenakis V , Kim HC , Frischknecht R , Raugei M , Sinha P , Stucki M . Life cycle inventories and life cycle assessment of photovoltaic systems . International Energy Agency PVPS Task 12, report T12‐02: 2011 , 2011.
+    Google Scholar FullTextFinder@WPI
+
+Citing Literature
+Number of times cited according to CrossRef: 52
+
+    Anna Parkin, Manuel Herrera, David A. Coley, Net-zero buildings: when carbon and energy metrics diverge, Buildings and Cities, 10.5334/bc.27, 1 , 1, (86-99), (2020).
+    Crossref
+    Ehsan Dehghani, Mohammad Saeed Jabalameli, Mohammad Javad Naderi, Ali Safari, An environmentally conscious photovoltaic supply chain network design under correlated uncertainty: A case study in Iran, Journal of Cleaner Production, 10.1016/j.jclepro.2020.121434, (121434), (2020).
+    Crossref
+    Adriano Moehlecke, Tatiana Lisboa Marcondes, Jéssica de Aquino, Izete Zanesco, Moussa Ly, Cost-Effective Thin n-type Silicon Solar Cells with Rear Emitter, Materials Research, 10.1590/1980-5373-mr-2019-0536, 23 , 1, (2020).
+    Crossref
+    Giuseppe Todde, Lelia Murgia, Paola Antonia Deligios, Rita Hogan, Isaac Carrelo, Madalena Moreira, Antonio Pazzona, Luigi Ledda, Luis Narvarte, Energy and environmental performances of hybrid photovoltaic irrigation systems in Mediterranean intensive and super-intensive olive orchards, Science of The Total Environment, 10.1016/j.scitotenv.2018.10.175, 651 , (2514-2523), (2019).
+    Crossref
+    Yijie Li, Tao Jiang, He Xin, Yaoju Zhang, Chaolong Fang, Zhihong Li, Jie Lin, Youyi Zhuang, Cylindrical lens array concentrator with a nanonipple-array antireflective surface for improving the performances of solar cells, Optics Communications, 10.1016/j.optcom.2019.01.024, (2019).
+    Crossref
+    Adam Pockett, Harrison Ka Hin Lee, Brendan L. Coles, Wing C. Tsoi, Matthew J. Carnie, A combined transient photovoltage and impedance spectroscopy approach for a comprehensive study of interlayer degradation in non-fullerene acceptor organic solar cells, Nanoscale, 10.1039/C9NR02337B, (2019).
+    Crossref
+    Joel Jean, Michael Woodhouse, Vladimir Bulović, Accelerating Photovoltaic Market Entry with Module Replacement, Joule, 10.1016/j.joule.2019.08.012, (2019).
+    Crossref
+    Dmitrii Bogdanov, Javier Farfan, Kristina Sadovskaia, Arman Aghahosseini, Michael Child, Ashish Gulagi, Ayobami Solomon Oyewo, Larissa de Souza Noel Simas Barbosa, Christian Breyer, Radical transformation pathway towards sustainable electricity via evolutionary steps, Nature Communications, 10.1038/s41467-019-08855-1, 10 , 1, (2019).
+    Crossref
+    Wei Chen, Yaoping Liu, Juntao Wu, Quansheng Chen, Yan Zhao, Yan Wang, Xiaolong Du, High-Efficient Solar Cells Textured by Cu/Ag-Cocatalyzed Chemical Etching on Diamond Wire Sawing Multicrystalline Silicon, ACS Applied Materials & Interfaces, 10.1021/acsami.9b00724, (2019).
+    Crossref
+    Martin A Green, Photovoltaic technology and visions for the future, Progress in Energy, 10.1088/2516-1083/ab0fa8, 1 , 1, (013001), (2019).
+    Crossref
+    Inger Andresen, Definitions, Targets, and Key Performance Indicators for New and Renovated Zero Emission Buildings, Handbook of Energy Systems in Green Buildings, 10.1007/978-3-662-49088-4, (1-27), (2018).
+    Crossref
+    Vasilis M. Fthenakis, Overview of Potential Hazards, McEvoy's Handbook of Photovoltaics, 10.1016/B978-0-12-809921-6.00035-5, (1195-1212), (2018).
+    Crossref
+    Wei Luo, Yong Sheng Khoo, Abhishek Kumar, Jonathan Sze Choong Low, Yanmin Li, Yee Shee Tan, Yan Wang, Armin G. Aberle, Seeram Ramakrishna, A comparative life-cycle assessment of photovoltaic electricity generation in Singapore by multicrystalline silicon technologies, Solar Energy Materials and Solar Cells, 10.1016/j.solmat.2017.08.040, 174 , (157-162), (2018).
+    Crossref
+    F. Asdrubali, I. Ballarini, V. Corrado, L. Evangelisti, G. Grazieschi, C. Guattari, Energy and environmental payback times for an NZEB retrofit, Building and Environment, 10.1016/j.buildenv.2018.10.047, (2018).
+    Crossref
+    Inger Andresen, Definitions, Targets, and Key Performance Indicators for New and Renovated Zero Emission Buildings, Handbook of Energy Systems in Green Buildings, 10.1007/978-3-662-49120-1, (35-60), (2018).
+    Crossref
+    Vasilis M. Fthenakis, Life Cycle Analysis of Photovoltaics: Strategic Technology Assessment, A Comprehensive Guide to Solar Energy Systems, 10.1016/B978-0-12-811479-7.00022-1, (427-442), (2018).
+    Crossref
+    Vasilis Fthenakis, Paul A Lynn, Photovoltaic Manufacturing, Electricity from Sunlight, 10.1002/9781118963791, (237-264), (2018).
+    Wiley Online Library
+    Yaoju Zhang, Jun Zheng, Xuesong Zhao, Xiukai Ruan, Guihua Cui, Haiyong Zhu, Yuxing Dai, Theoretical analysis of improved efficiency of silicon-wafer solar cells with textured nanotriangular grating structure, Optics Communications, 10.1016/j.optcom.2017.10.048, 410 , (369-375), (2018).
+    Crossref
+    Manish Ram, Michael Child, Arman Aghahosseini, Dmitrii Bogdanov, Alena Lohrmann, Christian Breyer, A comparative analysis of electricity generation costs from renewable, fossil fuel and nuclear sources in G20 countries for the period 2015-2030, Journal of Cleaner Production, 10.1016/j.jclepro.2018.07.159, 199 , (687-704), (2018).
+    Crossref
+    Louisa Di Felice, Maddalena Ripa, Mario Giampietro, Deep Decarbonisation from a Biophysical Perspective: GHG Emissions of a Renewable Electricity Transformation in the EU, Sustainability, 10.3390/su10103685, 10 , 10, (3685), (2018).
+    Crossref
+    Gabriel Constantino, Marcos Freitas, Neilton Fidelis, Marcio Pereira, Adoption of Photovoltaic Systems Along a Sure Path: A Life-Cycle Assessment (LCA) Study Applied to the Analysis of GHG Emission Impacts, Energies, 10.3390/en11102806, 11 , 10, (2806), (2018).
+    Crossref
+    Anna Parkin, Manuel Herrera, David A Coley, Energy or carbon? Exploring the relative size of universal zero carbon and zero energy design spaces, Building Services Engineering Research and Technology, 10.1177/0143624418815780, (014362441881578), (2018).
+    Crossref
+    Giuseppe Todde, Lelia Murgia, Isaac Carrelo, Rita Hogan, Antonio Pazzona, Luigi Ledda, Luis Narvarte, Embodied Energy and Environmental Impact of Large-Power Stand-Alone Photovoltaic Irrigation Systems, Energies, 10.3390/en11082110, 11 , 8, (2110), (2018).
+    Crossref
+    Adnan Ali, S.L. Cheow, A.W. Azhari, K. Sopian, Saleem H. Zaidi, Enhancing crystalline silicon solar cell efficiency with SiGe1− layers, Results in Physics, 10.1016/j.rinp.2016.11.060, 7 , (225-232), (2017).
+    Crossref
+    D.O. Akinyele, Environmental performance evaluation of a grid-independent solar photovoltaic power generation (SPPG) plant, Energy, 10.1016/j.energy.2017.04.126, 130 , (515-529), (2017).
+    Crossref
+    Albert S. Lin, Parag Parashar, Chih-Chieh Yang, Wei-Ming Huang, Yi-Wen Huang, Ding-Rung Jian, Ming-Hsuan Kao, Shi-Wei Chen, Chang-Hong Shen, Jia-Min Shieh, Tseung Yuen Tseng, High Mechanical Strength Thin HIT Solar Cells With Graphene Back Contact, IEEE Photonics Journal, 10.1109/JPHOT.2017.2750487, 9 , 5, (1-9), (2017).
+    Crossref
+    David Berney Needleman, Jeremy R. Poindexter, Rachel C. Kurchin, I. Marius Peters, Gregory Wilson, Tonio Buonassisi, undefined, 2017 IEEE 44th Photovoltaic Specialist Conference (PVSC), 10.1109/PVSC.2017.8366820, (1-5), (2017).
+    Crossref
+    D.O. Akinyele, R.K. Rayudu, N.K.C. Nair, Life cycle impact assessment of photovoltaic power generation from crystalline silicon-based solar modules in Nigeria, Renewable Energy, 10.1016/j.renene.2016.09.017, 101 , (537-549), (2017).
+    Crossref
+    Francesco De Nicola, Matteo Salvato, Carla Cirillo, Michele Crivellari, Maurizio Boscardin, Maurizio Passacantando, Michele Nardone, Fabio De Matteis, Nunzio Motta, Maurizio De Crescenzi, Paola Castrucci, 100% internal quantum efficiency in polychiral single-walled carbon nanotube bulk heterojunction/silicon solar cells, Carbon, 10.1016/j.carbon.2016.12.050, 114 , (402-410), (2017).
+    Crossref
+    Mahdi Fasihi, Dmitrii Bogdanov, Christian Breyer, Long-Term Hydrocarbon Trade Options for the Maghreb Region and Europe—Renewable Energy Based Synthetic Fuels for a Net Zero Emissions World, Sustainability, 10.3390/su9020306, 9 , 2, (306), (2017).
+    Crossref
+    Y.F. Zhuang, S.H. Zhong, Z.G. Huang, W.Z. Shen, Versatile strategies for improving the performance of diamond wire sawn mc-Si solar cells, Solar Energy Materials and Solar Cells, 10.1016/j.solmat.2016.04.014, 153 , (18-24), (2016).
+    Crossref
+    Torhildur Fjola Kristjansdottir, Clara Stina Good, Marianne Rose Inman, Reidun Dahl Schlanbusch, Inger Andresen, Embodied greenhouse gas emissions from PV systems in Norwegian residential Zero Emission Pilot Buildings, Solar Energy, 10.1016/j.solener.2016.03.063, 133 , (155-171), (2016).
+    Crossref
+    David Berney Needleman, Jeremy R. Poindexter, Rachel C. Kurchin, I. Marius Peters, Gregory Wilson, Tonio Buonassisi, undefined, 2016 IEEE 43rd Photovoltaic Specialists Conference (PVSC), 10.1109/PVSC.2016.7750316, (3487-3491), (2016).
+    Crossref
+    Chr. Lamnatou, H. Baig, D. Chemisana, T.K. Mallick, Environmental assessment of a building-integrated linear dielectric-based concentrating photovoltaic according to multiple life-cycle indicators, Journal of Cleaner Production, 10.1016/j.jclepro.2016.04.094, 131 , (773-784), (2016).
+    Crossref
+    Svetlana Afanasyeva, Christian Breyer, Manfred Engelhard, Impact of Battery Cost on the Economics of Hybrid Photovoltaic Power Plants, Energy Procedia, 10.1016/j.egypro.2016.10.107, 99 , (157-173), (2016).
+    Crossref
+    David Berney Needleman, Jeremy R. Poindexter, Rachel C. Kurchin, I. Marius Peters, Gregory Wilson, Tonio Buonassisi, Economically sustainable scaling of photovoltaics to meet climate targets, Energy & Environmental Science, 10.1039/C6EE00484A, 9 , 6, (2122-2129), (2016).
+    Crossref
+    Ned Djilali, Materials for energy conversion, Science Bulletin, 10.1007/s11434-016-1047-5, 61 , 8, (585-586), (2016).
+    Crossref
+    Peng Yu, Jiang Wu, Shenting Liu, Jie Xiong, Chennupati Jagadish, Zhiming M. Wang, Design and fabrication of silicon nanowires towards efficient solar cells, Nano Today, 10.1016/j.nantod.2016.10.001, 11 , 6, (704-737), (2016).
+    Crossref
+    Dmitrii Bogdanov, Otto Koskinen, Arman Aghahosseini, Christian Breyer, undefined, 2016 International Energy and Sustainability Conference (IESC), 10.1109/IESC.2016.7569508, (1-9), (2016).
+    Crossref
+    Jan Haschke, Daniel Amkreutz, Bernd Rech, Liquid phase crystallized silicon on glass: Technology, material quality and back contacted heterojunction solar cells, Japanese Journal of Applied Physics, 10.7567/JJAP.55.04EA04, 55 , 4S, (04EA04), (2016).
+    Crossref
+    Dmitrii Bogdanov, Christian Breyer, North-East Asian Super Grid for 100% renewable energy supply: Optimal mix of energy technologies for electricity, gas and heat supply options, Energy Conversion and Management, 10.1016/j.enconman.2016.01.019, 112 , (176-190), (2016).
+    Crossref
+    Victor Nian, Impacts of changing design considerations on the life cycle carbon emissions of solar photovoltaic systems, Applied Energy, 10.1016/j.apenergy.2016.08.176, 183 , (1471-1487), (2016).
+    Crossref
+    Hiromasa Ohmi, Takeshi Funaki, Hiroaki Kakiuchi, Kiyoshi Yasutake, Efficiency of silane gas generation in high-rate silicon etching by narrow-gap microwave hydrogen plasma, Journal of Physics D: Applied Physics, 10.1088/0022-3727/49/3/035202, 49 , 3, (035202), (2015).
+    Crossref
+    D.O. Akinyele, R.K. Rayudu, N.K.C. Nair, Global progress in photovoltaic technologies and the scenario of development of solar panel plant and module performance estimation − Application in Nigeria, Renewable and Sustainable Energy Reviews, 10.1016/j.rser.2015.03.021, 48 , (112-139), (2015).
+    Crossref
+    Anna Belen Morales-Vilches, Cristobal Voz, Monica Colina, David Munoz-Martin, Isidro Martin, Pablo R. Ortega, Gema Lopez-Rodriguez, Carlos Molpeceres, Ramon Alcubilla, Study of the Surface Recombination Velocity for Ultraviolet and Visible Laser-Fired Contacts Applied to Silicon Heterojunction Solar Cells, IEEE Journal of Photovoltaics, 10.1109/JPHOTOV.2015.2417757, 5 , 4, (1006-1013), (2015).
+    Crossref
+    Axel F. Palmstrom, Pralay K. Santra, Stacey F. Bent, Atomic layer deposition in nanostructured photovoltaics: tuning optical, electronic and surface properties, Nanoscale, 10.1039/C5NR02080H, 7 , 29, (12266-12283), (2015).
+    Crossref
+    Douglas M. Powell, Ran Fu, Kelsey Horowitz, Paul A. Basore, Michael Woodhouse, Tonio Buonassisi, The capital intensity of photovoltaics manufacturing: barrier to scale and opportunity for innovation, Energy & Environmental Science, 10.1039/C5EE01509J, 8 , 12, (3395-3408), (2015).
+    Crossref
+    Wilfried G.J.H.M. van Sark, J. Gerard Schepers, Jan Diederik A.M. van Wees, The Growing Role of Photovoltaic Solar, Wind and Geothermal Energy as Renewables for Electricity Generation, Sustainability Assessment of Renewables‐Based Products, 10.1002/9781118933916, (19-36), (2015).
+    Wiley Online Library
+    David Schwartzman, My Response to Trainer, Capitalism Nature Socialism, 10.1080/10455752.2014.966249, 25 , 4, (109-115), (2014).
+    Crossref
+    Zahidur R. Chowdhury, Nazir P. Kherani, Laterally inherently thin amorphous-crystalline silicon heterojunction photovoltaic cell, Applied Physics Letters, 10.1063/1.4905198, 105 , 26, (263902), (2014).
+    Crossref
+    Nieves Espinosa, Markus Hösel, Mikkel Jørgensen, Frederik C. Krebs, Large scale deployment of polymer solar cells on land, on sea and in the air, Energy & Environmental Science, 10.1039/c3ee43212b, 7 , 3, (855), (2014).
+    Crossref
+    A. Le Donne, A. Scaccabarozzi, S. Tombolato, S. Marchionna, P. Garattini, B. Vodopivec, M. Acciarri, S. Binetti, State of the Art and Perspectives of Inorganic Photovoltaics, ISRN Renewable Energy, 10.1155/2013/830731, 2013 , (1-8), (2013).
+    Crossref
+
+Publication cover image
+
+Volume 22 , Issue 11
+
+November 2014
+
+Pages 1180-1194
+
+    Figures
+    References
+    Related
+    Information
+
+    Metrics
+    Citations: 52
+    Details
+
+    Copyright © 2013 John Wiley & Sons, Ltd.
+
+    Keywords
+        energy payback time
+        life cycle assessment
+        roadmap
+        crystalline silicon PV
+        prospective
+    Publication History
+        Issue Online: 08 October 2014
+        Version of Record online: 11 February 2013
+        Manuscript accepted: 11 December 2012
+        Manuscript revised: 02 December 2012
+        Manuscript received: 24 August 2012
+
+Close Figure Viewer
+Return to Figure
+Previous Figure Next Figure
+Caption
+back
+Additional links
+About Wiley Online Library
+
+    Privacy Policy
+    Terms of Use
+    Cookies
+    Accessibility
+
+Help & Support
+
+    Contact Us
+
+Opportunities
+
+    Subscription Agents
+    Advertisers & Corporate Partners
+
+Connect with Wiley
+
+    The Wiley Network
+    Wiley Press Room
+
+Copyright © 1999-2020 John Wiley & Sons, Inc . All rights reserved
+Wiley Home Page
+
+The full text of this article hosted at iucr.org is unavailable due to technical difficulties.
+Log in to Wiley Online Library
+Email or Customer ID
+Password
+Forgot password?
+NEW USER > INSTITUTIONAL LOGIN >
+Change Password
+Old Password
+New Password
+Too Short Weak Medium Strong Very Strong Too Long
+Password Changed Successfully
+
+Your password has been changed
+Create a new account
+Email or Customer ID
+Returning user
+Forgot your password?
+
+Enter your email address below.
+Email or Customer ID
+
+Please check your email for instructions on resetting your password. If you do not receive an email within 10 minutes, your email address may not be registered, and you may need to create a new Wiley Online Library account.
+Request Username
+
+Can't sign in? Forgot your username?
+
+Enter your email address below and we will send you your username
+Email or Customer ID
+Close
+
+If the address matches an existing account you will receive an email with instructions to retrieve your username
+Close crossmark popup
+
