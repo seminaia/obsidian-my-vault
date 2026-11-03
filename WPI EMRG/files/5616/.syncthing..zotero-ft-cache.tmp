@@ -1,0 +1,188 @@
+
+JavaScript isn't enabled in your browser, so this file can't be opened. Enable and reload.
+
+View details
+Ion concentration and charge
+ 
+ 
+ 
+Saved to Drive
+ 
+ 
+  Share
+Adam Powell
+acpowell@wpi.edu
+Manage your Google Account
+Default
+Adam Powell
+acpowell@wpi.edu
+All Brand accounts
+Add another account
+Sign out
+Privacy Policy • Terms of Service
+File
+Edit
+View
+Insert
+Format
+Arrange
+Tools
+Help
+Accessibility
+Debug
+Last edit was seconds ago
+Unsaved changes to Drive
+See new changes
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Image options
+ 
+Replace image
+ 
+ 
+Format options
+ 
+AutoDraw
+ 
+ 
+Accessibility
+ 
+ 
+ 
+ 
+ 
+Al(OH)₃ Mg Mg(OH)₂ C1 Al (0,0,0,1) Mg (1,0,0,0) H₂O (0,1,0,0) H₂O+½ O₂ C2 C3 X(Mg) = C₁ X(O) = ⅓ C₂ + ½ C₃ X(H) = ⅔ C₂ + ½ C₃ X(Al) = 1-C₁-C₂-C₃ ΣXi = 1-C₁+C₁-C₂+(⅔+⅓)C₂-C₃+(½+½)C₃ = 1 good Mg(OH)₂: C₁,C₂,C₃ = 0.2,0,0.8 Al(OH)₃: C₁,C₂,C₃ = 0,0,0,6/7 Entropy: C₁ ln C₁ + C₂ ln C₂ + C₃ ln C₃ + (1-C₁-C₂-C₃) ln (1-C₁-C₂-C₃) Al-Mg: f(C₁) × (1-C₂-C₃) Z(Mg) = 0 at 1,0,0, +2 at .2,0,.8 Z(Al) = 0 at 0,0,0, +3 at 0,0,6/7 For reference: H₂: C₁,C₂,C₃ = 0,3,-2 X(H)=1 X(O)=X(Mg)=X(Al)=0 O₂: C₁,C₂,C₃ = 0,-3,4 X(O)=1 X(H)=X(Mg)=X(Al)=0 MgO: C₁,C₂,C₃ = 0.5,-1.5,2 X Mg =X O =0.5 X H =X Al =0 Mg(OH)₂ Z(Mg)=+2 Z(O)=-2 Z(H)=+1 H₂ MgH₂ O₂ Al₂O₃ (0,0,1,0) Mg concentration is C₁ Al concentration is 1-C₁-C₂-C₃ Mg ion charge Z Mg is: - 0 when C₂ and C₃ are zero (1,0,0)thru(0,0,0) - +2 when C₂=0 and C₃=0.8 i.e. Mg(OH)₂ - +2 when C₂=1 i.e. water - +2 when 1.25 C₃ + C₂ ≥ 1 O ion charge Z O is: - -2 when 1.25 C₃ + C₂ ≤ 1 - -1 at (0,1,0) in “H₂O₂” Between the Mg(OH)₂-H₂O line and Mg: - Z O = -2, Z H = +1 - Z Mg is variable - C₁ Z Mg + (⅓C₂ + ½C₃)(Z O =-2) + (⅔C₂+½C₃)(Z H =+1) = 0 - Z Mg = (+2×C₃)÷(4×C₁) Between the Mg(OH)₂-H₂O line and “H₂O₂”: - Z Mg = +2, Z H = +1 - Z O is variable - C₁ (Z Mg =+2) + (⅓C₂ + ½C₃)Z O + (⅔C₂+½C₃)(Z H =+1) = 0 - Z O = -[(⅔C₂+½C₃)+2C₁]÷(⅓C₂ + ½C₃) - Mg(OH)₂: (0.2, 0, 0.8) → Z O = -(0.4+0.4)/0.4 = -2 - H₂O₂: (0,0,1) → Z O = -0.5÷0.5 = -1 - H₂O: (0,1,0) → Z O = -⅔ ÷ ⅓ = -2 - 0.5 Mg(OH)₂ + 0.5 H₂O: (0.1,0.5,0.4) → Z O = -(⅓ + 0.2 + 0.2)÷(⅙ + 0.2) = -2 - 0.5 H₂O₂ + 0.5 H₂O: (0,0.5,0.5) → Z O = -(⅓ + 0.25)÷(⅙ + 0.25) = -7/12 ÷ 5/12 = -1.4 X O = 5/12, X H = 7/12 Ionic Metal (0.2,0,0.8,0) Z Mg - 0, when C₂ and C₃ are zero (1,0,0)thru(0,0,0) - +2, when 1.25 C₃ + C₂ ≥ 1 - (C₃)÷(2×C₁), between the Mg(OH)₂-H₂O line and Mg - +2, between the Mg(OH)₂-H₂O line and “H₂O₂”: Want: Mg + ½O₂ + H₂O → Mg(OH)₂ Al(OH)₃ + Mg → Al + Mg(OH)₂ Add const×C₁ shouldn’t change the dynamics lim(C₁→0) C₁ ln C₁ = 0 but computer NaN Al-Mg: ignore C₂ (1-Cu2
+Google Account
+Adam Powell
+acpowell@wpi.edu
+O rder ►
+A lign ►
+D istribute ►
+C enter on page ►
+R otate ►
+G roup Ctrl+Alt+G
+U ngroup Ctrl+Alt+Shift+G
+Get h elp
+R eport a problem
+Report a buse/copyright
+P rivacy Policy
+Term s of Service
+K eyboard shortcuts Ctrl+/
+Cut Ctrl+X
+Copy Ctrl+C
+Paste Ctrl+V
+Paste without formatting Ctrl+Shift+V
+Delete
+Background ►
+Comment Ctrl+Alt+M
+Guides ►
+S peak ►
+C omments ►
+M isspelling ►
+F o rmatting ►
+  	
+Shared with 19 people
+ 
+Why are some users anonymous? Learn more
+More fonts
+RECENT
+Times New Roman
+Arial
+Calibri
+Verdana
+Amatic SC
+Arial
+Calibri
+Caveat
+Comfortaa ►
+Comic Sans MS
+Courier New
+EB Garamond ►
+Georgia
+Impact
+Lobster
+Lora ►
+Merriweather ►
+Montserrat ►
+Nunito ►
+Oswald ►
+Pacifico
+Playfair Display ►
+Roboto ►
+Roboto Mono ►
+Spectral ►
+Times New Roman
+Trebuchet MS
+Verdana
